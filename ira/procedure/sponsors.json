@@ -1,0 +1,847 @@
+[
+  {
+    "sponsor": "Rules Committee",
+    "submitted": 2,
+    "floor_proposed": 2,
+    "agreed": 2,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 0,
+    "ids": [
+      "HA142",
+      "HA141"
+    ]
+  },
+  {
+    "sponsor": "Sen. Barrasso, John [R-WY]",
+    "submitted": 6,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 5,
+    "ids": [
+      "SA5481",
+      "SA5413",
+      "SA5412",
+      "SA5411",
+      "SA5410",
+      "SA5409"
+    ]
+  },
+  {
+    "sponsor": "Sen. Blackburn, Marsha [R-TN]",
+    "submitted": 4,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 4,
+    "ids": [
+      "SA5423",
+      "SA5290",
+      "SA5289",
+      "SA5288"
+    ]
+  },
+  {
+    "sponsor": "Sen. Boozman, John [R-AR]",
+    "submitted": 1,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5271"
+    ]
+  },
+  {
+    "sponsor": "Sen. Braun, Mike [R-IN]",
+    "submitted": 10,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 10,
+    "ids": [
+      "SA5381",
+      "SA5380",
+      "SA5331",
+      "SA5242",
+      "SA5241",
+      "SA5240",
+      "SA5239",
+      "SA5238",
+      "SA5237",
+      "SA5236"
+    ]
+  },
+  {
+    "sponsor": "Sen. Capito, Shelley Moore [R-WV]",
+    "submitted": 2,
+    "floor_proposed": 2,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 1,
+    "not_proposed": 0,
+    "ids": [
+      "SA5383",
+      "SA5382"
+    ]
+  },
+  {
+    "sponsor": "Sen. Cassidy, Bill [R-LA]",
+    "submitted": 4,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 4,
+    "ids": [
+      "SA5467",
+      "SA5466",
+      "SA5465",
+      "SA5464"
+    ]
+  },
+  {
+    "sponsor": "Sen. Collins, Susan M. [R-ME]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5359",
+      "SA5358"
+    ]
+  },
+  {
+    "sponsor": "Sen. Cornyn, John [R-TX]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5306",
+      "SA5305"
+    ]
+  },
+  {
+    "sponsor": "Sen. Cotton, Tom [R-AR]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5408",
+      "SA5386"
+    ]
+  },
+  {
+    "sponsor": "Sen. Cramer, Kevin [R-ND]",
+    "submitted": 18,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 18,
+    "ids": [
+      "SA5379",
+      "SA5378",
+      "SA5377",
+      "SA5376",
+      "SA5375",
+      "SA5374",
+      "SA5373",
+      "SA5372",
+      "SA5371",
+      "SA5370",
+      "SA5369",
+      "SA5368",
+      "SA5367",
+      "SA5366",
+      "SA5365",
+      "SA5364",
+      "SA5363",
+      "SA5362"
+    ]
+  },
+  {
+    "sponsor": "Sen. Crapo, Mike [R-ID]",
+    "submitted": 10,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 9,
+    "ids": [
+      "SA5479",
+      "SA5433",
+      "SA5432",
+      "SA5431",
+      "SA5430",
+      "SA5429",
+      "SA5428",
+      "SA5427",
+      "SA5426",
+      "SA5404"
+    ]
+  },
+  {
+    "sponsor": "Sen. Cruz, Ted [R-TX]",
+    "submitted": 9,
+    "floor_proposed": 2,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 1,
+    "not_proposed": 7,
+    "ids": [
+      "SA5329",
+      "SA5287",
+      "SA5286",
+      "SA5285",
+      "SA5276",
+      "SA5275",
+      "SA5265",
+      "SA5264",
+      "SA5263"
+    ]
+  },
+  {
+    "sponsor": "Sen. Daines, Steve [R-MT]",
+    "submitted": 11,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 11,
+    "ids": [
+      "SA5468",
+      "SA5425",
+      "SA5270",
+      "SA5269",
+      "SA5268",
+      "SA5267",
+      "SA5266",
+      "SA5258",
+      "SA5257",
+      "SA5256",
+      "SA5255"
+    ]
+  },
+  {
+    "sponsor": "Sen. Ernst, Joni [R-IA]",
+    "submitted": 8,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 8,
+    "ids": [
+      "SA5361",
+      "SA5274",
+      "SA5261",
+      "SA5260",
+      "SA5259",
+      "SA5247",
+      "SA5246",
+      "SA5245"
+    ]
+  },
+  {
+    "sponsor": "Sen. Fischer, Deb [R-NE]",
+    "submitted": 4,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 4,
+    "ids": [
+      "SA5360",
+      "SA5304",
+      "SA5303",
+      "SA5302"
+    ]
+  },
+  {
+    "sponsor": "Sen. Graham, Lindsey [R-SC]",
+    "submitted": 3,
+    "floor_proposed": 2,
+    "agreed": 0,
+    "rejected": 2,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5487",
+      "SA5463",
+      "SA5301"
+    ]
+  },
+  {
+    "sponsor": "Sen. Grassley, Chuck [R-IA]",
+    "submitted": 5,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 4,
+    "ids": [
+      "SA5484",
+      "SA5483",
+      "SA5482",
+      "SA5421",
+      "SA5420"
+    ]
+  },
+  {
+    "sponsor": "Sen. Hagerty, Bill [R-TN]",
+    "submitted": 14,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 14,
+    "ids": [
+      "SA5485",
+      "SA5407",
+      "SA5406",
+      "SA5405",
+      "SA5221",
+      "SA5220",
+      "SA5219",
+      "SA5218",
+      "SA5217",
+      "SA5216",
+      "SA5215",
+      "SA5214",
+      "SA5213",
+      "SA5212"
+    ]
+  },
+  {
+    "sponsor": "Sen. Hassan, Margaret Wood [D-NH]",
+    "submitted": 1,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 1,
+    "not_proposed": 0,
+    "ids": [
+      "SA5469"
+    ]
+  },
+  {
+    "sponsor": "Sen. Hoeven, John [R-ND]",
+    "submitted": 12,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 12,
+    "ids": [
+      "SA5422",
+      "SA5403",
+      "SA5402",
+      "SA5401",
+      "SA5400",
+      "SA5399",
+      "SA5398",
+      "SA5397",
+      "SA5396",
+      "SA5395",
+      "SA5394",
+      "SA5393"
+    ]
+  },
+  {
+    "sponsor": "Sen. Inhofe, James M. [R-OK]",
+    "submitted": 1,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5254"
+    ]
+  },
+  {
+    "sponsor": "Sen. Kennedy, John [R-LA]",
+    "submitted": 19,
+    "floor_proposed": 2,
+    "agreed": 0,
+    "rejected": 2,
+    "out_of_order": 0,
+    "not_proposed": 17,
+    "ids": [
+      "SA5473",
+      "SA5451",
+      "SA5450",
+      "SA5449",
+      "SA5448",
+      "SA5447",
+      "SA5446",
+      "SA5445",
+      "SA5444",
+      "SA5443",
+      "SA5442",
+      "SA5441",
+      "SA5440",
+      "SA5439",
+      "SA5438",
+      "SA5387",
+      "SA5385",
+      "SA5278",
+      "SA5277"
+    ]
+  },
+  {
+    "sponsor": "Sen. Lankford, James [R-OK]",
+    "submitted": 11,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 10,
+    "ids": [
+      "SA5384",
+      "SA5206",
+      "SA5205",
+      "SA5204",
+      "SA5203",
+      "SA5202",
+      "SA5201",
+      "SA5200",
+      "SA5199",
+      "SA5198",
+      "SA5197"
+    ]
+  },
+  {
+    "sponsor": "Sen. Lee, Mike [R-UT]",
+    "submitted": 43,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 42,
+    "ids": [
+      "SA5471",
+      "SA5417",
+      "SA5416",
+      "SA5415",
+      "SA5414",
+      "SA5348",
+      "SA5347",
+      "SA5346",
+      "SA5345",
+      "SA5344",
+      "SA5343",
+      "SA5342",
+      "SA5341",
+      "SA5340",
+      "SA5339",
+      "SA5338",
+      "SA5337",
+      "SA5336",
+      "SA5335",
+      "SA5334",
+      "SA5333",
+      "SA5332",
+      "SA5327",
+      "SA5326",
+      "SA5325",
+      "SA5324",
+      "SA5323",
+      "SA5322",
+      "SA5321",
+      "SA5320",
+      "SA5319",
+      "SA5318",
+      "SA5317",
+      "SA5316",
+      "SA5315",
+      "SA5314",
+      "SA5313",
+      "SA5312",
+      "SA5311",
+      "SA5310",
+      "SA5309",
+      "SA5308",
+      "SA5307"
+    ]
+  },
+  {
+    "sponsor": "Sen. Lummis, Cynthia M. [R-WY]",
+    "submitted": 1,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5328"
+    ]
+  },
+  {
+    "sponsor": "Sen. Marshall, Roger [R-KS]",
+    "submitted": 9,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 8,
+    "ids": [
+      "SA5475",
+      "SA5474",
+      "SA5392",
+      "SA5391",
+      "SA5390",
+      "SA5389",
+      "SA5244",
+      "SA5243",
+      "SA5235"
+    ]
+  },
+  {
+    "sponsor": "Sen. Merkley, Jeff [D-OR]",
+    "submitted": 11,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 11,
+    "ids": [
+      "SA5486",
+      "SA5300",
+      "SA5299",
+      "SA5298",
+      "SA5297",
+      "SA5296",
+      "SA5295",
+      "SA5294",
+      "SA5293",
+      "SA5292",
+      "SA5291"
+    ]
+  },
+  {
+    "sponsor": "Sen. Moran, Jerry [R-KS]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5452",
+      "SA5424"
+    ]
+  },
+  {
+    "sponsor": "Sen. Murkowski, Lisa [R-AK]",
+    "submitted": 10,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 10,
+    "ids": [
+      "SA5462",
+      "SA5461",
+      "SA5460",
+      "SA5459",
+      "SA5458",
+      "SA5457",
+      "SA5456",
+      "SA5455",
+      "SA5454",
+      "SA5453"
+    ]
+  },
+  {
+    "sponsor": "Sen. Paul, Rand [R-KY]",
+    "submitted": 1,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5207"
+    ]
+  },
+  {
+    "sponsor": "Sen. Portman, Rob [R-OH]",
+    "submitted": 3,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 3,
+    "ids": [
+      "SA5470",
+      "SA5224",
+      "SA5223"
+    ]
+  },
+  {
+    "sponsor": "Sen. Risch, James E. [R-ID]",
+    "submitted": 7,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 7,
+    "ids": [
+      "SA5231",
+      "SA5230",
+      "SA5229",
+      "SA5228",
+      "SA5227",
+      "SA5226",
+      "SA5225"
+    ]
+  },
+  {
+    "sponsor": "Sen. Romney, Mitt [R-UT]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5330",
+      "SA5196"
+    ]
+  },
+  {
+    "sponsor": "Sen. Rounds, Mike [R-SD]",
+    "submitted": 1,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5419"
+    ]
+  },
+  {
+    "sponsor": "Sen. Rubio, Marco [R-FL]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5357",
+      "SA5356"
+    ]
+  },
+  {
+    "sponsor": "Sen. Sanders, Bernard [I-VT]",
+    "submitted": 5,
+    "floor_proposed": 5,
+    "agreed": 0,
+    "rejected": 4,
+    "out_of_order": 1,
+    "not_proposed": 0,
+    "ids": [
+      "SA5281",
+      "SA5211",
+      "SA5210",
+      "SA5209",
+      "SA5208"
+    ]
+  },
+  {
+    "sponsor": "Sen. Schumer, Charles E. [D-NY]",
+    "submitted": 1,
+    "floor_proposed": 1,
+    "agreed": 1,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 0,
+    "ids": [
+      "SA5194"
+    ]
+  },
+  {
+    "sponsor": "Sen. Scott, Tim [R-SC]",
+    "submitted": 5,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 5,
+    "ids": [
+      "SA5388",
+      "SA5272",
+      "SA5234",
+      "SA5233",
+      "SA5232"
+    ]
+  },
+  {
+    "sponsor": "Sen. Shelby, Richard C. [R-AL]",
+    "submitted": 1,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 0,
+    "ids": [
+      "SA5418"
+    ]
+  },
+  {
+    "sponsor": "Sen. Sullivan, Dan [R-AK]",
+    "submitted": 2,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 1,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5437",
+      "SA5435"
+    ]
+  },
+  {
+    "sponsor": "Sen. Tester, Jon [D-MT]",
+    "submitted": 1,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 1,
+    "not_proposed": 0,
+    "ids": [
+      "SA5480"
+    ]
+  },
+  {
+    "sponsor": "Sen. Thune, John [R-SD]",
+    "submitted": 8,
+    "floor_proposed": 1,
+    "agreed": 1,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 7,
+    "ids": [
+      "SA5472",
+      "SA5273",
+      "SA5253",
+      "SA5252",
+      "SA5251",
+      "SA5250",
+      "SA5249",
+      "SA5248"
+    ]
+  },
+  {
+    "sponsor": "Sen. Tillis, Thomas [R-NC]",
+    "submitted": 3,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 3,
+    "ids": [
+      "SA5284",
+      "SA5283",
+      "SA5282"
+    ]
+  },
+  {
+    "sponsor": "Sen. Toomey, Patrick [R-PA]",
+    "submitted": 7,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 7,
+    "ids": [
+      "SA5355",
+      "SA5354",
+      "SA5353",
+      "SA5352",
+      "SA5351",
+      "SA5350",
+      "SA5349"
+    ]
+  },
+  {
+    "sponsor": "Sen. Tuberville, Tommy [R-AL]",
+    "submitted": 1,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 1,
+    "ids": [
+      "SA5222"
+    ]
+  },
+  {
+    "sponsor": "Sen. Warner, Mark R. [D-VA]",
+    "submitted": 1,
+    "floor_proposed": 1,
+    "agreed": 1,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 0,
+    "ids": [
+      "SA5488"
+    ]
+  },
+  {
+    "sponsor": "Sen. Warnock, Raphael G. [D-GA]",
+    "submitted": 1,
+    "floor_proposed": 1,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 1,
+    "not_proposed": 0,
+    "ids": [
+      "SA5262"
+    ]
+  },
+  {
+    "sponsor": "Sen. Wicker, Roger F. [R-MS]",
+    "submitted": 2,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 2,
+    "ids": [
+      "SA5280",
+      "SA5279"
+    ]
+  },
+  {
+    "sponsor": "Sen. Young, Todd [R-IN]",
+    "submitted": 4,
+    "floor_proposed": 0,
+    "agreed": 0,
+    "rejected": 0,
+    "out_of_order": 0,
+    "not_proposed": 4,
+    "ids": [
+      "SA5478",
+      "SA5477",
+      "SA5476",
+      "SA5436"
+    ]
+  }
+]

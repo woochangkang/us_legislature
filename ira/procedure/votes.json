@@ -1,0 +1,732 @@
+[
+  {
+    "chamber": "House",
+    "session": "1",
+    "number": "384",
+    "date": "2021-11-19",
+    "url": "https://clerk.house.gov/evs/2021/roll384.xml",
+    "yes": 208,
+    "no": 220,
+    "description": "On motion to recommit Failed by the Yeas and Nays: 208 - 220 (Roll no. 384).",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결"
+  },
+  {
+    "chamber": "House",
+    "session": "1",
+    "number": "385",
+    "date": "2021-11-19",
+    "url": "https://clerk.house.gov/evs/2021/roll385.xml",
+    "yes": 220,
+    "no": 213,
+    "description": "On passage Passed by the Yeas and Nays: 220 - 213 (Roll no. 385). (text: 11/18/2021 CR H6375-6576)",
+    "related_amendments": [],
+    "kind": "법안 통과",
+    "result": "가결"
+  },
+  {
+    "chamber": "House",
+    "session": "1",
+    "number": "386",
+    "date": "2021-11-19",
+    "url": "https://clerk.house.gov/evs/2021/roll386.xml",
+    "yes": 217,
+    "no": 105,
+    "description": "On motion to table the motion to reconsider Agreed to by the Yeas and Nays: 217 - 105 (Roll no. 386).",
+    "related_amendments": [],
+    "kind": "재고 동의 보류",
+    "result": "가결"
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "287",
+    "date": "2022-08-06",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00287.xml",
+    "yes": 51,
+    "no": 50,
+    "description": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 51 - 50. Record Vote Number: 287. (CR S4070)",
+    "related_amendments": [],
+    "kind": "심의 개시 동의",
+    "result": "가결",
+    "record_pages": [
+      20
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "288",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00288.xml",
+    "yes": 1,
+    "no": 99,
+    "description": "Motion to waive all applicable budgetary discipline with respect to amendment SA 5210 rejected in Senate by Yea-Nay Vote. 1 - 99. Record Vote Number: 288.",
+    "related_amendments": [
+      "SA5210"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      120
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "289",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00289.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5301 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 289.",
+    "related_amendments": [
+      "SA5301"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      121
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "290",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00290.xml",
+    "yes": 55,
+    "no": 45,
+    "description": "Motion to waive all applicable budgetary discipline with respect to amendment SA 5469 rejected in Senate by Yea-Nay Vote. 55 - 45. Record Vote Number: 290.",
+    "related_amendments": [
+      "SA5469"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      121
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "291",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00291.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5409 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 291.",
+    "related_amendments": [
+      "SA5409"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      122
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "292",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00292.xml",
+    "yes": 3,
+    "no": 97,
+    "description": "Amendment SA 5211 not agreed to in Senate by Yea-Nay Vote. 3 - 97. Record Vote Number: 292.",
+    "related_amendments": [
+      "SA5211"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      127
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "293",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00293.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5382 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 293.",
+    "related_amendments": [
+      "SA5382"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      128
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "294",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00294.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5384 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 294.",
+    "related_amendments": [
+      "SA5384"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      129
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "295",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00295.xml",
+    "yes": 56,
+    "no": 44,
+    "description": "Motion to waive all applicable budgetary discipline with respect to amendment SA 5480 rejected in Senate by Yea-Nay Vote. 56 - 44. Record Vote Number: 295.",
+    "related_amendments": [
+      "SA5480"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      129
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "296",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00296.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5404 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 296.",
+    "related_amendments": [
+      "SA5404"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      130
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "297",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00297.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Scott FL, to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 297. (CR S4180)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      131
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "298",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00298.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5389 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 298.",
+    "related_amendments": [
+      "SA5389"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      131
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "299",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00299.xml",
+    "yes": 1,
+    "no": 98,
+    "description": "Amendment SA 5209 not agreed to in Senate by Yea-Nay Vote. 1 - 98. Record Vote Number: 299.",
+    "related_amendments": [
+      "SA5209"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      132
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "300",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00300.xml",
+    "yes": 49,
+    "no": 50,
+    "description": "Motion to waive waive all applicable budgetary discipline with respect to amendment SA 5383 rejected in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 300.",
+    "related_amendments": [
+      "SA5383"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      132
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "301",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00301.xml",
+    "yes": 49,
+    "no": 51,
+    "description": "Amendment SA 5421 not agreed to in Senate by Yea-Nay Vote. 49 - 51. Record Vote Number: 301.",
+    "related_amendments": [
+      "SA5421"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      133
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "302",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00302.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Collins to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 302. (CR S4183-4184)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      134
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "303",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00303.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5387 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 303.",
+    "related_amendments": [
+      "SA5387"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      134
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "304",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00304.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Rubio to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 304. (CR S4184-4185)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      135
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "305",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00305.xml",
+    "yes": 49,
+    "no": 51,
+    "description": "Amendment SA 5316 not agreed to in Senate by Yea-Nay Vote. 49 - 51. Record Vote Number: 305.",
+    "related_amendments": [
+      "SA5316"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      135
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "306",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00306.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5418 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 306.",
+    "related_amendments": [
+      "SA5418"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      136
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "307",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00307.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Scott SC, to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 307. (CR S4186)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      137
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "308",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00308.xml",
+    "yes": 1,
+    "no": 97,
+    "description": "Amendment SA 5208 not agreed to in Senate by Yea-Nay Vote. 1 - 97. Record Vote Number: 308.",
+    "related_amendments": [
+      "SA5208"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      140
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "309",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00309.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5263 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 309.",
+    "related_amendments": [
+      "SA5263"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      140
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "310",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00310.xml",
+    "yes": 5,
+    "no": 94,
+    "description": "Motion to waive all applicable budgetary discipline with respect to amendment SA 5262 rejected in Senate by Yea-Nay Vote. 5 - 94. Record Vote Number: 310.",
+    "related_amendments": [
+      "SA5262"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      141
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "311",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00311.xml",
+    "yes": 54,
+    "no": 46,
+    "description": "Motion to waive all applicable budgetary discipline with respect to amendment SA 5265 rejected in Senate by Yea-Nay Vote. 54 - 46. Record Vote Number: 311.",
+    "related_amendments": [
+      "SA5265"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      142
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "312",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00312.xml",
+    "yes": 1,
+    "no": 99,
+    "description": "Amendment SA 5281 not agreed to in Senate by Yea-Nay Vote. 1 - 99. Record Vote Number: 312.",
+    "related_amendments": [
+      "SA5281"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      142
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "313",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00313.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5385 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 313.",
+    "related_amendments": [
+      "SA5385"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      143
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "314",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00314.xml",
+    "yes": 57,
+    "no": 43,
+    "description": "Motion to waive all applicable budgetary discipline with respect to amendment SA 5194, as modified, rejected in Senate by Yea-Nay Vote. 57 - 43. Record Vote Number: 314.",
+    "related_amendments": [
+      "SA5194"
+    ],
+    "kind": "예산규율 면제 동의",
+    "result": "부결",
+    "record_pages": [
+      143
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "315",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00315.xml",
+    "yes": 49,
+    "no": 51,
+    "description": "Motion by Senator Cruz to commit to Senate Committee on Homeland Security and Governmental Affairs with instructions rejected in Senate by Yea-Nay Vote. 49 - 51. Record Vote Number: 315. (CR S4194)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      144
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "316",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00316.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Cruz to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 316. (CR S4194-4195)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      145
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "317",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00317.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Hoeven to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 317. (CR S4195)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      145
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "318",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00318.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Blackburn to commit to Senate Committee on Agriculture, Nutrition, and Forestry with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 318. (CR S4196)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      146
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "319",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00319.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Rubio to commit to Senate Committee on Health, Education, Labor, and Pensions with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 319. (CR S4196-4197)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      147
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "320",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00320.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5435 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 320.",
+    "related_amendments": [
+      "SA5435"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      147
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "321",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00321.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Amendment SA 5487 not agreed to in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 321.",
+    "related_amendments": [
+      "SA5487"
+    ],
+    "kind": "수정안 표결",
+    "result": "부결",
+    "record_pages": [
+      149
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "322",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00322.xml",
+    "yes": 50,
+    "no": 50,
+    "description": "Motion by Senator Hagerty to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 322. (CR S4199)",
+    "related_amendments": [],
+    "kind": "위원회 회부 동의",
+    "result": "부결",
+    "record_pages": [
+      149
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "323",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00323.xml",
+    "yes": 57,
+    "no": 43,
+    "description": "Amendment SA 5472 agreed to in Senate by Yea-Nay Vote. 57 - 43. Record Vote Number: 323.",
+    "related_amendments": [
+      "SA5472"
+    ],
+    "kind": "수정안 표결",
+    "result": "가결",
+    "record_pages": [
+      150
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "324",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00324.xml",
+    "yes": 51,
+    "no": 50,
+    "description": "Amendment SA 5488 agreed to in Senate by Yea-Nay Vote. 51 - 50. Record Vote Number: 324.",
+    "related_amendments": [
+      "SA5488"
+    ],
+    "kind": "수정안 표결",
+    "result": "가결",
+    "record_pages": [
+      151
+    ]
+  },
+  {
+    "chamber": "Senate",
+    "session": "2",
+    "number": "325",
+    "date": "2022-08-07",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00325.xml",
+    "yes": 51,
+    "no": 50,
+    "description": "Passed Senate with an amendment by Yea-Nay Vote. 51 - 50. Record Vote Number: 325.",
+    "related_amendments": [],
+    "kind": "법안 통과",
+    "result": "가결",
+    "record_pages": [
+      151
+    ]
+  },
+  {
+    "chamber": "House",
+    "session": "2",
+    "number": "420",
+    "date": "2022-08-12",
+    "url": "https://clerk.house.gov/evs/2022/roll420.xml",
+    "yes": 220,
+    "no": 207,
+    "description": "On motion that the House agree to the Senate amendment Agreed to by the Yeas and Nays: 220 - 207 (Roll no. 420). (text: CR H7577-7646)",
+    "related_amendments": [],
+    "kind": "상원 수정안 동의",
+    "result": "가결"
+  }
+]

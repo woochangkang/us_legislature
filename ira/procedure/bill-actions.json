@@ -1,0 +1,382 @@
+[
+  {
+    "date": "2022-08-16",
+    "text": "Became Public Law No: 117-169.",
+    "code": "E40000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-16",
+    "text": "Became Public Law No: 117-169.",
+    "code": "36000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-16",
+    "text": "Signed by President.",
+    "code": "E30000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-16",
+    "text": "Signed by President.",
+    "code": "36000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-15",
+    "text": "Presented to President.",
+    "code": "E20000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-15",
+    "text": "Presented to President.",
+    "code": "28000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-12",
+    "text": "Motion to reconsider laid on the table Agreed to without objection.",
+    "code": "H41931",
+    "votes": []
+  },
+  {
+    "date": "2022-08-12",
+    "text": "On motion that the House agree to the Senate amendment Agreed to by the Yeas and Nays: 220 - 207 (Roll no. 420). (text: CR H7577-7646)",
+    "code": "H41610",
+    "votes": [
+      "House|2|420"
+    ]
+  },
+  {
+    "date": "2022-08-12",
+    "text": "Resolving differences -- House actions: On motion that the House agree to the Senate amendment Agreed to by the Yeas and Nays: 220 - 207 (Roll no. 420).",
+    "code": "19500",
+    "votes": [
+      "House|2|420"
+    ]
+  },
+  {
+    "date": "2022-08-12",
+    "text": "The previous question was ordered pursuant to the rule.",
+    "code": "H41400",
+    "votes": []
+  },
+  {
+    "date": "2022-08-12",
+    "text": "Pursuant to the provisions of H.Res.1316, House proceeded with 3 hours of debate on the Yarmuth motion to agree to the Senate amendment to H.R. 5376.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2022-08-12",
+    "text": "Mr. Yarmuth moved that the House agree to the Senate amendment. (consideration: CR H7577-7704)",
+    "code": "H40150",
+    "votes": []
+  },
+  {
+    "date": "2022-08-08",
+    "text": "Message on Senate action sent to the House.",
+    "code": "",
+    "votes": []
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Passed Senate with an amendment by Yea-Nay Vote. 51 - 50. Record Vote Number: 325.",
+    "code": "",
+    "votes": [
+      "Senate|2|325"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Passed/agreed to in Senate: Passed Senate with an amendment by Yea-Nay Vote. 51 - 50. Record Vote Number: 325.",
+    "code": "17000",
+    "votes": [
+      "Senate|2|325"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Hagerty to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 322. (CR S4199)",
+    "code": "",
+    "votes": [
+      "Senate|2|322"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Rubio to commit to Senate Committee on Health, Education, Labor, and Pensions with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 319. (CR S4196-4197)",
+    "code": "",
+    "votes": [
+      "Senate|2|319"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Blackburn to commit to Senate Committee on Agriculture, Nutrition, and Forestry with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 318. (CR S4196)",
+    "code": "",
+    "votes": [
+      "Senate|2|318"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Hoeven to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 317. (CR S4195)",
+    "code": "",
+    "votes": [
+      "Senate|2|317"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Cruz to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 316. (CR S4194-4195)",
+    "code": "",
+    "votes": [
+      "Senate|2|316"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Cruz to commit to Senate Committee on Homeland Security and Governmental Affairs with instructions rejected in Senate by Yea-Nay Vote. 49 - 51. Record Vote Number: 315. (CR S4194)",
+    "code": "",
+    "votes": [
+      "Senate|2|315"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Scott SC, to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 307. (CR S4186)",
+    "code": "",
+    "votes": [
+      "Senate|2|307"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Rubio to commit to Senate Committee on the Judiciary with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 304. (CR S4184-4185)",
+    "code": "",
+    "votes": [
+      "Senate|2|304"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Collins to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 302. (CR S4183-4184)",
+    "code": "",
+    "votes": [
+      "Senate|2|302"
+    ]
+  },
+  {
+    "date": "2022-08-07",
+    "text": "Motion by Senator Scott FL, to commit to Senate Committee on Finance with instructions rejected in Senate by Yea-Nay Vote. 50 - 50. Record Vote Number: 297. (CR S4180)",
+    "code": "",
+    "votes": [
+      "Senate|2|297"
+    ]
+  },
+  {
+    "date": "2022-08-06",
+    "text": "Measure laid before Senate by motion. (consideration: CR S4070-4152, S4154-4164, S4168-4201)",
+    "code": "",
+    "votes": []
+  },
+  {
+    "date": "2022-08-06",
+    "text": "Motion to proceed to consideration of measure agreed to in Senate by Yea-Nay Vote. 51 - 50. Record Vote Number: 287. (CR S4070)",
+    "code": "",
+    "votes": [
+      "Senate|2|287"
+    ]
+  },
+  {
+    "date": "2022-08-04",
+    "text": "Committee on Banking, Housing, and Urban Affairs. Hearings held.",
+    "code": "",
+    "votes": []
+  },
+  {
+    "date": "2022-08-03",
+    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 464.",
+    "code": "",
+    "votes": []
+  },
+  {
+    "date": "2022-08-02",
+    "text": "Received in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
+    "code": "",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Motion to reconsider laid on the table.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "On motion to table the motion to reconsider Agreed to by the Yeas and Nays: 217 - 105 (Roll no. 386).",
+    "code": "H36610",
+    "votes": [
+      "House|1|386"
+    ]
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Mr. McGovern moved to table the motion to reconsider the vote.",
+    "code": "H36600",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Mr. Neal moved to reconsider the vote.",
+    "code": "H38400",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Motion to reconsider laid upon the table. Objection heard.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "On passage Passed by the Yeas and Nays: 220 - 213 (Roll no. 385). (text: 11/18/2021 CR H6375-6576)",
+    "code": "H37100",
+    "votes": [
+      "House|1|385"
+    ]
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Passed/agreed to in House: On passage Passed by the Yeas and Nays: 220 - 213 (Roll no. 385).(text: 11/18/2021 CR H6375-6576)",
+    "code": "8000",
+    "votes": [
+      "House|1|385"
+    ]
+  },
+  {
+    "date": "2021-11-19",
+    "text": "On motion to recommit Failed by the Yeas and Nays: 208 - 220 (Roll no. 384).",
+    "code": "H36210",
+    "votes": [
+      "House|1|384"
+    ]
+  },
+  {
+    "date": "2021-11-19",
+    "text": "The previous question on the motion to recommit was ordered pursuant to clause 2(b) of rule XIX.",
+    "code": "H8A000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Mr. Brady moved to recommit to the Committee on the Budget. (text: CR H6665)",
+    "code": "H36200",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "The previous question was ordered pursuant to the rule.",
+    "code": "H35000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "DEBATE - Pursuant to H.Res. 774, the House proceeded with further debate on H.R. 5376.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Considered as unfinished business. (consideration: CR H6659-6667)",
+    "code": "H30000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "Pursuant to clause 1(c) of Rule XIX, the House resumed consideration of H.R. 5376.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-19",
+    "text": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of Rule XIX, further consideration of H.R. 5376 is postponed.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-18",
+    "text": "DEBATE - Pursuant to H.Res 774, the House proceeded with further debate on H.R. 5376.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-18",
+    "text": "Considered as unfinished business. (consideration: CR H6615-6658)",
+    "code": "H30000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-18",
+    "text": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of Rule XIX, further consideration of H.R. 5376 is postponed.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-18",
+    "text": "DEBATE - The House proceeded with two hours of debate on H.R. 5376.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-18",
+    "text": "Rule provides for consideration of H.R. 5376 with 2 hours of general debate. Previous question shall be considered as ordered without intervening motions except motion to recommit. Measure will be considered read. Bill is closed to amendments.",
+    "code": "H8D000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-18",
+    "text": "Considered under the provisions of rule H. Res. 774. (consideration: CR H6375-6595)",
+    "code": "H30000",
+    "votes": []
+  },
+  {
+    "date": "2021-11-06",
+    "text": "Rule H. Res. 774 passed House.",
+    "code": "H1L220",
+    "votes": []
+  },
+  {
+    "date": "2021-11-05",
+    "text": "Rules Committee Resolution H. Res. 774 Reported to House. Rule provides for consideration of H.R. 5376 with 2 hours of general debate. Previous question shall be considered as ordered without intervening motions except motion to recommit. Measure will be considered read. Bill is closed to amendments.",
+    "code": "H1L210",
+    "votes": []
+  },
+  {
+    "date": "2021-09-27",
+    "text": "Placed on the Union Calendar, Calendar No. 94.",
+    "code": "H12410",
+    "votes": []
+  },
+  {
+    "date": "2021-09-27",
+    "text": "The House Committee on the Budget reported an original measure, H. Rept. 117-130, by Mr. Yarmuth.",
+    "code": "H12100",
+    "votes": []
+  },
+  {
+    "date": "2021-09-27",
+    "text": "The House Committee on the Budget reported an original measure, H. Rept. 117-130, by Mr. Yarmuth.",
+    "code": "5000",
+    "votes": []
+  },
+  {
+    "date": "2021-09-27",
+    "text": "Introduced in House",
+    "code": "1000",
+    "votes": []
+  }
+]

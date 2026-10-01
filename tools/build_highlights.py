@@ -7,6 +7,11 @@ ROOT = Path(__file__).resolve().parents[1] / 'ira'
 data = json.loads((ROOT / 'research-data.json').read_text())
 sources = {s['id']: s for s in data['sources'] if s.get('file')}
 extra = {
+ 'R:144': ['The point of order is sustained, and the language will be stricken from the amendment'],
+ 'R:150': ['The amendment (No. 5472) was agreed to', 'My amendment would simply strike the offset in the previous amendment'],
+ 'R:151': ['The amendment (No. 5488) was agreed to', 'The amendment (No. 5194), as amended, was agreed to', 'the Vice President votes in the affirmative'],
+ 'P:198': ['Section 164(b)(6), as amended by section 13904, is further amended', 'January 1, 2029'],
+ 'P:199': ['SPECIAL RULES FOR DETERMINING APPLICABLE CORPORATION STATUS'],
  'H9:287': ['September 10, 2021 (9:59 p.m.)'],
  'M:3': ['Beginning five years after enactment', 'final assembly'],
  'T:110': ['I want to clarify the credit'],

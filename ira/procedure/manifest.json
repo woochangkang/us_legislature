@@ -1,0 +1,36 @@
+{
+  "scope": "117th Congress H.R.5376 numbered amendments and recorded votes; separate 2021 Finance committee inventory",
+  "retrieved": "2026-10-01",
+  "sources": [
+    {
+      "file": "BILLSTATUS-117hr5376.xml",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/117/hr/BILLSTATUS-117hr5376.xml",
+      "sha256": "a56958ad83239924537061301ac06c4fd448feb79eaca280a57ad07653eaba30"
+    },
+    {
+      "file": "BILLSTATUS-117s2118.xml",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/117/s/BILLSTATUS-117s2118.xml",
+      "sha256": "213f478720a8e482c563352843c26a8b14e0fc9e811548f6d12d1443217173d5"
+    }
+  ],
+  "counts": {
+    "amendments": 295,
+    "senate": 293,
+    "house": 2,
+    "senate_floor_proposed": 27,
+    "senate_agreed": 3,
+    "senate_rejected": 18,
+    "senate_out_of_order": 6,
+    "senate_not_proposed": 266,
+    "roll_calls": 43,
+    "committee_inventory": 135,
+    "committee_reviewed": 21
+  },
+  "notes": [
+    "Sponsor counts use named primary sponsor; cosponsors and on-behalf-of floor presenters are not additional submissions.",
+    "House two Rules Committee amendments are a separate institutional entry, not two individual members.",
+    "Senate vote XML retrieval failed with HTTP 403. Vote totals are from official BILLSTATUS actions, with key roll calls checked against Congressional Record.",
+    "No separate August 7 Senate daily PDF was retrieved; August 6 issue includes August 7 actions.",
+    "Committee inventory processing review is partial; unknown is not rejected."
+  ]
+}
