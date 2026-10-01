@@ -50,3 +50,14 @@ python3 tools/build_highlights.py
 - 상원 채택 3건의 최종 반영과 인슐린 문구 삭제를 Record 및 제정법으로 대조했습니다. 미제안 266건의 비공식 흡수·모든 유사 조문까지 대조한 결과는 아닙니다.
 - 자료·다운로드·접근 실패 내역: `ira/procedure/`; 방법과 보고서: `ira/procedure/report.html`.
 - 재생성: 저장된 원문에 대해 `python3 tools/build_procedure.py`, `python3 tools/build_procedure_evidence.py`, `python3 tools/build_procedure_report.py`, `python3 tools/build_highlights.py`. HTML은 별도 편집합니다.
+
+
+## 산업 영향 배경 · 2026-10-01
+
+언론 보도와 판매·투자 추세를 중심으로 배경을 추가했습니다. 산업 영향 탭에는 배경, 판매 데이터, 관련 보도, 완성차·부품·배터리, 조기경보, 자료의 여섯 하위 탭이 있습니다. 엄밀한 인과 추정이나 학술연구 검토는 본문 범위에서 제외했습니다.
+
+- `ira/impact/report.html`: 독립 보고서
+- `ira/impact/observations.csv`, `sources.json`: 관측값 33행, 출처 30건
+- `python3 tools/build_impact.py`: 데이터·배경·보고서 재생성 (BeautifulSoup 필요)
+- `python3 tools/build_impact_charts.py`: 데이터 기반 SVG 2개 재생성 (Matplotlib 필요)
+- 2022–2024년을 중심으로 설명하며, 2025년 현지 생산·차량 공제 종료는 별도 국면으로 표시했습니다.

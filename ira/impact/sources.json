@@ -1,0 +1,212 @@
+[
+  {
+    "id": "I01",
+    "title": "재무부 · 2022.8.16 최초 시행 안내",
+    "url": "https://home.treasury.gov/news/press-releases/jy0923",
+    "type": "정부",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I02",
+    "title": "IRS · 2022년 이전 적격 차량 및 경과 규칙",
+    "url": "https://www.irs.gov/credits-deductions/manufacturers-and-models-for-new-qualified-clean-vehicles-purchased-in-2022-and-before",
+    "type": "정부",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I03",
+    "title": "재무부 · 2022.12.29 상업용 공제 후속 안내",
+    "url": "https://home.treasury.gov/news/press-releases/jy1179",
+    "type": "정부",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I04",
+    "title": "IRS · 차량 소유자와 리스 공제 귀속",
+    "url": "https://www.irs.gov/newsroom/topic-a-frequently-asked-questions-about-the-eligibility-rules-for-the-new-clean-vehicle-credit-under-ss30d-effective-jan-1-2023",
+    "type": "정부",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I05",
+    "title": "IRS · 2025.9.30 이후 취득 차량 공제 종료",
+    "url": "https://www.irs.gov/clean-vehicle-tax-credits",
+    "type": "정부",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I06",
+    "title": "현대차 · 2022 미국 판매",
+    "url": "https://www.hyundainews.com/releases/3732?lang=en_US",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I07",
+    "title": "현대차 · 2024 및 2023 미국 판매 비교표",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-all-time-december-q4-and-2024-sales-records-302341746.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I08",
+    "title": "현대차 · 2025 미국 판매",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-achieves-record-december-and-fifth-consecutive-year-of-record-retail-sales-302652033.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I09",
+    "title": "현대차 · 2022.6 및 2분기 판매",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-june-and-q2-2022-sales-301579536.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I10",
+    "title": "현대차 · 2022.7 판매",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-july-2022-sales-301597861.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I11",
+    "title": "현대차 · 2022.8 판매",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-august-2022-sales-301616198.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I12",
+    "title": "현대차 · 2023.9 발표의 2022.9 비교값",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-september-and-q3-2023-sales-301945499.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I13",
+    "title": "현대차 · 2022.10 판매",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-october-2022-sales-301664531.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I14",
+    "title": "현대차 · 2022.11 판매",
+    "url": "https://www.prnewswire.com/news-releases/hyundai-motor-america-reports-record-november-2022-sales-301691442.html",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I15",
+    "title": "기아 · 2023 및 2022 미국 판매",
+    "url": "https://www.kiamedia.com/us/es/media/pressreleases/21629/kia-america-reports-all-time-best-annual-sales",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I16",
+    "title": "기아 · 2024 및 2023 미국 판매",
+    "url": "https://www.kiamedia.com/us/en/media/pressreleases/22986/kia-america-posts-all-time-best-annual-sales-for-the-second-consecutive-year",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I17",
+    "title": "기아 · 2025 미국 판매",
+    "url": "https://www.kiamedia.com/us/es/media/pressreleases/24209/kia-america-postshighest-ever-annual-sales-in-company-history",
+    "type": "기업 판매 원자료",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I18",
+    "title": "Cox/KBB · 2024 미국 BEV 판매, 수정된 2023 비교값",
+    "url": "https://www.coxautoinc.com/insights/q4-2024-ev-sales/",
+    "type": "시장 집계",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I19",
+    "title": "조선일보 · 2022.10.4 IRA와 판매 감소 연결 보도",
+    "url": "https://www.chosun.com/economy/auto/2022/10/04/6TRJ3RGMNZADXDWQO2AI5HMXX4/",
+    "type": "언론 보도",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I20",
+    "title": "뉴시스 · 2023.1.26 현대차 CFO 리스 확대 설명",
+    "url": "https://www.newsis.com/view/NISX20230126_0002170723",
+    "type": "기업 발언 보도",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I21",
+    "title": "뉴스핌 · 2023.4.25 현대차 3월 리스 비중 35% 설명",
+    "url": "https://www.newspim.com/news/view/20230425000862",
+    "type": "기업 발언 보도",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I23",
+    "title": "현대차그룹 · 2022.5.20 미국 EV 공장 투자 발표",
+    "url": "https://www.hyundai.com/content/hyundai/worldwide/en/newsroom/detail/hyundai-motor-group-to-establish-first-dedicated-ev-plant-and-battery-manufacturing-facility-in-the-u.s.-0000000068.html",
+    "type": "기업 투자 발표",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I24",
+    "title": "HMGMA · 2024.10 아이오닉 5 생산 개시",
+    "url": "https://www.hmgma.com/our-facility/",
+    "type": "기업 생산 이력",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I25",
+    "title": "조지아주 · 2022.11.23 현대모비스 투자 발표",
+    "url": "https://gov.georgia.gov/press-releases/2022-11-23/gov-kemp-second-global-automotive-supplier-hyundai-metaplant-create-1500",
+    "type": "정부 투자 발표",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I26",
+    "title": "조지아주 · 2023.2.1 서연이화 투자 발표",
+    "url": "https://gov.georgia.gov/press-releases/2023-02-01/gov-kemp-seoyon-e-hwa-joins-growing-list-hyundai-suppliers-nearly-doubles",
+    "type": "정부 투자 발표",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I27",
+    "title": "LG · 2025.1.24 LG에너지솔루션 2024 실적",
+    "url": "https://www.lg.co.kr/media/release/28612",
+    "type": "기업 결산 발표",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I28",
+    "title": "산업부 · 2023 자동차 수출 실적",
+    "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168480/view",
+    "type": "정부 수출 통계",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I29",
+    "title": "산업부 · 2024 자동차 산업 동향",
+    "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170049/view",
+    "type": "정부 수출 통계",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I30",
+    "title": "재무부 · 2023.3.31 배터리·광물 기준 설명",
+    "url": "https://home.treasury.gov/news/press-releases/jy1379",
+    "type": "정부",
+    "checked": "2026-10-01"
+  },
+  {
+    "id": "I31",
+    "title": "IRS · 45X 첨단제조 생산 공제",
+    "url": "https://www.irs.gov/credits-deductions/advanced-manufacturing-production-credit",
+    "type": "정부",
+    "checked": "2026-10-01"
+  }
+]

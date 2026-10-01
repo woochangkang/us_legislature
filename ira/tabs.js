@@ -49,11 +49,13 @@
   const main=document.querySelector('main');
   if(main?.id==='main'){
     const lead=main.querySelector('.lead-grid');if(lead)document.getElementById('finding').append(lead);
-    const ids=['research-update','legislative-flow','procedure','comparison','finding','actors','evidence','questions','sources'];
-    const labels=['새 조사 결과','변화 흐름','의회 절차·수정안','조문 비교','핵심 발견','주요 행위자','증거 원문','조사 현황','자료·방법'];
+    const ids=['research-update','industry-impact','legislative-flow','procedure','comparison','finding','actors','evidence','questions','sources'];
+    const labels=['새 조사 결과','산업 영향·조기경보','변화 흐름','의회 절차·수정안','조문 비교','핵심 발견','주요 행위자','증거 원문','조사 현황','자료·방법'];
     const nav=document.querySelector('header nav');
     const viewer=nav.querySelector('a[href^="viewer.html"]');if(viewer){viewer.classList.add('viewer-shortcut');document.querySelector('.mast').append(viewer);}
     makeGroup(main,ids.map((id,i)=>({id,label:labels[i],panel:document.getElementById(id)})),'연구 주제',false,nav);
+    const impact=document.getElementById('impact-workspace');
+    if(impact)makeGroup(impact,Array.from(impact.querySelectorAll(':scope > section')).map(panel=>({id:panel.id,label:panel.dataset.impactLabel,panel})),'산업 영향 탐색');
     const procedure=document.getElementById('procedure-workspace');
     if(procedure)makeGroup(procedure,Array.from(procedure.querySelectorAll(':scope > section')).map(panel=>({id:panel.id,label:panel.dataset.procLabel,panel})),'의회 절차 탐색');
     nested(document.getElementById('actors'),'.actor-card','행위자 선택',e=>e.querySelector('h3').childNodes[0].textContent.trim());

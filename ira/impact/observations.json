@@ -1,0 +1,266 @@
+[
+  {
+    "series": "IONIQ 5",
+    "period": "2022",
+    "value": 22982,
+    "unit": "US sales units",
+    "source_id": "I06",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV6",
+    "period": "2022",
+    "value": 20498,
+    "unit": "US sales units",
+    "source_id": "I15",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2023",
+    "value": 33918,
+    "unit": "US sales units",
+    "source_id": "I07",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 6",
+    "period": "2023",
+    "value": 12999,
+    "unit": "US sales units",
+    "source_id": "I07",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV6",
+    "period": "2023",
+    "value": 18879,
+    "unit": "US sales units",
+    "source_id": "I15",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV9",
+    "period": "2023",
+    "value": 1118,
+    "unit": "US sales units",
+    "source_id": "I16",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2024",
+    "value": 44400,
+    "unit": "US sales units",
+    "source_id": "I07",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 6",
+    "period": "2024",
+    "value": 12264,
+    "unit": "US sales units",
+    "source_id": "I07",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV6",
+    "period": "2024",
+    "value": 21715,
+    "unit": "US sales units",
+    "source_id": "I16",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV9",
+    "period": "2024",
+    "value": 22017,
+    "unit": "US sales units",
+    "source_id": "I16",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2025",
+    "value": 47039,
+    "unit": "US sales units",
+    "source_id": "I08",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 6",
+    "period": "2025",
+    "value": 10478,
+    "unit": "US sales units",
+    "source_id": "I08",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV6",
+    "period": "2025",
+    "value": 12933,
+    "unit": "US sales units",
+    "source_id": "I17",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "EV9",
+    "period": "2025",
+    "value": 15051,
+    "unit": "US sales units",
+    "source_id": "I17",
+    "note": "연간; 구매·리스 합계; EV9 2023은 출시 초기"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-06",
+    "value": 2853,
+    "unit": "US sales units",
+    "source_id": "I09",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-07",
+    "value": 1978,
+    "unit": "US sales units",
+    "source_id": "I10",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-08",
+    "value": 1516,
+    "unit": "US sales units",
+    "source_id": "I11",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-09",
+    "value": 1306,
+    "unit": "US sales units",
+    "source_id": "I12",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-10",
+    "value": 1579,
+    "unit": "US sales units",
+    "source_id": "I13",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-11",
+    "value": 1191,
+    "unit": "US sales units",
+    "source_id": "I14",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2022-12",
+    "value": 1720,
+    "unit": "US sales units",
+    "source_id": "I06",
+    "note": "월간; 구형 Ioniq 제외"
+  },
+  {
+    "series": "US BEV market",
+    "period": "2023",
+    "value": 1212758,
+    "unit": "US sales units",
+    "source_id": "I18",
+    "note": "Cox 2025.1 발표; 2023 수정값; 일부 exotic 제외"
+  },
+  {
+    "series": "US BEV market",
+    "period": "2024",
+    "value": 1301411,
+    "unit": "US sales units",
+    "source_id": "I18",
+    "note": "Cox 2025.1 발표; 2023 수정값; 일부 exotic 제외"
+  },
+  {
+    "series": "Korea to US eligible-type eco vehicle exports",
+    "period": "2022",
+    "value": 84000,
+    "unit": "export units",
+    "source_id": "I28",
+    "note": "BEV·PHEV·FCEV; 반올림된 수출량; 미국 소매판매와 다름"
+  },
+  {
+    "series": "Korea to US eligible-type eco vehicle exports",
+    "period": "2023",
+    "value": 144000,
+    "unit": "export units",
+    "source_id": "I28",
+    "note": "BEV·PHEV·FCEV; 반올림된 수출량; 미국 소매판매와 다름"
+  },
+  {
+    "series": "Korea worldwide automobile exports",
+    "period": "2022",
+    "value": 54.1,
+    "unit": "USD billion",
+    "source_id": "I28",
+    "note": "전 차종 수출 금액; 부품 제외"
+  },
+  {
+    "series": "Korea worldwide automobile exports",
+    "period": "2023",
+    "value": 70.9,
+    "unit": "USD billion",
+    "source_id": "I28",
+    "note": "전 차종 수출 금액; 부품 제외"
+  },
+  {
+    "series": "Korea worldwide automobile exports",
+    "period": "2024",
+    "value": 70.8,
+    "unit": "USD billion",
+    "source_id": "I29",
+    "note": "전 차종 수출 금액; 부품 제외"
+  },
+  {
+    "series": "LGES reported operating profit",
+    "period": "2024-Q4",
+    "value": -225.5,
+    "unit": "KRW billion",
+    "source_id": "I27",
+    "note": "회사 공시상 분해; 북미 조립 조항 단독 효과 아님"
+  },
+  {
+    "series": "LGES IRA credit",
+    "period": "2024-Q4",
+    "value": 377.3,
+    "unit": "KRW billion",
+    "source_id": "I27",
+    "note": "회사 공시상 분해; 북미 조립 조항 단독 효과 아님"
+  },
+  {
+    "series": "LGES operating profit excluding credit",
+    "period": "2024-Q4",
+    "value": -602.8,
+    "unit": "KRW billion",
+    "source_id": "I27",
+    "note": "회사 공시상 분해; 북미 조립 조항 단독 효과 아님"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2024-Q4",
+    "value": 14082,
+    "unit": "US sales units",
+    "source_id": "I08",
+    "note": "2025는 현지 생산 및 공제 종료가 겹친 별도 국면"
+  },
+  {
+    "series": "IONIQ 5",
+    "period": "2025-Q4",
+    "value": 5948,
+    "unit": "US sales units",
+    "source_id": "I08",
+    "note": "2025는 현지 생산 및 공제 종료가 겹친 별도 국면"
+  }
+]

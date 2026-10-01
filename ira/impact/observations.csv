@@ -1,0 +1,34 @@
+﻿series,period,value,unit,source_id,note
+IONIQ 5,2022,22982,US sales units,I06,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV6,2022,20498,US sales units,I15,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 5,2023,33918,US sales units,I07,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 6,2023,12999,US sales units,I07,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV6,2023,18879,US sales units,I15,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV9,2023,1118,US sales units,I16,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 5,2024,44400,US sales units,I07,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 6,2024,12264,US sales units,I07,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV6,2024,21715,US sales units,I16,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV9,2024,22017,US sales units,I16,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 5,2025,47039,US sales units,I08,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 6,2025,10478,US sales units,I08,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV6,2025,12933,US sales units,I17,연간; 구매·리스 합계; EV9 2023은 출시 초기
+EV9,2025,15051,US sales units,I17,연간; 구매·리스 합계; EV9 2023은 출시 초기
+IONIQ 5,2022-06,2853,US sales units,I09,월간; 구형 Ioniq 제외
+IONIQ 5,2022-07,1978,US sales units,I10,월간; 구형 Ioniq 제외
+IONIQ 5,2022-08,1516,US sales units,I11,월간; 구형 Ioniq 제외
+IONIQ 5,2022-09,1306,US sales units,I12,월간; 구형 Ioniq 제외
+IONIQ 5,2022-10,1579,US sales units,I13,월간; 구형 Ioniq 제외
+IONIQ 5,2022-11,1191,US sales units,I14,월간; 구형 Ioniq 제외
+IONIQ 5,2022-12,1720,US sales units,I06,월간; 구형 Ioniq 제외
+US BEV market,2023,1212758,US sales units,I18,Cox 2025.1 발표; 2023 수정값; 일부 exotic 제외
+US BEV market,2024,1301411,US sales units,I18,Cox 2025.1 발표; 2023 수정값; 일부 exotic 제외
+Korea to US eligible-type eco vehicle exports,2022,84000,export units,I28,BEV·PHEV·FCEV; 반올림된 수출량; 미국 소매판매와 다름
+Korea to US eligible-type eco vehicle exports,2023,144000,export units,I28,BEV·PHEV·FCEV; 반올림된 수출량; 미국 소매판매와 다름
+Korea worldwide automobile exports,2022,54.1,USD billion,I28,전 차종 수출 금액; 부품 제외
+Korea worldwide automobile exports,2023,70.9,USD billion,I28,전 차종 수출 금액; 부품 제외
+Korea worldwide automobile exports,2024,70.8,USD billion,I29,전 차종 수출 금액; 부품 제외
+LGES reported operating profit,2024-Q4,-225.5,KRW billion,I27,회사 공시상 분해; 북미 조립 조항 단독 효과 아님
+LGES IRA credit,2024-Q4,377.3,KRW billion,I27,회사 공시상 분해; 북미 조립 조항 단독 효과 아님
+LGES operating profit excluding credit,2024-Q4,-602.8,KRW billion,I27,회사 공시상 분해; 북미 조립 조항 단독 효과 아님
+IONIQ 5,2024-Q4,14082,US sales units,I08,2025는 현지 생산 및 공제 종료가 겹친 별도 국면
+IONIQ 5,2025-Q4,5948,US sales units,I08,2025는 현지 생산 및 공제 종료가 겹친 별도 국면
