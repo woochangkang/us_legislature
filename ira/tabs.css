@@ -10,7 +10,7 @@ header .tab-list button[aria-selected="true"]{background:#fff;color:var(--navy)}
 .viewer-shortcut{color:#d5e4f7;font-size:13px;white-space:nowrap}.mast .period{margin-left:auto}
 .tabbed-site main{padding-top:20px}.tabbed-site .title h1{font-size:25px;margin:4px 0 8px}.tabbed-site .title>.kicker{font-size:10px}.tabbed-site .title>p:last-child{font-size:14px;margin-bottom:22px}.tabbed-site main>section{margin-bottom:20px}.tabbed-site .section-title h2{font-size:24px}
 .tab-workspace{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start}
-.tab-workspace>.tab-list{display:flex;flex-direction:column;flex-wrap:nowrap;max-height:65vh;overflow:auto;padding:4px;position:sticky;top:145px}
+.tab-workspace>.tab-list{display:flex;flex-direction:column;flex-wrap:nowrap;max-height:none;overflow:visible;padding:4px;position:static}
 .tab-workspace>.tab-list button{width:100%;font-size:13px;padding:12px;flex-shrink:0}
 .item-panel{min-width:0}.item-panel>.actor-card,.item-panel>.question{margin:0;width:100%;height:auto}.item-panel>.evidence{margin:0}.item-panel .evidence-body{padding:20px}.item-panel .summary-main strong{font-size:18px}.item-panel .evidence>summary{flex-wrap:wrap}
 .tabbed-site #actors .actor-grid:empty{display:none}.tabbed-site #actors>.role-route,.tabbed-site #actors>.meta{display:none}
@@ -27,5 +27,4 @@ header .tab-list button[aria-selected="true"]{background:#fff;color:var(--navy)}
 @media print{[role="tabpanel"][hidden]{display:block!important}.tab-list,.mobile-tab-picker,.viewer-shortcut{display:none!important}.tab-workspace{display:block}.item-panel{break-inside:avoid;margin-bottom:20px}}
 
 html:has(.tabbed-site),html:has(.tabbed-report){scroll-padding-top:calc(var(--tab-header-height,140px) + 16px)}
-.tab-workspace>.tab-list{top:calc(var(--tab-header-height,140px) + 16px)}
 .tabbed-site>header,.tabbed-report>header{position:sticky;top:0}

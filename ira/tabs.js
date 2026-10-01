@@ -34,7 +34,6 @@
   function select(group,item){
     for(const x of group.items){const active=x===item;x.panel.hidden=!active;x.button.setAttribute('aria-selected',String(active));x.button.tabIndex=active?0:-1;}
     if(group.picker)group.picker.value=item.id;group.active=item;
-    if(group.side){const top=item.button.offsetTop-group.nav.offsetTop;group.nav.scrollTop=Math.max(0,top-group.nav.clientHeight/3);}
     const detail=item.panel.matches('details.evidence')?item.panel:item.panel.querySelector('details.evidence');
     if(detail)detail.open=true;
   }
