@@ -1,0 +1,136 @@
+[
+  {
+    "id": "stabenow",
+    "name": "데비 스테이브나우",
+    "english_name": "Debbie Stabenow",
+    "historical_role": "미국 상원의원 · 2021년 EV 공제 설계",
+    "description": "2021년 미국 최종 조립 보너스를 일정 기간 뒤 필수 요건으로 바꾸는 수정안의 명의자입니다. 속기록에서 자신이 이 설계를 작성했다고 밝히고, 첫 5년과 다음 5년의 차이를 설명합니다.",
+    "relevance": "국내 생산 유치라는 정책 목적과 구체적인 자격요건이 연결되는 출발점입니다.",
+    "limit": "2022년의 북미 확대·즉시 적용 문구까지 작성했다고 볼 근거는 아직 없습니다.",
+    "evidence": [
+      "E01",
+      "E02",
+      "E03",
+      "E04"
+    ],
+    "sources": []
+  },
+  {
+    "id": "wyden",
+    "name": "론 와이든",
+    "english_name": "Ron Wyden",
+    "historical_role": "당시 상원 재무위원장 · 법안 발의·심사",
+    "description": "위원장 초안을 내고 2021년 재무위원회 심사를 이끈 인물입니다. S.2118의 공식 발의자로서, 수정안의 정책 구상을 법률 문구로 추적할 때 중요한 연결점입니다.",
+    "relevance": "위원장 초안, 위원장 수정안, 최종 법안의 차이를 통해 문구가 공식화되는 과정을 확인할 수 있습니다.",
+    "limit": "위원장이나 발의자라는 지위만으로 개별 문구의 최초 고안자라고 단정하지 않습니다.",
+    "evidence": [
+      "E05",
+      "E06",
+      "E08"
+    ],
+    "sources": [
+      [
+        "https://www.finance.senate.gov/chairmans-news/wyden-releases-chairmans-mark-ahead-of-clean-energy-for-america-act-markup",
+        "2021.5.24 위원장 발표"
+      ]
+    ]
+  },
+  {
+    "id": "schumer",
+    "name": "척 슈머",
+    "english_name": "Chuck Schumer",
+    "historical_role": "당시 상원 민주당 원내대표 · IRA 합의·수정안 제출",
+    "description": "2022년 7월 27일 맨친과 IRA 합의를 공동 발표했고, 최종 대체수정안 S.Amdt.5194를 공식 제출했습니다.",
+    "relevance": "협상 결과가 상원의 공식 심의 대상으로 전환되는 경로를 보여 줍니다.",
+    "limit": "합의 당사자·제출자라는 사실과 특정 문장의 직접 작성은 구분해야 합니다.",
+    "evidence": [
+      "E13",
+      "E14",
+      "E16"
+    ],
+    "sources": [
+      [
+        "https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs",
+        "2022.7.27 공동 합의 발표"
+      ]
+    ]
+  },
+  {
+    "id": "manchin",
+    "name": "조 맨친",
+    "english_name": "Joe Manchin",
+    "historical_role": "당시 미국 상원의원 · IRA 합의 당사자",
+    "description": "슈머와 2022년 7월 IRA 합의를 공동 발표한 핵심 협상 당사자입니다. 당시 보도에는 미국·북미 공급망과 중국 의존 축소에 관한 강한 입장이 나타납니다.",
+    "relevance": "시행일 단축의 경위를 조사할 주요 대상입니다. 완성차 조립, 배터리 부품, 핵심 광물에 관한 발언을 각각 구분해야 합니다.",
+    "limit": "공급망 전반에 대한 입장을 완성차 조립 시행일을 직접 변경했다는 증거로 사용하지 않습니다.",
+    "evidence": [
+      "E13",
+      "E14",
+      "E15"
+    ],
+    "sources": [
+      [
+        "https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs",
+        "2022.7.27 공동 합의 발표"
+      ]
+    ]
+  },
+  {
+    "id": "cornyn",
+    "name": "존 코닌",
+    "english_name": "John Cornyn",
+    "historical_role": "미국 상원의원 · 중국 관련 수정안",
+    "description": "2021년 5월 심사에서 중국산 전기차에 관한 제외 수정안을 제안했습니다. 관련 논의와 표결은 속기록에서 확인됩니다.",
+    "relevance": "조립 장소 요건과 특정 국가 배제 규정이 서로 다른 정책 장치임을 보여 줍니다.",
+    "limit": "중국 관련 수정안의 제안자를 북미 최종 조립 조건의 작성자로 혼동하지 않습니다.",
+    "evidence": [
+      "E07"
+    ],
+    "sources": []
+  },
+  {
+    "id": "barthold",
+    "name": "토머스 바솔드",
+    "english_name": "Thomas Barthold",
+    "historical_role": "합동조세위원회(JCT) 측 설명자",
+    "description": "위원회 질의에 응답하며 세액공제 설계와 적용 시점을 설명합니다. JCT 설명서와 발언을 함께 읽으면 상대적 유예 기간이 고정 날짜로 표현되는 과정을 점검할 수 있습니다.",
+    "relevance": "정치인의 정책 주장과 세법 설계에 대한 기술적 설명을 교차 검증하는 데 중요합니다.",
+    "limit": "조항을 설명한 사람이라는 사실만으로 그 정책을 요구하거나 결정한 사람이라고 보지 않습니다.",
+    "evidence": [
+      "E05"
+    ],
+    "sources": [
+      [
+        "viewer.html?source=T&page=105",
+        "속기록 105쪽 기술 설명"
+      ]
+    ]
+  },
+  {
+    "id": "canada",
+    "name": "크리스티아 프리랜드 · 메리 응",
+    "english_name": "Chrystia Freeland · Mary Ng",
+    "historical_role": "당시 캐나다 부총리·재무장관 / 통상 담당 장관",
+    "description": "두 장관은 2021년 12월 10일 미국 상원의원들에게 캐나다 조립 차량·배터리의 동등한 공제 대우를 요구하는 서한을 보냈습니다. 응 장관은 2022년 8월 북미 조항을 환영했습니다.",
+    "relevance": "법안 바깥의 외교적 요구와 최종 조문 사이의 연결을 조사할 주요 행위자입니다.",
+    "limit": "캐나다의 사전 요구와 사후 성과 평가는 확인되지만 미국 측 수용 경위와 독립적인 인과 증거가 더 필요합니다.",
+    "evidence": [
+      "E12",
+      "E17"
+    ],
+    "sources": []
+  },
+  {
+    "id": "warnock",
+    "name": "라파엘 워녹",
+    "english_name": "Raphael Warnock",
+    "historical_role": "미국 상원의원 · 제정 이후 유예 제안",
+    "description": "2022년 9월 29일 S.5020을 발의해 북미 최종 조립 조건을 2026년 판매분부터 적용하도록 제안했습니다.",
+    "relevance": "제정 이후 준비 기간을 둘러싼 쟁점과 수정 요구를 보여 줍니다.",
+    "limit": "이 발의안은 제정된 IRA의 실제 변경이나 원래 문구의 작성 경위를 입증하지 않습니다.",
+    "evidence": [
+      "E20"
+    ],
+    "sources": []
+  }
+]
