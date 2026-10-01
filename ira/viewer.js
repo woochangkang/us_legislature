@@ -13,6 +13,7 @@ function updateLinks(){
  Object.values(marks).filter(r=>r.source===source.id).sort((a,b)=>a.page-b.page).forEach(r=>{const a=document.createElement('a');a.href=`viewer.html?source=${source.id}&page=${r.page}${evidence?'&evidence='+evidence:''}`;a.textContent=r.page;if(r.page===page)a.setAttribute('aria-current','page');a.addEventListener('click',event=>{event.preventDefault();page=r.page;showPage();});$('cited-pages').append(a);});
  const ev=data.evidence.find(e=>e.id===evidence);$('claim').textContent=ev?ev.claim:source.title;$('explanation').textContent=ev?ev.assessment:'인용 페이지를 선택하면 관련 구절이 노란색으로 표시됩니다.';$('quote').textContent=ev?.quote||'';$('limit').textContent=ev?`해석의 한계: ${ev.limit}`:'';$('evidence-link').href=`index.html#${evidence||'sources'}`;
 }
+function focusPassage(){const first=$('highlights').firstElementChild;if(first)$('scroll-area').scrollTop=Math.max(0,first.offsetTop-100);else $('scroll-area').scrollTop=0;}
 function drawHighlights(){
  const record=marks[`${source.id}:${page}`];const selected=(record?.highlights||[]).filter(h=>!evidence||h.evidence===evidence);
  $('highlights').replaceChildren();$('passages').replaceChildren();const seen=new Set();
@@ -25,7 +26,7 @@ async function showPage(){
  const token=++generation;if(renderTask){renderTask.cancel();renderTask=null;}
  updateLinks();const record=marks[`${source.id}:${page}`];const n=drawHighlights();
  $('canvas').hidden=true;$('facsimile').hidden=!record;
- if(record)$('facsimile').src=record.image;
+ if(record){$('facsimile').src=record.image;$('facsimile').onload=()=>{if(token===generation)focusPassage();};}
  $('paper').style.width=100*Number($('zoom').value)+'%';$('text').textContent=record?.text||'PDF에서 텍스트를 불러오는 중입니다.';
  $('status').textContent=`PDF ${page}쪽 · ${n?`${n}개 관련 구절 강조`:'선택된 근거의 강조 구절 없음'} · PDF를 불러오는 중…`;
  try{
@@ -34,7 +35,7 @@ async function showPage(){
  const width=$('paper').clientWidth||900;const viewport=pdfPage.getViewport({scale:width/pdfPage.getViewport({scale:1}).width});const ratio=Math.min(devicePixelRatio||1,2);
  const canvas=$('canvas');canvas.width=Math.floor(viewport.width*ratio);canvas.height=Math.floor(viewport.height*ratio);
  const task=pdfPage.render({canvasContext:canvas.getContext('2d'),viewport,transform:ratio===1?null:[ratio,0,0,ratio,0,0]});renderTask=task;await task.promise;if(token!==generation)return;renderTask=null;
- canvas.hidden=false;$('facsimile').hidden=true;$('status').textContent=`PDF ${page}쪽 · ${n?`${n}개 관련 구절 강조`:'선택된 근거의 강조 구절 없음'} · 원본 PDF 표시`;
+ canvas.hidden=false;$('facsimile').hidden=true;focusPassage();$('status').textContent=`PDF ${page}쪽 · ${n?`${n}개 관련 구절 강조`:'선택된 근거의 강조 구절 없음'} · 원본 PDF 표시`;
  if(!record){const text=await pdfPage.getTextContent();if(token===generation)$('text').textContent=text.items.map(x=>x.str+(x.hasEOL?'\n':' ')).join('');}
  }catch(error){if(token!==generation||error.name==='RenderingCancelledException')return;errorMessage();}
 }
