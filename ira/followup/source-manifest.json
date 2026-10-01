@@ -1,0 +1,60 @@
+[
+  {
+    "id": "H9",
+    "file": "2021-09-10_Ways_Means_Committee_Print.pdf",
+    "title": "하원 세입위원회 9월 심사 초안 사본",
+    "url": "https://www.agri-pulse.com/ext/resources/SUBFGHJ_xml.pdf",
+    "kind": "의회 초안 사본 · 민간 미러 2곳 동일 SHA-256",
+    "bytes": 1450344,
+    "pages": "645",
+    "sha256": "8de84419f9b97948d5a8b3d23da99a110cf877aea7e99fec0ce5b976e170faab",
+    "retrieved": "2026-10-01",
+    "original_url": "https://waysandmeans.house.gov/sites/democrats.waysandmeans.house.gov/files/documents/SUBFGHJ_xml.pdf",
+    "crosscheck_url": "https://taxequitytimes.mayerbrownblogs.com/wp-content/uploads/sites/15/2021/09/WM-Recon-Sub-Title-F-SUBFGHJ_xml.pdf",
+    "provenance_note": "공식 옛 경로 404. 서로 다른 두 미러의 파일 해시가 동일하며 287쪽 하단 작성 일시를 이미지로 확인. 공식 서버 원본과의 직접 해시 비교는 불가."
+  },
+  {
+    "id": "EN",
+    "file": "2022-05-17_Senate_US_Canada_Energy_Hearing.pdf",
+    "title": "미·캐나다 에너지·광물 협력 상원 청문회",
+    "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg47960/pdf/CHRG-117shrg47960.pdf",
+    "kind": "공식 청문회 기록 · 2022.5.17 개최 / 2024 인쇄",
+    "bytes": 30530446,
+    "pages": "98",
+    "sha256": "00db5854bb83f5a8416f663e30f545843ad42f4433333ff5e1b11595f1a84130",
+    "retrieved": "2026-10-01"
+  },
+  {
+    "id": "CA4",
+    "file": "2022-02-07_CIIT_Evidence.pdf",
+    "title": "캐나다 하원 국제무역위원회 증언",
+    "url": "https://www.ourcommons.ca/Content/Committee/441/CIIT/Evidence/EV11550436/CIITEV04-E.PDF",
+    "kind": "공식 의회 기록 · 2022.2.7",
+    "bytes": 768492,
+    "pages": "26",
+    "sha256": "e8a289ef6cdedf769c8b72929f1ce38f77c290134165fd8d2fd5f89858892425",
+    "retrieved": "2026-10-01"
+  },
+  {
+    "id": "G20",
+    "file": "2020-06-25_HR7330_GREEN_Introduced.pdf",
+    "title": "H.R.7330 GREEN Act 발의안",
+    "url": "https://www.govinfo.gov/content/pkg/BILLS-116hr7330ih/pdf/BILLS-116hr7330ih.pdf",
+    "kind": "공식 발의안 · 2020.6.25",
+    "bytes": 383460,
+    "pages": "94",
+    "sha256": "75c54bc7d30e0df0c44a5ca61dc49cd3b3aa5fed031992526a112b5f48525068",
+    "retrieved": "2026-10-01"
+  },
+  {
+    "id": "G21",
+    "file": "2021-02-04_HR848_GREEN_Introduced.pdf",
+    "title": "H.R.848 GREEN Act 발의안",
+    "url": "https://www.govinfo.gov/content/pkg/BILLS-117hr848ih/pdf/BILLS-117hr848ih.pdf",
+    "kind": "공식 발의안 · 2021.2.4",
+    "bytes": 373806,
+    "pages": "89",
+    "sha256": "7b499e1161b94737c8d0d3812d2f960b9165ecebf7e7096c8f47ca4643087741",
+    "retrieved": "2026-10-01"
+  }
+]

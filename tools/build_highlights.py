@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1] / 'ira'
 data = json.loads((ROOT / 'research-data.json').read_text())
 sources = {s['id']: s for s in data['sources'] if s.get('file')}
 extra = {
+ 'H9:287': ['September 10, 2021 (9:59 p.m.)'],
  'M:3': ['Beginning five years after enactment', 'final assembly'],
  'T:110': ['I want to clarify the credit'],
  'T:111': ['as the person who wrote this, I want to clarify this', 'The second five years, no credit for anything that is not having final assembly in the United States'],

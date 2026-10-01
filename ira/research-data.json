@@ -139,6 +139,64 @@
       "title": "Roll Call: EV credit limits",
       "url": "https://rollcall.com/2022/08/04/tax-bills-electric-vehicle-credit-limits-discouraging-to-some/",
       "kind": "동시대 보도 · 발언 인용 보조자료"
+    },
+    {
+      "id": "H9",
+      "file": "2021-09-10_Ways_Means_Committee_Print.pdf",
+      "title": "하원 세입위원회 9월 심사 초안 사본",
+      "url": "https://www.agri-pulse.com/ext/resources/SUBFGHJ_xml.pdf",
+      "kind": "의회 초안 사본 · 민간 미러 2곳 동일 SHA-256",
+      "bytes": 1450344,
+      "pages": "645",
+      "sha256": "8de84419f9b97948d5a8b3d23da99a110cf877aea7e99fec0ce5b976e170faab",
+      "retrieved": "2026-10-01",
+      "original_url": "https://waysandmeans.house.gov/sites/democrats.waysandmeans.house.gov/files/documents/SUBFGHJ_xml.pdf",
+      "crosscheck_url": "https://taxequitytimes.mayerbrownblogs.com/wp-content/uploads/sites/15/2021/09/WM-Recon-Sub-Title-F-SUBFGHJ_xml.pdf",
+      "provenance_note": "공식 옛 경로 404. 서로 다른 두 미러의 파일 해시가 동일하며 287쪽 하단 작성 일시를 이미지로 확인. 공식 서버 원본과의 직접 해시 비교는 불가."
+    },
+    {
+      "id": "EN",
+      "file": "2022-05-17_Senate_US_Canada_Energy_Hearing.pdf",
+      "title": "미·캐나다 에너지·광물 협력 상원 청문회",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg47960/pdf/CHRG-117shrg47960.pdf",
+      "kind": "공식 청문회 기록 · 2022.5.17 개최 / 2024 인쇄",
+      "bytes": 30530446,
+      "pages": "98",
+      "sha256": "00db5854bb83f5a8416f663e30f545843ad42f4433333ff5e1b11595f1a84130",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "id": "CA4",
+      "file": "2022-02-07_CIIT_Evidence.pdf",
+      "title": "캐나다 하원 국제무역위원회 증언",
+      "url": "https://www.ourcommons.ca/Content/Committee/441/CIIT/Evidence/EV11550436/CIITEV04-E.PDF",
+      "kind": "공식 의회 기록 · 2022.2.7",
+      "bytes": 768492,
+      "pages": "26",
+      "sha256": "e8a289ef6cdedf769c8b72929f1ce38f77c290134165fd8d2fd5f89858892425",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "id": "G20",
+      "file": "2020-06-25_HR7330_GREEN_Introduced.pdf",
+      "title": "H.R.7330 GREEN Act 발의안",
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-116hr7330ih/pdf/BILLS-116hr7330ih.pdf",
+      "kind": "공식 발의안 · 2020.6.25",
+      "bytes": 383460,
+      "pages": "94",
+      "sha256": "75c54bc7d30e0df0c44a5ca61dc49cd3b3aa5fed031992526a112b5f48525068",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "id": "G21",
+      "file": "2021-02-04_HR848_GREEN_Introduced.pdf",
+      "title": "H.R.848 GREEN Act 발의안",
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-117hr848ih/pdf/BILLS-117hr848ih.pdf",
+      "kind": "공식 발의안 · 2021.2.4",
+      "bytes": 373806,
+      "pages": "89",
+      "sha256": "7b499e1161b94737c8d0d3812d2f960b9165ecebf7e7096c8f47ca4643087741",
+      "retrieved": "2026-10-01"
     }
   ],
   "evidence": [
@@ -683,6 +741,69 @@
       "assessment": "S.5020은 IRA 조립 조건에 날짜를 추가하려는 사후 유예 제안이다.",
       "limit": "제안 내용을 실제 IRA 개정·시행된 내용으로 혼동하지 않는다. 원 IRA의 비공개 협상 과정에 대한 직접 증거도 아니다.",
       "level": "직접 확인"
+    },
+    {
+      "id": "E21",
+      "theme": "시행일",
+      "claim": "미국·2027년 사용 개시 요건은 9월 10일 하원 초안 사본에 이미 있다",
+      "who": "하원 세입위원회 심사 초안",
+      "date": "2021.09.10",
+      "quote": "placed into service after December 31, 2026, final assembly is within the United States",
+      "translation": "2026년 12월 31일 이후 사용을 개시하는 차량은 미국 내 최종 조립",
+      "refs": [
+        {
+          "source": "H9",
+          "pdf_page": 287,
+          "locator": "§136401 → §36C(e)(1)(G), 6–8행 · 인쇄/PDF 287쪽",
+          "url": "https://www.agri-pulse.com/ext/resources/SUBFGHJ_xml.pdf#page=287",
+          "viewer_url": "viewer.html?source=H9&page=287&evidence=E21"
+        }
+      ],
+      "assessment": "페이지 하단 작성 일시는 2021년 9월 10일 오후 9:59다. 2027년 기준의 관찰 시점을 종전 11월 통과본보다 앞당긴다.",
+      "limit": "실제 정책 결정일·최초 공개일·개인 작성자는 확인되지 않았다. 공식 옛 경로가 열리지 않아 동일 해시의 두 민간 미러를 대조했다.",
+      "level": "문구·문서 일시 확인"
+    },
+    {
+      "id": "E22",
+      "theme": "협상 경로",
+      "claim": "윌킨슨은 맨친이 진행한 청문회에서 EV 공제의 캐나다 산업 영향을 제기했다",
+      "who": "조너선 윌킨슨 / 조 맨친",
+      "date": "2022.05.17",
+      "quote": "So this EV tax credit, for example, which would have had huge implications for the Canadian auto manufacturing industry",
+      "translation": "예를 들어 이 EV 세액공제는 캐나다 자동차 제조업에 큰 영향을 미쳤을 것입니다.",
+      "refs": [
+        {
+          "source": "EN",
+          "pdf_page": 70,
+          "locator": "S. Hrg. 117-298, 인쇄 66쪽 · PDF 70쪽",
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg47960/pdf/CHRG-117shrg47960.pdf#page=70",
+          "viewer_url": "viewer.html?source=EN&page=70&evidence=E22"
+        }
+      ],
+      "assessment": "맨친의 질의에 이어 윌킨슨이 북미 에너지 협력의 장애물로 EV 공제를 거론한다. 미국 의회 공식 기록에서 문제 제기의 접점을 확인한다. 청문회는 2022년, 기록 인쇄는 2024년이다.",
+      "limit": "위원장의 답변은 “Thank you.”다. 북미 조립 문구의 수용·수정 지시나 시행일 변경 합의를 증명하지 않는다.",
+      "level": "전달 경로 확인"
+    },
+    {
+      "id": "E23",
+      "theme": "대외 요구",
+      "claim": "캐나다 관료는 모든 캐나다 조립 차량의 동등 대우를 요구한다고 증언했다",
+      "who": "아룬 알렉산더",
+      "date": "2022.02.07",
+      "quote": "equal, fair and CUSMA- and WTO-consistent treatment for all Canadian-assembled vehicles",
+      "translation": "모든 캐나다 조립 차량에 대한 동등하고 공정하며 CUSMA·WTO에 부합하는 대우",
+      "refs": [
+        {
+          "source": "CA4",
+          "pdf_page": 16,
+          "locator": "CIIT-04, 인쇄 14쪽 · PDF 16쪽",
+          "url": "https://www.ourcommons.ca/Content/Committee/441/CIIT/Evidence/EV11550436/CIITEV04-E.PDF#page=16",
+          "viewer_url": "viewer.html?source=CA4&page=16&evidence=E23"
+        }
+      ],
+      "assessment": "프리랜드·응 서한을 언급하며 캐나다 정부의 요구를 설명한다. 같은 기록의 인쇄 16쪽(PDF 18쪽)은 멕시코와 EV 공제 문제를 정기적으로 논의했다고 설명한다.",
+      "limit": "캐나다 측 증언이며 미국 측 수용의 증거가 아니다. 캐나다 단독의 인과적 기여도 확정하지 않는다.",
+      "level": "요구 내용 확인"
     }
   ],
   "versions": [
@@ -755,6 +876,29 @@
       ],
       "evidence": [
         "E06"
+      ]
+    },
+    {
+      "id": "H9",
+      "date": "2021.09.10",
+      "title": "하원 세입위원회 심사 초안 사본",
+      "region": "미국",
+      "start": "2027년부터",
+      "trigger": "사용 개시",
+      "section": "§136401 → §36C(e)(1)(G)",
+      "quote": "placed into service after December 31, 2026, final assembly is within the United States",
+      "summary": "2027년 기준이 적어도 이 작성 일시의 문서에서 관찰됨",
+      "refs": [
+        {
+          "source": "H9",
+          "pdf_page": 287,
+          "locator": "인쇄/PDF 287쪽",
+          "url": "viewer.html?source=H9&page=287&evidence=E21",
+          "official_url": "https://www.agri-pulse.com/ext/resources/SUBFGHJ_xml.pdf#page=287"
+        }
+      ],
+      "evidence": [
+        "E21"
       ]
     },
     {
@@ -909,60 +1053,65 @@
     {
       "id": "Q01",
       "question": "미국에서 북미로 바꾸자고 직접 요구하고 수용한 사람은 누구인가?",
-      "known": "캐나다의 동등 대우 요구와 7월 초안의 북미 문구는 확인됐다.",
-      "missing": "개별 문구의 작성자, 수정 지시, 협상 날짜",
-      "next": "2021.12–2022.7 미·캐나다 면담 기록과 의원실 서한, 날짜가 있는 중간 초안을 대조한다.",
+      "known": "2월 7일 CIIT의 동등 대우 요구와 5월 17일 미국 상원 청문회의 윌킨슨→맨친 문제 제기를 확인했다.",
+      "missing": "미국 측 수용 기록, 북미 문구 수정 지시·중간 초안은 미확보.",
+      "next": "2022년 5–7월 맨친·슈머 의원실 및 미·캐나다 면담 설명을 대조하고 조항 특정 답변을 찾는다.",
       "priority": "높음",
       "refs": [
-        "E11",
         "E12",
-        "E13",
-        "E17"
+        "E22",
+        "E23",
+        "E13"
       ]
     },
     {
       "id": "Q02",
       "question": "2027년까지의 유예를 없애자는 결정은 누가 주도했나?",
-      "known": "2021년 12월안에는 유예가 있고 2022년 7월안에는 없다.",
-      "missing": "최종 조립 시행일을 직접 지칭한 협상 발언·수정안",
-      "next": "맨친·슈머·스테이브나우 의원실 자료와 7–8월 당시 인터뷰에서 조립·배터리 요건을 분리해 확인한다.",
+      "known": "2027년 사용 개시에서 제정일 이후 판매로 바뀐 사실은 유지된다. 시행일 변경을 개인에게 귀속할 추가 직접 증거는 찾지 못했다.",
+      "missing": "배터리·광물의 공급망 발언을 완성차 조립 시행일에 대한 발언으로 대체할 수 없다.",
+      "next": "7월 공개 초안 이전 버전과 완성차 조립 경과조치를 명시한 수정 요구·답변을 우선 확보한다.",
       "priority": "높음",
       "refs": [
         "E11",
         "E14",
-        "E15"
+        "E15",
+        "E19"
       ]
     },
     {
       "id": "Q03",
       "question": "하원안의 2027년 날짜는 언제, 누구에 의해 선택됐나?",
-      "known": "S.2118은 2026년 판매 기준, 11월 하원안은 2027년 사용 개시 기준이다.",
-      "missing": "9월 하원 세입위원회 초안·수정안의 계보와 구체적 발언",
-      "next": "2021년 9월 세입위원회 markup과 JCT 설명서, 킬디 의원실 자료를 확보한다. 동시대 보도는 원문 탐색 단서로만 사용한다.",
+      "known": "9월 10일 오후 9:59 작성 일시가 표시된 하원 초안 287쪽에서 미국·2027년 사용 개시 요건을 확인했다.",
+      "missing": "정책 결정 날짜·최초 공개 날짜 및 2027년 날짜를 선택한 개인은 미확정.",
+      "next": "9월 심사 수정안·영상·속기록과 JCX-38-21/43-21을 연결해 날짜 선택 설명을 찾는다. 킬디는 조사 대상이며 작성자로 단정하지 않는다.",
       "priority": "중간",
       "refs": [
         "E06",
-        "E09"
+        "E21",
+        "E09",
+        "E11"
       ]
     },
     {
       "id": "Q04",
       "question": "캐나다의 요구가 최종 결정에 어느 정도 영향을 미쳤나?",
-      "known": "사전 서한과 사후 정부 성명이 연결된다.",
-      "missing": "미국 측의 수용 확인과 다른 요인에 대한 독립적 검증",
-      "next": "미국 측 회동 설명과 캐나다 측 기록을 교차 확인하고 멕시코·완성차 업계의 요구도 비교한다.",
+      "known": "사전 요구→미국 상원에서 문제 제기→북미 문구→캐나다의 성과 주장 순서가 보강됐다. CIIT는 멕시코와의 협의도 언급한다.",
+      "missing": "캐나다의 요구가 문구 변경을 유발했다는 미국 측 확인은 없다. 멕시코·산업계·북미 공급망 논리의 독립 효과도 열려 있다.",
+      "next": "미국 측 인정 발언과 멕시코·자동차 업계의 동시기 요구를 같은 날짜표로 비교한다.",
       "priority": "중간",
       "refs": [
         "E12",
+        "E23",
+        "E22",
         "E17"
       ]
     },
     {
       "id": "Q05",
       "question": "2021년 자료보다 앞선 동일한 구상이 있었나?",
-      "known": "이번 자료에서 스테이브나우 명의와 작성자 발언이 가장 이른 직접 근거다.",
-      "missing": "2021년 5월 이전 관련 법안·초안의 전수 비교",
-      "next": "선행 GREEN Act 등 관련 법안의 최종 조립·추가 공제·시행일을 비교한다. 현재는 역사적 최초라고 단정하지 않는다.",
+      "known": "H.R.7330(2020)과 H.R.848(2021)의 §401에서 미국 최종 조립 의무를 신설하는 문구를 찾지 못했다.",
+      "missing": "두 GREEN 발의안과 상원안 문자열 검색은 2019–2021년 모든 수정안·미공개 초안을 포괄하지 않는다.",
+      "next": "상원 선행안의 EV 조문 정독과 2021년 5월 위원장안·수정안 간 대조를 확대한다. 역사상 최초라고 단정하지 않는다.",
       "priority": "보완",
       "refs": [
         "E01",
@@ -972,9 +1121,9 @@
     {
       "id": "Q06",
       "question": "검색되지 않는 속기록 부록에 추가 증거가 있는가?",
-      "known": "332쪽 파일 중 위원회 발언은 1–219쪽이고 뒤에 목차·텍스트가 추출되지 않는 면이 있다.",
-      "missing": "223–332쪽의 OCR과 자료별 분류",
-      "next": "부록을 OCR하고 수정안·서면 진술과 대조한다. 본 분석의 발언 근거는 텍스트가 확인된 본문 구간으로 한정한다.",
+      "known": "223–332쪽 110면을 OCR·분류했다. 청정전력 일자리 보고서 8쪽과 석유·가스 percentage depletion 보고서 102쪽으로 구성된다.",
+      "missing": "관련 추가 증거를 발견하지 못했다는 범위 한정 결론이다. OCR 모든 글자·숫자를 교정한 결과가 아니며 다른 자료의 논의 부재를 뜻하지 않는다.",
+      "next": "추가 부록 증거를 전제로 하던 질문은 이번 범위에서 종결. 원문·OCR·쪽별 목록을 보존하고 Q01–Q04의 공개 협상 기록에 우선 집중한다.",
       "priority": "보완",
       "refs": [
         "E01",
@@ -1013,6 +1162,9 @@
     "I:387": "ERN22335 9K1 S.L.C.\n\n 387\n 1 qualified plug-in electric drive motor vehicle (as de-\n 2 fined in section 30D(d)(1) of the Internal Revenue\n 3 Code of 1986, as in effect on the day before the date\n 4 of enactment of this Act), and\n 5 (2) placed such vehicle in service on or after the\n 6 date of enactment of this Act,\n 7 such taxpayer may elect (at such time, and in such form\n 8 and manner, as the Secretary of the Treasury, or the Sec-\n 9 retary’s delegate, may prescribe) to treat such vehicle as\n10 having been placed in service on the day before the date\n11 of enactment of this Act.\n12 SEC. 13402. CREDIT FOR PREVIOUSLY-OWNED CLEAN VEHI-\n\n13 CLES.\n\n14 (a) IN GENERAL.—Subpart A of part IV of sub-\n15 chapter A of chapter 1 is amended by inserting after sec-\n16 tion 25D the following new section:\n17 ‘‘SEC. 25E. PREVIOUSLY-OWNED CLEAN VEHICLES.\n\n18 ‘‘(a) ALLOWANCE OF CREDIT.—In the case of a\n19 qualified buyer who during a taxable year places in service\n20 a previously-owned clean vehicle, there shall be allowed as\n21 a credit against the tax imposed by this chapter for the\n22 taxable year an amount equal to the lesser of—\n23 ‘‘(1) $4,000, or\n24 ‘‘(2) the amount equal to 30 percent of the sale\n25 price with respect to such vehicle.",
     "P:146": "136 STAT. 1962 PUBLIC LAW 117–169—AUG. 16, 2022\n\n (4) TRANSFER OF CREDIT.—The amendments made by sub-\n section (g) shall apply to vehicles placed in service after\n December 31, 2023.\n (5) ELIMINATION OF MANUFACTURER LIMITATION.—The\n amendment made by subsection (d) shall apply to vehicles\n sold after December 31, 2022.\n Applicability. (l) TRANSITION RULE.—Solely for purposes of the application\n Effective dates. of section 30D of the Internal Revenue Code of 1986, in the case\n 26 USC 30D of a taxpayer that—\n note.\n (1) after December 31, 2021, and before the date of enact-\n ment of this Act, purchased, or entered into a written binding\n contract to purchase, a new qualified plug-in electric drive\n motor vehicle (as defined in section 30D(d)(1) of the Internal\n Revenue Code of 1986, as in effect on the day before the\n date of enactment of this Act), and\n (2) placed such vehicle in service on or after the date\n of enactment of this Act,\n such taxpayer may elect (at such time, and in such form and\n manner, as the Secretary of the Treasury, or the Secretary’s dele-\n gate, may prescribe) to treat such vehicle as having been placed\n in service on the day before the date of enactment of this Act.\n SEC. 13402. CREDIT FOR PREVIOUSLY-OWNED CLEAN VEHICLES.\n (a) IN GENERAL.—Subpart A of part IV of subchapter A of\n chapter 1 is amended by inserting after section 25D the following\n new section:\n 26 USC 25E. ‘‘SEC. 25E. PREVIOUSLY-OWNED CLEAN VEHICLES.\n ‘‘(a) ALLOWANCE OF CREDIT.—In the case of a qualified buyer\n who during a taxable year places in service a previously-owned\n clean vehicle, there shall be allowed as a credit against the tax\n imposed by this chapter for the taxable year an amount equal\n to the lesser of—\n ‘‘(1) $4,000, or\n ‘‘(2) the amount equal to 30 percent of the sale price with\n respect to such vehicle.\n ‘‘(b) LIMITATION BASED ON MODIFIED ADJUSTED GROSS\n INCOME.—\n ‘‘(1) IN GENERAL.—No credit shall be allowed under sub-\n section (a) for any taxable year if—\n ‘‘(A) the lesser of—\n ‘‘(i) the modified adjusted gross income of the tax-\n payer for such taxable year, or\n ‘‘(ii) the modified adjusted gross income of the tax-\n payer for the preceding taxable year, exceeds\n ‘‘(B) the threshold amount.\n ‘‘(2) THRESHOLD AMOUNT.—For purposes of paragraph\n (1)(B), the threshold amount shall be—\n ‘‘(A) in the case of a joint return or a surviving spouse\n (as defined in section 2(a)), $150,000,\n ‘‘(B) in the case of a head of household (as defined\n in section 2(b)), $112,500, and\n ‘‘(C) in the case of a taxpayer not described in subpara-\n graph (A) or (B), $75,000.\n Definition. ‘‘(3) MODIFIED ADJUSTED GROSS INCOME.—For purposes of\n this subsection, the term ‘modified adjusted gross income’\n means adjusted gross income increased by any amount excluded\n\n\n\n\njmbennett on LAP3P8D0R2PROD with Publaw\n from gross income under section 911, 931, or 933.\n\n\n\n\n VerDate Sep 11 2014 15:35 Oct 25, 2022 Jkt 029139 PO 00169 Frm 00146 Fmt 6580 Sfmt 6581 E:\\PUBLAW\\PUBL169.117 PUBL169",
     "W:1": "II\n\n\n\n\n 117TH CONGRESS\n 2D SESSION\n S. 5020\n To amend the Internal Revenue Code of 1986 to temporarily suspend applica-\n tion of the requirement that final assembly of vehicles occur within\n North America for purposes of the clean vehicle credit, and for other\n purposes.\n\n\n\n\n IN THE SENATE OF THE UNITED STATES\n SEPTEMBER 29, 2022\n Mr. WARNOCK introduced the following bill; which was read twice and referred\n to the Committee on Finance\n\n\n\n\n A BILL\n To amend the Internal Revenue Code of 1986 to temporarily\n suspend application of the requirement that final assem-\n bly of vehicles occur within North America for purposes\n of the clean vehicle credit, and for other purposes.\n\n 1 Be it enacted by the Senate and House of Representa-\n 2 tives of the United States of America in Congress assembled,\n 3 SECTION 1. SHORT TITLE.\n\n 4 This Act may be cited as the ‘‘Affordable Electric Ve-\n 5 hicles for America Act of 2022’’.\n\n\n\n\npbinns on DSKJLVW7X2PROD with $$_JOB\n\n\n\n VerDate Sep 11 2014 22:22 Oct 13, 2022 Jkt 039200 PO 00000 Frm 00001 Fmt 6652 Sfmt 6201 E:\\BILLS\\S5020.IS S5020",
-    "W:2": "2\n 1 SEC. 2. ADJUSTMENT OF CERTAIN REQUIREMENTS FOR\n\n 2 CLEAN VEHICLE CREDIT.\n\n 3 (a) FINAL ASSEMBLY.—Subparagraph (G) of section\n 4 30D(d)(1) of the Internal Revenue Code of 1986, as added\n 5 by section 13401(b) of Public Law 117–169, is amended\n 6 by inserting ‘‘in the case of any motor vehicle sold after\n 7 December 31, 2025,’’ before ‘‘the final assembly’’.\n 8 (b) CRITICAL MINERALS AND BATTERY COMPO-\n 9 NENTS.—Section 30D of the Internal Revenue Code of\n\n 10 1986, as amended by section 13401 of Public Law 117–\n 11 169, is amended—\n 12 (1) in subsection (d)(7)—\n 13 (A) in subparagraph (A), by striking ‘‘De-\n 14 cember 31, 2024’’ and inserting ‘‘December 31,\n 15 2025’’, and\n 16 (B) in subparagraph (B), by striking ‘‘De-\n 17 cember 31, 2023’’ and inserting ‘‘December 31,\n 18 2024’’, and\n 19 (2) in subsection (e)—\n 20 (A) in paragraph (1)(B)—\n 21 (i) in clause (i), by striking ‘‘after the\n 22 date on which the proposed guidance de-\n 23 scribed in paragraph (3)(B) is issued by\n 24 the Secretary and before January 1, 2024’’\n\n\n\n\npbinns on DSKJLVW7X2PROD with $$_JOB\n 25 and inserting ‘‘during calendar year\n 26 2026’’,\n •S 5020 IS\n\n VerDate Sep 11 2014 22:22 Oct 13, 2022 Jkt 039200 PO 00000 Frm 00002 Fmt 6652 Sfmt 6201 E:\\BILLS\\S5020.IS S5020"
+    "W:2": "2\n 1 SEC. 2. ADJUSTMENT OF CERTAIN REQUIREMENTS FOR\n\n 2 CLEAN VEHICLE CREDIT.\n\n 3 (a) FINAL ASSEMBLY.—Subparagraph (G) of section\n 4 30D(d)(1) of the Internal Revenue Code of 1986, as added\n 5 by section 13401(b) of Public Law 117–169, is amended\n 6 by inserting ‘‘in the case of any motor vehicle sold after\n 7 December 31, 2025,’’ before ‘‘the final assembly’’.\n 8 (b) CRITICAL MINERALS AND BATTERY COMPO-\n 9 NENTS.—Section 30D of the Internal Revenue Code of\n\n 10 1986, as amended by section 13401 of Public Law 117–\n 11 169, is amended—\n 12 (1) in subsection (d)(7)—\n 13 (A) in subparagraph (A), by striking ‘‘De-\n 14 cember 31, 2024’’ and inserting ‘‘December 31,\n 15 2025’’, and\n 16 (B) in subparagraph (B), by striking ‘‘De-\n 17 cember 31, 2023’’ and inserting ‘‘December 31,\n 18 2024’’, and\n 19 (2) in subsection (e)—\n 20 (A) in paragraph (1)(B)—\n 21 (i) in clause (i), by striking ‘‘after the\n 22 date on which the proposed guidance de-\n 23 scribed in paragraph (3)(B) is issued by\n 24 the Secretary and before January 1, 2024’’\n\n\n\n\npbinns on DSKJLVW7X2PROD with $$_JOB\n 25 and inserting ‘‘during calendar year\n 26 2026’’,\n •S 5020 IS\n\n VerDate Sep 11 2014 22:22 Oct 13, 2022 Jkt 039200 PO 00000 Frm 00002 Fmt 6652 Sfmt 6201 E:\\BILLS\\S5020.IS S5020",
+    "H9:287": "287 \n‘‘(II) in the case of a vehicle \n1\nplaced in service after 2023, not less \n2\nthan 10 kilowatt hours, and \n3\n‘‘(ii) is capable of being recharged \n4\nfrom an external source of electricity, \n5\n‘‘(G) for which, in the case of a vehicle \n6\nplaced into service after December 31, 2026, \n7\nfinal assembly is within the United States, and \n8\n‘‘(H) is not of a character subject to an al-\n9\nlowance for depreciation. \n10\n‘‘(2) MOTOR VEHICLE.—The term ‘motor vehi-\n11\ncle’ means any vehicle which is manufactured pri-\n12\nmarily for use on public streets, roads, and highways \n13\n(not including a vehicle operated exclusively on a rail \n14\nor rails) and which has at least 4 wheels. \n15\n‘‘(3) QUALIFIED\nMANUFACTURER.—The term \n16\n‘qualified manufacturer’ means any manufacturer \n17\n(within the meaning of the regulations prescribed by \n18\nthe Administrator of the Environmental Protection \n19\nAgency for purposes of the administration of title II \n20\nof the Clean Air Act (42 U.S.C. 7521 et seq.) which \n21\nenters into a written agreement with the Secretary \n22\nunder which such manufacturer agrees— \n23\n‘‘(A) to ensure that each vehicle manufac-\n24\ntured by such manufacturer after the later of \n25\nVerDate Nov 24 2008 \n21:59 Sep 10, 2021\nJkt 000000\nPO 00000\nFrm 00287\nFmt 6652\nSfmt 6201\nC:\\USERS\\HWCHRISTRUP\\APPDATA\\ROAMING\\SOFTQUAD\\XMETAL\\11.0\\GEN\\C\\SUBF\nSeptember 10, 2021 (9:59 p.m.)\nG:\\P\\17\\TAX\\RECON2\\MARKUP\\SUBFGHJ.XML\ng:\\V\\E\\091021\\E091021.186.xml           (818659|4)\n",
+    "EN:70": "66 \nif we do it in a coordinated and a collaborative fashion between \nCanada and the U.S. \nMr. WILKINSON. And Senator, maybe I could just say a word. I \nmean, I completely agree that there needs to be a much more stra-\ntegic approach to North American energy. And that certainly very \nmuch includes the energy sources and the associated materials that \nare going to be really required in the future. That includes hydro-\ngen. It includes critical minerals. It certainly includes technologies \naround carbon capture and nuclear technologies, including small \nmodular reactors. I think one of the things that we have to do— \nand I think there is complete alignment between the Biden Admin-\nistration and what we are aiming to do in that regard—but I think \none of the things that we have to collectively do is ensure that we \ndo not allow irritants to get in the way of the kind of cooperation \nthat we need to be having. \nSo this EV tax credit, for example, which would have had huge \nimplications for the Canadian auto manufacturing industry be-\ncause of the way it was structured. Line 5, which, you know, there \nis no point in going backwards here in terms of energy security. \nThat would be a step backward. The same thing with, you know, \nAmerican tariffs on solar panels that are manufactured in Canada. \nIt was intended to go against China. It ended up boomeranging on \nCanada. \nSo we need to actually be strategic and thoughtful about how we \npartner in a way that is going to be good for both countries and \nallow us to advance to address climate change and energy security \nconcurrently. \nThe CHAIRMAN. Thank you. \nSenator BARRASSO. Well, thanks, Mr. Chairman. \nI wanted to follow up, Premier Kenney, on something that Mr. \nBradley just talked about. He talked about this commitment by \nPresident Biden and Prime Minister Trudeau with what I view as \nextremely aggressive goals for electric grids in North America, be-\ncause by the year 2035—now we are in 2022, you are talking 13 \nyears from now—the two leaders want to eliminate all natural gas \nand all coal as sources of electricity. In the United States, 61 per-\ncent of our electricity comes from natural gas and coal. \nSo Premier Kenney, are you concerned that such aggressive goals \nare going to create reliability problems at the border and for people \nin your—— \nMr. KENNEY. Yes, frankly, yes, Senator, we agree about the ur-\ngency of reducing emissions and that is why, in fact, Alberta will \nhave completely shifted away from thermal coal, which was, five \nyears ago, our major source of electricity generation. So there are \nhuge investments in coal-to-gas conversions, but we do not have \nhydro in Alberta. We do not have nuclear and obviously, it takes \na long time-horizon to develop nuclear. And so, if the Federal Gov-\nernment requires us to move away from natural gas without a reli-\nable baseload alternative, we will not have a reliable electricity \ngrid, which would obviously be devastating to our economy. \nSo we want to have ambitious emissions reduction goals, but \nthey have to be realistic. And natural gas is going to be part of our \nfuture. I agree completely with Minister Wilkinson. Alberta is \n",
+    "CA4:16": "14\nCIIT-04\nFebruary 7, 2022\nImmediately upon learning of that, we began our intensive en‐\ngagement at the official level as well as at the political level. The\nfact that we were able to build such awareness is a tribute to that\nengagement.\nNow, of course, the legislation is taking a different turn, but we\nremain plugged in to the influence-makers and the key decision-\nmakers. We are being vigilant, depending on which way that goes.\nMr. Randy Hoback: I wouldn't pat yourself on the back too\nmuch there. The reason I say that is that in my conversations with\ndifferent senators, they commented to me that we never insert our‐\nselves when the legislation is being written. We're always sitting\nthere when it's going through the Senate or at the last stage.\nThe question I have is this: Why is it taking so long for us to re‐\nact when we see something in a piece of legislation?\nI use a case in point. Senator Marshall from Kansas brought up\nthe fact that when Keystone was cancelled by Biden, he expected to\nsee us down there talking to him, but there was nothing. We had\nmeetings later that week with three of the big labour groups in\nWashington. They were all saying to us in that meeting—the minis‐\nter was present at that meeting—that we weren't anywhere to be\nfound when it came to Keystone pipeline. They were willing to go\nto the White House for us on that because there are so many labour\nand union jobs at stake.\nWhere did that direction come from?\nMr. Michael Grant: On both issues, I can tell you that it was\npart of our engagement across the board. I can't speak to your spe‐\ncific reference in terms of the comments you heard, but I can say\nthat for a number of years, Keystone had been a key item that was\nraised both in and outside of Washington.\nAgain, on the EV tax credit, as soon as it was made clear that it\nwas in the legislation, we began a full-court press.\nMr. Randy Hoback: See, that's the concern. It was in the legis‐\nlation. We should have been there when they were writing legisla‐\ntion. They didn't really have a target on Canada. They just never\nthought of us.\nBy the time we got there to inform them of the negative conse‐\nquences of that and how it would impact the auto sector across\nNorth America, the Democrats had no ability to change it because\nof the political situation in the U.S. They made the point very clear\nto this government that we were too late to the game.\nI'm trying to figure out where the breakdown was. Was it because\nthe minister's office didn't react quick enough or did the bureaucrats\nnot inform the minister quick enough?\nMr. Michael Grant: My response will be the same. As soon as\nwe realized that this was in this legislation, we began a full-court\npress.\nIn fact, depending on which way the legislation goes.... Right\nnow, it's off to the side. There are mechanisms for changing that\nlegislation, so we will remain vigilant and engaged.\nMr. Randy Hoback: I want to add that in that legislation it was\nunionized workers. With the legislation following, there is talk that\nManchin may come on side if it's not unionized workers. All of a\nsudden, if that was to change in his state of West Virginia—where\nthey have Toyota and other plants—I was told by some in the auto\nsector that there would be a huge sucking noise of jobs out of On‐\ntario and Michigan into right-to-work states.\nIs that fair to say? Do you analyze that or do you assume that it\nwould be the same thing? What is the threat of that actually coming\nto fruition?\nThe Chair: Give a brief answer, please.\nMr. Michael Grant: One of my colleagues might have a com‐\nment on the impact. All I can say is that we will remain engaged to\nprevent this from happening.\nArun, did you want to comment?\nMr. Arun Alexander: I would just add that if you refer to the\nminister and the deputy prime minister's letter, we're advocating\nvery strongly for equal, fair and CUSMA- and WTO-consistent\ntreatment for all Canadian-assembled vehicles.\n● (1655)\nThe Chair: Thank you very much.\nMs. Dhillon, you have five minutes, please.\nMs. Anju Dhillon (Dorval—Lachine—LaSalle, Lib.): Thank\nyou, Madam Chair.\n[Translation]\nIn Quebec, the forestry industry is very significant and provides\nover 60,000 jobs. The American administration released the results\nof its third review of the anti‑dumping and countervailing duties\nimposed on Canadian lumber. Resolute Forest Products went from\na rate of 29% to a rate of 20%.\nCould the minister, or any government official, shed some light\non this update?\n[English]\nMr. Arun Alexander: Madam Chair, it is true, under administra‐\ntive review three, which I believe applies for the year 2020, the an‐\nti-dumping and countervailing duty rates—and these are prelimi‐\nnary results, so they're not applied yet, but they are an indication of\nwhat the final results would be—lowered. They decreased on aver‐\nage, and I believe the number is from 18.9% to 11.6% for most\ncompanies. As the honourable member said, there are certain com‐\npanies for whom the rates are higher.\nOnce the results of administrative reviews are released, Canada\ndoes an analysis of the basis of the anti-dumping and countervailing\nduty rates, and we will determine whether we would challenge it in\nconsultation and coordination with provinces, territories and indus‐\ntry.\nWe challenged administrative review one and administrative re‐\nview two, because we believe that any tariffs against Canadian soft‐\nwood lumber are unwarranted and unjustified.\nThank you very much.\nMs. Anju Dhillon: Thank you so much for that explanation.\nI'd like to follow up with something the minister was saying but\ndidn't have the chance to finish explaining to us.\n"
   }
 }
