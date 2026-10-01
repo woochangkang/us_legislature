@@ -1,0 +1,38 @@
+date,event,chamber,actor,detail,source_id
+2021-09-15,AUKUS 출범 3국 정상 공동성명(18개월 최적경로 검토),—,US/UK/Australia leaders,핵추진잠수함 지원을 첫 이니셔티브로,W3
+2022-12-21,Reed·Inhofe 대통령 서한(산업기반 우려),Senate,Sen. Reed; Sen. Inhofe,언론 보도로만 확인(서한 원문 미입수),W2
+2023-01-10,"Courtney·Gallagher 등 하원 9명 대통령 서한(""zero-sum"" 반박)",House,Rep. Courtney et al.,HASC 보도자료 2023-01-11,LTR;W1
+2023-02-17,H.R.1093 발의,House,Rep. McCaul,Pillar 2 국무부 보고,B1093I;API
+2023-02-28,HFAC H.R.1093 구두표결 보고의결,House,HFAC,,API
+2023-03-13,최적경로(Optimal Pathway) 3국 정상 공동성명,—,Biden; Albanese; Sunak,"버지니아급 3척(+최대 2척), 의회 승인 전제",W4
+2023-03-22,H.R.1093 하원 통과 393-4 (Roll 144),House,Rep. McCaul,규칙정지,V144;CRH1309
+2023-03-28,S.1006 발의(H.R.1093 상원판),Senate,Sen. Blumenthal,SFRC 회부,S1006;API
+2023-05-02,DoD 8차 입법제안 패키지(AUKUS 3개 조항) 의회 송부,—,Department of Defense,CRS 2차 인용,CRS1
+2023-05-04,S.1471 TORPEDO Act 발의,Senate,Sen. Risch,SFRC 회부,S1471;API
+2023-06-09,H.R.3939 AUKUS Undersea Defense Act 발의,House,Rep. Meeks,HFAC·HASC 회부,B3939;API
+2023-06-15,S.2043 국무부수권법 발의,Senate,Sen. Menendez; Sen. Risch,,API
+2023-06-30,H.R.2670 HASC 보고(H.Rept.118-125) — 판매 승인 없음,House,HASC,sec.518,RH;HR125
+2023-07-11,S.2226 SASC 원안 보고 — 판매 승인 없음,Senate,SASC (Reed),sec.1253,SRS;API
+2023-07-12,하원 en bloc 3(수정안 165호 McCaul 등) 구두표결 채택,House,Rep. Rogers (en bloc),EH sec.1870,HR141;API
+2023-07-13,H.R.4619 AUKUS Submarine Transfer Authorization Act 발의,House,Rep. Huizenga; Rep. McCaul,HFAC·Rules·HASC 회부,B4619;API
+2023-07-13,"SFRC S.2043 대체안 의결(Title IX AUKUS, sec.921 판매 승인 포함)",Senate,SFRC,보고서 제출은 8/22,API;S2043
+2023-07-14,하원 H.R.2670 통과 219-210 (Roll 328),House,House,판매 승인 없음,V328;EH
+2023-07-18,H.R.4715(BRITS)·H.R.4716(KOALA) 발의,House,Rep. Kean; Rep. Young Kim,,API
+2023-07-19,H.R.4725 AUKUS Oversight and Accountability Act 발의,House,Rep. McCaul,,API
+2023-07-19,"SA 935(Reed/Wicker 대체수정안) 제안 — Div.F Title LXVIII AUKUS, Div.E sec.6293 포함",Senate,Sen. Reed; Sen. Wicker,,SA935;API
+2023-07-26,HFAC 마크업: H.R.4619 Huizenga ANS 46-0 채택·보고의결; H.R.4725/4716/4715 보고의결,House,HFAC,,HFACV1;API
+2023-07-27,상원 S.2226 통과 86-11(Vote 212) → H.R.2670에 수정안으로 편입(UC),Senate,Senate,,DD0727;API;CRS3730
+2023-08-22,S.2043 SFRC 보고서 제출,Senate,SFRC,,S2043;API
+2023-09-19,"하원, 상원 수정안 불동의·협의회 요구 393-27 (Roll 395)",House,House,,API
+2023-10-12,Wicker 등 6명 상원의원 SIB-25 비용추정 요구 서한,Senate,Sen. Wicker et al.,CRS 재인용,CRS1
+2023-10-25,HASC 해양력 소위 청문회(잠수함 산업기반·AUKUS),House,HASC SPF,Navy: 4개 입법제안 필요,CRS1
+2023-11-15,"상원, 협의회 요구·협의위원 임명 90-8 (Vote 313)",Senate,Senate,,API
+2023-12-06,협의회 보고서 H.Rept.118-301 제출 — Title XIII Subtitle B(1321-1354조),—,Conferees,판매 승인 1352조 신설,CONF;API
+2023-12-13,상원 협의회 보고서 동의 87-13 (Vote 343),Senate,Senate,,DD1213;API
+2023-12-14,하원 협의회 보고서 동의 310-118 (Roll 723),House,House,,DD1214;V723;CRH6946
+2023-12-22,대통령 서명 — P.L.118-31,—,President Biden,서명성명에 AUKUS 언급 없음,PL;DCPD
+2024-08-15,"국무부, 호·영 수출통제 비교가능성 충족 의회 통보(1343조)",—,Department of State,CRS 2차,CRS2
+2024-08-20,ITAR 잠정규칙 공포(1343·1344조 이행),—,Department of State,CRS 2차,CRS2
+2024-12-23,FY2025 NDAA(P.L.118-159) — AUKUS-일본 Pillar 2 조항,—,Congress,,PL159
+2025-12-05,국방부 AUKUS 재검토 완료 보도,—,DoD,언론(WebFetch 요약) — 미확인,ABC
+2025-12-18,FY2026 NDAA(P.L.119-60) — 1085조 AUKUS Improvement Act of 2025,—,Congress,,PL60

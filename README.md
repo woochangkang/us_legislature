@@ -71,3 +71,15 @@ python3 tools/build_highlights.py
 - `tools/build_case_study.py`: 기존 내용을 재배열하고 역할 카드를 생성하는 반복 실행 가능한 스크립트.
 - `tools/build_impact.py` 실행 후에도 사례 구조를 자동 복원합니다.
 - 근거 자료실에 조사 업데이트·미해결 질문을 모아, 자료가 추가된 순서와 사례의 읽기 순서를 구분했습니다.
+
+
+## AUKUS 핵추진잠수함 호주 판매 승인 · 2026-10-01
+
+`aukus/`는 FY2024 NDAA(H.R.2670, P.L.118-31) Title XIII Subtitle B(1321–1354조)의 입법사입니다. 핵심은 1352조의 버지니아급 판매 승인입니다.
+
+- 근거 78개(직접 확인 74 · 정황 3 · 미확인 1), 버전 대조 11행, 연표 37건, 행위자 21명, 원문 47건(PDF 38 · 웹 4 · 표결 XML 3 등)
+- 판매 승인 문구는 하원 보고안·하원 통과안·상원 원안에 없음. 협의회 보고서(H.Rept.118-301)에서 처음 NDAA에 편입됨(PDF 전문 자동 검색)
+- 인용문은 해당 PDF 쪽(±1) 텍스트와 대조했고, 불일치는 0건
+- 데이터: `aukus/data/*.csv`, 본문 문안 `aukus/data/narrative.json`
+- 재생성: `python3 tools/build_aukus.py` (표준 라이브러리만 사용, HTML을 직접 편집하지 말 것)
+- 원 조사 폴더: Dropbox `_NIS/_US_Congress/aukus/` (`research_dossier.md`, 미확인·접근 실패 목록)

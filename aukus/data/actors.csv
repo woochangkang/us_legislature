@@ -1,0 +1,22 @@
+name,role_at_time,party_state,what_they_did,source_ids
+Joe Biden,President,—,"2023-03-13 최적경로 발표 참여, 2023-12-22 서명",W4;PL;DCPD
+Mike Rogers,HASC Chairman,R-AL,"en bloc 수정안 제안자, 2023-01 Courtney 서한 동참, 협의회 보고서 규칙정지 동의(12/14)",W1;API
+Joe Courtney,HASC member; AUKUS 지지 주도,D-CT-2,"2023-01-10 서한 주도, H.R.3939 원공동발의, H.R.1093 토론, 12/14 ""Execution of AUKUS"" 발언",LTR;CRH1309;CRH6946;B3939
+Mike Gallagher,House member (HASC SPF 청문회 질의),R-WI,"2023-01-10 서한 공동서명, 10/25 청문회 SIB-25 보고서 요구",LTR;CRS1
+Michael McCaul,HFAC Chairman,R-TX-10,"H.R.1093·H.R.4725 발의, H.R.4619 원공동발의, 하원 floor amdt 165, 협의위원",B1093I;B4725;B4619;HR141;CONF
+Gregory Meeks,HFAC Ranking Member,D-NY-5,"H.R.3939 발의, H.R.1093 원공동발의, 협의위원",B3939;CRH1309;CONF
+Bill Huizenga,HFAC member,R-MI-4,H.R.4619 발의·ANS 제안,B4619;ANS4619;HFACV1
+Young Kim,HFAC member,R-CA-40,H.R.4716 KOALA Act 발의,B4716;API
+Thomas Kean Jr.,HFAC member,R-NJ-7,H.R.4715 BRITS Act 발의,B4715;API
+Michael Waltz,HFAC member,FL (정당 미확인),H.R.4619 수정안 #87(건조능력 인증) 제출 — 처리결과 미확인,WALTZ
+Richard McCormick,HFAC member,R-GA-6,협의위원(HFAC),CONF
+Jack Reed,SASC Chairman (Breaking Defense; S.2226 reported by Reed),D-RI,"2022-12 Reed·Inhofe 서한(보도), S.2226 보고, SA 935 제안자",W2;SA935;API
+James Inhofe,SASC ranking member at time of letter (per Breaking Defense),R-OK,2022-12-21 Reed와 공동 서한(보도),W2
+Roger Wicker,"Senator from Mississippi; SASC 간사로 추정(S3730에서 Reed를 ""my distinguished chairman""으로 지칭)",MS (정당 미확인),"SA 935 공동제안, 7/27 상원 발언, 10/12 SIB-25 서한",SA935;CRS3730;CRS1
+Tim Kaine,Senator (소속위원회 미확인),미확인,10/12 SIB-25 서한 공동서명,CRS1
+James Risch,Senator (SFRC 간사 — 미확인),R-ID,"S.1471 TORPEDO Act 발의, S.2043 원공동발의",S1471;API
+Robert Menendez,Senator (SFRC 위원장 — 미확인),D-NJ,"S.2043(국무부수권법, Title IX AUKUS) 발의·보고",S2043;API
+Richard Blumenthal,Senator,D-CT,"S.1006 발의, 10/12 서한 공동서명",S1006;CRS1
+Bill Hagerty,Senator,R-TN,S.1471 원공동발의,S1471
+Erik Raven,Under Secretary of the Navy,—,10/25 HASC 증언: FY24 NDAA에 4개 입법제안 필요,CRS1
+Mara Karlin,performing duties of DUSD(Policy),—,10/25 청문회 증언(SIB-25 보고서 관련 답변),CRS1
