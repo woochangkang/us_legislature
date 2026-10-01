@@ -1,0 +1,30 @@
+[
+  {
+    "id": "case-start",
+    "label": "1 사례의 질문"
+  },
+  {
+    "id": "korean-stakes",
+    "label": "2 한국의 이해"
+  },
+  {
+    "id": "procedure",
+    "label": "3 입법 과정"
+  },
+  {
+    "id": "actors",
+    "label": "4 주요 행위자"
+  },
+  {
+    "id": "industry-impact",
+    "label": "5 산업의 대응"
+  },
+  {
+    "id": "early-warning",
+    "label": "6 조기경보"
+  },
+  {
+    "id": "research-library",
+    "label": "근거 자료실"
+  }
+]

@@ -49,11 +49,12 @@
   const main=document.querySelector('main');
   if(main?.id==='main'){
     const lead=main.querySelector('.lead-grid');if(lead)document.getElementById('finding').append(lead);
-    const ids=['research-update','industry-impact','legislative-flow','procedure','comparison','finding','actors','evidence','questions','sources'];
-    const labels=['새 조사 결과','산업 영향·조기경보','변화 흐름','의회 절차·수정안','조문 비교','핵심 발견','주요 행위자','증거 원문','조사 현황','자료·방법'];
+    const ids=['case-start','korean-stakes','procedure','actors','industry-impact','early-warning','research-library'];
+    const labels=['1 사례의 질문','2 한국의 이해','3 입법 과정','4 주요 행위자','5 산업의 대응','6 조기경보','근거 자료실'];
     const nav=document.querySelector('header nav');
     const viewer=nav.querySelector('a[href^="viewer.html"]');if(viewer){viewer.classList.add('viewer-shortcut');document.querySelector('.mast').append(viewer);}
     makeGroup(main,ids.map((id,i)=>({id,label:labels[i],panel:document.getElementById(id)})),'연구 주제',false,nav);
+    for(const id of ['stakes-workspace','library-workspace']){const area=document.getElementById(id);if(area)makeGroup(area,Array.from(area.querySelectorAll(':scope > section')).map(panel=>({id:panel.id,label:panel.dataset.caseLabel,panel})),id==='stakes-workspace'?'한국의 이해 탐색':'근거 자료 탐색');}
     const impact=document.getElementById('impact-workspace');
     if(impact)makeGroup(impact,Array.from(impact.querySelectorAll(':scope > section')).map(panel=>({id:panel.id,label:panel.dataset.impactLabel,panel})),'산업 영향 탐색');
     const procedure=document.getElementById('procedure-workspace');
@@ -84,6 +85,7 @@
     document.body.classList.add('tabbed-report');
   }
   function route(id,scroll=false){
+    if(id==='main'&&main?.id==='main')id='case-start';
     const target=document.getElementById(id);
     if(!target)return;
     for(const group of groups){const item=group.items.find(x=>x.id===id||x.panel===target||x.panel.contains(target));if(item)select(group,item);}

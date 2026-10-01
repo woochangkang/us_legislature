@@ -110,6 +110,8 @@ contents=[('impact-background','배경·판정',background),('impact-sales','판
 section='<section id="industry-impact"><div class="section-title"><div><p class="kicker">INDUSTRY IMPACT · EARLY WARNING</p><h2>아이오닉의 판매에서 입법 조기경보까지</h2></div><a class="download" href="impact/report.html">배경 보고서 →</a></div><div id="impact-workspace">'+''.join(panel(*x) for x in contents)+'</div></section>'
 f=R/'ira/index.html';soup=BeautifulSoup(f.read_text(),'html.parser');old=soup.find(id='industry-impact')
 if old:old.decompose()
+old_warning=soup.find(id='impact-warning')
+if old_warning:old_warning.decompose()
 soup.find(id='research-update').insert_after(BeautifulSoup(section,'html.parser'))
 if not soup.find('link',href='impact.css'):soup.head.append(soup.new_tag('link',rel='stylesheet',href='impact.css'))
 if not soup.find('script',src='impact.js'):tag=soup.new_tag('script',src='impact.js');soup.body.append(tag)
@@ -127,3 +129,8 @@ for id,label,body in contents:
 report+='</main><script src="../tabs.js"></script><script src="../impact.js"></script></body></html>'
 (D/'report.html').write_text(report)
 print(json.dumps(calc,indent=2));print('observations',len(rows),'sources',len(sources))
+
+# Keep the published narrative structure when rebuilding this earlier component.
+import runpy
+case_builder=R/'tools/build_case_study.py'
+if case_builder.exists():runpy.run_path(str(case_builder),run_name='__main__')

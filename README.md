@@ -61,3 +61,13 @@ python3 tools/build_highlights.py
 - `python3 tools/build_impact.py`: 데이터·배경·보고서 재생성 (BeautifulSoup 필요)
 - `python3 tools/build_impact_charts.py`: 데이터 기반 SVG 2개 재생성 (Matplotlib 필요)
 - 2022–2024년을 중심으로 설명하며, 2025년 현지 생산·차량 공제 종료는 별도 국면으로 표시했습니다.
+
+
+## 사례 연구 독서 순서 · 2026-10-01
+
+첫 화면 → 한국의 이해(조립 지역·시행 유예) → 전체 입법 과정 → 주요 행위자 → 산업의 대응 → 조기경보 → 근거 자료실로 재구성했습니다. 기존 증거·수정안·조건 변화의 hash 링크는 유지됩니다.
+
+- `ira/actors.json`: 당시 직책과 근거를 갖춘 18개 인물·기관 항목. 역할 지도는 별도 UI입니다.
+- `tools/build_case_study.py`: 기존 내용을 재배열하고 역할 카드를 생성하는 반복 실행 가능한 스크립트.
+- `tools/build_impact.py` 실행 후에도 사례 구조를 자동 복원합니다.
+- 근거 자료실에 조사 업데이트·미해결 질문을 모아, 자료가 추가된 순서와 사례의 읽기 순서를 구분했습니다.

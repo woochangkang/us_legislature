@@ -3,9 +3,9 @@
     "id": "stabenow",
     "name": "데비 스테이브나우",
     "english_name": "Debbie Stabenow",
-    "historical_role": "미국 상원의원 · 2021년 EV 공제 설계",
+    "historical_role": "민주당·미시간 상원의원 · 2021년 EV 공제 설계",
     "description": "2021년 미국 최종 조립 보너스를 일정 기간 뒤 필수 요건으로 바꾸는 수정안의 명의자입니다. 속기록에서 자신이 이 설계를 작성했다고 밝히고, 첫 5년과 다음 5년의 차이를 설명합니다.",
-    "relevance": "국내 생산 유치라는 정책 목적과 구체적인 자격요건이 연결되는 출발점입니다.",
+    "relevance": "미국 조립을 우대하다가 일정 기간 뒤 필수화하는 설계의 출발점입니다. 한국산 수출차에는 장래의 자격 제한, 현지 투자에는 준비 기간이라는 두 신호가 됩니다.",
     "limit": "2022년의 북미 확대·즉시 적용 문구까지 작성했다고 볼 근거는 아직 없습니다.",
     "evidence": [
       "E01",
@@ -13,13 +13,15 @@
       "E03",
       "E04"
     ],
-    "sources": []
+    "sources": [],
+    "group": "설계·위원회",
+    "updated": "2026-10-01"
   },
   {
     "id": "wyden",
     "name": "론 와이든",
     "english_name": "Ron Wyden",
-    "historical_role": "당시 상원 재무위원장 · 법안 발의·심사",
+    "historical_role": "민주당·오리건 상원의원 · 당시 상원 재무위원장",
     "description": "위원장 초안을 내고 2021년 재무위원회 심사를 이끈 인물입니다. S.2118의 공식 발의자로서, 수정안의 정책 구상을 법률 문구로 추적할 때 중요한 연결점입니다.",
     "relevance": "위원장 초안, 위원장 수정안, 최종 법안의 차이를 통해 문구가 공식화되는 과정을 확인할 수 있습니다.",
     "limit": "위원장이나 발의자라는 지위만으로 개별 문구의 최초 고안자라고 단정하지 않습니다.",
@@ -33,60 +35,52 @@
         "https://www.finance.senate.gov/chairmans-news/wyden-releases-chairmans-mark-ahead-of-clean-energy-for-america-act-markup",
         "2021.5.24 위원장 발표"
       ]
-    ]
+    ],
+    "group": "설계·위원회",
+    "updated": "2026-10-01"
   },
   {
-    "id": "schumer",
-    "name": "척 슈머",
-    "english_name": "Chuck Schumer",
-    "historical_role": "당시 상원 민주당 원내대표 · IRA 합의·수정안 제출",
-    "description": "2022년 7월 27일 맨친과 IRA 합의를 공동 발표했고, 최종 대체수정안 S.Amdt.5194를 공식 제출했습니다.",
-    "relevance": "협상 결과가 상원의 공식 심의 대상으로 전환되는 경로를 보여 줍니다.",
-    "limit": "합의 당사자·제출자라는 사실과 특정 문장의 직접 작성은 구분해야 합니다.",
+    "id": "neal",
+    "name": "리처드 닐",
+    "english_name": "Richard Neal",
+    "historical_role": "민주당·매사추세츠 하원의원 · 당시 세입위원장",
+    "group": "설계·위원회",
+    "description": "하원 세입위원회는 2021년 9월 BBB의 소관 세제안을 심사했습니다. 이 시기의 초안에는 2027년 이후 미국 최종 조립 조건이 나타납니다.",
+    "relevance": "한국산 차량에 대한 장래의 조립 제한과 유예를 하원 세제 설계 단계에서 포착할 수 있습니다.",
+    "limit": "위원장이라는 직책이 2027년 문구의 개인 작성자를 입증하지는 않습니다.",
     "evidence": [
-      "E13",
-      "E14",
-      "E16"
+      "E21",
+      "E09"
     ],
     "sources": [
       [
-        "https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs",
-        "2022.7.27 공동 합의 발표"
+        "https://beyer.house.gov/news/documentsingle.aspx?DocumentID=5351",
+        "2021.9.15 위원회 심사 완료 발표"
       ]
-    ]
+    ],
+    "updated": "2026-10-01"
   },
   {
-    "id": "manchin",
-    "name": "조 맨친",
-    "english_name": "Joe Manchin",
-    "historical_role": "당시 미국 상원의원 · IRA 합의 당사자",
-    "description": "슈머와 2022년 7월 IRA 합의를 공동 발표한 핵심 협상 당사자입니다. 당시 보도에는 미국·북미 공급망과 중국 의존 축소에 관한 강한 입장이 나타납니다.",
-    "relevance": "시행일 단축의 경위를 조사할 주요 대상입니다. 완성차 조립, 배터리 부품, 핵심 광물에 관한 발언을 각각 구분해야 합니다.",
-    "limit": "공급망 전반에 대한 입장을 완성차 조립 시행일을 직접 변경했다는 증거로 사용하지 않습니다.",
-    "evidence": [
-      "E13",
-      "E14",
-      "E15"
-    ],
+    "id": "yarmuth",
+    "name": "존 야머스",
+    "english_name": "John Yarmuth",
+    "historical_role": "민주당·켄터키 하원의원 · 당시 예산위원장",
+    "group": "설계·위원회",
+    "description": "2021년 9월 예산위원회 심사를 거친 H.R.5376의 공식 발의자입니다. 여러 위원회의 내용을 종합한 법안이 하원 본회의로 넘어갑니다.",
+    "relevance": "세제 위원회의 EV 조항이 대규모 예산 법안에 실리는 경로를 보여 줍니다.",
+    "limit": "법안 전체 발의자와 개별 EV 조항 설계자는 다를 수 있습니다.",
+    "evidence": [],
     "sources": [
       [
-        "https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs",
-        "2022.7.27 공동 합의 발표"
+        "https://www.congress.gov/bill/117th-congress/house-bill/5376/all-actions",
+        "H.R.5376 공식 이력"
+      ],
+      [
+        "https://www.govinfo.gov/content/pkg/CRPT-117hrpt130/pdf/CRPT-117hrpt130-pt2.pdf",
+        "2021.9.25 예산위 표결 기록"
       ]
-    ]
-  },
-  {
-    "id": "cornyn",
-    "name": "존 코닌",
-    "english_name": "John Cornyn",
-    "historical_role": "미국 상원의원 · 중국 관련 수정안",
-    "description": "2021년 5월 심사에서 중국산 전기차에 관한 제외 수정안을 제안했습니다. 관련 논의와 표결은 속기록에서 확인됩니다.",
-    "relevance": "조립 장소 요건과 특정 국가 배제 규정이 서로 다른 정책 장치임을 보여 줍니다.",
-    "limit": "중국 관련 수정안의 제안자를 북미 최종 조립 조건의 작성자로 혼동하지 않습니다.",
-    "evidence": [
-      "E07"
     ],
-    "sources": []
+    "updated": "2026-10-01"
   },
   {
     "id": "barthold",
@@ -104,7 +98,149 @@
         "viewer.html?source=T&page=105",
         "속기록 105쪽 기술 설명"
       ]
-    ]
+    ],
+    "group": "설계·위원회",
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "cornyn",
+    "name": "존 코닌",
+    "english_name": "John Cornyn",
+    "historical_role": "미국 상원의원 · 중국 관련 수정안",
+    "description": "2021년 5월 심사에서 중국산 전기차에 관한 제외 수정안을 제안했습니다. 관련 논의와 표결은 속기록에서 확인됩니다.",
+    "relevance": "조립 장소 요건과 특정 국가 배제 규정이 서로 다른 정책 장치임을 보여 줍니다.",
+    "limit": "중국 관련 수정안의 제안자를 북미 최종 조립 조건의 작성자로 혼동하지 않습니다.",
+    "evidence": [
+      "E07"
+    ],
+    "sources": [],
+    "group": "설계·위원회",
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "schumer",
+    "name": "척 슈머",
+    "english_name": "Chuck Schumer",
+    "historical_role": "민주당·뉴욕 상원의원 · 당시 상원 다수당 원내대표",
+    "description": "2022년 7월 27일 맨친과 IRA 합의를 공동 발표했고, 최종 대체수정안 S.Amdt.5194를 공식 제출했습니다.",
+    "relevance": "북미 조립·제정 직후 적용을 포함한 합의안을 공식 대체수정안으로 전환한 절차상 책임자입니다. 의원별 제출 건수와 합의안의 정책 영향력을 구분해야 합니다.",
+    "limit": "합의 당사자·제출자라는 사실과 특정 문장의 직접 작성은 구분해야 합니다.",
+    "evidence": [
+      "E13",
+      "E14",
+      "E16"
+    ],
+    "sources": [
+      [
+        "https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs",
+        "2022.7.27 공동 합의 발표"
+      ]
+    ],
+    "group": "협상·의결",
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "manchin",
+    "name": "조 맨친",
+    "english_name": "Joe Manchin",
+    "historical_role": "당시 민주당·웨스트버지니아 상원의원 · IRA 협상 당사자",
+    "description": "슈머와 2022년 7월 IRA 합의를 공동 발표한 핵심 협상 당사자입니다. 당시 보도에는 미국·북미 공급망과 중국 의존 축소에 관한 강한 입장이 나타납니다.",
+    "relevance": "상원 통과에 필요한 지지를 확보하는 협상에서 중요했습니다. 조립 지역과 적용 시점의 변화를 이해하려면 전체 세제·에너지 패키지 협상도 함께 보아야 합니다.",
+    "limit": "공급망 전반에 대한 입장을 완성차 조립 시행일을 직접 변경했다는 증거로 사용하지 않습니다.",
+    "evidence": [
+      "E13",
+      "E14",
+      "E15"
+    ],
+    "sources": [
+      [
+        "https://www.democrats.senate.gov/newsroom/press-releases/senate-majority-leader-chuck-schumer-d-ny-and-sen-joe-manchin-d-wv-on-wednesday-announced-that-they-have-struck-a-long-awaited-deal-on-legislation-that-aims-to-reform-the-tax-code-fight-climate-change-and-cut-health-care-costs",
+        "2022.7.27 공동 합의 발표"
+      ]
+    ],
+    "group": "협상·의결",
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "sinema",
+    "name": "커스틴 시네마",
+    "english_name": "Kyrsten Sinema",
+    "historical_role": "당시 민주당·애리조나 상원의원 · 세제 협상",
+    "group": "협상·의결",
+    "description": "2022년 8월 4일 세제 조정 합의 후 법안 진행을 지지하겠다고 밝혔다는 보도가 있습니다. 쟁점에는 carried interest 과세 등이 포함됐습니다.",
+    "relevance": "EV 조항만 따로 협상되는 것이 아니라 전체 패키지의 세금·지출 거래 속에서 처리된다는 점을 보여 줍니다.",
+    "limit": "세제 협상 참여를 북미 조립·유예 삭제의 직접 작성 증거로 확대하지 않습니다.",
+    "evidence": [
+      "E26"
+    ],
+    "sources": [
+      [
+        "https://rollcall.com/2022/08/04/sinema-ready-to-advance-budget-bill-after-tax-changes/",
+        "2022.8.4 Roll Call · 합의 발언 보도"
+      ]
+    ],
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "thune-warner",
+    "name": "존 튠 · 마크 워너",
+    "english_name": "John Thune · Mark Warner",
+    "historical_role": "공화당·사우스다코타 / 민주당·버지니아 상원의원",
+    "group": "협상·의결",
+    "description": "2022년 8월 7일 튠의 SA5472가 채택된 뒤, 워너의 SA5488이 그중 재원 조항을 다시 수정했습니다. 변경 결과는 최종법 §13903·§13904와 대조할 수 있습니다.",
+    "relevance": "수정안은 한 번의 채택으로 끝나지 않고 다시 수정될 수 있습니다. 최종 반영까지 추적해야 하는 이유입니다.",
+    "limit": "두 수정안은 세제·재원에 관한 것으로, 최종 조립 조항을 바꾼 수정안으로 소개하지 않습니다.",
+    "evidence": [
+      "E24",
+      "E25"
+    ],
+    "sources": [],
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "pelosi",
+    "name": "낸시 펠로시",
+    "english_name": "Nancy Pelosi",
+    "historical_role": "민주당·캘리포니아 하원의원 · 당시 하원의장",
+    "group": "협상·의결",
+    "description": "2022년 7월 29일 기자회견에서 상원의 IRA 법안이 넘어오면 하원이 처리할 일정을 설명했습니다. 하원은 8월 12일 상원 수정안에 동의했습니다.",
+    "relevance": "상원의 합의만으로 끝나는 것이 아니라 하원의 동의까지 필요합니다. 양원 지도부의 일정과 처리 계획도 조기경보의 신호가 됩니다.",
+    "limit": "하원 지도부의 역할을 개별 EV 조항의 직접 작성 증거로 해석하지 않습니다.",
+    "evidence": [
+      "E26"
+    ],
+    "sources": [
+      [
+        "https://pelosi.house.gov/news/press-releases/transcript-of-speaker-pelosi-s-remarks-at-weekly-press-conference-17",
+        "2022.7.29 하원 일정 관련 기자회견"
+      ],
+      [
+        "https://clerk.house.gov/evs/2022/roll420.xml",
+        "2022.8.12 하원 동의 표결"
+      ]
+    ],
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "biden-harris",
+    "name": "조 바이든 · 카멀라 해리스",
+    "english_name": "Joe Biden · Kamala Harris",
+    "historical_role": "당시 대통령 / 부통령·상원의장",
+    "group": "협상·의결",
+    "description": "해리스는 2022년 8월 7일 상원의 법안 최종 표결에서 50–50 동률을 깨는 찬성표를 행사했습니다. 바이든은 하원의 상원안 동의 후 8월 16일 서명했습니다.",
+    "relevance": "상원 표결 51–50의 의미와 법률이 실제 효력을 갖는 제정 시점을 이해하는 데 중요합니다.",
+    "limit": "서명·결정표의 역할과 개별 조건의 작성·협상 역할을 구분합니다.",
+    "evidence": [
+      "E26",
+      "E18"
+    ],
+    "sources": [
+      [
+        "https://www.congress.gov/bill/117th-congress/house-bill/5376/all-actions",
+        "양원 의결과 대통령 서명 이력"
+      ]
+    ],
+    "updated": "2026-10-01"
   },
   {
     "id": "canada",
@@ -118,20 +254,9 @@
       "E12",
       "E17"
     ],
-    "sources": []
-  },
-  {
-    "id": "warnock",
-    "name": "라파엘 워녹",
-    "english_name": "Raphael Warnock",
-    "historical_role": "미국 상원의원 · 제정 이후 유예 제안",
-    "description": "2022년 9월 29일 S.5020을 발의해 북미 최종 조립 조건을 2026년 판매분부터 적용하도록 제안했습니다.",
-    "relevance": "제정 이후 준비 기간을 둘러싼 쟁점과 수정 요구를 보여 줍니다.",
-    "limit": "이 발의안은 제정된 IRA의 실제 변경이나 원래 문구의 작성 경위를 입증하지 않습니다.",
-    "evidence": [
-      "E20"
-    ],
-    "sources": []
+    "sources": [],
+    "group": "국외 이해·대응",
+    "updated": "2026-10-01"
   },
   {
     "id": "wilkinson",
@@ -144,6 +269,94 @@
     "evidence": [
       "E22"
     ],
-    "sources": []
+    "sources": [],
+    "group": "국외 이해·대응",
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "hyundai",
+    "name": "현대자동차그룹",
+    "english_name": "Hyundai Motor Group",
+    "historical_role": "현대차·기아 및 미국 생산·판매 조직",
+    "group": "국외 이해·대응",
+    "description": "한국산 EV의 미국 판매와 미국 현지 생산 투자를 함께 운영하는 이해당사자입니다. 2022년 5월 조지아 EV 공장 투자를 발표했고, 2023년에는 리스 확대 대응을 설명했습니다.",
+    "relevance": "조립 지역은 당장의 구매 공제 자격, 유예 기간은 현지 공장 가동까지의 준비 시간과 연결됩니다.",
+    "limit": "IRA 이전 투자 발표가 있으므로 현지 투자를 모두 IRA의 결과라고 보거나 기업이 사전 위험을 몰랐다고 단정하지 않습니다.",
+    "evidence": [],
+    "sources": [
+      [
+        "https://www.hyundai.com/content/hyundai/worldwide/en/newsroom/detail/hyundai-motor-group-to-establish-first-dedicated-ev-plant-and-battery-manufacturing-facility-in-the-u.s.-0000000068.html",
+        "2022.5.20 공장 투자 발표"
+      ],
+      [
+        "https://www.newsis.com/view/NISX20230126_0002170723",
+        "2023.1.26 리스 확대 발언 보도"
+      ]
+    ],
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "korea-government",
+    "name": "한국 정부",
+    "english_name": "Republic of Korea government",
+    "historical_role": "산업통상자원부·외교부 등 · 업계 의견 수렴과 대미 협의",
+    "group": "국외 이해·대응",
+    "description": "정부는 2022년 12월 2일 업계 의견과 전문가 자문을 바탕으로 IRA 하위 규정에 대한 2차 의견서를 제출했다고 발표했습니다. 상업용 친환경차의 적용 범위도 주요 대응 대상이었습니다.",
+    "relevance": "완성차 조립의 법률상 요건과 행정부 지침으로 구체화할 수 있는 쟁점을 구분해 대응해야 한다는 사례입니다.",
+    "limit": "여기서 확인한 제정 후 의견 제출만으로 제정 전 인지 시점이나 대응의 충분성을 평가하지 않습니다.",
+    "evidence": [],
+    "sources": [
+      [
+        "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=102026&seq=373091",
+        "외교부 · 2차 정부 의견서 제출 발표"
+      ],
+      [
+        "https://opendata.mofa.go.kr/mofapress/resource/Press/373091.page",
+        "외교부 OPEN DATA · 동일 발표문"
+      ]
+    ],
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "warnock",
+    "name": "라파엘 워녹",
+    "english_name": "Raphael Warnock",
+    "historical_role": "민주당·조지아 상원의원 · 제정 후 유예 법안 발의",
+    "description": "2022년 9월 29일 S.5020을 발의해 북미 최종 조립 조건을 2026년 판매분부터 적용하도록 제안했습니다. 의원실은 조지아의 현대차 투자와 소비자 혜택을 제안 이유로 직접 언급했습니다.",
+    "relevance": "한국 기업의 생산 전환 필요가 미국 지역구의 투자·일자리 이해와 연결되는 사례입니다. 제정 후의 유예 요구를 제정 전 협상과 구분해 읽습니다.",
+    "limit": "이 발의안은 제정된 IRA의 실제 변경이나 원래 문구의 작성 경위를 입증하지 않습니다.",
+    "evidence": [
+      "E20"
+    ],
+    "sources": [
+      [
+        "https://www.warnock.senate.gov/newsroom/press-releases/senator-reverend-warnock-introduces-bill-to-ensure-georgia-car-buyers-automakers-fully-benefit-from-cost-cutting-tax-credits/",
+        "2022.9.29 의원실 · 현대차·단계적 시행 언급"
+      ]
+    ],
+    "group": "국외 이해·대응",
+    "updated": "2026-10-01"
+  },
+  {
+    "id": "treasury-irs",
+    "name": "미 재무부 · 국세청",
+    "english_name": "U.S. Treasury · IRS",
+    "historical_role": "세액공제 시행·행정지침 담당 기관",
+    "group": "시행·해석",
+    "description": "제정 당일인 2022년 8월 16일 북미 조립 요건 관련 안내가 나왔고, 12월에는 상업용 차량 공제 등에 관한 후속 안내가 나왔습니다.",
+    "relevance": "제정 후에도 리스 등 실제 대응 수단은 시행 지침과 자격 해석에 따라 구체화됩니다. 조기경보는 법안 통과에서 끝나지 않습니다.",
+    "limit": "행정 안내와 의회의 법률 개정을 구분합니다. 안내가 북미 조립 요건 자체를 삭제한 것은 아닙니다.",
+    "evidence": [],
+    "sources": [
+      [
+        "https://home.treasury.gov/news/press-releases/jy0923",
+        "2022.8.16 초기 안내"
+      ],
+      [
+        "https://home.treasury.gov/news/press-releases/jy1179",
+        "2022.12.29 후속 안내"
+      ]
+    ],
+    "updated": "2026-10-01"
   }
 ]
