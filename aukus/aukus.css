@@ -184,3 +184,8 @@ footer a{color:#9fdde2;margin-left:auto}
 .pos+.pos{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
 .pos p{margin:4px 0}
 .summary-list li{margin-bottom:12px;line-height:1.7}
+.house td{vertical-align:top;min-width:150px}
+.house-sources{margin-top:16px}
+.house-sources summary{cursor:pointer;font-weight:650}
+.file-list{columns:2;font-size:13px}
+@media (max-width:720px){.file-list{columns:1}}

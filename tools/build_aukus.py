@@ -5,6 +5,7 @@ Usage: python3 tools/build_aukus.py
 """
 import csv
 import json
+import re
 from html import escape
 from pathlib import Path
 
@@ -213,10 +214,55 @@ def build():
         f'<p>{e(a.get("what_they_did"))}</p><p class="small">자료 {e(a.get("source_ids"))}</p></article>'
         for a in actors
     )
+    # 7b. why House members took it up (H/L source table + archived copies)
+    def link_ids(html_text):
+        """Turn [H03] / [L19] / E42 style references into in-page links."""
+        html_text = re.sub(r"\b([HL]\d{2,3})\b", r'<a href="#\1">\1</a>', html_text)
+        return re.sub(r"\b(E\d{2})\b", r'<a href="#\1" data-ev="\1">\1</a>', html_text)
+
+    def md_cell(text):
+        return link_ids(re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", e(text)))
+
+    house_members = rows("house-members.csv")
+    house_sources = rows("house-sources.csv")
+    hm_rows = "".join(
+        f'<tr><th scope="row">{e(m["member"])}</th><td>{md_cell(m["role_2023"])}</td><td>{md_cell(m["background"])}</td>'
+        f'<td>{md_cell(m["district"])}</td><td>{md_cell(m["money"])}</td><td>{md_cell(m["institution"])}</td>'
+        f'<td>{md_cell(m["assessment"])}</td></tr>'
+        for m in house_members
+    )
+    hs_rows = "".join(
+        f'<tr id="{e(s["id"])}"><th scope="row">{e(s["id"])}</th><td>{e(s["who"])}</td><td>{e(s["claim"])}'
+        + (f'<blockquote lang="en">{e(s["quote"])}</blockquote>' if s.get("quote") else "")
+        + f'</td><td><a href="{e(s["url"].split(" ")[0])}">원 출처</a><small>{e(s["source_type"])} · 접속 {e(s["accessed"])} · 원문대조 {e(s["verified"])}</small></td></tr>'
+        for s in house_sources
+    )
+    hdir = ROOT / "house_motivation" / "sources"
+    hfiles = sorted(p.name for p in hdir.iterdir() if p.is_file()) if hdir.exists() else []
+    hfile_list = "".join(f'<li><a href="house_motivation/sources/{e(f)}">{e(f)}</a></li>' for f in hfiles)
+    house = f"""<h3 id="house-why">하원의원은 왜 호주 잠수함 판매에 나섰나</h3>
+<p class="section-intro">{link_ids(nar['house_intro'])}</p>
+{nar['house_lenses']}
+<h4>결론</h4>
+{link_ids(nar['house_findings'])}
+<h4>의원별 정리</h4>
+<div class="table-scroll"><table class="house"><thead><tr><th>의원</th><th>2023년 역할</th><th>① 개인 배경</th><th>② 지역구</th><th>③ 로비·자금</th><th>④ 제도</th><th>가장 그럴듯한 설명 [추정]</th></tr></thead><tbody>{hm_rows}</tbody></table></div>
+<h4>이 자료로 말할 수 없는 것</h4>
+{link_ids(nar['house_cannot'])}
+<h4>남은 확인 사항</h4>
+{link_ids(nar['house_open'])}
+<details class="house-sources"><summary>근거표 H01–L50 <span class="count">{len(house_sources)}</span></summary>
+<div class="table-scroll"><table><thead><tr><th>ID</th><th>대상</th><th>내용·인용</th><th>출처</th></tr></thead><tbody>{hs_rows}</tbody></table></div>
+</details>
+<details class="house-sources"><summary>보관 원자료 <span class="count">{len(hfiles)}</span></summary>
+<p class="small">정부·의회 문서, FEC·FARA·LDA 자료, 의원실 보도자료 사본입니다. 언론사 기사는 저작권 때문에 사본을 올리지 않고 근거표의 원 출처 링크로만 연결했습니다.</p>
+<ul class="file-list">{hfile_list}</ul></details>"""
+
     tab6 = f"""<section class="panel" id="actors" aria-labelledby="t-actors">
 <p class="kicker">07 · ACTORS</p><h2 id="t-actors">행위자</h2>
 <p class="section-intro">{nar['actors_intro']}</p>
 <div class="finding-grid">{acards}</div>
+{house}
 </section>"""
 
     # archive

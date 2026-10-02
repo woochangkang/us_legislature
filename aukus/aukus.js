@@ -33,6 +33,14 @@
       target.scrollIntoView({ block: "start" });
       return;
     }
+    // any other element inside a panel (e.g. H/L source rows): open its tab and enclosing <details>
+    var panel = target && !target.classList.contains("panel") && target.closest(".panel");
+    if (panel) {
+      show(panel.id);
+      for (var d = target.closest("details"); d; d = d.parentElement && d.parentElement.closest("details")) d.open = true;
+      target.scrollIntoView({ block: "center" });
+      return;
+    }
     show(h);
     if (h) window.scrollTo(0, 0);
   }
