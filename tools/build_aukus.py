@@ -77,6 +77,8 @@ def build():
     nar = json.loads((DATA / "narrative.json").read_text(encoding="utf-8"))
     evidence = rows("evidence.csv")
     clauses = rows("clause-comparison.csv")
+    bill_map = rows("bill-map.csv")
+    positions = rows("positions.csv")
     timeline = rows("timeline.csv")
     actors = rows("actors.csv")
     manifest = rows("source_manifest.csv")
@@ -133,9 +135,20 @@ def build():
             )
         return "<ol class=\"timeline\">" + "".join(out) + "</ol>"
 
+    brow = "".join(
+        f'<tr><td><span class="tier tier-{e(b["tier"])}">{e(b["tier_label"])}</span></td>'
+        f'<th scope="row">{e(b["bill"])}<small>{e(b["sponsor"])} · {e(b["date"])}</small></th>'
+        f'<td>{e(b["role_for_sale"])}</td><td>{e(b["fate"])}</td>'
+        f'<td>{ev_links([i for i in b["evidence"].split(";") if i.startswith("E")])}<small>{e(b["certainty"])}</small></td></tr>'
+        for b in bill_map
+    )
     tab3 = f"""<section class="panel" id="origin" aria-labelledby="t-origin">
 <p class="kicker">03 · PROPOSAL</p><h2 id="t-origin">발의와 편입: 조문은 어디서 왔나</h2>
 <p class="section-intro">{nar['origin_intro']}</p>
+<h3>법안 지도: 각 법안은 판매 승인과 어떻게 연결되나</h3>
+<p class="section-intro">{nar['billmap_intro']}</p>
+<div class="table-scroll"><table class="billmap"><thead><tr><th>관계</th><th>법안·문서</th><th>판매 승인에서 한 역할</th><th>처리 결과</th><th>근거</th></tr></thead><tbody>{brow}</tbody></table></div>
+<h3>발의 단계 근거</h3>
 {evs(['발의', '배경'])}
 </section>"""
 
@@ -167,6 +180,33 @@ def build():
 {evs(['이후'])}
 </section>"""
 
+    # 5b. positions of the three camps
+    phases = []
+    for p in positions:
+        if p["period"] not in phases:
+            phases.append(p["period"])
+    camps = ["행정부", "상원", "하원"]
+
+    def pcell(period, camp):
+        items = [p for p in positions if p["period"] == period and p["actor"] == camp]
+        return "".join(
+            f'<div class="pos"><b>{e(p["body"])}</b><p>{e(p["position"])}</p>'
+            f'<span class="small">{ev_links([i for i in p["evidence"].split(";") if i.startswith("E")])} · {e(p["certainty"])}</span></div>'
+            for p in items
+        ) or '<span class="small">—</span>'
+
+    prow = "".join(
+        f'<tr><th scope="row">{e(ph)}</th>' + "".join(f"<td>{pcell(ph, c)}</td>" for c in camps) + "</tr>"
+        for ph in phases
+    )
+    tab_pos = f"""<section class="panel" id="positions" aria-labelledby="t-positions">
+<p class="kicker">06 · THREE CAMPS</p><h2 id="t-positions">입장 차이: 행정부·상원·하원은 무엇을 원했고 어떻게 바뀌었나</h2>
+<p class="section-intro">{nar['positions_intro']}</p>
+<div class="table-scroll"><table class="positions"><thead><tr><th>시기</th><th>행정부 (국방부·해군)</th><th>상원</th><th>하원</th></tr></thead><tbody>{prow}</tbody></table></div>
+<h3>정리</h3>
+{nar['positions_summary']}
+</section>"""
+
     # 6. actors
     acards = "".join(
         f'<article class="actor"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))} · {e(a.get("party_state"))}</p>'
@@ -174,7 +214,7 @@ def build():
         for a in actors
     )
     tab6 = f"""<section class="panel" id="actors" aria-labelledby="t-actors">
-<p class="kicker">06 · ACTORS</p><h2 id="t-actors">행위자</h2>
+<p class="kicker">07 · ACTORS</p><h2 id="t-actors">행위자</h2>
 <p class="section-intro">{nar['actors_intro']}</p>
 <div class="finding-grid">{acards}</div>
 </section>"""
@@ -204,7 +244,8 @@ def build():
 </section>"""
 
     tabs = [("question", "1 사례의 질문"), ("law", "2 허용 조문"), ("origin", "3 발의와 편입"),
-            ("versions", "4 조문 변화"), ("passage", "5 논의와 통과"), ("actors", "6 행위자"), ("archive", "근거 자료실")]
+            ("versions", "4 조문 변화"), ("passage", "5 논의와 통과"), ("positions", "6 입장 차이"),
+            ("actors", "7 행위자"), ("archive", "근거 자료실")]
     nav = "".join(f'<a href="#{i}" data-tab="{i}">{e(label)}</a>' for i, label in tabs)
 
     html = f"""<!doctype html>
@@ -220,7 +261,7 @@ def build():
 <nav aria-label="사례 탭">{nav}</nav></header>
 <main id="main">
 <div class="title"><p class="kicker">AUKUS CASE STUDY · FY2024 NDAA</p><h1>{e(nar['title'])}</h1><p>{e(nar['subtitle'])}</p></div>
-{tab1}{tab2}{tab3}{tab4}{tab5}{tab6}{tab7}
+{tab1}{tab2}{tab3}{tab4}{tab5}{tab_pos}{tab6}{tab7}
 </main>
 <footer><b>AUKUS 입법 증거 아틀라스</b><span>공개 원문 기반 · 직접 확인 / 정황 / 미확인 구분 · 갱신 {e(nar['updated'])}</span><a href="../ira/">IRA 사례 보기</a></footer>
 <script src="aukus.js"></script>

@@ -173,3 +173,14 @@ footer a{color:#9fdde2;margin-left:auto}
   .evidence-body{display:block}
   details>*{display:block}
 }
+/* bill map & three-camp positions */
+.tier{display:inline-block;font-size:12px;font-weight:650;padding:2px 8px;border-radius:999px;white-space:nowrap;background:var(--soft);color:var(--muted)}
+.tier-1{background:var(--accent-soft);color:var(--accent-ink)}
+.tier-2{background:var(--brass-soft);color:var(--brass)}
+.tier-3{background:var(--soft);color:var(--ink)}
+.billmap td small,.positions td small{display:block;margin-top:4px;color:var(--muted)}
+.positions td{vertical-align:top;min-width:200px}
+.positions th:nth-child(2){color:var(--exec)}.positions th:nth-child(3){color:var(--senate)}.positions th:nth-child(4){color:var(--house)}
+.pos+.pos{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line)}
+.pos p{margin:4px 0}
+.summary-list li{margin-bottom:12px;line-height:1.7}
