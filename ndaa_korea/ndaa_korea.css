@@ -302,3 +302,12 @@ footer a{color:#a9c4f0}footer a:first-of-type{margin-left:auto}
 .stances td:nth-child(2){min-width:96px}
 .stances td:nth-child(2) small{white-space:nowrap}
 .stances tbody th[scope=row]{min-width:210px}
+/* lobbying money tables */
+.money td.num,.money th{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.money th[scope=row]{text-align:left;white-space:normal;min-width:150px}
+.money td.num small,.money th small{display:block;font-size:11px;opacity:.85}
+.money td.muted{color:var(--muted)}
+.money tr.tot th,.money tr.tot td{border-top:2px solid var(--ink)}
+.money.top td{text-align:left;white-space:normal;min-width:150px;font-size:13px}
+.lob-list{margin:4px 0 0;padding-left:18px;font-size:13.5px;max-height:260px;overflow:auto}
+.lob-list small{display:block;color:var(--muted)}

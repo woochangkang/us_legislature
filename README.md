@@ -98,4 +98,5 @@ python3 tools/build_highlights.py
 - 2026-10-04 추가: 행위자 프로필 51건(소속·지위, 의원은 정당·지역구·선수·위원회·코커스 — congress-legislators·Congress.gov 기준), 입장 이유 38건(사실/정황/추정 구분), 입장 그룹 15개(사안별로 비슷한 입장 묶음, 연구자 판단)
 - 표결 탭: 한국 관련 기명표결 35건(직접 6 · 북한 8 · FY2021 거부권 재의결 2 · NDAA 포괄 표결 19; 하원은 Clerk XML, 상원은 Congress.gov·의사록과 집계 대조), 행위자 의원 31명 표결 요약, 의원 894명 × 35건 표(`ndaa_korea/data/member_votes.json`, Voteview 기반)
 - 로비 탭(2026-10-04): LDA 한국 조선·방산 의뢰인 활동 29행(2025–2026, GitHub Actions `lda-fetch.yml`로 수집 — lda.gov가 한국 네트워크를 차단), FARA 한국 측 등록 24건·활동보고서 접촉 78행
+- 로비 탭 확장(2026-10-04): LDA 2017–2026 한국 기업·기관 의뢰 신고 1,796건(수정신고 정리 후)의 그룹×연도 금액표·연도별 상위 주체·방산·조선 기업 6곳 상세(분기별 금액·목적 원문·로비스트 전직)·LD-203 정치후원금 중 행위자 의원 수령분; FARA 등록 55건(2017–2026) 보고서 620건의 연도별 수령액(대행사 보수 / 한국 기관 미국 사무소 운영자금 구분)과 대리인 전직. 수집: `lda-fetch.yml`, `lda-lobbyists.yml`
 - 원 조사 폴더: Dropbox `_NIS/_US_Congress/ndaa_korea/` (`site_research/` 조사 산출물·notes, `site_research/prep_site_data.py`로 이 저장소에 복사). 원문 파일은 저장소에 올리지 않고 공식 URL과 SHA-256만 기록

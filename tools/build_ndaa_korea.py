@@ -6,7 +6,7 @@ Usage: python3 tools/build_ndaa_korea.py   (standard library only; do not edit i
 import csv
 import json
 import re
-from collections import Counter, OrderedDict
+from collections import Counter, OrderedDict, defaultdict
 from html import escape
 from pathlib import Path
 
@@ -70,6 +70,12 @@ def src_link(url, label="원문"):
 
 
 ID_RE = re.compile(r"\b([PMHSAL]\d{2,3})\b")
+LOBBYIST_RE = re.compile(r"\s*([^;\[\]]+?)\s*(?:\[([^\]]*)\])?\s*(?:;|$)")  # "NAME [covered; position]; NAME2"
+
+
+def smart_title(name):
+    """Title-case an all-caps company name but keep short tokens (USA, HD, LIG, LLC) upper-case."""
+    return " ".join(w if len(w.strip(".,()")) <= 3 else w.title() for w in (name or "").split())
 
 
 def url_links(raw):
@@ -412,48 +418,120 @@ def build():
     # ---------- 5c. lobbying ----------
     PERIOD = {"first_quarter": "1분기", "second_quarter": "2분기", "third_quarter": "3분기", "fourth_quarter": "4분기",
               "mid_year": "상반기", "year_end": "하반기"}
-    lda = rows("lda_activities.csv")
-    lda_sum = json.loads((DATA / "lda_summary.json").read_text(encoding="utf-8")) if (DATA / "lda_summary.json").exists() else {}
-    collapsed = OrderedDict()  # one row per (filing, activity text), issue codes merged
-    for r in lda:
-        k = (r["filing_uuid"], r["activity"])
-        if k in collapsed:
-            collapsed[k]["issue_code"] += ", " + r["issue_code"]
-        else:
-            collapsed[k] = dict(r)
-    lda_rows = sorted(collapsed.values(), key=lambda r: (r["client"], r["year"], list(PERIOD).index(r["period"]) if r["period"] in PERIOD else 9, r["dt_posted"]))
+    porder = list(PERIOD)
+    lda_sum = json.loads((DATA / "lda_summary_2017_2026.json").read_text(encoding="utf-8")) if (DATA / "lda_summary_2017_2026.json").exists() else {}
+    ygroups = [g for g in rows("lda_yearly_groups.csv") if not g["group"].startswith("제외")]
+    yclients = [c for c in rows("lda_yearly_clients.csv") if not c["group"].startswith("제외")]
+    dfy = rows("lda_defense_firms_yearly.csv")
+    drep = rows("lda_defense_reports.csv")
+    contrib = rows("lda_contrib_actor_members.csv")
+    lobdet = {r["name"].upper(): r for r in rows("lda_lobbyists_detail.csv")}
+    LYEARS = sorted({g["year"] for g in ygroups})
 
-    def money(r):
-        if r.get("income"):
-            return f'수임료 ${float(r["income"]):,.0f}'
-        if r.get("expenses"):
-            return f'자체 지출 ${float(r["expenses"]):,.0f}'
-        return "금액 미기재"
+    def ylabel(y):
+        return f"{y}<small>1–2분기</small>" if y == "2026" else y
 
-    clients = list(OrderedDict.fromkeys(r["client"] for r in lda_rows))
-    lda_cards = ""
-    for c in clients:
-        rs = [r for r in lda_rows if r["client"] == c]
+    def musd(v):
+        v = float(v or 0)
+        return f"${v / 1e6:.2f}M" if v >= 1e5 else (f"${v / 1e3:.0f}K" if v else "$0")
+
+    def heat(v, mx):
+        a = min(0.85, (float(v or 0) / mx) ** 0.6 * 0.85) if mx else 0
+        return f' style="background:rgba(47,95,168,{a:.2f});color:{"#fff" if a > 0.45 else "inherit"}"'
+
+    gtot = defaultdict(float)
+    for g in ygroups:
+        gtot[g["group"]] += float(g["reported_amount_usd"])
+    gnames = sorted(gtot, key=lambda k: -gtot[k])
+    gcell = {(g["group"], g["year"]): g for g in ygroups}
+    gmax = max((float(g["reported_amount_usd"]) for g in ygroups), default=1)
+    g_rows = ""
+    for gn in gnames:
+        tds = ""
+        for y in LYEARS:
+            g = gcell.get((gn, y))
+            tds += (f'<td class="num"{heat(g["reported_amount_usd"], gmax)} title="고객 {g["n_clients"]} · 신고자 {g["n_registrants"]} · 보고서 {g["reports"]}">{musd(g["reported_amount_usd"])}</td>'
+                    if g else '<td class="num muted">—</td>')
+        g_rows += f'<tr><th scope="row">{e(gn)}</th>{tds}<td class="num"><b>{musd(gtot[gn])}</b></td></tr>'
+    ytot = {y: sum(float(g["reported_amount_usd"]) for g in ygroups if g["year"] == y) for y in LYEARS}
+    ydef = {y: sum(float(r["reported_amount_usd"]) for r in dfy if r["year"] == y) for y in LYEARS}
+    g_rows += ('<tr class="tot"><th scope="row">합계(한국 기업·기관)</th>' + "".join(f'<td class="num"><b>{musd(ytot[y])}</b></td>' for y in LYEARS)
+               + f'<td class="num"><b>{musd(sum(ytot.values()))}</b></td></tr>')
+    g_rows += ('<tr class="tot"><th scope="row">그중 방산·조선 기업</th>' + "".join(f'<td class="num">{musd(ydef[y]) if ydef[y] else "—"}</td>' for y in LYEARS)
+               + f'<td class="num">{musd(sum(ydef.values()))}</td></tr>')
+    year_head = "".join(f"<th>{ylabel(y)}</th>" for y in LYEARS)
+    group_table = f'<div class="table-scroll"><table class="money"><thead><tr><th>그룹</th>{year_head}<th>합계</th></tr></thead><tbody>{g_rows}</tbody></table></div>'
+
+    top_rows = ""
+    for y in LYEARS:
+        cs = sorted((c for c in yclients if c["year"] == y), key=lambda c: -float(c["reported_amount_usd"]))[:6]
+        cells = "".join(f'<td>{e(smart_title(c["client"]))}<small>{e(c["group"])} · {musd(c["reported_amount_usd"])} · 신고자 {e(c["n_registrants"])}곳</small></td>' for c in cs)
+        n_cl = len({c["client"] for c in yclients if c["year"] == y})
+        top_rows += f'<tr><th scope="row">{ylabel(y)}<small>의뢰인 {n_cl}곳</small></th>{cells}</tr>'
+    top_table = f'<div class="table-scroll"><table class="money top"><thead><tr><th>연도</th>{"".join(f"<th>{i}위</th>" for i in range(1, 7))}</tr></thead><tbody>{top_rows}</tbody></table></div>'
+
+    # defense / shipbuilding firms
+    dclients = list(OrderedDict.fromkeys(r["client"] for r in sorted(dfy, key=lambda r: r["client"])))
+    dmax = max((float(r["reported_amount_usd"]) for r in dfy), default=1)
+    dcell = {(r["client"], r["year"]): r for r in dfy}
+    d_rows = ""
+    for c in dclients:
+        tds = ""
+        for y in LYEARS:
+            r = dcell.get((c, y))
+            tds += (f'<td class="num"{heat(r["reported_amount_usd"], dmax)} title="{e(r["registrants"])}">{musd(r["reported_amount_usd"])}'
+                    + ('<small>NDAA</small>' if r["ndaa_reports"] != "0" else "") + "</td>") if r else '<td class="num muted">—</td>'
+        d_rows += f'<tr><th scope="row"><a href="#df-{dclients.index(c) + 1}">{e(smart_title(c))}</a></th>{tds}</tr>'
+    def_table = f'<div class="table-scroll"><table class="money"><thead><tr><th>방산·조선 기업</th>{year_head}</tr></thead><tbody>{d_rows}</tbody></table></div>'
+
+    def lobbyist_list(rs):
+        seen = OrderedDict()
+        for r in rs:
+            for m in LOBBYIST_RE.finditer(r.get("lobbyists") or ""):
+                if m.group(1).strip():
+                    nm = m.group(1).strip()
+                    cp = (m.group(2) or "").strip()
+                    if cp.upper().startswith("SEE PRIOR") or cp.upper() in ("N/A", "NONE"):
+                        cp = ""
+                    seen.setdefault(nm, set())
+                    if cp:
+                        seen[nm].add(cp)
+        out = []
+        for nm, cps in seen.items():
+            det = lobdet.get(nm.upper())
+            if det and det.get("covered_positions"):
+                cps |= set(x.strip() for x in det["covered_positions"].split(" | ") if x.strip())
+            out.append((nm, sorted(cps)))
+        return out
+
+    df_cards = ""
+    for i, c in enumerate(dclients, 1):
+        rs = sorted([r for r in drep if r["client"] == c], key=lambda r: (r["filing_year"], porder.index(r["filing_period"]) if r["filing_period"] in porder else 9))
+        years = sorted({r["filing_year"] for r in rs})
         regs = sorted({r["registrant"] for r in rs})
-        porder = list(PERIOD)
-        pers = list(OrderedDict.fromkeys(f'{r["year"]} {PERIOD.get(r["period"], r["period"])}'
-                                         for r in sorted(rs, key=lambda r: (r["year"], porder.index(r["period"]) if r["period"] in porder else 9))))
-        named = any(r["names_fy27_ndaa"] for r in rs)
-        ents = sorted({g for r in rs for g in r["government_entities"].split("; ") if g})
-        texts = list(OrderedDict.fromkeys(r["activity"] for r in rs if r["names_fy27_ndaa"])) or list(OrderedDict.fromkeys(r["activity"] for r in rs))
-        lda_cards += (f'<article class="actor" id="lda-{clients.index(c) + 1}" data-sr="로비 · LDA" data-title="{e(c)}"><h3>{e(c)}</h3>'
-                      f'<p class="small">신고자 {e(", ".join(regs))}</p><p class="small">기간 {e(" · ".join(pers))}</p>'
-                      + (f'<p><span class="rel r-direct">FY2027 NDAA 명시</span></p>' if named else '<p><span class="rel r-indirect">조선·국방 일반</span></p>')
-                      + "".join(f'<blockquote lang="en">{e(t)}</blockquote>' for t in texts[:2])
-                      + f'<p class="small">접촉 기관 {e(", ".join(ents) or "미기재")}</p></article>')
-    lda_trs = "".join(
-        f'<tr id="lda-r{n}" data-sr="로비 · LDA 활동" data-title="{e(r["client"])} · {e(r["year"])} {e(PERIOD.get(r["period"], r["period"]))}">'
-        f'<th scope="row">{e(r["year"])} {e(PERIOD.get(r["period"], r["period"]))}<small>게시 {e(r["dt_posted"])} · {e(r["filing_type"])}</small></th>'
-        f'<td>{e(r["client"])}<small>신고자 {e(r["registrant"])}</small></td><td>{e(r["issue_code"])}</td>'
-        f'<td lang="en">{e(r["activity"])}' + ('<small><span class="rel r-direct">FY27 NDAA 명시</span></small>' if r["names_fy27_ndaa"] else "") + '</td>'
-        f'<td>{e(r["government_entities"] or "미기재")}</td><td>{e(money(r))}<small>{src_link(r["url"], "신고서")}</small></td></tr>'
-        for n, r in enumerate(lda_rows, 1)
+        ents = sorted({g for r in rs for g in (r["government_entities"] or "").split("; ") if g})
+        lobs = lobbyist_list(rs)
+        lob_html = "".join(f'<li><b>{e(smart_title(nm))}</b>' + (f'<small>전직: {e(" / ".join(cps))}</small>' if cps else "") + "</li>" for nm, cps in lobs)
+        q_rows = "".join(
+            f'<tr><th scope="row">{e(r["filing_year"])} {e(PERIOD.get(r["filing_period"], r["filing_period"]))}<small>{e(smart_title(r["registrant"]))}</small></th>'
+            f'<td class="num">{musd(r["amount"]) if r["amount"] not in ("", None) else "미기재"}<small>{e(r["amount_kind"].split("(")[0])}</small></td>'
+            f'<td lang="en">{e(r["specific_issues"])}' + ('<small><span class="rel r-direct">NDAA 명시</span></small>' if r["flag_ndaa"] else "") + f'</td><td>{src_link(r["url"], "신고서")}</td></tr>'
+            for r in rs)
+        cs = [x for x in contrib if c in x["korean_defense_clients"] and not x["member"].startswith("Mike Rogers (")]
+        c_txt = ", ".join(f'{x["member"]} {musd(x["amount_usd"])}' for x in sorted(cs, key=lambda x: -float(x["amount_usd"]))[:8])
+        df_cards += (f'<article class="sgroup" id="df-{i}" data-sr="로비 · 방산·조선 기업" data-title="{e(c)}">'
+                     f'<header><h4>{e(smart_title(c))}</h4><span class="count">{e(years[0])}–{e(years[-1])}</span></header>'
+                     f'<div class="two"><div><h5>신고 로비 회사</h5><p>{e(", ".join(smart_title(r) for r in regs))}</p><h5>접촉 기관</h5><p>{e(", ".join(ents) or "미기재")}</p></div>'
+                     f'<div><h5>로비스트 {len(lobs)}명 · 신고된 전직</h5><ul class="lob-list">{lob_html}</ul></div></div>'
+                     + (f'<p class="small"><b>신고 로비 회사의 정치후원금(LD-203) 중 이 사이트 행위자 수령분</b>: {e(c_txt)} — 로비 회사 전체 고객을 위한 후원이며 이 고객 몫이 아님</p>' if cs else "")
+                     + f'<details class="sg-detail"><summary>분기별 신고 {len(rs)}건: 금액·목적·원문</summary><div class="table-scroll"><table class="lobby"><thead><tr><th>분기·신고자</th><th>금액</th><th>신고된 로비 목적(원문)</th><th>출처</th></tr></thead><tbody>{q_rows}</tbody></table></div></details></article>')
+
+    ct_rows = "".join(
+        f'<tr><th scope="row">{e(x["member"])}</th><td>{e(smart_title(x["registrant"]))}<small>한국 방산·조선 고객: {e(smart_title(x["korean_defense_clients"]))}</small></td>'
+        f'<td class="num">{musd(x["amount_usd"])}<small>{e(x["items"])}건</small></td><td>{e(x["years"])}</td></tr>'
+        for x in contrib if not x["member"].startswith("Mike Rogers (")
     )
+    n_amb = sum(1 for x in contrib if x["member"].startswith("Mike Rogers ("))
     fsum = rows("fara_summary.csv")
     fact = rows("fara_activities.csv")
     fs_trs = "".join(
@@ -474,18 +552,72 @@ def build():
     )
     fa_rel = Counter(a["ndaa_relevance"] for a in fact)
     fa_topic = Counter(a["topic"] for a in fact)
+    fara_yearly = rows("fara_yearly.csv")
+    fara_agents = rows("fara_agents.csv")
+    fara_html = ""
+    if fara_yearly:
+        fy_years = [str(y) for y in range(2017, 2027)]
+
+        def fara_table(kind_prefix, title):
+            regs = defaultdict(lambda: {"amt": defaultdict(float), "partial": defaultdict(bool), "has": defaultdict(bool), "fps": set()})
+            for r in fara_yearly:
+                if not r["registrant_kind"].startswith(kind_prefix) or r["year"] not in fy_years:
+                    continue
+                v = regs[r["registrant"]]
+                v["fps"].add(r["foreign_principal"])
+                if re.fullmatch(r"[0-9.]+", r["receipts_usd"] or ""):
+                    v["amt"][r["year"]] += float(r["receipts_usd"]); v["has"][r["year"]] = True
+                if not r["completeness"].startswith("complete"):
+                    v["partial"][r["year"]] = True
+            order = sorted(regs, key=lambda k: -sum(regs[k]["amt"].values()))
+            mx = max((x for v in regs.values() for x in v["amt"].values()), default=1)
+            trs = ""
+            for rg in order:
+                v = regs[rg]
+                tds = "".join(
+                    (f'<td class="num"{heat(v["amt"][y], mx)}>{musd(v["amt"][y])}{"*" if v["partial"][y] else ""}</td>' if v["has"][y]
+                     else f'<td class="num muted">{"?" if v["partial"][y] else "—"}</td>') for y in fy_years)
+                trs += f'<tr><th scope="row">{e(rg)}<small>{e("; ".join(sorted(v["fps"]))[:160])}</small></th>{tds}<td class="num"><b>{musd(sum(v["amt"].values()))}</b></td></tr>'
+            tot = "".join(f'<td class="num"><b>{musd(sum(v["amt"][y] for v in regs.values()))}</b></td>' for y in fy_years)
+            trs += f'<tr class="tot"><th scope="row">합계</th>{tot}<td class="num"><b>{musd(sum(x for v in regs.values() for x in v["amt"].values()))}</b></td></tr>'
+            return (f'<h4 class="vote-group">{e(title)} <span class="count">{len(regs)}곳</span></h4><div class="table-scroll"><table class="money"><thead><tr><th>등록자 · 외국 주체</th>'
+                    + "".join(f"<th>{y}</th>" for y in fy_years) + f'<th>합계</th></tr></thead><tbody>{trs}</tbody></table></div>')
+
+        fara_html = (f'<h3 id="fara-money">FARA: 한국 측 외국 주체로부터의 수령액 (연도별)</h3><p class="section-intro">{md(nar.get("fara_money_intro", ""))}</p>'
+                     + fara_table("대행사", "A. 로비·홍보 회사와 개인 대리인 — 용역 보수")
+                     + fara_table("한국 기관", "B. 한국 기관·단체의 미국 사무소 — 본부에서 받은 운영자금(로비 보수 아님)"))
+    if fara_agents:
+        ag = [r for r in fara_agents if r.get("former_government_positions") and not r["former_government_positions"].startswith("미공시")]
+        fa_ag = "".join(
+            f'<tr><th scope="row">{e(r["person"])}<small>{e(r.get("role", ""))}</small></th><td>{e(r["registrant"])}<small>{e(r["foreign_principal"])}</small></td>'
+            f'<td>{e(r["former_government_positions"])}<small>출처: {e(r.get("former_position_source", "")[:60])}</small></td><td>{e(r.get("short_form_date", ""))}<small>{src_link(r.get("source_url"), "단축신고서")}</small></td></tr>'
+            for r in ag)
+        fara_html += (f'<details class="house-sources"><summary>FARA 대리인 중 전직 공직 경력이 확인된 사람 <span class="count">{len(ag)}</span> / 전체 대리인 {len({r["person"] for r in fara_agents})}명</summary>'
+                      f'<p class="small">FARA 단축신고서에는 전직 공직을 묻는 항목이 없습니다. LDA 신고서의 \'대상 공직(covered position)\' 기재와, 전직 연방의원 명단(Voteview)과의 이름 대조로 보완했습니다. 이름 대조로 찾은 경우는 [이름 대조·동일인 추정]으로 표시했습니다.</p>'
+                      f'<div class="table-scroll"><table class="lobby"><thead><tr><th>대리인</th><th>등록자·외국 주체</th><th>전직</th><th>신고일</th></tr></thead><tbody>{fa_ag}</tbody></table></div></details>')
     tab_lobby = f"""<section class="panel" id="lobby" aria-labelledby="t-lobby">
-<p class="kicker">07 · LOBBYING</p><h2 id="t-lobby">로비: 한국 정부·기업은 NDAA를 두고 누구를 만났나</h2>
+<p class="kicker">07 · LOBBYING</p><h2 id="t-lobby">로비: 한국 정부·기업은 누구를 통해, 얼마를 들여, 무엇을 요청했나</h2>
 <p class="section-intro">{md(nar['lobby_intro'])}</p>
 <div class="note"><b>먼저 읽을 점</b><p>{md(nar['lobby_caution'])}</p></div>
-<div class="mini-path"><div><b>{len(lda_rows)}</b><span>LDA 한국 조선·방산 의뢰인 활동 (신고서 {len({r["filing_uuid"] for r in lda_rows})}건)</span></div>
-<div><b>{sum(1 for r in lda_rows if r["names_fy27_ndaa"])}</b><span>그중 FY2027 NDAA를 명시한 활동</span></div>
-<div><b>{len(fsum)}</b><span>FARA 한국 측 활성 등록</span></div><div><b>{len(fact)}</b><span>FARA 활동 (직접 {fa_rel.get("직접", 0)} · 간접 {fa_rel.get("간접", 0)} · 무관 {fa_rel.get("무관", 0)})</span></div></div>
-<h3 id="lda">LDA 로비공시: 한국 조선·방산 기업 <span class="count">{len(clients)}개 의뢰인</span></h3>
-<p class="section-intro">{md(nar['lda_intro'])}</p>
-<div class="finding-grid">{lda_cards}</div>
-<details class="house-sources"><summary>신고 활동 전체 <span class="count">{len(lda_rows)}</span></summary>
-<div class="table-scroll"><table class="lobby"><thead><tr><th>분기</th><th>의뢰인·신고자</th><th>이슈 코드</th><th>신고된 활동(원문)</th><th>접촉 기관</th><th>금액·출처</th></tr></thead><tbody>{lda_trs}</tbody></table></div></details>
+<div class="mini-path"><div><b>{musd(sum(ytot.values()))}</b><span>한국 기업·기관 LDA 신고액 합계 (2017–2026 2분기)</span></div>
+<div><b>{musd(ytot.get("2025", 0))}</b><span>2025년 (최대)</span></div>
+<div><b>{musd(sum(ydef.values()))}</b><span>그중 방산·조선 기업</span></div>
+<div><b>{len(fsum)}</b><span>FARA 한국 측 활성 등록</span></div></div>
+<h3 id="lda-yearly">연도별 로비 금액: 한국 기업 그룹별 (LDA)</h3>
+<p class="section-intro">{md(nar['lda_yearly_intro'])}</p>
+{group_table}
+<h3 id="lda-top">연도별 주요 로비 주체 (신고액 상위 6곳)</h3>
+{top_table}
+<h3 id="lda-defense">방산·조선 기업의 로비</h3>
+<p class="section-intro">{md(nar['lda_defense_intro'])}</p>
+{def_table}
+{df_cards}
+<h3 id="lda-contrib">로비 회사의 정치후원금(LD-203) 중 행위자 의원 수령분</h3>
+<p class="section-intro">{md(nar['lda_contrib_intro'])}</p>
+<details class="house-sources"><summary>후원 내역 <span class="count">{ct_rows.count("<tr>")}</span></summary>
+<div class="table-scroll"><table class="lobby"><thead><tr><th>수령 의원</th><th>후원 신고 로비 회사</th><th>금액</th><th>연도</th></tr></thead><tbody>{ct_rows}</tbody></table></div>
+<p class="small">동명이인 때문에 제외한 Mike Rogers 관련 {n_amb}행(미시간 상원 후보 Mike Rogers와 구분 불가)은 표에 넣지 않았습니다.</p></details>
+{fara_html}
 <h3 id="fara">FARA 외국대리인 등록: 한국 정부·기관 <span class="count">{len(fsum)}</span></h3>
 <p class="section-intro">{md(nar['fara_intro'])}</p>
 <div class="table-scroll"><table class="lobby"><thead><tr><th>외국 주체</th><th>등록 대리인</th><th>계약 범위</th><th>NDAA 관련성(활동보고서 확인 결과)</th></tr></thead><tbody>{fs_trs}</tbody></table></div>
@@ -496,7 +628,7 @@ def build():
 <select id="fa-topic" aria-label="주제"><option value="">주제 전체</option>{''.join(f'<option value="{e(k)}">{e(k)} ({v})</option>' for k, v in fa_topic.most_common())}</select>
 <span id="fa-n" class="small" aria-live="polite"></span></div>
 <div class="table-scroll"><table class="lobby" id="fa-list"><thead><tr><th>ID·날짜</th><th>등록자·외국 주체</th><th>접촉 대상</th><th>활동·원문</th><th>NDAA 관련성</th><th>출처</th></tr></thead><tbody>{fa_trs}</tbody></table></div>
-<p class="small">LDA 수집: {e(lda_sum.get("fetched_at", ""))} · 질의 {len(lda_sum.get("queries", []))}종 · 2025–2026 신고서 {e(str(lda_sum.get("filings", "")))}건 중 한국 조선·방산 의뢰인 분. FARA: efile.fara.gov 일괄 색인(2026-10-03)과 보고서 PDF.</p>
+<p class="small">LDA 수집: {e(lda_sum.get("fetched_at", ""))} · 질의 {len(lda_sum.get("queries", []))}종 · 2017–2026 신고서 {e(str(lda_sum.get("filings", "")))}건 중 한국 기업·기관 의뢰 {e(str(lda_sum.get("korean_actor_filings", "")))}건(수정신고 정리 전). FARA: efile.fara.gov 일괄 색인(2026-10-03)과 보고서 PDF.</p>
 </section>"""
 
     # ---------- 6. evolution ----------
@@ -618,7 +750,7 @@ def build():
     (ROOT / "index.html").write_text(html, encoding="utf-8")
     print(f"wrote {ROOT / 'index.html'}: provisions {len(prov)}, amendments {len(amds)}, compare {len(comp)}, "
           f"status {len(status)}, history {len(hist)}, threads {len(threads)}, actors {len(actors)}, "
-          f"stances {len(stances)}, statements {len(stmts)}, lda {len(lda_rows)}, fara {len(fact)}, sources {len(sources)}")
+          f"stances {len(stances)}, statements {len(stmts)}, lda groups {len(ygroups)}, defense reports {len(drep)}, fara {len(fact)}, sources {len(sources)}")
 
 
 if __name__ == "__main__":
