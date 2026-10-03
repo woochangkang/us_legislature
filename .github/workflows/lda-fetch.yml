@@ -5,9 +5,13 @@ name: LDA fetch (Korea-related lobbying filings)
 on:
   workflow_dispatch:
     inputs:
+      contrib_years:
+        description: "LD-203 contribution years (space separated)"
+        default: "2023 2024 2025 2026"
+        required: true
       years:
         description: "Filing years (space separated)"
-        default: "2025 2026"
+        default: "2017 2018 2019 2020 2021 2022 2023 2024 2025 2026"
         required: true
 
 permissions:
@@ -16,7 +20,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
       - name: Probe lda.gov from the runner
@@ -30,7 +34,8 @@ jobs:
         env:
           LDA_API_KEY: ${{ secrets.LDA_API_KEY }}  # optional; anonymous works at 15 req/min
           YEARS: ${{ inputs.years }}
-        run: python3 tools/lda_fetch.py --years $YEARS --out lda_out
+          CONTRIB_YEARS: ${{ inputs.contrib_years }}
+        run: python3 tools/lda_fetch.py --years $YEARS --contrib-years $CONTRIB_YEARS --out lda_out
       - uses: actions/upload-artifact@v4
         if: always()
         with:
