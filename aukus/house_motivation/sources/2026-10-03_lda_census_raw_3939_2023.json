@@ -1,0 +1,2375 @@
+[
+ {
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/222f6279-4105-4e5d-938b-427a0c99cfcf/",
+    "filing_uuid": "222f6279-4105-4e5d-938b-427a0c99cfcf",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/222f6279-4105-4e5d-938b-427a0c99cfcf/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "1860000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Dimiana Georgieva",
+    "dt_posted": "2023-07-20T16:44:45-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "316 Pennsylvania Ave., SE",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20003",
+    "registrant": {
+     "id": 39223,
+     "url": "https://lda.gov/api/v1/registrants/39223/",
+     "house_registrant_id": 30712,
+     "name": "UPS (UNITED PARCEL SERVICE)",
+     "description": null,
+     "address_1": "316 Pennslyvani Avenue SE",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20003",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "LISA POST",
+     "contact_telephone": "+1 202-655-8439",
+     "dt_updated": "2026-07-29T10:18:29.619700-04:00"
+    },
+    "client": {
+     "id": 147131,
+     "url": "https://lda.gov/api/v1/clients/147131/",
+     "client_id": 12,
+     "name": "UPS (UNITED PARCEL SERVICE)",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "DC",
+     "ppb_state_display": "District of Columbia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-06"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "SMB",
+      "general_issue_code_display": "Small Business",
+      "description": "Education about UPSs support of SMBs and UPS's Women Exporter Program",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 90,
+        "name": "Small Business Administration (SBA)"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "HR 4346 / Public Law 117-167 - CHIPS Act of 2022 - Learn about CHIPS Act funding and requirements",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ENV",
+      "general_issue_code_display": "Environment/Superfund",
+      "description": "Provide credit for use of Renewable Natural Gas in transportation sustainability regulations Eliminate unnecessary regulations that limit the use of renewable diesel as a transportation fuel",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 49,
+        "name": "Environmental Protection Agency (EPA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "Safe Skies Act - Oppose unnecessary and harmful amendments to apply flight and duty rules to cargo pilots. Support efforts to ensure timely certification of electric vertical takeoff and landing (eVTOL) aircraft given FAA changes to regulatory approach for powered-lift certification. Seek funding to advance the development and demonstration of technologies for electric aircraft for the cargo and logistics industry with the dual purpose of supporting electric delivery trucks. Advanced Air Mobility Coordination and Leadership Act 5G Implementation",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TAX",
+      "general_issue_code_display": "Taxation/Internal Revenue Code",
+      "description": "HR 2448 - Renewable Natural Gas Incentive Act of 2023 - Legislation to provide a $1.00 per gallon tax credit for motor vehicles that use renewable natural gas (RNG). Public Law No: 117-169 - Inflation Reduction Act - Alternative Fuel Tax Credit, Alternative Refueling Property Tax Credit, Commercial Clean Vehicle Tax Credit S 4568 / HR 9396 - Natural Gas Incentive Act of 2022 - This bill allows a tax credit through 2032 equal to $1 times the number of gallons of renewable natural gas or gasoline gallon equivalent of nonliquid renewable natural gas for use as a fuel in a motor vehicle or motorboat or go use as a fuel in aviation HR 3939 - Build It in America Act",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "Tariff policy, U.S.-EU trade, U.S.-UK trade, IPEF, General Trade Policy, USMCA Implementation S 4809 - Uniform Postal Data Acquisition for Transparency and Early Detection within the United States Postal Service Act or the UPDATED USPS ACT - removes STOP Act country exemptions and increases customs and security compliance transparency S 986 - STOP Act 2.0 - makes it illegal for foreign shippers to mis-represent the origin of international postal shipments and increases customs and security compliance visibility HR 6 / S 2680 - Package of Bills that contained the STOP Act - Enforcing the STOP and Trade Acts",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 90,
+        "name": "Small Business Administration (SBA)"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "POS",
+      "general_issue_code_display": "Postal",
+      "description": "HR 3721 - USPS Shipping Equity Act - impose state and local regulations equally on USPS as private carriers HR 3076 / Public Law 117-108 - Postal Service Reform Act of 2022 - impact of bill on USPS financials",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "LBR",
+      "general_issue_code_display": "Labor Issues/Antitrust/Workplace",
+      "description": "Education on UPSs labor relations 87 FR 54641 - NLRB Joint Employer Rule - The implications and applicability of the new Joint Employer Rule in the transportation & logistics industry S 1068 / HR 2193 - Asuncion Valdivia Heat Illness and Fatality Prevention Act of 2021 - The importance of ensuring health & safety of UPSs employees, and the range of tools & resources UPS provides its employees to this end S 262 - Stop Spying Bosses Act - Education of UPSs use of technologies in the workplace in the context of a collective bargaining agreement",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 137931,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "JAY",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "LIM",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 28974,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MARCEL",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "DUBOIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70858,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "MICHAEL",
+         "last_name": "RICCIARDONE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65655,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "WHITNEY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VANMETER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 38,
+        "name": "Labor, Dept of (DOL)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "General customs modernization/trade facilitation policy to improve current regime. De minimis, customs parity regarding foreign posts, e-commerce police.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 184,
+        "name": "U.S. Customs & Border Protection"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FIR",
+      "general_issue_code_display": "Firearms/Guns/Ammunition",
+      "description": "Firearm Shipping Protection Act - Bypass state regulations for federal regulations on the shipment of firearms White House Executive Order - theft of firearms while in possession of carriers",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 28974,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MARCEL",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "DUBOIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TRU",
+      "general_issue_code_display": "Trucking/Shipping",
+      "description": "Amend federal law to allow the operation of a longer combination vehicle in Oregon to accommodate a longer energy efficient truck tractor HR 621 / S 154 - Catalytic converter theft Federal workforce grant funding for entry level driver training Global Supply Chain Issues - Efforts to address global supply chain challenges Infrastructure Investment - Increased government spending for the surface transportation provisions of an infrastructure investment package, and related revenue-raising mechanisms",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Professional Staff, U.S. House Committee on Transportation & Infrastructure; Legislative Director/Legislative Assistant/Systems Administrator, U.S. Rep. Lloyd Doggett",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 137931,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "JAY",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "LIM",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/523ed44d-36e8-460d-9ff3-269e02619733/",
+    "filing_uuid": "523ed44d-36e8-460d-9ff3-269e02619733",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/523ed44d-36e8-460d-9ff3-269e02619733/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "1540000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Dimiana Georgieva",
+    "dt_posted": "2023-10-20T12:22:06-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "316 Pennsylvania Ave., SE",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20003",
+    "registrant": {
+     "id": 39223,
+     "url": "https://lda.gov/api/v1/registrants/39223/",
+     "house_registrant_id": 30712,
+     "name": "UPS (UNITED PARCEL SERVICE)",
+     "description": null,
+     "address_1": "316 Pennslyvani Avenue SE",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20003",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "LISA POST",
+     "contact_telephone": "+1 202-655-8439",
+     "dt_updated": "2026-07-29T10:18:29.619700-04:00"
+    },
+    "client": {
+     "id": 147131,
+     "url": "https://lda.gov/api/v1/clients/147131/",
+     "client_id": 12,
+     "name": "UPS (UNITED PARCEL SERVICE)",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "DC",
+     "ppb_state_display": "District of Columbia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-06"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "Safe Skies Act - Oppose unnecessary and harmful amendments to apply flight and duty rules to cargo pilots. Support efforts to ensure timely certification of electric vertical takeoff and landing (eVTOL) aircraft given FAA changes to regulatory approach for powered-lift certification. Seek funding to advance the development and demonstration of technologies for electric aircraft for the cargo and logistics industry with the dual purpose of supporting electric delivery trucks. Advanced Air Mobility Coordination and Leadership Act 5G Implementation",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TAX",
+      "general_issue_code_display": "Taxation/Internal Revenue Code",
+      "description": "HR 2448 - Renewable Natural Gas Incentive Act of 2023 - Legislation to provide a $1.00 per gallon tax credit for motor vehicles that use renewable natural gas (RNG). Public Law No: 117-169 - Inflation Reduction Act - Alternative Fuel Tax Credit, Alternative Refueling Property Tax Credit, Commercial Clean Vehicle Tax Credit S 4568 / HR 9396 - Natural Gas Incentive Act of 2022 - This bill allows a tax credit through 2032 equal to $1 times the number of gallons of renewable natural gas or gasoline gallon equivalent of nonliquid renewable natural gas for use as a fuel in a motor vehicle or motorboat or go use as a fuel in aviation HR 3939 - Build It in America Act",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65655,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "WHITNEY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VANMETER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 41,
+        "name": "Treasury, Dept of"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "POS",
+      "general_issue_code_display": "Postal",
+      "description": "HR 3721 - USPS Shipping Equity Act - impose state and local regulations equally on USPS as private carriers HR 3076 / Public Law 117-108 - Postal Service Reform Act of 2022 - impact of bill on USPS financials",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 5,
+        "name": "Government Accountability Office (GAO)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 213,
+        "name": "Postal Regulatory Commission"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "Tariff policy, U.S.-EU trade, U.S.-UK trade, IPEF, General Trade Policy, USMCA Enforcement Universal Postal Union Access and Reform H.R. 4307/ S.2115 - Medical Supply Chain Resiliency Act: Promotes a trusted trader network for the movement of essential medical goods across borders. The legislation will improve U.S. access, and ensure that critical goods can be delivered safely, swiftly, and efficiently to patients at home and around the world. S 1711 / H.R 4023 - Uniform Postal Data Acquisition for Transparency and Early Detection within the United States Postal Service Act or the UPDATED USPS ACT - removes STOP Act country exemptions and increases customs and security compliance transparency S 986 - STOP Act 2.0 - makes it illegal for foreign shippers to mis-represent the origin of international postal shipments and increases customs and security compliance visibility",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 90,
+        "name": "Small Business Administration (SBA)"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SMB",
+      "general_issue_code_display": "Small Business",
+      "description": "Education about UPSs support of SMBs and UPS's Women Exporter Program",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 90,
+        "name": "Small Business Administration (SBA)"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "LBR",
+      "general_issue_code_display": "Labor Issues/Antitrust/Workplace",
+      "description": "Education on UPSs labor negotiations S 1068 / HR 2193 - Asuncion Valdivia Heat Illness and Fatality Prevention Act of 2021 - The importance of ensuring health & safety of UPSs employees, and the range of tools & resources UPS provides its employees to this end S 262 - Stop Spying Bosses Act - Education of UPSs use of technologies in the workplace in the context of a collective bargaining agreement Miscellaneous labor rulemakings",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 137931,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "JAY",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "LIM",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 28974,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MARCEL",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "DUBOIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65655,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "WHITNEY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VANMETER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 38,
+        "name": "Labor, Dept of (DOL)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "General customs modernization/trade facilitation policy to improve current regime. De minimis, customs parity regarding foreign posts, e-commerce police. Engage with stakeholders to improve processes to intercept illicit substances in global supply chains.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 184,
+        "name": "U.S. Customs & Border Protection"
+       },
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       },
+       {
+        "id": 12,
+        "name": "White House Office"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TRU",
+      "general_issue_code_display": "Trucking/Shipping",
+      "description": "Amend federal law to allow the operation of a longer combination vehicle in Oregon to accommodate a longer energy efficient truck tractor HR 621 / S 154 - Catalytic converter theft Federal workforce grant funding for entry level driver training Global Supply Chain Issues - Efforts to address global supply chain challenges Infrastructure Investment - Increased government spending for the surface transportation provisions of an infrastructure investment package, and related revenue-raising mechanisms Vehicle data ownership issues, including support of HR 906 - REPAIR Act",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Professional Staff, U.S. House Committee on Transportation & Infrastructure; Legislative Director/Legislative Assistant/Systems Administrator, U.S. Rep. Lloyd Doggett",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 137931,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "JAY",
+         "nickname": null,
+         "middle_name": "J",
+         "last_name": "LIM",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 184,
+        "name": "U.S. Customs & Border Protection"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "HR 4346 / Public Law 117-167 - CHIPS Act of 2022 - Learn about CHIPS Act funding and requirements",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 56094,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KEITH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KELLISON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 12921,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KIELY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ENV",
+      "general_issue_code_display": "Environment/Superfund",
+      "description": "Eliminate unnecessary regulations that limit the use of renewable diesel as a transportation fuel Sustainable aviation fuel advocacy",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141223,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "OKUYIGA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 140032,
+         "prefix": "ms",
+         "prefix_display": "MS.",
+         "first_name": "ANNE",
+         "nickname": null,
+         "middle_name": "POLICASTRO",
+         "last_name": "LAWRENCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 66570,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARIA",
+         "nickname": null,
+         "middle_name": "LUISA",
+         "last_name": "BOYCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 43187,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "DONTAI",
+         "nickname": null,
+         "middle_name": "L",
+         "last_name": "SMALLS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 33,
+        "name": "Energy, Dept of"
+       },
+       {
+        "id": 49,
+        "name": "Environmental Protection Agency (EPA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "LAW",
+      "general_issue_code_display": "Law Enforcement/Crime/Criminal Justice",
+      "description": "Porch Pirate Act of 2023: extend protections to packages carried throughout the domestic supply chain and those delivered by commercial and private carriers.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 65646,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JESSICA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LOWRANCE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 21798,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICHOLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEWIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70300,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EMILY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CASEY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

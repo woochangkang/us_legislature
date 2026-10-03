@@ -1,0 +1,622 @@
+[
+ {
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/5717ac64-f36b-4164-9a5b-3fe69dbd15fd/",
+    "filing_uuid": "5717ac64-f36b-4164-9a5b-3fe69dbd15fd",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/5717ac64-f36b-4164-9a5b-3fe69dbd15fd/print/",
+    "filing_document_content_type": "text/html",
+    "income": "37500.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Jim Meltsner",
+    "dt_posted": "2022-04-11T13:21:49-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "505 9th Street",
+    "registrant_address_2": "Suite 830",
+    "registrant_different_address": true,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20004",
+    "registrant": {
+     "id": 401079030,
+     "url": "https://lda.gov/api/v1/registrants/401079030/",
+     "house_registrant_id": null,
+     "name": "MELTSNER STRATEGIES, LLC",
+     "description": "Consulting Firm",
+     "address_1": "505 Ninth Street NW",
+     "address_2": "Suite 830",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20004",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JIM MELTSNER",
+     "contact_telephone": "+1 202-735-6202",
+     "dt_updated": "2026-09-02T17:30:41.900111-04:00"
+    },
+    "client": {
+     "id": 197731,
+     "url": "https://lda.gov/api/v1/clients/197731/",
+     "client_id": 12,
+     "name": "GENERAL DYNAMICS CORPORATION",
+     "general_description": "Defense",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-05-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "TAX",
+      "general_issue_code_display": "Taxation/Internal Revenue Code",
+      "description": "HR 1304, S 749: American Innovation and R&D Competitiveness Act; the continuation of Section 174, R&D Research and Development deductions in HR 5376, Build Back Better Reconciliation bill.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58576,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "JAMES",
+         "nickname": null,
+         "middle_name": "R.",
+         "last_name": "MELTSNER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Funding for the Columbia and Virginia Class Submarines in the yet unnumbered National Defense Authorization Act and the Defense Appropriations bill.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58576,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "JAMES",
+         "nickname": null,
+         "middle_name": "R.",
+         "last_name": "MELTSNER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/10e67f56-bdb9-4523-a37a-6ae7bb4d619b/",
+    "filing_uuid": "10e67f56-bdb9-4523-a37a-6ae7bb4d619b",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/10e67f56-bdb9-4523-a37a-6ae7bb4d619b/print/",
+    "filing_document_content_type": "text/html",
+    "income": "20000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "David Costello",
+    "dt_posted": "2022-04-20T08:43:00-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "3 Harris Court",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Marblehead",
+    "registrant_state": "MA",
+    "registrant_zip": "01945",
+    "registrant": {
+     "id": 400980803,
+     "url": "https://lda.gov/api/v1/registrants/400980803/",
+     "house_registrant_id": null,
+     "name": "RISING TIDE ASSOCIATES",
+     "description": "Public Affairs",
+     "address_1": "3 Harris Court",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Marblehead",
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "zip": "01945",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DAVID COSTELLO",
+     "contact_telephone": "+1 617-875-2492",
+     "dt_updated": "2026-07-31T10:49:47.633529-04:00"
+    },
+    "client": {
+     "id": 196670,
+     "url": "https://lda.gov/api/v1/clients/196670/",
+     "client_id": 63,
+     "name": "GRANITE STATE MANUFACTURING",
+     "general_description": "manufacturing",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "NH",
+     "state_display": "New Hampshire",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "NH",
+     "ppb_state_display": "New Hampshire",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-09-02"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Monitoring issues related to Virginia-class and Ohio-class submarine, LCS procurement. Ground robotics defense policy and appropriations in the FY22NDAA and FY22 Defense Appropriations bill. Support for FY23 defense appropriations",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 57205,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DAVID",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "COSTELLO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 61913,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SADOWSKI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/60480eef-46a0-409e-b34d-9c2ae21d4694/",
+    "filing_uuid": "60480eef-46a0-409e-b34d-9c2ae21d4694",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/60480eef-46a0-409e-b34d-9c2ae21d4694/print/",
+    "filing_document_content_type": "text/html",
+    "income": "20000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "David Costello",
+    "dt_posted": "2022-07-18T08:48:12-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "3 Harris Court",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Marblehead",
+    "registrant_state": "MA",
+    "registrant_zip": "01945",
+    "registrant": {
+     "id": 400980803,
+     "url": "https://lda.gov/api/v1/registrants/400980803/",
+     "house_registrant_id": null,
+     "name": "RISING TIDE ASSOCIATES",
+     "description": "Public Affairs",
+     "address_1": "3 Harris Court",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Marblehead",
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "zip": "01945",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DAVID COSTELLO",
+     "contact_telephone": "+1 617-875-2492",
+     "dt_updated": "2026-07-31T10:49:47.633529-04:00"
+    },
+    "client": {
+     "id": 196670,
+     "url": "https://lda.gov/api/v1/clients/196670/",
+     "client_id": 63,
+     "name": "GRANITE STATE MANUFACTURING",
+     "general_description": "manufacturing",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "NH",
+     "state_display": "New Hampshire",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "NH",
+     "ppb_state_display": "New Hampshire",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-09-02"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Monitoring issues related to Virginia-class and Ohio-class submarine, LCS procurement. Ground robotics defense policy and appropriations in the FY22NDAA and FY22 Defense Appropriations bill. Support for FY23 Navy defense appropriations",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 57205,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DAVID",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "COSTELLO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 61913,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SADOWSKI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/edd4ae4a-cb4f-4675-a081-4d4f824c2af5/",
+    "filing_uuid": "edd4ae4a-cb4f-4675-a081-4d4f824c2af5",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/edd4ae4a-cb4f-4675-a081-4d4f824c2af5/print/",
+    "filing_document_content_type": "text/html",
+    "income": "20000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "David Costello",
+    "dt_posted": "2022-10-19T15:45:51-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "3 Harris Court",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Marblehead",
+    "registrant_state": "MA",
+    "registrant_zip": "01945",
+    "registrant": {
+     "id": 400980803,
+     "url": "https://lda.gov/api/v1/registrants/400980803/",
+     "house_registrant_id": null,
+     "name": "RISING TIDE ASSOCIATES",
+     "description": "Public Affairs",
+     "address_1": "3 Harris Court",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Marblehead",
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "zip": "01945",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DAVID COSTELLO",
+     "contact_telephone": "+1 617-875-2492",
+     "dt_updated": "2026-07-31T10:49:47.633529-04:00"
+    },
+    "client": {
+     "id": 196670,
+     "url": "https://lda.gov/api/v1/clients/196670/",
+     "client_id": 63,
+     "name": "GRANITE STATE MANUFACTURING",
+     "general_description": "manufacturing",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "NH",
+     "state_display": "New Hampshire",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "NH",
+     "ppb_state_display": "New Hampshire",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-09-02"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Monitoring issues related to Virginia-class and Ohio-class submarine, LCS procurement. Support for FY23 Navy defense appropriations",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 57205,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DAVID",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "COSTELLO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 61913,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SADOWSKI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/8d192fef-7171-4c91-b438-6a8ef112e1a7/",
+    "filing_uuid": "8d192fef-7171-4c91-b438-6a8ef112e1a7",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/8d192fef-7171-4c91-b438-6a8ef112e1a7/print/",
+    "filing_document_content_type": "text/html",
+    "income": "20000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "David Costello",
+    "dt_posted": "2023-01-18T20:06:32-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "3 Harris Court",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Marblehead",
+    "registrant_state": "MA",
+    "registrant_zip": "01945",
+    "registrant": {
+     "id": 400980803,
+     "url": "https://lda.gov/api/v1/registrants/400980803/",
+     "house_registrant_id": null,
+     "name": "RISING TIDE ASSOCIATES",
+     "description": "Public Affairs",
+     "address_1": "3 Harris Court",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Marblehead",
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "zip": "01945",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DAVID COSTELLO",
+     "contact_telephone": "+1 617-875-2492",
+     "dt_updated": "2026-07-31T10:49:47.633529-04:00"
+    },
+    "client": {
+     "id": 196670,
+     "url": "https://lda.gov/api/v1/clients/196670/",
+     "client_id": 63,
+     "name": "GRANITE STATE MANUFACTURING",
+     "general_description": "manufacturing",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "NH",
+     "state_display": "New Hampshire",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "NH",
+     "ppb_state_display": "New Hampshire",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-09-02"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Monitoring issues related to Virginia-class and Ohio-class submarine, LCS procurement. Support for FY23 Navy defense appropriations",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 57205,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DAVID",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "COSTELLO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 61913,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SADOWSKI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

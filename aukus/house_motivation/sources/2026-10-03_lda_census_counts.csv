@@ -1,0 +1,16 @@
+term,year,api_count,kept_activities
+AUKUS,2022,0,0
+AUKUS,2023,36,54
+AUKUS,2024,52,54
+4619,2022,10,6
+4619,2023,3,3
+4619,2024,11,5
+3939,2022,9,6
+3939,2023,2,2
+3939,2024,18,4
+TORPEDO,2022,18,28
+TORPEDO,2023,19,27
+TORPEDO,2024,16,24
+"""Virginia Class""",2022,5,0
+"""Virginia Class""",2023,13,30
+"""Virginia Class""",2024,12,11
