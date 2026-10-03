@@ -59,7 +59,7 @@ def level_badge(level):
 
 
 def evidence_block(ev, sources, anchor=True):
-    attrs = f'id="{e(ev["id"])}" ' if anchor else ""
+    attrs = f'id="{e(ev["id"])}" data-sr="근거 자료실" ' if anchor else ""
     return f"""<details class="evidence" {attrs}data-level="{e(ev.get('level'))}" data-theme="{e(ev.get('theme'))}">
 <summary><span class="eid">{e(ev['id'])}</span><span class="summary-main"><span class="small">{e(ev.get('theme'))} · {e(ev.get('who'))} · {e(ev.get('date'))}</span><strong>{e(ev['claim'])}</strong></span>{level_badge(ev.get('level', ''))}</summary>
 <div class="evidence-body">
@@ -103,6 +103,12 @@ def build():
     tab1 = f"""<section class="panel" id="question" aria-labelledby="t-question">
 <p class="kicker">01 · CASE QUESTION</p><h2 id="t-question">{e(nar['question'])}</h2>
 <p class="lede">{nar['lede']}</p>
+<div class="site-search" role="search">
+<label for="site-q"><b>사이트 전체 검색</b> <span class="small">인물·법안·조항·문구 — 여러 단어는 모두 포함하는 항목만</span></label>
+<input type="search" id="site-q" placeholder="예: Courtney, 270일, H.R.4619, 산업기반, Rudd" autocomplete="off">
+<p id="site-n" class="small" aria-live="polite"></p>
+<ol id="site-results" class="site-results"></ol>
+</div>
 <div class="mini-path">{facts}</div>
 <div class="finding-grid">{cards}</div>
 <div class="note"><b>읽는 법</b><p>{nar['reading_note']}</p></div>
@@ -118,7 +124,7 @@ def build():
     # 3. origin
     def tl_rows(filter_fn):
         out = []
-        for t in timeline:
+        for n, t in enumerate(timeline, 1):
             if not filter_fn(t):
                 continue
             src = sources.get(t.get("source_id", ""), {})
@@ -130,14 +136,14 @@ def build():
             else:
                 link = e(t.get("source_id"))
             out.append(
-                f'<li class="tl-{e(t.get("chamber", "")).replace(" ", "")}"><time>{e(t["date"])}</time>'
+                f'<li id="tl-{n}" data-sr="입법 연표" class="tl-{e(t.get("chamber", "")).replace(" ", "")}"><time>{e(t["date"])}</time>'
                 f'<div><b>{e(t["event"])}</b><span class="small">{" · ".join(e(x) for x in (t.get("chamber"), t.get("actor")) if x and x != "—")}</span>'
                 f'<p>{e(t.get("detail"))}</p><span class="small">자료 {link}</span></div></li>'
             )
         return "<ol class=\"timeline\">" + "".join(out) + "</ol>"
 
     brow = "".join(
-        f'<tr><td><span class="tier tier-{e(b["tier"])}">{e(b["tier_label"])}</span></td>'
+        f'<tr id="bill-{e(b["id"])}" data-sr="법안 지도"><td><span class="tier tier-{e(b["tier"])}">{e(b["tier_label"])}</span></td>'
         f'<th scope="row">{e(b["bill"])}<small>{e(b["sponsor"])} · {e(b["date"])}</small></th>'
         f'<td>{e(b["role_for_sale"])}</td><td>{e(b["fate"])}</td>'
         f'<td>{ev_links([i for i in b["evidence"].split(";") if i.startswith("E")])}<small>{e(b["certainty"])}</small></td></tr>'
@@ -155,7 +161,7 @@ def build():
 
     # 4. clause comparison
     crow = "".join(
-        f'<tr><th scope="row">{e(c["date"])}<small>{e(c["version"])}</small></th><td>{e(c["section"])}</td>'
+        f'<tr id="clause-{e(c["id"])}" data-sr="조문 대조"><th scope="row">{e(c["date"])}<small>{e(c["version"])}</small></th><td>{e(c["section"])}</td>'
         f'<td><blockquote lang="en">{e(c["quote"])}</blockquote></td><td>{e(c["summary"])}<div class="references">{refs_html(c.get("refs"), sources)}</div></td></tr>'
         for c in clauses
     )
@@ -252,7 +258,7 @@ def build():
     st_tables = ""
     for g, label in st_groups:
         trs = "".join(
-            f'<tr id="stance-{slug(s["actor"])}"><th scope="row"><a href="#actor-{slug(s["actor"])}">{e(s["actor"])}</a></th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
+            f'<tr id="stance-{slug(s["actor"])}" data-sr="행위자별 입장"><th scope="row"><a href="#actor-{slug(s["actor"])}">{e(s["actor"])}</a></th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
             f'<small>{e(s["basis"])}</small></td><td>{link_people(s["reason"], s["actor"])}</td><td>{link_people(s["conditions_concerns"], s["actor"])}</td><td>{refs_links(s["evidence"])}</td></tr>'
             for s in stances if s["group"] == g
         )
@@ -295,7 +301,7 @@ def build():
         st = stance_of.get(a["name"])
         badge = (f'<a class="stance {stance_cls(st["stance"])}" href="#stance-{slug(a["name"])}" title="입장 차이 탭의 해당 행으로">{e(st["stance"])}</a>'
                  if st else "")
-        return (f'<article class="actor" id="actor-{slug(a["name"])}"><h3>{e(a["name"])}</h3>'
+        return (f'<article class="actor" id="actor-{slug(a["name"])}" data-sr="행위자 · {e(group_label.get(a.get("group", ""), a.get("group", "")))}"><h3>{e(a["name"])}</h3>'
                 f'<p class="who">{e(p.get("who", ""))}</p>'
                 f'<p class="small">당시 역할: {e(a.get("role_at_time"))}</p>'
                 f'<p>{link_people(a.get("what_they_did"), a["name"])}</p>'
@@ -305,7 +311,7 @@ def build():
 
     lobbyists = rows("aukus-lobbyists.csv")
     lrow = "".join(
-        f'<tr><th scope="row">{e(l["lobbyist"])}</th><td>{e(l["registrant"])}</td><td>{e(l["client"])}</td>'
+        f'<tr id="lob-{e(l["lobbyist_id"])}" data-sr="로비스트 명단"><th scope="row">{e(l["lobbyist"])}</th><td>{e(l["registrant"])}</td><td>{e(l["client"])}</td>'
         f'<td>{e(l["type"])}</td><td>{e(l["quarters"])}</td><td>{md_cell(l["congress_link"])}<small>{e(l["covered_position"])}</small></td></tr>'
         for l in lobbyists
     )
@@ -321,13 +327,13 @@ def build():
     house_members = rows("house-members.csv")
     house_sources = rows("house-sources.csv")
     hm_rows = "".join(
-        f'<tr><th scope="row">{e(m["member"])}</th><td>{md_cell(m["role_2023"])}</td><td>{md_cell(m["background"])}</td>'
+        f'<tr id="hm-{slug(m["member"])}" data-sr="하원의원 동기 분석"><th scope="row">{e(m["member"])}</th><td>{md_cell(m["role_2023"])}</td><td>{md_cell(m["background"])}</td>'
         f'<td>{md_cell(m["district"])}</td><td>{md_cell(m["money"])}</td><td>{md_cell(m["institution"])}</td>'
         f'<td>{md_cell(m["assessment"])}</td></tr>'
         for m in house_members
     )
     hs_rows = "".join(
-        f'<tr id="{e(s["id"])}"><th scope="row">{e(s["id"])}</th><td>{e(s["who"])}</td><td>{e(s["claim"])}'
+        f'<tr id="{e(s["id"])}" data-sr="하원 근거표"><th scope="row">{e(s["id"])}</th><td>{e(s["who"])}</td><td>{e(s["claim"])}'
         + (f'<blockquote lang="en">{e(s["quote"])}</blockquote>' if s.get("quote") else "")
         + f'</td><td><a href="{e(s["url"].split(" ")[0])}">원 출처</a><small>{e(s["source_type"])} · 접속 {e(s["accessed"])} · 원문대조 {e(s["verified"])}</small></td></tr>'
         for s in house_sources
