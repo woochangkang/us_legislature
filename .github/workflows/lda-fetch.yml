@@ -1,0 +1,39 @@
+name: LDA fetch (Korea-related lobbying filings)
+
+# Manual only. lda.gov blocks some non-U.S. networks at its Akamai edge, so the fetch runs on a GitHub runner.
+# Results are uploaded as an artifact and are NOT committed to this repository.
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Filing years (space separated)"
+        default: "2025 2026"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe lda.gov from the runner
+        run: |
+          curl -s -o /dev/null -w "lda.gov/api/v1/ -> HTTP %{http_code}\n" https://lda.gov/api/v1/ || true
+          curl -s https://ipinfo.io/json | grep -E '"(city|region|country|org)"' || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch filings
+        env:
+          LDA_API_KEY: ${{ secrets.LDA_API_KEY }}  # optional; anonymous works at 15 req/min
+          YEARS: ${{ inputs.years }}
+        run: python3 tools/lda_fetch.py --years $YEARS --out lda_out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lda-korea-${{ github.run_id }}
+          path: lda_out/
+          retention-days: 30
