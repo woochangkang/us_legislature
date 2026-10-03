@@ -1,0 +1,226 @@
+{
+    "member": {
+        "bioguideId": "I000024",
+        "birthYear": "1934",
+        "cosponsoredLegislation": {
+            "count": 5452,
+            "url": "https://api.congress.gov/v3/member/I000024/cosponsored-legislation"
+        },
+        "currentMember": false,
+        "deathYear": "2024",
+        "depiction": {
+            "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+            "imageUrl": "https://www.congress.gov/img/member/i000024_200.jpg"
+        },
+        "directOrderName": "James M. Inhofe",
+        "firstName": "Jim",
+        "honorificName": "Mr.",
+        "invertedOrderName": "Inhofe, James M.",
+        "lastName": "Inhofe",
+        "partyHistory": [
+            {
+                "partyAbbreviation": "R",
+                "partyName": "Republican",
+                "startYear": 1987
+            }
+        ],
+        "previousNames": [
+            {
+                "directOrderName": "James M. Inhofe",
+                "firstName": "Jim",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Inhofe, James M.",
+                "lastName": "Inhofe",
+                "startDate": "1987-01-03T05:00:00Z"
+            }
+        ],
+        "sponsoredLegislation": {
+            "count": 1297,
+            "url": "https://api.congress.gov/v3/member/I000024/sponsored-legislation"
+        },
+        "state": "Oklahoma",
+        "terms": [
+            {
+                "chamber": "House of Representatives",
+                "congress": 100,
+                "district": 1,
+                "endYear": 1989,
+                "memberType": "Representative",
+                "startYear": 1987,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 101,
+                "district": 1,
+                "endYear": 1991,
+                "memberType": "Representative",
+                "startYear": 1989,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 102,
+                "district": 1,
+                "endYear": 1993,
+                "memberType": "Representative",
+                "startYear": 1991,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 103,
+                "district": 1,
+                "endYear": 1995,
+                "memberType": "Representative",
+                "startYear": 1993,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 103,
+                "endYear": 1995,
+                "memberType": "Senator",
+                "startYear": 1994,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 104,
+                "endYear": 1997,
+                "memberType": "Senator",
+                "startYear": 1995,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 105,
+                "endYear": 1999,
+                "memberType": "Senator",
+                "startYear": 1997,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 106,
+                "endYear": 2001,
+                "memberType": "Senator",
+                "startYear": 1999,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 107,
+                "endYear": 2003,
+                "memberType": "Senator",
+                "startYear": 2001,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 108,
+                "endYear": 2005,
+                "memberType": "Senator",
+                "startYear": 2003,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 109,
+                "endYear": 2007,
+                "memberType": "Senator",
+                "startYear": 2005,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 110,
+                "endYear": 2009,
+                "memberType": "Senator",
+                "startYear": 2007,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 111,
+                "endYear": 2011,
+                "memberType": "Senator",
+                "startYear": 2009,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 112,
+                "endYear": 2013,
+                "memberType": "Senator",
+                "startYear": 2011,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 113,
+                "endYear": 2015,
+                "memberType": "Senator",
+                "startYear": 2013,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 114,
+                "endYear": 2017,
+                "memberType": "Senator",
+                "startYear": 2015,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 115,
+                "endYear": 2019,
+                "memberType": "Senator",
+                "startYear": 2017,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 116,
+                "endYear": 2021,
+                "memberType": "Senator",
+                "startYear": 2019,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 117,
+                "endYear": 2023,
+                "memberType": "Senator",
+                "startYear": 2021,
+                "stateCode": "OK",
+                "stateName": "Oklahoma"
+            }
+        ],
+        "updateDate": "2024-07-09T16:24:27Z"
+    },
+    "request": {
+        "bioguideId": "i000024",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

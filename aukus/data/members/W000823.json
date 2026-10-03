@@ -1,0 +1,110 @@
+{
+    "member": {
+        "bioguideId": "W000823",
+        "birthYear": "1974",
+        "cosponsoredLegislation": {
+            "count": 871,
+            "url": "https://api.congress.gov/v3/member/W000823/cosponsored-legislation"
+        },
+        "currentMember": false,
+        "depiction": {
+            "attribution": "Image courtesy of the Member",
+            "imageUrl": "https://www.congress.gov/img/member/w000823_200.jpg"
+        },
+        "directOrderName": "Michael Waltz",
+        "district": 6,
+        "firstName": "Michael",
+        "honorificName": "Mr.",
+        "invertedOrderName": "Waltz, Michael",
+        "lastName": "Waltz",
+        "officialWebsiteUrl": "https://waltz.house.gov",
+        "partyHistory": [
+            {
+                "partyAbbreviation": "R",
+                "partyName": "Republican",
+                "startYear": 2019
+            }
+        ],
+        "previousNames": [
+            {
+                "directOrderName": "Michael Waltz",
+                "endDate": "2024-06-03T03:59:59Z",
+                "firstName": "Michael",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Waltz, Michael",
+                "lastName": "Waltz",
+                "startDate": "2023-06-01T04:00:00Z"
+            },
+            {
+                "directOrderName": "Michael Waltz",
+                "endDate": "2023-06-01T03:59:59Z",
+                "firstName": "Michael",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Waltz, Michael",
+                "lastName": "Waltz",
+                "startDate": "2019-01-03T05:00:00Z"
+            },
+            {
+                "directOrderName": "Michael Waltz",
+                "firstName": "Michael",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Waltz, Michael",
+                "lastName": "Waltz",
+                "startDate": "2024-06-03T04:00:00Z"
+            }
+        ],
+        "sponsoredLegislation": {
+            "count": 77,
+            "url": "https://api.congress.gov/v3/member/W000823/sponsored-legislation"
+        },
+        "state": "Florida",
+        "terms": [
+            {
+                "chamber": "House of Representatives",
+                "congress": 116,
+                "district": 6,
+                "endYear": 2021,
+                "memberType": "Representative",
+                "startYear": 2019,
+                "stateCode": "FL",
+                "stateName": "Florida"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 117,
+                "district": 6,
+                "endYear": 2023,
+                "memberType": "Representative",
+                "startYear": 2021,
+                "stateCode": "FL",
+                "stateName": "Florida"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 118,
+                "district": 6,
+                "endYear": 2025,
+                "memberType": "Representative",
+                "startYear": 2023,
+                "stateCode": "FL",
+                "stateName": "Florida"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 119,
+                "district": 6,
+                "endYear": 2025,
+                "memberType": "Representative",
+                "startYear": 2025,
+                "stateCode": "FL",
+                "stateName": "Florida"
+            }
+        ],
+        "updateDate": "2025-09-19T22:03:47Z"
+    },
+    "request": {
+        "bioguideId": "w000823",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

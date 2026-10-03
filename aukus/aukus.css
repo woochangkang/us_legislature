@@ -199,3 +199,7 @@ footer a{color:#9fdde2;margin-left:auto}
 .st-indirect{background:var(--soft);color:var(--muted)}
 .stances td{vertical-align:top}.stances td small{display:block;margin-top:4px;color:var(--muted);font-size:12px}
 .stances th[scope=row]{min-width:120px}
+.actor .who{font-weight:600;color:var(--ink);font-size:14px;line-height:1.5;margin:4px 0 8px}
+.actor .links a{margin-right:2px}
+.actor a.stance{text-decoration:none}
+a.person{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}

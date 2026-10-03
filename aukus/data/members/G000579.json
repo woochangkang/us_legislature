@@ -1,0 +1,101 @@
+{
+    "member": {
+        "bioguideId": "G000579",
+        "birthYear": "1984",
+        "cosponsoredLegislation": {
+            "count": 884,
+            "url": "https://api.congress.gov/v3/member/G000579/cosponsored-legislation"
+        },
+        "currentMember": false,
+        "depiction": {
+            "attribution": "Congressional Pictorial Directory",
+            "imageUrl": "https://www.congress.gov/img/member/115_rp_wi_8_gallagher_mike_200.jpg"
+        },
+        "directOrderName": "Mike Gallagher",
+        "district": 8,
+        "firstName": "Mike",
+        "honorificName": "Mr.",
+        "invertedOrderName": "Gallagher, Mike",
+        "lastName": "Gallagher",
+        "officialWebsiteUrl": "https://gallagher.house.gov",
+        "partyHistory": [
+            {
+                "partyAbbreviation": "R",
+                "partyName": "Republican",
+                "startYear": 2017
+            }
+        ],
+        "previousNames": [
+            {
+                "directOrderName": "Mike Gallagher",
+                "endDate": "2023-06-01T03:59:59Z",
+                "firstName": "Mike",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Gallagher, Mike",
+                "lastName": "Gallagher",
+                "startDate": "2017-01-03T05:00:00Z"
+            },
+            {
+                "directOrderName": "Mike Gallagher",
+                "firstName": "Mike",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Gallagher, Mike",
+                "lastName": "Gallagher",
+                "startDate": "2023-06-01T04:00:00Z"
+            }
+        ],
+        "sponsoredLegislation": {
+            "count": 171,
+            "url": "https://api.congress.gov/v3/member/G000579/sponsored-legislation"
+        },
+        "state": "Wisconsin",
+        "terms": [
+            {
+                "chamber": "House of Representatives",
+                "congress": 115,
+                "district": 8,
+                "endYear": 2019,
+                "memberType": "Representative",
+                "startYear": 2017,
+                "stateCode": "WI",
+                "stateName": "Wisconsin"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 116,
+                "district": 8,
+                "endYear": 2021,
+                "memberType": "Representative",
+                "startYear": 2019,
+                "stateCode": "WI",
+                "stateName": "Wisconsin"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 117,
+                "district": 8,
+                "endYear": 2023,
+                "memberType": "Representative",
+                "startYear": 2021,
+                "stateCode": "WI",
+                "stateName": "Wisconsin"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 118,
+                "district": 8,
+                "endYear": 2024,
+                "memberType": "Representative",
+                "startYear": 2023,
+                "stateCode": "WI",
+                "stateName": "Wisconsin"
+            }
+        ],
+        "updateDate": "2025-09-19T22:03:46Z"
+    },
+    "request": {
+        "bioguideId": "g000579",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

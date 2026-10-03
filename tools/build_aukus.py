@@ -213,13 +213,47 @@ def build():
     def refs_links(ids):
         return " ".join(re.sub(r"\b([EHL]\d{2,3})\b", r'<a href="#\1">\1</a>', e(i)) for i in ids.split(";") if i)
 
+    # cross-links between actor cards (#actor-…) and stance rows (#stance-…)
+    def slug(name):
+        return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+    aliases = {  # surface form in Korean/English text -> actor name (actors.csv)
+        "Courtney": "Joe Courtney", "Gallagher": "Mike Gallagher", "McCaul": "Michael McCaul", "Meeks": "Gregory Meeks",
+        "Huizenga": "Bill Huizenga", "Young Kim": "Young Kim", "Kean": "Thomas Kean Jr.", "Waltz": "Michael Waltz",
+        "McCormick": "Richard McCormick", "Adam Smith": "Adam Smith", "Kelly": "Trent Kelly", "Norcross": "Donald Norcross",
+        "Wittman": "Rob Wittman", "Kilmer": "Derek Kilmer", "Moore": "Blake Moore", "Rogers": "Mike Rogers",
+        "Reed": "Jack Reed", "Inhofe": "James Inhofe", "Wicker": "Roger Wicker", "Kaine": "Tim Kaine", "Risch": "James Risch",
+        "Menendez": "Robert Menendez", "Blumenthal": "Richard Blumenthal", "Hagerty": "Bill Hagerty", "Biden": "Joe Biden",
+        "Raven": "Erik Raven", "Karlin": "Mara Karlin", "Houston": "William J. Houston (VADM)", "Rucker": "Jonathan Rucker (RDML)",
+        "Albanese": "Anthony Albanese", "Rudd": "Kevin Rudd", "Sinodinos": "Arthur Sinodinos", "Marles": "Richard Marles",
+        "Morrison": "Scott Morrison", "Winter": "Donald C. Winter", "Wissler": "John E. Wissler 외", "Chandler": "Shana Chandler",
+        "노던준주": "Northern Territory Government", "General Dynamics": "General Dynamics (Electric Boat)", "GD": "General Dynamics (Electric Boat)",
+        "Electric Boat": "General Dynamics (Electric Boat)", "HII": "Huntington Ingalls Industries", "RTX": "RTX (Raytheon)",
+        "AIA": "Aerospace Industries Association", "PMB Defence": "PMB Defence", "FifeStrategies": "FifeStrategies, LLC",
+        "Gephardt Group": "Gephardt Group · TheGroup DC", "TheGroup DC": "Gephardt Group · TheGroup DC", "Baker Donelson": "Baker Donelson",
+    }
+    alias_re = re.compile(r"(?<![A-Za-z])(" + "|".join(re.escape(k) for k in sorted(aliases, key=len, reverse=True)) + r")(?![A-Za-z])")
+
+    def link_people(text, self_name=""):
+        """Escape text and link the first mention of each other actor to its card."""
+        seen = set()
+
+        def sub(m):
+            target = aliases[m.group(1)]
+            if target == self_name or target in seen:
+                return m.group(1)
+            seen.add(target)
+            return f'<a class="person" href="#actor-{slug(target)}">{m.group(1)}</a>'
+        return alias_re.sub(sub, e(text))
+
     stances = rows("stances.csv")
+    stance_of = {s["actor"]: s for s in stances}
     st_groups = [("행정부", "행정부"), ("상원", "상원"), ("하원", "하원"), ("호주측", "호주 측 관계자"), ("산업계", "산업계"), ("로비스트", "로비스트")]
     st_tables = ""
     for g, label in st_groups:
         trs = "".join(
-            f'<tr><th scope="row">{e(s["actor"])}</th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
-            f'<small>{e(s["basis"])}</small></td><td>{e(s["reason"])}</td><td>{e(s["conditions_concerns"])}</td><td>{refs_links(s["evidence"])}</td></tr>'
+            f'<tr id="stance-{slug(s["actor"])}"><th scope="row"><a href="#actor-{slug(s["actor"])}">{e(s["actor"])}</a></th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
+            f'<small>{e(s["basis"])}</small></td><td>{link_people(s["reason"], s["actor"])}</td><td>{link_people(s["conditions_concerns"], s["actor"])}</td><td>{refs_links(s["evidence"])}</td></tr>'
             for s in stances if s["group"] == g
         )
         st_tables += (f'<h4>{e(label)}</h4><div class="table-scroll"><table class="stances"><thead><tr><th>행위자</th><th>입장 · 근거 성격</th>'
@@ -249,10 +283,25 @@ def build():
     groups = ["행정부", "상원", "하원", "호주측", "산업계", "로비스트"]
     group_label = {"호주측": "호주 측 관계자"}
 
+    profiles = {p["name"]: p for p in rows("actor-profiles.csv")}
+
     def acard(a):
         src = " ".join(md_cell(s) for s in (a.get("source_ids") or "").split(";") if s)
-        return (f'<article class="actor"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))} · {e(a.get("party_state"))}</p>'
-                f'<p>{e(a.get("what_they_did"))}</p><p class="small">자료 {src}</p></article>')
+        p = profiles.get(a["name"], {})
+        links = " · ".join(
+            f'<a href="{e(u)}" rel="noopener">{e(lbl)}</a>'
+            for lbl, u in (x.split("|", 1) for x in (p.get("links") or "").split(";") if "|" in x)
+        )
+        st = stance_of.get(a["name"])
+        badge = (f'<a class="stance {stance_cls(st["stance"])}" href="#stance-{slug(a["name"])}" title="입장 차이 탭의 해당 행으로">{e(st["stance"])}</a>'
+                 if st else "")
+        return (f'<article class="actor" id="actor-{slug(a["name"])}"><h3>{e(a["name"])}</h3>'
+                f'<p class="who">{e(p.get("who", ""))}</p>'
+                f'<p class="small">당시 역할: {e(a.get("role_at_time"))}</p>'
+                f'<p>{link_people(a.get("what_they_did"), a["name"])}</p>'
+                f'<p class="small">AUKUS 입장 {badge}</p>'
+                + (f'<p class="small links">더 보기: {links}</p>' if links else "")
+                + f'<p class="small">근거 {src}</p></article>')
 
     lobbyists = rows("aukus-lobbyists.csv")
     lrow = "".join(

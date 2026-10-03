@@ -1,0 +1,210 @@
+{
+    "member": {
+        "bioguideId": "M000639",
+        "birthYear": "1954",
+        "cosponsoredLegislation": {
+            "count": 5701,
+            "url": "https://api.congress.gov/v3/member/M000639/cosponsored-legislation"
+        },
+        "currentMember": false,
+        "depiction": {
+            "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+            "imageUrl": "https://www.congress.gov/img/member/m000639_200.jpg"
+        },
+        "directOrderName": "Robert Menendez",
+        "firstName": "Robert",
+        "honorificName": "Mr.",
+        "invertedOrderName": "Menendez, Robert",
+        "lastName": "Menendez",
+        "partyHistory": [
+            {
+                "partyAbbreviation": "D",
+                "partyName": "Democratic",
+                "startYear": 1993
+            }
+        ],
+        "previousNames": [
+            {
+                "directOrderName": "Robert Menendez",
+                "firstName": "Robert",
+                "honorificName": "Mr.",
+                "invertedOrderName": "Menendez, Robert",
+                "lastName": "Menendez",
+                "startDate": "1993-01-03T05:00:00Z"
+            }
+        ],
+        "sponsoredLegislation": {
+            "count": 1954,
+            "url": "https://api.congress.gov/v3/member/M000639/sponsored-legislation"
+        },
+        "state": "New Jersey",
+        "terms": [
+            {
+                "chamber": "House of Representatives",
+                "congress": 103,
+                "district": 13,
+                "endYear": 1995,
+                "memberType": "Representative",
+                "startYear": 1993,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 104,
+                "district": 13,
+                "endYear": 1997,
+                "memberType": "Representative",
+                "startYear": 1995,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 105,
+                "district": 13,
+                "endYear": 1999,
+                "memberType": "Representative",
+                "startYear": 1997,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 106,
+                "district": 13,
+                "endYear": 2001,
+                "memberType": "Representative",
+                "startYear": 1999,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 107,
+                "district": 13,
+                "endYear": 2003,
+                "memberType": "Representative",
+                "startYear": 2001,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 108,
+                "district": 13,
+                "endYear": 2005,
+                "memberType": "Representative",
+                "startYear": 2003,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "House of Representatives",
+                "congress": 109,
+                "district": 13,
+                "endYear": 2006,
+                "memberType": "Representative",
+                "startYear": 2005,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 109,
+                "endYear": 2007,
+                "memberType": "Senator",
+                "startYear": 2006,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 110,
+                "endYear": 2009,
+                "memberType": "Senator",
+                "startYear": 2007,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 111,
+                "endYear": 2011,
+                "memberType": "Senator",
+                "startYear": 2009,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 112,
+                "endYear": 2013,
+                "memberType": "Senator",
+                "startYear": 2011,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 113,
+                "endYear": 2015,
+                "memberType": "Senator",
+                "startYear": 2013,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 114,
+                "endYear": 2017,
+                "memberType": "Senator",
+                "startYear": 2015,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 115,
+                "endYear": 2019,
+                "memberType": "Senator",
+                "startYear": 2017,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 116,
+                "endYear": 2021,
+                "memberType": "Senator",
+                "startYear": 2019,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 117,
+                "endYear": 2023,
+                "memberType": "Senator",
+                "startYear": 2021,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            },
+            {
+                "chamber": "Senate",
+                "congress": 118,
+                "endYear": 2024,
+                "memberType": "Senator",
+                "startYear": 2023,
+                "stateCode": "NJ",
+                "stateName": "New Jersey"
+            }
+        ],
+        "updateDate": "2025-01-23T17:35:24Z"
+    },
+    "request": {
+        "bioguideId": "m000639",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
