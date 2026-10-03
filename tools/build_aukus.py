@@ -208,13 +208,7 @@ def build():
 {nar['positions_summary']}
 </section>"""
 
-    # 6. actors
-    acards = "".join(
-        f'<article class="actor"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))} · {e(a.get("party_state"))}</p>'
-        f'<p>{e(a.get("what_they_did"))}</p><p class="small">자료 {e(a.get("source_ids"))}</p></article>'
-        for a in actors
-    )
-    # 7b. why House members took it up (H/L source table + archived copies)
+    # 6. actors, grouped by camp
     def link_ids(html_text):
         """Turn [H03] / [L19] / E42 style references into in-page links."""
         html_text = re.sub(r"\b([HL]\d{2,3})\b", r'<a href="#\1">\1</a>', html_text)
@@ -222,6 +216,29 @@ def build():
 
     def md_cell(text):
         return link_ids(re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", e(text)))
+
+    groups = ["행정부", "상원", "하원", "호주측", "산업계", "로비스트"]
+    group_label = {"호주측": "호주 측 관계자"}
+
+    def acard(a):
+        src = " ".join(md_cell(s) for s in (a.get("source_ids") or "").split(";") if s)
+        return (f'<article class="actor"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))} · {e(a.get("party_state"))}</p>'
+                f'<p>{e(a.get("what_they_did"))}</p><p class="small">자료 {src}</p></article>')
+
+    lobbyists = rows("aukus-lobbyists.csv")
+    lrow = "".join(
+        f'<tr><th scope="row">{e(l["lobbyist"])}</th><td>{e(l["registrant"])}</td><td>{e(l["client"])}</td>'
+        f'<td>{e(l["type"])}</td><td>{e(l["quarters"])}</td><td>{md_cell(l["congress_link"])}<small>{e(l["covered_position"])}</small></td></tr>'
+        for l in lobbyists
+    )
+    lobby_table = f"""<details class="house-sources"><summary>AUKUS 로비 공시에 이름이 오른 로비스트 <span class="count">{len(lobbyists)}</span></summary>
+<p class="small">2022–2024 LDA 공시 가운데 AUKUS 관련 활동(L51)에 이름이 오른 로비스트 전원입니다. 전직은 로비스트가 신고한 '과거 공직(covered position)'이며, 의회 근무 경력이 있는 사람은 {sum(1 for l in lobbyists if l["congress_link"])}명입니다. 전직은 접근 경로의 가능성일 뿐 실제 접촉을 뜻하지 않습니다.</p>
+<div class="table-scroll"><table class="lobbyists"><thead><tr><th>로비스트</th><th>소속(신고자)</th><th>의뢰인</th><th>유형</th><th>신고 분기</th><th>의회 경력 · 신고된 전직</th></tr></thead><tbody>{lrow}</tbody></table></div></details>"""
+    actor_sections = ""
+    for g in groups:
+        cards = "".join(acard(a) for a in actors if a.get("group") == g)
+        extra = lobby_table if g == "로비스트" else ""
+        actor_sections += f'<h3 class="actor-group">{e(group_label.get(g, g))} <span class="count">{sum(1 for a in actors if a.get("group") == g)}</span></h3><div class="finding-grid">{cards}</div>{extra}'
 
     house_members = rows("house-members.csv")
     house_sources = rows("house-sources.csv")
@@ -251,7 +268,7 @@ def build():
 {link_ids(nar['house_cannot'])}
 <h4>남은 확인 사항</h4>
 {link_ids(nar['house_open'])}
-<details class="house-sources"><summary>근거표 H01–L64 <span class="count">{len(house_sources)}</span></summary>
+<details class="house-sources"><summary>근거표 H01–L65 <span class="count">{len(house_sources)}</span></summary>
 <div class="table-scroll"><table><thead><tr><th>ID</th><th>대상</th><th>내용·인용</th><th>출처</th></tr></thead><tbody>{hs_rows}</tbody></table></div>
 </details>
 <details class="house-sources"><summary>보관 원자료 <span class="count">{len(hfiles)}</span></summary>
@@ -261,7 +278,7 @@ def build():
     tab6 = f"""<section class="panel" id="actors" aria-labelledby="t-actors">
 <p class="kicker">07 · ACTORS</p><h2 id="t-actors">행위자</h2>
 <p class="section-intro">{nar['actors_intro']}</p>
-<div class="finding-grid">{acards}</div>
+{actor_sections}
 {house}
 </section>"""
 
