@@ -192,3 +192,10 @@ footer a{color:#9fdde2;margin-left:auto}
 .actor-group{margin-top:28px;padding-top:12px;border-top:1px solid var(--line)}
 .lobbyists td small{display:block;margin-top:4px;color:var(--muted);font-size:12px}
 .lobbyists td:nth-child(4),.lobbyists td:nth-child(5){white-space:nowrap}
+.stance{display:inline-block;font-size:12px;font-weight:650;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.st-pro{background:var(--accent-soft);color:var(--accent-ink)}
+.st-cond{background:var(--brass-soft);color:var(--brass)}
+.st-caution{background:var(--rose-soft);color:var(--rose)}
+.st-indirect{background:var(--soft);color:var(--muted)}
+.stances td{vertical-align:top}.stances td small{display:block;margin-top:4px;color:var(--muted);font-size:12px}
+.stances th[scope=row]{min-width:120px}

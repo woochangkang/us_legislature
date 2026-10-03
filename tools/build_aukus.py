@@ -200,12 +200,41 @@ def build():
         f'<tr><th scope="row">{e(ph)}</th>' + "".join(f"<td>{pcell(ph, c)}</td>" for c in camps) + "</tr>"
         for ph in phases
     )
+    # per-actor stances in six groups (links use the same E/H/L anchors as elsewhere)
+    def stance_cls(s):
+        if s.startswith(("신중", "회의")) or s.startswith("조건부 (") or s == "조건부(우려 제기)":
+            return "st-caution"
+        if s.startswith("조건부"):
+            return "st-cond"
+        if s.startswith(("간접", "의뢰인")):
+            return "st-indirect"
+        return "st-pro"
+
+    def refs_links(ids):
+        return " ".join(re.sub(r"\b([EHL]\d{2,3})\b", r'<a href="#\1">\1</a>', e(i)) for i in ids.split(";") if i)
+
+    stances = rows("stances.csv")
+    st_groups = [("행정부", "행정부"), ("상원", "상원"), ("하원", "하원"), ("호주측", "호주 측 관계자"), ("산업계", "산업계"), ("로비스트", "로비스트")]
+    st_tables = ""
+    for g, label in st_groups:
+        trs = "".join(
+            f'<tr><th scope="row">{e(s["actor"])}</th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
+            f'<small>{e(s["basis"])}</small></td><td>{e(s["reason"])}</td><td>{e(s["conditions_concerns"])}</td><td>{refs_links(s["evidence"])}</td></tr>'
+            for s in stances if s["group"] == g
+        )
+        st_tables += (f'<h4>{e(label)}</h4><div class="table-scroll"><table class="stances"><thead><tr><th>행위자</th><th>입장 · 근거 성격</th>'
+                      f'<th>이유</th><th>조건 · 우려</th><th>근거</th></tr></thead><tbody>{trs}</tbody></table></div>')
+    stance_html = f"""<h3 id="stances">행위자별 입장: 찬성·조건부·신중</h3>
+<p class="section-intro">{nar['stances_intro']}</p>
+{st_tables}"""
+
     tab_pos = f"""<section class="panel" id="positions" aria-labelledby="t-positions">
 <p class="kicker">06 · THREE CAMPS</p><h2 id="t-positions">입장 차이: 행정부·상원·하원은 무엇을 원했고 어떻게 바뀌었나</h2>
 <p class="section-intro">{nar['positions_intro']}</p>
 <div class="table-scroll"><table class="positions"><thead><tr><th>시기</th><th>행정부 (국방부·해군)</th><th>상원</th><th>하원</th></tr></thead><tbody>{prow}</tbody></table></div>
 <h3>정리</h3>
 {nar['positions_summary']}
+{stance_html}
 </section>"""
 
     # 6. actors, grouped by camp
