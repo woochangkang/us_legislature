@@ -1,0 +1,33 @@
+name: LDA lobbyist lookup (covered positions)
+
+# Manual only; runs on a U.S. runner because lda.gov blocks some non-U.S. networks. Artifact only, nothing committed.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "LDA lobbyist ids (space separated)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Look up lobbyists
+        env:
+          LDA_API_KEY: ${{ secrets.LDA_API_KEY }}
+          IDS: ${{ inputs.ids }}
+        run: python3 tools/lda_lobbyists.py --ids $IDS --out lda_lobbyists_out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lda-lobbyists-${{ github.run_id }}
+          path: lda_lobbyists_out/
+          retention-days: 30
