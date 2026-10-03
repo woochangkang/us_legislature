@@ -135,6 +135,12 @@ def build():
 <p class="kicker">01 · OVERVIEW</p><h2 id="t-overview">{e(nar['question'])}</h2>
 <p class="lede">{md(nar['lede'])}</p>
 <div class="mini-path">{facts}</div>
+<div class="site-search" role="search">
+<label for="site-q"><b>사이트 전체 검색</b> <span class="small">조항·인물·쟁점·문구 — 여러 단어는 모두 포함하는 항목만</span></label>
+<input type="search" id="site-q" placeholder="예: 28,500, 전작권, Golden, shipyard, Hanwha, §1235" autocomplete="off">
+<p id="site-n" class="small" aria-live="polite"></p>
+<ol id="site-results" class="site-results"></ol>
+</div>
 <div class="finding-grid">{cards}</div>
 <div class="note"><b>읽는 법</b><p>{md(nar['reading_note'])}</p></div>
 </section>"""
@@ -144,7 +150,7 @@ def build():
     rel_count = Counter(p["relation"] for p in prov)
 
     def prov_card(p):
-        return f"""<details class="evidence prov" id="{e(p['id'])}" data-rel="{e(p['relation'])}" data-cat="{e(' '.join(cats(p['category'])))}" data-bill="{e(p['bill'])}">
+        return f"""<details class="evidence prov" id="{e(p['id'])}" data-rel="{e(p['relation'])}" data-cat="{e(' '.join(cats(p['category'])))}" data-bill="{e(p['bill'])}" data-sr="FY2027 조항" data-title="{e(p['bill'])} {e(p['section'])} — {e(p['summary_ko'])}">
 <summary><span class="eid">{e(p['id'])}</span><span class="summary-main"><span class="small">{e(p['bill'])} · {e(p['version'])} · <b>{e(p['section'])}</b></span><strong>{e(p['summary_ko'])}</strong><span class="chips">{cat_chips(p['category'])}</span></span>{rel_badge(p['relation'])}</summary>
 <div class="evidence-body">
 <p class="small" lang="en">{e(p['heading'])}</p>
@@ -160,7 +166,7 @@ def build():
     prov_html = "\n".join(prov_card(p) for p in prov)
 
     amd_rows = "".join(
-        f'<tr id="{e(a["id"])}"><th scope="row">{e(a["id"])}<small>{e(a["chamber"])}</small></th>'
+        f'<tr id="{e(a["id"])}" data-sr="수정안" data-title="{e(a["amendment"])} · {e(a["sponsor"])}"><th scope="row">{e(a["id"])}<small>{e(a["chamber"])}</small></th>'
         f'<td>{e(a["amendment"])}<small>{e(a["date"])}</small></td><td>{e(a["sponsor"])}<small>{e(a["party_state"])}</small></td>'
         f'<td>{e(a["purpose_ko"])}' + (f'<blockquote lang="en">{e(a["korea_text_quote"])}</blockquote>' if a.get("korea_text_quote") else "")
         + f'<span class="chips">{cat_chips(a["category"])}</span></td><td>{e(a["status"])}<small>{src_link(a["source_url"])}</small></td></tr>'
@@ -186,20 +192,20 @@ def build():
     comp_html = ""
     for t in comp_threads:
         trs = "".join(
-            f'<tr><th scope="row">{e(c["version"])}<small>{e(c["date"])}</small></th><td>{e(c["section"])}</td>'
+            f'<tr id="cp-{n}" data-sr="하원·상원 비교" data-title="{e(c["thread"])} · {e(c["version"])} {e(c["section"])}"><th scope="row">{e(c["version"])}<small>{e(c["date"])}</small></th><td>{e(c["section"])}</td>'
             f'<td>' + (f'<blockquote lang="en">{e(c["quote"])}</blockquote>' if c.get("quote") else '<span class="small">해당 조항 없음</span>')
             + f'</td><td>{md(c["diff_ko"])}<small>{src_link(c["source_url"])} {e(short_loc(c["locator"]))}</small></td></tr>'
-            for c in comp if c["thread"] == t
+            for n, c in enumerate(comp, 1) if c["thread"] == t
         )
         comp_html += f'<h3>{e(t)}</h3><div class="table-scroll"><table class="compare"><thead><tr><th>판본</th><th>조항</th><th>원문</th><th>차이</th></tr></thead><tbody>{trs}</tbody></table></div>'
 
     def tl(items):
         out = []
-        for t in items:
+        for n, t in enumerate(items, 1):
             ch = (t.get("chamber") or "").replace(" ", "")
             link = src_link(t.get("source_url"), "자료")
             out.append(
-                f'<li class="tl-{e(ch)}"><time>{e(t["date"])}</time><div><b>{e(t["event"])}</b>'
+                f'<li id="tl-{n}" data-sr="입법 경과" data-title="{e(t["date"])} {e(t["event"])}" class="tl-{e(ch)}"><time>{e(t["date"])}</time><div><b>{e(t["event"])}</b>'
                 f'<span class="small">{" · ".join(e(x) for x in (t.get("chamber"), t.get("actor"), t.get("vote")) if x and x != "—")}</span>'
                 f'<p>{md(t.get("detail"))}</p><span class="small">{basis_badge(t.get("basis"))} {link}</span></div></li>'
             )
@@ -219,7 +225,7 @@ def build():
     groups = list(OrderedDict.fromkeys(a["group"] for a in actors))
 
     def acard(a):
-        return (f'<article class="actor"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))}'
+        return (f'<article class="actor" id="ac-{actors.index(a) + 1}" data-sr="행위자 · {e(a["group"])}" data-title="{e(a["name"])}"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))}'
                 + (f' · {e(a["party_state"])}' if a.get("party_state") and a["party_state"] != "—" else "")
                 + f'</p><p>{md(a.get("what_they_did"))}</p><p class="small">근거 {ids_links(a.get("source_ids"))}</p></article>')
 
@@ -231,9 +237,9 @@ def build():
     lobby_html = ""
     if lobby:
         lr = "".join(
-            f'<tr><th scope="row">{e(l["foreign_principal"])}</th><td>{e(l["registrant"])}<small>등록번호 {e(l["registration_number"])}</small></td>'
+            f'<tr id="fara-{n}" data-sr="FARA 등록" data-title="{e(l["foreign_principal"])} · {e(l["registrant"])}"><th scope="row">{e(l["foreign_principal"])}</th><td>{e(l["registrant"])}<small>등록번호 {e(l["registration_number"])}</small></td>'
             f'<td>{e(l["fp_registration_date"])}</td><td>{e(l["ndaa_link"])}</td></tr>'
-            for l in lobby
+            for n, l in enumerate(lobby, 1)
         )
         lobby_html = f"""<h3 id="fara">외국대리인 등록(FARA): 한국 측 의뢰인 <span class="count">{len(lobby)}</span></h3>
 <p class="section-intro">{md(nar['lobbying_intro'])}</p>
@@ -261,16 +267,16 @@ def build():
     st_html = ""
     for iss in issues:
         trs = "".join(
-            f'<tr><th scope="row">{e(s["actor"])}<small>{e(s["group"])}</small></th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
+            f'<tr id="st-{n}" data-sr="쟁점별 입장" data-title="{e(s["actor"])} · {e(s["issue"])} · {e(s["stance"])}"><th scope="row">{e(s["actor"])}<small>{e(s["group"])}</small></th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
             f'<small>{basis_badge(s["basis"])}</small></td><td>{md(s["reason"])}</td><td>{md(s["conditions_concerns"])}</td><td>{ids_links(s["evidence"])}</td></tr>'
-            for s in stances if s["issue"] == iss
+            for n, s in enumerate(stances, 1) if s["issue"] == iss
         )
         st_html += (f'<h3>{e(iss)}</h3><div class="table-scroll"><table class="stances"><thead><tr><th>행위자</th><th>입장</th>'
                     f'<th>이유</th><th>조건·우려</th><th>근거</th></tr></thead><tbody>{trs}</tbody></table></div>')
     prow = "".join(
-        f'<tr><th scope="row">{e(p["period"])}</th><td>{e(p["actor"])}<small>{e(p["body"])}</small></td>'
+        f'<tr id="ph-{n}" data-sr="단계별 입장" data-title="{e(p["period"])} · {e(p["actor"])}"><th scope="row">{e(p["period"])}</th><td>{e(p["actor"])}<small>{e(p["body"])}</small></td>'
         f'<td>{md(p["position"])}</td><td>{ids_links(p["evidence"])}<small>{e(p["certainty"])}</small></td></tr>'
-        for p in positions
+        for n, p in enumerate(positions, 1)
     )
     pos_html = f"""<h3>단계별 입장 이동</h3>
 <div class="table-scroll"><table class="positions"><thead><tr><th>시기</th><th>행위자</th><th>입장·행동</th><th>근거</th></tr></thead><tbody>{prow}</tbody></table></div>"""
@@ -308,20 +314,20 @@ def build():
     thread_detail = ""
     for tn in tnames:
         lis = "".join(
-            f'<li class="{thread_cls(t["status"])}"><time>FY{e(t["fy"])}</time><div><b>{e(t["section"])} · {e(t["status"])}</b>'
+            f'<li id="th-{n}" data-sr="쟁점 계보" data-title="{e(tlabel(t["thread"]))} · FY{e(t["fy"])} {e(t["section"])}" class="{thread_cls(t["status"])}"><time>FY{e(t["fy"])}</time><div><b>{e(t["section"])} · {e(t["status"])}</b>'
             f'<p>{md(t["change_ko"])}</p><span class="small">{e(t["key_terms"])} {ids_links(t["source_ref"]) if ID_RE.search(t["source_ref"] or "") else e(t["source_ref"])}</span></div></li>'
-            for t in threads if t["thread"] == tn
+            for n, t in enumerate(threads, 1) if t["thread"] == tn
         )
         thread_detail += f'<details class="thread"><summary>{e(tlabel(tn))}</summary><ol class="lineage">{lis}</ol></details>'
 
     floor_rows = "".join(
-        f'<tr><th scope="row">FY{e(f["fy"])}</th><td>{e(f["chamber"])}<small>{e(f["version"])}</small></td><td>{e(f["section"])}</td>'
+        f'<tr id="fl-{n}" data-sr="병력 하한 판본 비교" data-title="FY{e(f["fy"])} {e(f["chamber"])} {e(f["section"])}"><th scope="row">FY{e(f["fy"])}</th><td>{e(f["chamber"])}<small>{e(f["version"])}</small></td><td>{e(f["section"])}</td>'
         f'<td>{e(f["key_terms"])}<blockquote lang="en">{e(f["quote"])}</blockquote></td><td>{src_link(f["source_url"])}</td></tr>'
-        for f in floor
+        for n, f in enumerate(floor, 1)
     )
 
     def hist_card(h):
-        return f"""<details class="evidence hist" id="{e(h['id'])}" data-fy="{e(h['fy'])}" data-rel="{e(h['relation'])}" data-cat="{e(' '.join(cats(h['category'])))}">
+        return f"""<details class="evidence hist" id="{e(h['id'])}" data-fy="{e(h['fy'])}" data-rel="{e(h['relation'])}" data-cat="{e(' '.join(cats(h['category'])))}" data-sr="제정법 조문" data-title="FY{e(h['fy'])} {e(h['section'])} — {e(h['summary_ko'])}">
 <summary><span class="eid">{e(h['id'])}</span><span class="summary-main"><span class="small">FY{e(h['fy'])} · {e(h['public_law'])} · <b>{e(h['section'])}</b></span><strong>{e(h['summary_ko'])}</strong><span class="chips">{cat_chips(h['category'])}</span></span>{rel_badge(h['relation'])}</summary>
 <div class="evidence-body"><p class="small" lang="en">{e(h['heading'])}</p><blockquote lang="en">{e(h['quote'])}</blockquote>
 <p class="references">{src_link(h['source_url'], '공법 원문')} <span class="small">{e(h['locator'])} · 제정 {e(h['enacted_date'])} · 원문 대조 {e(h['quote_verified'])}</span></p></div></details>"""
@@ -353,7 +359,7 @@ def build():
 
     # ---------- 7. archive ----------
     st_rows = "".join(
-        f'<tr id="{e(s["id"])}"><th scope="row">{e(s["id"])}</th><td>{e(s["actor"])}<small>{e(s.get("role_at_time"))} {e(s.get("party_state"))}</small></td>'
+        f'<tr id="{e(s["id"])}" data-sr="발언·문서" data-title="{e(s["actor"])} · {e(s["date"])}"><th scope="row">{e(s["id"])}</th><td>{e(s["actor"])}<small>{e(s.get("role_at_time"))} {e(s.get("party_state"))}</small></td>'
         f'<td>{e(s["date"])}<small>{e(s["venue"])}</small></td><td>{e(s["summary_ko"])}'
         + (f'<blockquote lang="en">{e(s["quote"])}</blockquote>' if s.get("quote") else "")
         + f'</td><td>{basis_badge(s["basis"])}<small>{src_link(s.get("source_url_or_path"))} {e(short_loc(s.get("locator")))}</small></td></tr>'
