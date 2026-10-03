@@ -1,0 +1,2905 @@
+[
+ {
+  "count": 17,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/288dd402-8ad5-4c5e-ae79-9e96eafe714a/",
+    "filing_uuid": "288dd402-8ad5-4c5e-ae79-9e96eafe714a",
+    "filing_type": "RR",
+    "filing_type_display": "Registration",
+    "filing_year": 2021,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/288dd402-8ad5-4c5e-ae79-9e96eafe714a/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Celeste Strate",
+    "dt_posted": "2021-12-02T15:28:40-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": null,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "cybersecurity",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "cybersecurity",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "cybersecurity",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/21a820f4-1342-4b73-9748-28a4bb385b28/",
+    "filing_uuid": "21a820f4-1342-4b73-9748-28a4bb385b28",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2021,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/21a820f4-1342-4b73-9748-28a4bb385b28/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Celeste Strate",
+    "dt_posted": "2022-01-19T13:36:51.743000-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity for federal agencies\nFY22 Department of Defense Appropriations Bill\nFY22 Department of Defense Authorization Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/0f82731d-a026-4168-ba4f-ffa5978eeea6/",
+    "filing_uuid": "0f82731d-a026-4168-ba4f-ffa5978eeea6",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/0f82731d-a026-4168-ba4f-ffa5978eeea6/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Celeste Strate",
+    "dt_posted": "2022-04-14T16:23:46-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies FY23 Defense Appropriations Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity for federal agencies FY23 Department of Defense Appropriations Bill FY23 Department of Defense Authorization Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/4ae16eba-1113-475a-b45b-223b12b6cb33/",
+    "filing_uuid": "4ae16eba-1113-475a-b45b-223b12b6cb33",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/4ae16eba-1113-475a-b45b-223b12b6cb33/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Celeste Strate",
+    "dt_posted": "2022-07-18T10:21:40-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies FY23 Defense Appropriations Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity for federal agencies FY23 Department of Defense Appropriations Bill FY23 Department of Defense Authorization Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/e430648e-34ee-435d-936f-a42aa5e53c51/",
+    "filing_uuid": "e430648e-34ee-435d-936f-a42aa5e53c51",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/e430648e-34ee-435d-936f-a42aa5e53c51/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Celeste Strate",
+    "dt_posted": "2022-10-07T11:35:19-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies FY23 Defense Appropriations Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity for federal agencies FY23 Department of Defense Appropriations Bill FY23 Department of Defense Authorization Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/a13c5265-834d-4526-a2a3-0e1c3899e132/",
+    "filing_uuid": "a13c5265-834d-4526-a2a3-0e1c3899e132",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/a13c5265-834d-4526-a2a3-0e1c3899e132/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Jennifer Reck",
+    "dt_posted": "2023-01-05T11:50:47-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies FY23 Defense Appropriations Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity for federal agencies FY23 Department of Defense Appropriations Bill FY23 Department of Defense Authorization Bill",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/2380784e-e4ca-4795-8f0c-85336d078709/",
+    "filing_uuid": "2380784e-e4ca-4795-8f0c-85336d078709",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/2380784e-e4ca-4795-8f0c-85336d078709/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Jennifer Reck",
+    "dt_posted": "2023-04-12T14:59:39-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/dd4c424f-cdbf-4e25-b388-c67f6d248876/",
+    "filing_uuid": "dd4c424f-cdbf-4e25-b388-c67f6d248876",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/dd4c424f-cdbf-4e25-b388-c67f6d248876/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Jennifer Reck",
+    "dt_posted": "2023-07-14T12:05:33-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/5fba532a-4cff-4a93-a7ea-d68582b95b50/",
+    "filing_uuid": "5fba532a-4cff-4a93-a7ea-d68582b95b50",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/5fba532a-4cff-4a93-a7ea-d68582b95b50/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Brice Cagle",
+    "dt_posted": "2023-10-17T10:08:18-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/babcf9d6-cb4b-40a3-ac62-9b1f907bb855/",
+    "filing_uuid": "babcf9d6-cb4b-40a3-ac62-9b1f907bb855",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/babcf9d6-cb4b-40a3-ac62-9b1f907bb855/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Brice Cagle",
+    "dt_posted": "2024-01-16T18:08:10-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/13a47738-aa47-4ba8-b2e5-98f459f70e06/",
+    "filing_uuid": "13a47738-aa47-4ba8-b2e5-98f459f70e06",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/13a47738-aa47-4ba8-b2e5-98f459f70e06/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2024-04-12T16:06:11-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity for federal agencies",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "Australia, United Kingdom, United States (AUKUS) Partnership",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/4f73062d-f05a-4205-84c1-1c99f5af8ad8/",
+    "filing_uuid": "4f73062d-f05a-4205-84c1-1c99f5af8ad8",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/4f73062d-f05a-4205-84c1-1c99f5af8ad8/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "10000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2024-07-16T09:15:05-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk H.R. 8070, SERVICEMEMBER QUALITY OF LIFE IMPROVEMENT AND NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "Australia, United Kingdom, United States (AUKUS) Partnership",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/03ed7ce9-5f60-4fd7-91d9-594d95e37055/",
+    "filing_uuid": "03ed7ce9-5f60-4fd7-91d9-594d95e37055",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/03ed7ce9-5f60-4fd7-91d9-594d95e37055/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "30000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2024-10-18T16:25:36-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk H.R. 8070, SERVICEMEMBER QUALITY OF LIFE IMPROVEMENT AND NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "Australia, United Kingdom, United States (AUKUS) Partnership",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/ab215491-67f0-4af6-8f4d-afb278d98170/",
+    "filing_uuid": "ab215491-67f0-4af6-8f4d-afb278d98170",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/ab215491-67f0-4af6-8f4d-afb278d98170/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "80000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2025-01-20T12:10:34-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "CPI",
+      "general_issue_code_display": "Computer Industry",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Zero Trust Cross Domain Insider Risk H.R. 8070, SERVICEMEMBER QUALITY OF LIFE IMPROVEMENT AND NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "Australia, United Kingdom, United States (AUKUS) Partnership",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/9838aba8-7d6e-4628-8e82-f99b3a49364b/",
+    "filing_uuid": "9838aba8-7d6e-4628-8e82-f99b3a49364b",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/9838aba8-7d6e-4628-8e82-f99b3a49364b/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "140000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2025-04-21T14:26:52-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Cross Domain Insider Risk FY26 National Defense Authorization Act",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/a323a68c-6b12-4f54-94e2-bf15082478ee/",
+    "filing_uuid": "a323a68c-6b12-4f54-94e2-bf15082478ee",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/a323a68c-6b12-4f54-94e2-bf15082478ee/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "140000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2025-07-16T17:19:26-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Cross Domain Insider Risk FY26 National Defense Authorization Act",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/fcf1c137-508f-417e-be60-7224fa79ecb3/",
+    "filing_uuid": "fcf1c137-508f-417e-be60-7224fa79ecb3",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/fcf1c137-508f-417e-be60-7224fa79ecb3/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "90000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Chad Anson",
+    "dt_posted": "2025-10-17T16:44:24-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "12950 WORLDGATE DR., STE. 600",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "HERNDON",
+    "registrant_state": "VA",
+    "registrant_zip": "20170",
+    "registrant": {
+     "id": 401106316,
+     "url": "https://lda.gov/api/v1/registrants/401106316/",
+     "house_registrant_id": null,
+     "name": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)",
+     "description": "Technology Company for Cybersecurity Products and Services",
+     "address_1": "12950 WORLDGATE DR., STE. 600",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "HERNDON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20170",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ROBYN GLASSNER",
+     "contact_telephone": "+1 214-636-0030",
+     "dt_updated": "2026-07-17T20:12:24.901224-04:00"
+    },
+    "client": {
+     "id": 212933,
+     "url": "https://lda.gov/api/v1/clients/212933/",
+     "client_id": 12,
+     "name": "EVERFOX LLC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2021-11-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Cybersecurity Cross Domain Insider Risk",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Cybersecurity Cross Domain Insider Risk FY26 National Defense Authorization Act",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 116583,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NICOLE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DI RESTA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Senate Committee on Appropriations, PSM, Sen &Cong. Schumer/LA, Rep. Markey/LA,LC/SA Lobbying Codes: BUD, DEF, CPI, FOR",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

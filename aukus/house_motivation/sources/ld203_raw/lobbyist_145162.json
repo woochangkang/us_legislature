@@ -1,0 +1,2307 @@
+[
+ {
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/888d560d-ba42-4514-a15c-869756d6f1c6/",
+    "filing_uuid": "888d560d-ba42-4514-a15c-869756d6f1c6",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/888d560d-ba42-4514-a15c-869756d6f1c6/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "160000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Bill McCarthy",
+    "dt_posted": "2024-04-22T09:42:13-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1800 M Street, NW, Suite 800 S",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20036",
+    "registrant": {
+     "id": 401105458,
+     "url": "https://lda.gov/api/v1/registrants/401105458/",
+     "house_registrant_id": null,
+     "name": "FDD ACTION",
+     "description": "Issue advocacy on U.S. national security and foreign policy",
+     "address_1": "1800 M Street, NW, Suite 800 S",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20036",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "WILLIAM MCCARTHY",
+     "contact_telephone": "+1 202-207-0190",
+     "dt_updated": "2026-07-17T14:19:22.246604-04:00"
+    },
+    "client": {
+     "id": 203727,
+     "url": "https://lda.gov/api/v1/clients/203727/",
+     "client_id": 12,
+     "name": "FDD ACTION",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "DC",
+     "ppb_state_display": "District of Columbia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2019-10-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BAN",
+      "general_issue_code_display": "Banking",
+      "description": "H.R. 3033, Solidify Iran Sanctions Act of 2023, all provisions. H.R. 3203, Stop Chinese Fentanyl Act of 2023, all provisions. H.R. 3882, Leveling the Playing Field 2.0 Act, all provisions. H.R. 6370, OFAC Licensure for Investigators Act, all provisions. H.R. 6505, Fentanyl Reduction Engrained by Economic Deterrence (FREED) Act, all provisions. H.R. 6769, Trusted Foreign Auditing Act of 2023, all provisions. H.R. 803, PROTECT Taiwan Act, all provisions. S. 1271, FEND Off Fentanyl Act, all provisions. S. 1390, Solidify Iran Sanctions Act of 2023, all provisions. S. 152, American Financial Markets Integrity and Security Act, all provisions. S. 2678, Outbound Investment Transparency Act of 2023, all provisions. S. 3494, Trusted Foreign Auditing Act of 2023, all provisions. S.3831, Protecting American Autoworkers from China Act of 2024, all provisions. Issues related to Anti-Money Laundering and Combating the Financing of Terrorism; Captagon and International Narcotics Trafficking; China-Related Divestment Authorities; Chinese Involvement with Fentanyl Trafficking; Expanding Trade Transparency Units; Hamas Funding Streams; IMF Funding for Iran; International Narcotics Production and Trafficking; Iran Funding Streams; Iranian Oil Sanctions Enforcement; U.S. Adversaries Sanctions Evasions Schemes; U.S. Exports Control Policy; U.S. Iran Financial Waivers Policy; U.S. Narcotics Sanctions Policy; U.S. Sanctions Authorities, Implementation, Enforcement, and Policy; U.S. Tariffs on Chinese Electric Vehicles; U.S. Terrorism Sanctions Policy; and U.S.-Mexico-Canada Agreement (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146703,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CONNOR",
+         "nickname": null,
+         "middle_name": "RUSSELL",
+         "last_name": "PFEIFFER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "National Security Fellow (2018-19), National Security Legislative Assistant (2019), Senior Legislative Assistant (2019-20), Rep. Hurd",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "H.R. 3974, Securing Our Airspace from Reconnaissance Act of 2023, all provisions. H.R. 7217, Israel Security Supplemental Appropriations Act, 2024, all provisions. H.R. 7866, United States-Israel Anti-Tunnel Cooperation Enhancement Act, all provisions. H.R. 8034, Israel Security Supplemental Appropriations Act, 2024, all provisions. H.R. 8035, Ukraine Security Supplemental Appropriations Act, 2024, all provisions. H.R. 8036, Indo-Pacific Security Supplemental Appropriations Act, 2024, all provisions. H.R. 8046, To impose sanctions with respect to Rosatom, and for other purposes, all provisions. H.R. 815, National Security Act, 2024, all provisions. S. J. Res. 60, A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Turkiye of certain defense articles and services, all provisions. S. 4093, Reviewing Qatars Major Non-NATO Ally Status of 2024, all provisions. H.R. 8038, 21st Century Peace through Strength Act, (issues related to Holding Iranian Leaders Accountable Act; FEND Off Fentanyl Act; Fight CRIME Act; Hamas and Other Palestinian Terrorist Groups International Financing Prevention Act; Illicit Captagon Trafficking Suppression Act; Iran-China Energy Sanctions Act; MAHSA Act; No Technology for Terror Act; Protecting Americans from Foreign Adversary Controlled Applications Act; REPO for Ukrainians Act; SHIP Act; and Strengthening Tools to Counter the Use of Human Shields Act). Issues related to Chinas Foreign Policy and Military Strategy; Chinese Military and Surveillance Companies; Congressional Oversight of U.S. Security Assistance; Countering Iranian and Houthi Maritime Aggression; Countering Unmanned Aerial Systems; Denying Foreign Access to Sensitive U.S. Facilities; Hardening U.S. Military Bases and Capabilities; Implementation of the Chemical and Biological Weapons Control and Warfare Elimination Act; Implementation of the MARITIME Act of 2023; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Israeli Operations in Gaza; Low-Cost One-Way Attack UAVs; Major Non-NATO Allies; Malign Foreign Influence at International Organizations; Maritime Security in the Eastern Mediterranean; Middle East Regional Security Architecture; NATO Supply Chains; Precision Strike Missile Production Capacity; Production Capacity for Critical Munitions; Russias Foreign Policy and Military Strategy; Russian Chemical Weapons Violations; Russian Nuclear Operations and Programs; Security Situation in the Balkans; Terrorists Use of Human Shields; U.S. Arms Sales and Procurement Strategies; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Indo-Pacific Military Posture and Strategy; U.S. Military Basing Strategy; U.S. Military Capabilities, Deterrence, and Posture; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Russias War in Ukraine; U.S.-Israel Security Cooperation; U.S.-South Africa Relations; U.S.-South Korea Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Ukraine Security Cooperation; and White House Supplemental Spending Requests (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146703,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CONNOR",
+         "nickname": null,
+         "middle_name": "RUSSELL",
+         "last_name": "PFEIFFER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "National Security Fellow (2018-19), National Security Legislative Assistant (2019), Senior Legislative Assistant (2019-20), Rep. Hurd",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "H. J. Res. 96, Compact of Free Association Amendments Act of 2023, all provisions. H. Res. 1107, Expressing the sense of Congress that Israel must be in full support of any negotiation or agreement relating to the Israeli-Hamas conflict, including a two-state solution or similar long-term plan relating to Israel and Palestinians for it to move forward, all provisions. H. Res. 966, Condemning rape and sexual violence committed by Hamas in its war against Israel, all provisions. H.R. 280, Foreign Adversary Communications Transparency Act, all provisions. H.R. 2864, Countering CCP Drones Act, all provisions. H.R. 2882, Further Consolidated Appropriations Act, 2024, (issues related to U.S. contributions to international organizations, beneficial ownership, and Compacts of Free Association). H.R. 3016, IGO Anti-Boycott Act, all provisions. H.R. 3202, Assad Regime Anti-Normalization Act of 2023, all provisions. H.R. 3266, Peace and Tolerance in Palestinian Education Act, all provisions. H.R. 3334, STOP CCP Act, all provisions. H.R. 3774, Stop Harboring Iranian Petroleum (SHIP) Act, all provisions. H.R. 4175, REPO for Ukrainians Act, all provisions. H.R. 4564, Countering Hate Against Israel by Federal Contractors Act, all provisions. H.R. 4660, HALT Our Adversaries Act, all provisions. H.R. 4723, Upholding the Dayton Peace Agreement Through Sanctions Act, all provisions. H.R. 5917, Strengthening Tools to Counter the Use of Human Shields Act, all provisions. H.R. 5933, Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions (DETERRENT) Act, all provisions. H.R. 6045, Standing Against Houthi Aggression Act, all provisions. H.R. 6831, VERDAD Reauthorization Act, all provisions. H.R. 7202, Uncovering UNRWAs Terrorist Crimes Act, all provisions. H.R. 7256, U.S.-South Africa Bilateral Relations Review Act, all provisions. H.R. 7478, PROTECT Jewish Student and Faculty Act, all provisions. H.R. 7633, Enhance Cooperation Against Terrorism Act, all provisions. H.R. 7914, Accountability for Terrorist Perpetrators of October 7th Act, all provisions. H.R. 8001, Combating Houthi Threats and Aggression Act, all provisions. H.R. 8011, Iranian Terror Prevention Act, all provisions. S. 1829, Stop Harboring Iranian Petroleum (SHIP) Act, all provisions. S. 2003, REPO for Ukrainians Act, all provisions. S. 3174, Stop Support for Hamas Act of 2023, all provisions. S. 3717, Preventing Terrorism at the U.N. Act of 2024, all provisions. S. 3874, Hamas and Palestinian Islamic Jihad International Terrorism Support Prevention Act of 2024, all provisions. S. 3989, CCP Lobbying Divestment Act, all provisions. S. Res 617, A resolution expressing the sense of the Senate that Israel has the inherent right to defend itself and take necessary steps to eradicate the terrorist threat posed by Hamas, all provisions. S. Res. 504, A resolution requesting information on Israel's human rights practices pursuant to section 502B(c) of the Foreign Assistance Act of 1961, all provisions. H.R. 7476, Countering Communist China Act, (issues related to Chinese EV Manufacturing; Chinese Influence in U.S. Higher education; Compacts of Free Association Amendments Act; Countering Atrocities through Currency Accountability Act; DATA Act; Protecting Americans Retirement Savings Act (PARSA); Sanctioning Supporters of Slave Labor Act; Sanctions on Communist Chinese Military and Surveillance Companies;STOP CCP Act; U.S. China Sanctions Policy; and U.S. Contributions to International Organizations). Issues related to Al Jazeera FARA Registration; Antisemitism in Latin America; Boycotts Against Israel; Chinas Belt and Road Initiative; Chinese and Qatari Influence in U.S. Higher Education; Chinese Global Infrastructure; Chinese Investment in Mexico; Chinese, Iranian, and Russian Activities in Latin America; Congressional Oversight of U.S. Foreign Policy and Aid; DFC Reauthorization; Egypts Role in the Israel-Hamas War; Implementation of Sanctions on West Bank Persons in Executive Order 14115; Exposing Hamas War Crimes; Extradition of Hamas Leaders; Foreign Influence and Information Operations; Genocide Incitement Prohibitions; Hamas Violence Against Women; Implementation of the Taylor Force Act; Information Operations Sanctions; International Committee of the Red Cross Accountability; Iranian Malign Activities in Iraq and Syria; Iran-South Africa Relations; Israel-Latin America Relations; Normalization in the Middle East and Africa; Oversight of DEA Specially-Vetted Units Oversight; Palestinian Financing, Politics, and Terrorism; Sub-Saharan Africa Terror Finance; Support for U.S. Ally Israel at International Organizations; Support for U.S. Ally Israel on College Campuses; Turkey and Qatars Support of Terrorism; U.S. Afghanistan Sanctions Policy; U.S. Anti-Corruption Sanctions and Strategy; U.S. China Sanctions Policy; U.S. Contributions to International Organizations; U.S. Hamas Sanctions Policy; U.S. Hezbollah Sanctions Policy; U.S. Hostage Policy; U.S. Iran Sanctions Policy; U.S. Israel-Hamas War Policy; U.S. North Korea Sanctions Policy; U.S. Pacific Islands Strategy; U.S. Policy on Chinas Human Rights Abuses; U.S. Policy on Irans Human Rights Abuses; U.S. Policy on Irans Support for Terrorism; U.S. Policy on UNRWA Reform; U.S. Russia Sanctions Policy; U.S. Strategic Objectives in Latin America; U.S. Syria Sanctions Policy; U.S. Venezuela Sanctions Policy; and U.S.-Mexico Relations (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146703,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CONNOR",
+         "nickname": null,
+         "middle_name": "RUSSELL",
+         "last_name": "PFEIFFER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "National Security Fellow (2018-19), National Security Legislative Assistant (2019), Senior Legislative Assistant (2019-20), Rep. Hurd",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "H.R. 7443, Combating Transnational Repression Act of 2024, all provisions. H.R. 7779, DHS Restrictions on Confucious Institutes and Chinese Entities of Concern Act, all provisions. Issues related to Iran's Axis of Resistance (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146703,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CONNOR",
+         "nickname": null,
+         "middle_name": "RUSSELL",
+         "last_name": "PFEIFFER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "National Security Fellow (2018-19), National Security Legislative Assistant (2019), Senior Legislative Assistant (2019-20), Rep. Hurd",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "INT",
+      "general_issue_code_display": "Intelligence",
+      "description": "Issues related to Intelligence Community Oversight and U.S.-China Relations (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146703,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CONNOR",
+         "nickname": null,
+         "middle_name": "RUSSELL",
+         "last_name": "PFEIFFER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "National Security Fellow (2018-19), National Security Legislative Assistant (2019), Senior Legislative Assistant (2019-20), Rep. Hurd",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "H.R. 1081, Averting the National Threat of Internet Surveillance, Oppressive Censorship and Influence, and Algorithmic Learning by the Chinese Communist Party (ANTI-SOCIAL CCP) Act, all provisions. H.R. 1153, Deterring Americas Technological Adversaries (DATA) Act, all provisions. H.R. 7521, Protecting Americans from Foreign Adversary Controlled Applications Act, all provisions. S. 1732, Know Your App Act, all provisions. S. 686, Restricting the Emergence of Security Threats that Risk Information and Communications Technology (RESTRICT) Act, all provisions. Issues related to Chinas Control of the Cobalt Supply Chain; Chinas Unfair Trade Practices; Chinese EV Manufacturing; Chinese-Made Battery Storage Systems; Congressional Oversight of Department of Energy Loans; Countering Social-Media Disinformation; Divestment of TikTok; Maintaining U.S. Technological Advantages; Securing Critical U.S. Infrastructure and Mineral Supply Chains; U.S. Cybersecurity Capabilities and Strategy; and U.S.-China Science and Technology Agreement (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146703,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CONNOR",
+         "nickname": null,
+         "middle_name": "RUSSELL",
+         "last_name": "PFEIFFER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "National Security Fellow (2018-19), National Security Legislative Assistant (2019), Senior Legislative Assistant (2019-20), Rep. Hurd",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/ec39fc69-b32f-488e-8550-5f18af978bae/",
+    "filing_uuid": "ec39fc69-b32f-488e-8550-5f18af978bae",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/ec39fc69-b32f-488e-8550-5f18af978bae/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "150000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Bill McCarthy",
+    "dt_posted": "2025-04-21T13:28:33-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1800 M Street, NW, Suite 800 S",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20036",
+    "registrant": {
+     "id": 401105458,
+     "url": "https://lda.gov/api/v1/registrants/401105458/",
+     "house_registrant_id": null,
+     "name": "FDD ACTION",
+     "description": "Issue advocacy on U.S. national security and foreign policy",
+     "address_1": "1800 M Street, NW, Suite 800 S",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20036",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "WILLIAM MCCARTHY",
+     "contact_telephone": "+1 202-207-0190",
+     "dt_updated": "2026-07-17T14:19:22.246604-04:00"
+    },
+    "client": {
+     "id": 203727,
+     "url": "https://lda.gov/api/v1/clients/203727/",
+     "client_id": 12,
+     "name": "FDD ACTION",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "DC",
+     "ppb_state_display": "District of Columbia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2019-10-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "H.R. 1327, Syria Terrorism Threat Assessment Act, all provisions. H.R. 2158, Combating Transnational Repression Act of 2025, all provisions. H.R. 881, DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act, all provisions. Issues related to Chinese Access to U.S. Capital Markets and Advanced Technology; Composite Violent Extremism; and DEA Specially-Vetted Units (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Aide (2011-12), Sr. Policy Adv. (2014-16),Rep.Hanna; LD (2017), COS (2017, 2021-2023), Rep.Tenney;Special Asst. to the DIR, Policy Planning Staff (2017-18),COS, Iran Action Group (2018-20), Deputy COS forPolicy,USUN (2020-21), DOS",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "INT",
+      "general_issue_code_display": "Intelligence",
+      "description": "Issues related to Terror-Affiliated Armed Groups in Syria (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BAN",
+      "general_issue_code_display": "Banking",
+      "description": "H.R. 1422, Enhanced Iran Sanctions Act, all provisions. H.R. 1450, OFAC Licensure for Investigators Act, all provisions. H.R. 1710, PLO and PA Terror Payments Accountability Act, all provisions. H.R. 1764, Aligning SEC Regulations for the World Banks International Development Association Act, all provisions. H.R. 1800, Solidify Iran Sanctions Act, all provisions. H.R. 2012, Iran Sanctions Relief Review Act of 2025, all provisions. H.R. 747, Stop Chinese Fentanyl Act of 2025, all provisions. H.R.1474, International Nuclear Energy Financing Act of 2025, all provisions. H.R.2384, Financial Technology Protection Act of 2025, all provisions. H.Res. 139, Calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015), all provisions. H.Res. 176, Encouraging the European Union (EU) to DESIGNATE, all provisions. S. 198, PLO and PA Terror Payments Accountability Act, all provisions. S. 394, Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act of 2025, all provisions. S. 556, Enhanced Iran Sanctions Act, all provisions. S. 63, CBW Fentanyl Act, all provisions. S. 860, Break Up Suspicious Transactions of (BUST) Fentanyl Act, all provisions. S.Res. 81, A resolution calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015), all provisions. Issues related to Anti-Money Laundering and Combating the Financing of Terrorism; China-Related Divestment Authorities; Chinese Involvement with Fentanyl Trafficking; Evaluating Sanctions, Export Controls, and AML Regulations, Regulatory Authorities, and Legislative Authorities; Expansion of Office of Strategic Capital Authorities; Expansion of Trade Transparency Units; Hamas Smuggling Tunnels, Financial Assets, and Funding Streams; Hezbollahs International Financing Network; Implementation of the Corporate Transparency Act; India-Middle East-Europe Economic Corridor; International Narcotics Production and Trafficking; Iran Funding Streams; Iranian Oil Sanctions Enforcement; National Security-Related Foreign Investment Screening Processes for U.S. Allies; Outbound Investment Transparency; Tax-Exempt Status of Terrorist Supporting Organizations; U.S. Adversaries Sanctions Evasion Schemes; U.S. Anti-Corruption Sanctions and Strategy; U.S. Cartels Sanctions Policy; U.S. China Sanctions Policy; U.S. Counter-Kleptocracy Efforts; U.S. Export Control Policy; U.S. Hezbollah Sanctions Policy; U.S. ICC Sanctions Policy; U.S. Iran Sanctions Policy; U.S. Iran Waiver Policy; U.S. Narcotics Sanctions Policy; U.S. Russia Sanctions Policy; U.S. Sanctions Authorities, Implementation, Enforcement, Resourcing, and Policy; U.S. Syria Sanctions Policy; U.S. Terror Finance Policy; U.S. Terrorism Sanctions Policy; U.S. Turkey Sanctions Policy; and U.S. West Bank Sanctions Policy (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Aide (2011-12), Sr. Policy Adv. (2014-16),Rep.Hanna; LD (2017), COS (2017, 2021-2023), Rep.Tenney;Special Asst. to the DIR, Policy Planning Staff (2017-18),COS, Iran Action Group (2018-20), Deputy COS forPolicy,USUN (2020-21), DOS",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 16,
+        "name": "Natl Security Council (NSC)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "H.J.Res.68, Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. H.J.Res.69, Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. H.J.Res.70, Providing for congressional disapproval of the proposed license amendment for the export to Israel of certain defense articles and services, all provisions. H.J.Res.71, Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. H.J.Res.83, Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. H.J.Res.84, Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. H.J.Res.85, Providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. H.J.Res.86, Providing for congressional disapproval of the report of enhancement or upgrade of sensitive foreign military related to a sale to the Government of Israel of certain defense articles and services, all provisions. H.R. 1229, United States-Israel Defense Partnership Act of 2025, all provisions. H.R. 2052, Combating Houthi Threats and Aggression Act, all provisions. H.R. 2510, American-Hellenic-Israeli Eastern Mediterranean Counterterrorism and Maritime Security Partnership Act of 2025, all provisions. H.Res. 105, Affirming the threats to world stability from a nuclear weapons-capable Islamic Republic of Iran, all provisions. S. 159, Standing Against Houthi Aggression Act, all provisions. S. 554, United States-Israel Defense Partnership Act of 2025, all provisions. S.J.Res.20, A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. S.J.Res.21, A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. S.J.Res.22, A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. S.J.Res.23, A joint resolution providing for congressional disapproval of the proposed license amendment for the export to Israel of certain defense articles and services, all provisions. S.J.Res.25, A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. S.J.Res.26, A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. S.J.Res.27, A joint resolution providing for congressional disapproval of the proposed foreign military sale to Israel of certain defense articles and services, all provisions. S.J.Res.32, A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services, all provisions. S.J.Res.33, A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services, all provisions. S.J.Res.34, A joint resolution providing for congressional disapproval of the proposed foreign military sale to the Government of Israel of certain defense articles and services, all provisions. S.J.Res.35, A joint resolution providing for congressional disapproval of the report of enhancement or upgrade of sensitive foreign military related to a sale to the Government of Israel of certain defense articles and services, all provisions. S.J.Res.40, A joint resolution providing for congressional disapproval of the proposed export of certain defense articles to Israel, all provisions. S.J.Res.41, A joint resolution providing for congressional disapproval of the proposed export of certain defense articles to Israel, all provisions. S.J.Res.42, A joint resolution providing for congressional disapproval of the proposed export of certain defense articles to Israel, all provisions. S.Res. 43, A resolution affirming the threats to world stability from a nuclear weapons-capable Islamic Republic of Iran, all provisions. Issues related to Assessing the United Nations Interim Force in Lebanon; Boycotts Against Israel; CENTCOM Area of Responsibility; Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Military and Surveillance Companies; Chinese Weapons Proliferation; Chinese, Iranian, and Russian Activities in Latin America; Congressional Oversight of U.S. Arms Sales; Congressional Oversight of U.S. Security Assistance; Evaluating UAV Supply Chains; Expanding USAI, PDA, and EDI Authorities; Foreign Adversaries' Malign Activities in Iraq and Syria; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israel Border Infrastructure and Security Enhancements; Israeli Operations in Gaza; Light Detection and Ranging Sensor Technology; Major Non-NATO Ally Designation Evaluations; National Guard State Partnership Programs; Protecting Department of Defense-Funded Research; Russias Foreign Policy and Military Strategy; Security Architecture in the Middle East; Security of U.S. Nuclear Test Sites; Turkish Military Objectives and Operations; U.S. Arms Sales and Procurement Strategies; U.S. Balkans Strategy; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Houthis Strategy; U.S. Information Operations Capabilities; U.S. Military Basing Strategy; U.S. Military Posture in Syria; U.S. Missile Defense Capabilities; U.S. NATO Policy; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Irans Support for Terrorism; U.S. Policy on Russias War in Ukraine; U.S.-Cyprus Security Cooperation; U.S.-DIB Development and Manufacturing; U.S.-Hellenic Republic Security Cooperation; U.S.-Israel Security Cooperation; U.S.-Lebanon Security Cooperation; U.S.-Morrocco Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Aide (2011-12), Sr. Policy Adv. (2014-16),Rep.Hanna; LD (2017), COS (2017, 2021-2023), Rep.Tenney;Special Asst. to the DIR, Policy Planning Staff (2017-18),COS, Iran Action Group (2018-20), Deputy COS forPolicy,USUN (2020-21), DOS",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 16,
+        "name": "Natl Security Council (NSC)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "H.R. 1007, Antisemitism Awareness Act of 2025, all provisions. H.R. 1530, American Victims of Terrorism Compensation Act, all provisions. H.R. 1701, Strategic Ports Reporting Act, all provisions. H.R. 1716, Taiwan Conflict Deterrence Act of 2025, all provisions. H.R. 1890, Turkey Diplomatic Realignment Act, all provisions. H.R. 23, Illegitimate Court Counteraction Act, all provisions. H.R. 2346, Accountability for Terrorist Perpetrators of October 7th Act, all provisions. H.R. 2468, No Sanctions Relief for Terrorists Act, all provisions. H.R. 2570, Maximum Pressure Act, all provisions. H.R. 2574, No Iranian Energy Act, all provisions. H.R. 2575, To provide for the rescission of certain waivers and licenses relating to Iran, and for other purposes, all provisions. H.R. 2581, Iranian Terror Prevention Act, all provisions. H.R. 2609, Promoting Education on the Abraham Accords for Comprehensive Engagement (PEACE) Act, all provisions. H.R. 2614, Maximum Support Act, all provisions. H.R. 2658, Free Iraq from Iran Act, all provisions. H.R. 348, Stop Corrupt Iranian Oligarchs and Entities Act, all provisions. H.R. 708, SHIELD Against CCP Act, all provisions. H.R. 867, IGO Anti-Boycott Act, all provisions. S. 1126, Accountability for Terrorist Perpetrators of October 7th Act, all provisions. S. 558, Antisemitism Awareness Act of 2025, all provisions. S. 706, American Victims of Terrorism Compensation Act, all provisions. S. 777, Strategic Ports Reporting Act, all provisions. S. 842, No Hezbollah in Our Hemisphere Act, all provisions. Issues related to AGOA Reauthorization; Al Jazeera's Cooperation With Hamas; China-North Korea Relations; Chinese, Iranian, and Russian Activities in Latin America; Disclosure Requirements for United States-Based Foreign Media Outlets; Exposing Hamas War Crimes; Extradition of Hamas Leaders; FARA Enforcement; Hezbollah Activities in Latin America; Implementation and Oversight of the National Security Act of 2024; Iran-Oman Relations; Israel-Egypt Relations; Law Enforcement Cooperation with U.S. Allies; Normalization in the Middle East; Palestinian Financing, Politics, and Terrorism; Post-Chevron Decision Implications for National Security; South Africas Relations with U.S. Adversaries; Support for U.S. Ally Israel at International Organizations; Support for U.S. Ally Israel on College Campuses; Syria-Turkey Relations; Turkeys and Qatars Support of Terrorism; Turkey-Russia Relations; U.S. Anti-Semitism Policy; U.S. Contributions to International Organizations; U.S. Foreign Aid Policy; U.S. Hostage Policy; U.S. Human Rights Policy; U.S. Humanitarian Aid Policy; U.S. International Legal Operations Strategy; U.S. Passport Revocation Policy; U.S. Policy on Assad Regime Collapse; U.S. Policy on Irans Human Rights Abuses; U.S. Policy on UNRWA Reform; U.S. Refugee Resettlement Policy; U.S. Rewards for Justice Program; U.S. Security Clearances Policy; U.S.-Government Funded Media Channels; U.S.-Israel Relations; U.S.-Latin America Relations; U.S.-Mexico Relations; U.S.-Pacific Islands Strategy; U.S.-Qatar Relations; U.S.-South Africa Relations; U.S.-Syria Relations; and U.S.-Turkey Relations (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Aide (2011-12), Sr. Policy Adv. (2014-16),Rep.Hanna; LD (2017), COS (2017, 2021-2023), Rep.Tenney;Special Asst. to the DIR, Policy Planning Staff (2017-18),COS, Iran Action Group (2018-20), Deputy COS forPolicy,USUN (2020-21), DOS",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 16,
+        "name": "Natl Security Council (NSC)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "H.R. 1121, No DeepSeek on Government Devices Act, all provisions. H.R. 1166, Decoupling from Foreign Adversarial Battery Dependence Act, all provisions. H.R. 866, ROUTERS Act, all provisions. H.R. 906, Foreign Adversary Communications Transparency (FACT) Act, all provisions. S. 244, ROUTERS Act, all provisions. S. 259, Foreign Adversary Communications Transparency (FACT) Act, all provisions. S. 450, Decoupling from Foreign Adversarial Battery Dependence Act, all provisions. Issues related to Chinese Biotech Industry and Dual-Use Threats; Chinese EV Manufacturing; Chinese Semiconductor Manufacturing Companies; Chinese-Made Battery Storage Systems; Countering Unmanned Aerial Systems; Developing Counter-Censorship Tools; Development of Internet Access Technologies; Implementation of the CHIPS and Science Act; Implementation of the U.S. Operations-Technology Working Group; National Centers of Academic Excellence in Cybersecurity; National Guard Role in Cyber Incident Response; Protecting Sensitive Data of U.S. Citizens; Securing Critical U.S. Infrastructure and Mineral Supply Chains; Securing U.S. Military Mobility Infrastructure; TikTok Divestment; U.S. Airport Cybersecurity Enhancements; U.S. Artificial Intelligence Policy; U.S. Cybersecurity Capabilities and Strategy; U.S. Healthcare Cybersecurity Enhancements; U.S. Maritime Cybersecurity Enhancements; U.S. Military Installation Routers and Modems on Military; and U.S. Rail Infrastructure Cybersecurity Enhancements (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Aide (2011-12), Sr. Policy Adv. (2014-16),Rep.Hanna; LD (2017), COS (2017, 2021-2023), Rep.Tenney;Special Asst. to the DIR, Policy Planning Staff (2017-18),COS, Iran Action Group (2018-20), Deputy COS forPolicy,USUN (2020-21), DOS",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "EDU",
+      "general_issue_code_display": "Education",
+      "description": "H.R. 1048, Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions (DETERRENT) Act, all provisions. H.R. 1069, Promoting Responsible Oversight to Eliminate Communist Teachings for (PROTECT) Our Kids Act, all provisions. H.R. 1005, Combating the Lies of Authoritarians in School Systems (CLASS) Act, all provisions. H.R. 1049, Transparency in Reporting of Adversarial Contributions to Education (TRACE) Act, all provisions. Issues related to Department of Educations Office of Civil Rights; Foreign Influence in U.S. Higher and Elementary Education; and Implementation of the Clery Act (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Aide (2011-12), Sr. Policy Adv. (2014-16),Rep.Hanna; LD (2017), COS (2017, 2021-2023), Rep.Tenney;Special Asst. to the DIR, Policy Planning Staff (2017-18),COS, Iran Action Group (2018-20), Deputy COS forPolicy,USUN (2020-21), DOS",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/8f898c1a-ec1c-45e1-9ea1-a83c90321cb8/",
+    "filing_uuid": "8f898c1a-ec1c-45e1-9ea1-a83c90321cb8",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/8f898c1a-ec1c-45e1-9ea1-a83c90321cb8/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "170000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Bill McCarthy",
+    "dt_posted": "2025-07-21T14:55:33-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1800 M Street, NW, Suite 800 S",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20036",
+    "registrant": {
+     "id": 401105458,
+     "url": "https://lda.gov/api/v1/registrants/401105458/",
+     "house_registrant_id": null,
+     "name": "FDD ACTION",
+     "description": "Issue advocacy on U.S. national security and foreign policy",
+     "address_1": "1800 M Street, NW, Suite 800 S",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20036",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "WILLIAM MCCARTHY",
+     "contact_telephone": "+1 202-207-0190",
+     "dt_updated": "2026-07-17T14:19:22.246604-04:00"
+    },
+    "client": {
+     "id": 203727,
+     "url": "https://lda.gov/api/v1/clients/203727/",
+     "client_id": 12,
+     "name": "FDD ACTION",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "DC",
+     "ppb_state_display": "District of Columbia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2019-10-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "BAN",
+      "general_issue_code_display": "Banking",
+      "description": "H.R. 1422, Enhanced Iran Sanctions Act, all provisions. H.R. 1800, Solidify Iran Sanctions Act, all provisions. H.R. 2384, Financial Technology Protection Act of 2025, all provisions. H.R. 2468, No Sanctions Relief for Terrorists Act, all provisions. H.R. 4149, Upholding the Dayton Peace Agreement Through Sanctions Act, all provisions. H.R. 4397, Muslim Brotherhood Terrorist Designation Act of 2025, all provisions. H.R. 747, Stop Chinese Fentanyl Act of 2025, all provisions. H.Res. 139, Calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015), all provisions. S. 1755, Hong Kong Judicial Sanctions Act, all provisions. S. 1889, Solidify Iran Sanctions Act of 2025, all provisions. S. 2293, Muslim Brotherhood Terrorist Designation Act of 2025, all provisions. S. 63, CBW Fentanyl Act, all provisions. S.Res. 81, A resolution calling on the United Kingdom, France, and Germany (E3) to initiate the snapback of sanctions on Iran under United Nations Security Council Resolution 2231 (2015), all provisions. Issues related to Anti-Money Laundering and Combating the Financing of Terrorism in Art Markets; China-Related Tax and Investment Authorities; Evaluating Sanctions, Export Controls, and AML Regulations, Regulatory Authorities, and Legislative Authorities; Expansion of Trade Transparency Units; Foreign Influence in U.S. Nonprofit Sector; Foreign Land Purchases Near Sensitive U.S. Sites; Hamas Smuggling Tunnels, Financial Assets, and Funding Streams; Hezbollahs International Financing Network; India-Middle East-Europe Economic Corridor; International Narcotics Production and Trafficking; Iranian Oil Sanctions Enforcement; National Security-Related Foreign Investment Screening Processes for U.S. Allies; Outbound Investment Transparency; Tax-Exempt Status of Terrorist Supporting Organizations; U.S. Adversaries Sanctions Evasion Schemes; U.S. Anti-Corruption Sanctions and Strategy; U.S. Cartels Sanctions Policy; U.S. China Sanctions Policy; U.S. Counter-Narcotics Strategy; U.S. Cryptocurrencies Policy; U.S. Export Control Policy; U.S. Hezbollah Sanctions Policy; U.S. Houthis Sanctions Policy; U.S. ICC Sanctions Policy; U.S. Iran Sanctions Policy; U.S. Iraq Sanctions Policy; U.S. Muslim Brotherhood Sanctions Policy; U.S. Narcotics Sanctions Policy; U.S. Russia Sanctions Policy; U.S. Sanctions Authorities, Implementation, Enforcement, Resourcing, and Policy; U.S. Syria Sanctions Policy; U.S. Terror Finance Policy; U.S. Terrorism Sanctions Policy; and U.S. Turkey Sanctions Policy (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Bill Posey (2010)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "H.R. 2510, American-Hellenic-Israeli Eastern Mediterranean Counterterrorism and Maritime Security Partnership Act of 2025, all provisions. H.R. 3307, Eastern Mediterranean Gateway Act, all provisions. H.R. 4821, Bunker Buster Act, all provisions. H.Res. 521, Standing with Israel as it works to dismantle Iran's nuclear enrichment capabilities and defends itself against Iranian attacks on civilians, all provisions. S.Res. 307, A resolution expressing the sense of the Senate in support of the recent United States and Israeli military strikes on Iran, all provisions. S.J.Res. 59, A joint resolution to direct the removal of United States Armed Forces from hostilities against the Islamic Republic of Iran that have not been authorized by Congress, all provisions. H.R. 3944, Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2026, (issues related to implementation of the Radiation Exposure Compensation Act). H.R. 3838, Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026, (issues related to Assessing the United Nations Interim Force in Lebanon; Assessment of Iranian-Linked Sleeper Cells; Boycotts Against Israel; Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Biotech Industry and Dual-Use Threats; Chinese EV Manufacturing; Chinese Military and Surveillance Companies; Chinese Semiconductor Manufacturing Companies; Chinese Weapons Proliferation; Chinese, Iranian, and Russian Activities in Latin America; Chinese-Made Battery Storage Systems; Civilian Use of the Suez Canal; Countering Unmanned Aerial Systems; Developing Counter-Censorship Tools; Development of Internet Access Technologies; Disclosure Requirements for United States-Based Foreign Media Outlets; Evaluating UAV Supply Chains; Expanding USAI, PDA, and EDI Authorities; Expansion of Office of Strategic Capital Authorities; Expansion of Trade Transparency Units; Foreign Adversaries' Malign Activities in Iraq and Syria; Foreign Influence in U.S. Higher and Elementary Education; Hezbollahs International Financing Network; Implementation of the U.S. Operations-Technology Working Group; Information Technology Devices from Foreign Adversary Controlled Companies; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israel Border Infrastructure and Security Enhancements; Israeli Operations in Gaza; Law Enforcement Cooperation with U.S. Allies; Light Detection and Ranging Sensor Technology; Major Non-NATO Ally Designation Evaluations; National Centers of Academic Excellence in Cybersecurity; National Guard Role in Cyber Incident Response; National Guard State Partnership Programs; National Security-Related Foreign Investment Screening Processes for U.S. Allies; NATO Supply Chain Risks; Protecting Department of Defense-Funded Research; Protecting Sensitive Data of U.S. Citizens; Russias Foreign Policy and Military Strategy; Securing Critical U.S. Infrastructure and Mineral Supply Chains; Securing U.S. Defense Technology; Securing U.S. Military Mobility Infrastructure; Security Architecture in the Middle East; Security of U.S. Nuclear Test Sites; Syria-Turkey Relations; Turkeys and Qatars Support of Terrorism; Turkey-Russia Relations; Turkish Military Objectives and Operations; U.S. Airport Cybersecurity Enhancements; U.S. Arms Sales and Procurement Strategies; U.S. Artificial Intelligence and Quantum Policy; U.S. Balkans Strategy; U.S. China Sanctions Policy; U.S. Cybersecurity Capabilities and Strategy; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Foreign Aid Reform; U.S. Healthcare Cybersecurity Enhancements; U.S. Information Operations Capabilities; U.S. International Legal Operations Strategy; U.S. Iran Sanctions Policy; U.S. Maritime Cybersecurity Enhancements; U.S. Military Basing Strategy; U.S. Military Care Transition; U.S. Military Installation Routers and Modems on Military; U.S. Missile Defense Capabilities; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Irans Support for Terrorism; U.S. Policy on Russias War in Ukraine; U.S. Rail Infrastructure Cybersecurity Enhancements;U.S.-DIB Development and Manufacturing; U.S.-Hellenic Republic Security Cooperation; U.S.-Israel Security Cooperation; U.S.-Morrocco Security Cooperation; U.S.-Syria Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies). S. 2296, National Defense Authorization Act for Fiscal Year 2026, (issues related to Assessing the United Nations Interim Force in Lebanon; Boycotts Against Israel; Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Biotech Industry and Dual-Use Threats; Chinese EV Manufacturing; Chinese Military and Surveillance Companies; Chinese Semiconductor Manufacturing Companies; Chinese Weapons Proliferation; Chinese, Iranian, and Russian Activities in Latin America; Chinese-Made Battery Storage Systems; Countering Unmanned Aerial Systems; Developing Counter-Censorship Tools;Development of Internet Access Technologies; Disclosure Requirements for United States-Based Foreign Media Outlets; Evaluating UAV Supply Chains; Expanding USAI, PDA, and EDI Authorities; Expansion of Office of Strategic Capital Authorities; Expansion of Trade Transparency Units; Foreign Adversaries' Malign Activities in Iraq and Syria; Fostering Defense Innovation Collaboration; Hezbollahs International Financing Network; Implementation of the U.S. Operations-Technology Working Group; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israel Border Infrastructure and Security Enhancements; Law Enforcement Cooperation with U.S. Allies; Light Detection and Ranging Sensor Technology; Major Non-NATO Ally Designation Evaluations; National Centers of Academic Excellence in Cybersecurity; National Guard Role in Cyber Incident Response; National Security-Related Foreign Investment Screening Processes for U.S. Allies; Protecting Department of Defense-Funded Research; Protecting Sensitive Data of U.S. Citizens; Russias Foreign Policy and Military Strategy; Safeguarding DOD-Funded Research; Securing Critical U.S. Infrastructure and Mineral Supply Chains; Securing U.S. Military Mobility Infrastructure; Security Architecture in the Middle East; Security of U.S. Nuclear Test Sites; Syria-Turkey Relations; Turkeys and Qatars Support of Terrorism; Turkey-Russia Relations; Turkish Military Objectives and Operations; U.S. Airport Cybersecurity Enhancements; U.S. Arms Sales and Procurement Strategies; U.S. Artificial Intelligence Policy; U.S. Balkans Strategy; U.S. China Sanctions Policy; U.S. Cybersecurity Capabilities and Strategy; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Healthcare Cybersecurity Enhancements; U.S. Information Operations Capabilities; U.S. International Legal Operations Strategy; U.S. Iran Sanctions Policy; U.S. Maritime Cybersecurity Enhancements; U.S. Military Basing Strategy; U.S. Military Installation Routers and Modems on Military; U.S. Missile Defense Capabilities; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Irans Support for Terrorism; U.S. Policy on Russias War in Ukraine; U.S. Rail Infrastructure Cybersecurity Enhancements; U.S.-DIB Development and Manufacturing; U.S.-Hellenic Republic Security Cooperation; U.S.-Israel Security Cooperation; U.S.-Morrocco Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies). Issues related to Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Military and Surveillance Companies; Chinese Weapons Proliferation; Congressional Oversight of the DOD; Foreign Adversaries' Malign Activities in Iraq and Syria; Implementation of the Iran Nuclear Agreement Review Act; Implementation of the U.S. Operations-Technology Working Group; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israeli Operations in Gaza; Major Non-NATO Ally Designation Evaluations; Military Strikes on Irans Nuclear Program; National Guard State Partnership Programs; NATO Defense Spending; Russias Foreign Policy and Military Strategy; Safeguarding DOD-Funded Research; U.S. Allies Missile Defense Spending; U.S. Allies Security Cooperation in the Eastern Mediterranean; U.S. Balkans Strategy; U.S. Houthis Strategy; U.S. Military Posture in Syria; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Russias War in Ukraine; U.S.-DIB Development and Manufacturing; U.S.-Israel Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Bill Posey (2010)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 11,
+        "name": "Executive Office of the President (EOP)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "H.R. 1701, Strategic Ports Reporting Act, all provisions. H.R. 1939, U.S. Engagement in Sudanese Peace Act, all provisions. H.R. 2346, Accountability for Terrorist Perpetrators of October 7th Act, all provisions. H.R. 2570, Maximum Pressure Act, all provisions. H.R. 2574, No Iranian Energy Act, all provisions. H.R. 2575, To provide for the rescission of certain waivers and licenses relating to Iran, and for other purposes, all provisions. H.R. 2581, Iranian Terror Prevention Act, all provisions. H.R. 2609, Promoting Education on the Abraham Accords for Comprehensive Engagement (PEACE) Act, all provisions. H.R. 2614, Maximum Support Act, all provisions. H.R. 2619, No Paydays for Hostage-Takers Act, all provisions. H.R. 2633, U.S.-South Africa Bilateral Relations Review Act of 2025, all provisions. H.R. 2658, Free Iraq from Iran Act, all provisions. H.R. 3068, Missile Technology Control Act, all provisions. H.R. 3201, Belarus Democracy, Human Rights, and Sovereignty Act of 2025, all provisions. H.R. 3315, No Hezbollah in Our Hemisphere Act, all provisions. H.R. 348, Stop Corrupt Iranian Oligarchs and Entities Act, all provisions. H.R. 3613, Streamlining Foreign Military Sales Act of 2025, all provisions. H.R. 3966, Think Tank and Nonprofit Foreign Influence Disclosure Act, all provisions. H.R. 4215, International Traffic in Arms Regulations Licensing Reform Act, all provisions. H.R. 4216, FMS-Only List Review Act, all provisions. H.R. 4233, AUKUS Reform for Military Optimization and Review Act, all provisions. H.R. 4335, Abraham Accords Defense Against Terror Act, all provisions. H.R. 4531, BANNED in Latin America Act, all provisions. H.R. 867, IGO Anti-Boycott Act, all provisions. H.Res. 320, Encouraging the Department of State and civil society to further the Abraham Accords by encouraging peace and tolerance in education, all provisions. H.Res. 413, Condemning Hamas for its premeditated, coordinated, and brutal terrorist attacks on October 7, 2023, against Israel and demanding that Hamas immediately release all remaining hostages and return them to safety, and for other purposes, all provisions. S. 1487, Limiting Immunity for Assisting Backers of Lethal Extremism (LIABLE) Act, all provisions. S. 1521, Stand with Israel Act, all provisions. S.Res. 212, A resolution affirming the acceptable outcome of any nuclear deal between the United States and the Islamic Republic of Iran, and for other purposes, all provisions. S.Res. 227, A resolution condemning Hamas for its premeditated, coordinated, and brutal terrorist attacks on October 7, 2023, against Israel and demanding that Hamas immediately release all remaining hostages and return them to safety, and for other purposes, all provisions. Issues related to Boycotts Against Israel; Chinese, Iranian, and Russian Activities in Latin America; Congressional Oversight of U.S. Arms Sales; Congressional Oversight of U.S. Security Assistance; Implementation and Oversight of the National Security Act of 2024; Palestinian Financing, Politics, and Terrorism; South Africas Relations with U.S. Adversaries; State Department Reauthorization and Organization; Support for U.S. Ally Israel at International Organizations; Support for U.S. Ally Israel on College Campuses; Syria-Turkey Relations; Taiwans Energy Independence; Turkeys and Qatars Support of Terrorism; Turkey-Russia Relations; U.S. Anti-Semitism Policy; U.S. Arms Sales and Procurement Strategies; U.S. Humanitarian Aid Policy; U.S. Rewards for Justice Program; U.S. Visas and Admissions Policy; U.S.-Government Funded Media Channels; U.S.-Israel Relations; U.S.-Latin America Relations; U.S.-Oman Relations; U.S.-Qatar Relations; U.S.-South Africa Relations; U.S.-Syria Relations; and U.S.-Turkey Relations (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Bill Posey (2010)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 11,
+        "name": "Executive Office of the President (EOP)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "H.R. 1327, Syria Terrorism Threat Assessment Act, all provisions. H.R. 2158, Combating Transnational Repression Act of 2025, all provisions. H.R. 3208, No Official Palestine Entry (NOPE) Act of 2025, all provisions. H.R. 3860, No Passports for Terrorists and Traffickers Act, all provisions. H.R. 881, DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act, all provisions. S. 1612, No Official Palestine Entry (NOPE) Act of 2025, all provisions. S. 1694, DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act, all provisions. Issues related to U.S. Counterdrug and Law Enforcement Strategies (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Bill Posey (2010)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "INT",
+      "general_issue_code_display": "Intelligence",
+      "description": "Issues related to Congressional Oversight of the U.S. Intelligence Community and Terror-Affiliated Armed Groups in Syria (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "H.R. 1166, Decoupling from Foreign Adversarial Battery Dependence Act, all provisions. H.R. 3786, Drones for First Responders Act, all provisions. S. 1549, Water Cybersecurity Enhancement Act, all provisions. S. 1754, Preventing PLA Acquisition and U.S. Technology Act, all provisions. S. 450, Decoupling from Foreign Adversarial Battery Dependence Act, all provisions. S. 259, Foreign Adversary Communications Transparency (FACT) Act, all provisions. Issues related to Chinese Biotech Industry and Dual-Use Threats; Cyber Insurance Market Security; Light Detection and Ranging Sensor Technology; Securing Critical U.S. Infrastructure and Mineral Supply Chains; U.S. Cybersecurity Capabilities and Strategy; and U.S.-Israel Cooperation on AI and Quantum Capabilities (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Bill Posey (2010)",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "EDU",
+      "general_issue_code_display": "Education",
+      "description": "H.R. 1048, Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions (DETERRENT) Act, all provisions. H.R. 1049, Transparency in Reporting of Adversarial Contributions to Education (TRACE) Act, all provisions. H.R. 2686, University Accountability Act, all provisions. H.R. 3284, Foreign Influence Transparency and Accountability Act, all provisions. H.R. 4142, No Adversarial AI Act, all provisions. H.R. 866, ROUTERS Act, all provisions. H.R. 906, Foreign Adversary Communications Transparency Act, all provisions. S. 1296, Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions (DETERRENT) Act, all provisions. S. 1684, Foreign Influence Transparency and Accountability Act, all provisions. Issues related to Foreign Influence in U.S. Higher and Elementary Education and Implementation of the Clery Act (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Bill Posey (2010)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 32,
+        "name": "Education, Dept of"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/77acb206-e3df-4e87-9d44-415d6bde9a0c/",
+    "filing_uuid": "77acb206-e3df-4e87-9d44-415d6bde9a0c",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/77acb206-e3df-4e87-9d44-415d6bde9a0c/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "170000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Bill McCarthy",
+    "dt_posted": "2025-10-20T14:21:10-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1800 M Street, NW, Suite 800 S",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20036",
+    "registrant": {
+     "id": 401105458,
+     "url": "https://lda.gov/api/v1/registrants/401105458/",
+     "house_registrant_id": null,
+     "name": "FDD ACTION",
+     "description": "Issue advocacy on U.S. national security and foreign policy",
+     "address_1": "1800 M Street, NW, Suite 800 S",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20036",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "WILLIAM MCCARTHY",
+     "contact_telephone": "+1 202-207-0190",
+     "dt_updated": "2026-07-17T14:19:22.246604-04:00"
+    },
+    "client": {
+     "id": 203727,
+     "url": "https://lda.gov/api/v1/clients/203727/",
+     "client_id": 12,
+     "name": "FDD ACTION",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "DC",
+     "ppb_state_display": "District of Columbia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2019-10-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "H.R. 1166, Decoupling from Foreign Adversarial Battery Dependence Act, all provisions. H.R. 3447, Chip Security Act, all provisions. H.R. 4802, Securing Infrastructure from Adversaries Act of 2025, all provisions. H.R. 866, ROUTERS Act, all provisions. S. 1705, Chip Security Act, all provisions. S. 2222, Taiwan Undersea Cable Resilience Initiative Act, all provisions. S. 244, ROUTERS Act, all provisions. S. 450, Decoupling from Foreign Adversarial Battery Dependence Act, all provisions. Issues related to Chinese Biotech Industry and Dual-Use Threats; Chinese EV Manufacturing; Chinese-Made Battery Storage Systems; Cyber Insurance Market Security; Light Detection and Ranging Sensor Technology; National Guard Role in Cyber Incident Response; Securing Critical U.S. Infrastructure and Mineral Supply Chains; Securing U.S. Military Mobility Infrastructure; TikTok Divestment; U.S. Airport Cybersecurity Enhancements; U.S. Artificial Intelligence Policy; U.S. Cybersecurity Capabilities and Strategy; U.S. Healthcare Cybersecurity Enhancements; U.S. Maritime Cybersecurity Enhancements; U.S. Rail Infrastructure Cybersecurity Enhancements; and U.S.-Israel Cooperation on AI and Quantum Capabilities (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151813,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ZACHARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "JUTCOVICH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Sean Duffy (2014-15); Intern, Office of Rep. Todd Rokita (2015)",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BAN",
+      "general_issue_code_display": "Banking",
+      "description": "H.R. 1316, Maintaining American Superiority by Improving Export Control Transparency Act, all provisions. H.R. 1920, FARMLAND Act of 2025, all provisions. H.R. 2548, Sanctioning Russia Act of 2025, all provisions. H.R. 3190, BRAVE Burma Act, all provisions. H.R. 4346, Preventing the Escalation of Armed Conflict in Europe (PEACE) Act of 2025, all provisions. H.R. 4397, Muslim Brotherhood Terrorist Designation Act of 2025, all provisions. H.R. 4423, No New Burma Funds Act, all provisions. H.R. 4427, Syria Sanctions Accountability Act of 2025, all provisions. H.R. 4830, Uyghur Genocide Accountability and Sanctions Act of 2025, all provisions. H.R. 5495, Strengthening Entry Visa Enforcement and Restrictions (SEVER) Act, all provisions. H.R. 5606, Return to Palestinian Entities Accountability and Counterterrorism Enforcement (Return to PEACE) Act, all provisions. H.R. 747, Stop Chinese Fentanyl Act of 2025, all provisions. S. 1241, Sanctioning Russia Act of 2025, all provisions. S. 1969, AFIDA Improvements Act of 2025, all provisions. S. 2293, Muslim Brotherhood Terrorist Designation Act of 2025, all provisions. S. 2400, Art Market Integrity Act, all provisions. S. 2560, Uyghur Genocide Accountability and Sanctions Act of 2025, all provisions. S. 2893, Strengthening Entry Visa Enforcement and Restrictions (SEVER) Act, all provisions. S. 2904, SHADOW Fleet Sanctions Act of 2025, all provisions. S. 63, CBW Fentanyl Act, all provisions. S. 744, Maintaining American Superiority by Improving Export Control Transparency Act, all provisions. S. 860, Break Up Suspicious Transactions of (BUST) Fentanyl Act, all provisions. S. 886, FARMLAND Act of 2025, all provisions. Issues related to Anti-Money Laundering and Combating the Financing of Terrorism in Art Markets; Captagon, Fentanyl, and International Narcotics Production and Trafficking; China-Related Tax and Investment Authorities; Chinese Access to U.S. Capital Markets and Advanced Technology; Chinese Involvement with Fentanyl Trafficking; Evaluating Sanctions, Export Controls, and AML Regulations, Regulatory Authorities, and Legislative Authorities; Expansion of Trade Transparency Units; Foreign Gift Compliance Transparency; Foreign Influence in U.S. Nonprofit Sector; Foreign Land Purchases Near Sensitive U.S. Sites; Hamas Smuggling Tunnels, Financial Assets, and Funding Streams; Hezbollahs International Financing Network; Iran Funding Streams; Iranian Oil Sanctions Enforcement; National Security-Related Foreign Investment Screening Processes for U.S. Allies; Outbound Investment Transparency; Protecting U.S. Small Businesses from Foreign Influences; Shipping Manifest Transparency; Tax Exemptions for Foreign Sovereign Wealth Funds; Tax-Exempt Status of Terrorist Supporting Organizations; U.S. Anti-Corruption Sanctions and Strategy; U.S. Beneficial Ownership Policy; U.S. Cartels Sanctions Policy; U.S. China Sanctions Policy; U.S. Counter-Narcotics Strategy; U.S. Export Control Policy; U.S. Hezbollah Sanctions Policy; U.S. Houthis Sanctions Policy; U.S. ICC Sanctions Policy; U.S. Iran Sanctions Policy; U.S. Iraq Sanctions Policy; U.S. Muslim Brotherhood Sanctions Policy; U.S. Narcotics Sanctions Policy; U.S. Polisario Front Sanctions Policy; U.S. Russia Sanctions Policy; U.S. Sanctions Authorities, Implementation, Enforcement, Resourcing, and Policy; U.S. SST Designation Reform; U.S. Syria Sanctions Policy; U.S. Terror Finance Policy; U.S. Terrorism Sanctions Policy; and U.S. Turkey Sanctions Policy (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151813,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ZACHARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "JUTCOVICH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Sean Duffy (2014-15); Intern, Office of Rep. Todd Rokita (2015)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "H.R. 2510, American-Hellenic-Israeli Eastern Mediterranean Counterterrorism and Maritime Security Partnership Act of 2025, all provisions. H.R. 4016, Department of Defense Appropriations Act, 2026, (issues related to U.S.-Israel Counter-UAS Cooperation). H.R. 4281, Bunker Buster Act of 2025, all provisions. H.R. 4343, United States-Greece Security Cooperation Reporting Act, all provisions. H.R. 4413, End the Cyprus Embargo Act, all provisions. S. 2216, Weapons Resupply, Stockpile, and Alliance-Israel Act, all provisions. H.R. 3838, Streamlining Procurement for Effective Execution and Delivery and National Defense Authorization Act for Fiscal Year 2026, (issues related to Assessing the United Nations Interim Force in Lebanon; Assessment of Iranian-Linked Sleeper Cells; Boycotts Against Israel; ,Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Biotech Industry and Dual-Use Threats; Chinese EV Manufacturing; Chinese Military and Surveillance Companies; Chinese Semiconductor Manufacturing Companies; Chinese Weapons Proliferation; Chinese, Iranian, and Russian Activities in Latin America; Chinese-Made Battery Storage Systems; Civilian Use of the Suez Canal; Countering Unmanned Aerial Systems; Developing Counter-Censorship Tools; Development of Internet Access Technologies; Disclosure Requirements for United States-Based Foreign Media Outlets; Evaluating UAV Supply Chains; Expanding USAI, PDA, and EDI Authorities; Expansion of Office of Strategic Capital Authorities; Expansion of Trade Transparency Units; Foreign Adversaries' Malign Activities in Iraq and Syria; Foreign Influence in U.S. Higher and Elementary Education; Hezbollahs International Financing Network; Implementation of the U.S. Operations-Technology Working Group; Information Technology Devices from Foreign Adversary Controlled Companies; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israel Border Infrastructure and Security Enhancements; Israeli Operations in Gaza; Law Enforcement Cooperation with U.S. Allies; Light Detection and Ranging Sensor Technology; Major Non-NATO Ally Designation Evaluations; National Centers of Academic Excellence in Cybersecurity; National Guard Role in Cyber Incident Response; National Guard State Partnership Programs; National Security-Related Foreign Investment Screening Processes for U.S. Allies; NATO Supply Chain Risks; Protecting Department of Defense-Funded Research; Protecting Sensitive Data of U.S. Citizens; Russias Foreign Policy and Military Strategy; Securing Critical U.S. Infrastructure and Mineral Supply Chains; Securing U.S. Defense Technology; Securing U.S. Military Mobility Infrastructure; Security Architecture in the Middle East; Security of U.S. Nuclear Test Sites; Syria-Turkey Relations; Turkeys and Qatars Support of Terrorism; Turkey-Russia Relations; Turkish Military Objectives and Operations; U.S. Airport Cybersecurity Enhancements; U.S. Arms Sales and Procurement Strategies; U.S. Artificial Intelligence and Quantum Policy; U.S. Balkans Strategy; U.S. China Sanctions Policy; U.S. Cybersecurity Capabilities and Strategy; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Foreign Aid Reform; U.S. Healthcare Cybersecurity Enhancements; U.S. ICC Sanctions Policy; U.S. Information Operations Capabilities; U.S. International Legal Operations Strategy; U.S. Iran Sanctions Policy; U.S. Maritime Cybersecurity Enhancements; U.S. Military Basing Strategy; U.S. Military Care Transition; U.S. Military Installation Modems, Printers, and Routers; U.S. Missile Defense Capabilities; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Irans Human Rights Abuses and Censorship; U.S. Policy on Irans Support for Terrorism; U.S. Policy on Russias War in Ukraine; U.S. Rail Infrastructure Cybersecurity Enhancements; U.S.-Cyprus Security Cooperation; U.S.-DIB Development and Manufacturing; U.S.-Hellenic Republic Security Cooperation; U.S.-Israel Security Cooperation; U.S.-Morrocco Security Cooperation; U.S.-Syria Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies). S. 2296, National Defense Authorization Act for Fiscal Year 2026, (issues related to Assessing the United Nations Interim Force in Lebanon; Boycotts Against Israel; Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Biotech Industry and Dual-Use Threats; Chinese EV Manufacturing; Chinese Military and Surveillance Companies; Chinese Semiconductor Manufacturing Companies; Chinese Weapons Proliferation; Chinese, Iranian, and Russian Activities in Latin America; Chinese-Made Battery Storage Systems; Countering Unmanned Aerial Systems; Developing Counter-Censorship Tools; Development of Internet Access Technologies; Disclosure Requirements for United States-Based Foreign Media Outlets; Evaluating UAV Supply Chains; Expanding USAI, PDA, and EDI Authorities; Expansion of Office of Strategic Capital Authorities; Expansion of Trade Transparency Units; Foreign Adversaries' Malign Activities in Iraq and Syria; Fostering Defense Innovation Collaboration; Hezbollahs International Financing Network; Implementation of the U.S. Operations-Technology Working Group; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israel Border Infrastructure and Security Enhancements; Law Enforcement Cooperation with U.S. Allies; Light Detection and Ranging Sensor Technology; Major Non-NATO Ally Designation Evaluations; National Centers of Academic Excellence in Cybersecurity; National Guard Role in Cyber Incident Response; National Security-Related Foreign Investment Screening Processes for U.S. Allies; Outbound Investment Transparency; Protecting Department of Defense-Funded Research; Protecting Sensitive Data of U.S. Citizens; Russias Foreign Policy and Military Strategy; Safeguarding DOD-Funded Research; Securing Critical U.S. Infrastructure and Mineral Supply Chains; Securing U.S. Military Mobility Infrastructure; Security Architecture in the Middle East; Security of U.S. Nuclear Test Sites; Shipping Manifest Transparency; Syria-Turkey Relations; Turkeys and Qatars Support of Terrorism; Turkey-Russia Relations; Turkish Military Objectives and Operations; U.S. Airport Cybersecurity Enhancements; U.S. Arms Sales and Procurement Strategies; U.S. Artificial Intelligence Policy; U.S. Balkans Strategy; U.S. China Sanctions Policy; U.S. Cybersecurity Capabilities and Strategy; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Healthcare Cybersecurity Enhancements; U.S. Information Operations Capabilities; U.S. International Legal Operations Strategy; U.S. Iran Sanctions Policy; U.S. Maritime Cybersecurity Enhancements; U.S. Military Basing Strategy; U.S. Military Installation Routers and Modems on Military; U.S. Missile Defense Capabilities; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Irans Support for Terrorism; U.S. Policy on Russias War in Ukraine; U.S. Rail Infrastructure Cybersecurity Enhancements; U.S.-DIB Development and Manufacturing; U.S.-Hellenic Republic Security Cooperation; U.S.-Israel Security Cooperation; U.S.-Mexico Security Cooperation; U.S.-Morrocco Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies). Issues related to Chinas Foreign Policy and Military Strategy; Chinas Military-Industrial Complex (CMIC); Chinese Biological and Chemical Capabilities; Chinese Military and Surveillance Companies; Chinese Semiconductor Manufacturing Companies; Chinese Weapons Proliferation; Congressional Oversight of U.S. Security Assistance; Countering Unmanned Aerial Systems; Implementation of the Countering Americas Adversaries Through Sanctions Act; Implementation of the FY2020 National Defense Authorization Act; Implementation of the U.S. Operations-Technology Working Group; Irans Military Strategy and Capabilities; Irans Network of Terror Proxies; Iranian Weapons Proliferation; Iran-Russia Security Cooperation; Israeli Operations in Gaza; Major Non-NATO Ally Designation Evaluations; Russias Foreign Policy and Military Strategy; Safeguarding DOD-Funded Research; Security Architecture in the Middle East; U.S. Balkans Strategy; U.S. Force Protection, Military Posture, and Military Exercises in the Middle East; U.S. Foreign Security Assistance Reform; U.S. Information Operations Capabilities; U.S. International Legal Operations Strategy; U.S. Military Basing Strategy; U.S. Military Posture in Syria; U.S. Missile Defense Capabilities; U.S. Policy on Irans Ballistic Missile and Nuclear Programs; U.S. Policy on Irans Support for Terrorism; U.S. Policy on Russias War in Ukraine; U.S.-Cyprus Security Cooperation; U.S.-DIB Development, Innovation, and Manufacturing; U.S.-Hellenic Republic Security Cooperation; U.S.-ICC Strategy; U.S.-Israel Security Cooperation; U.S.-Lebanon Security Cooperation; U.S.-Syria Security Cooperation; U.S.-Taiwan Security Cooperation; U.S.-Turkey Security Cooperation; U.S.-Ukraine Security Cooperation; and War Reserve Stockpiles for Allies (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151813,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ZACHARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "JUTCOVICH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Sean Duffy (2014-15); Intern, Office of Rep. Todd Rokita (2015)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "FOR",
+      "general_issue_code_display": "Foreign Relations",
+      "description": "H. Res. 597, Condemning the attack on the Argentine Jewish Mutual Association Jewish Community Center in Buenos Aires, Argentina, in July 1994, and encouraging accountability for the attack, all provisions. H. Res. 795, Condemning the Hamas attacks of October 7, 2023, and calling for Hamas and its leaders to immediately and unconditionally surrender and to release the hostages, including Americans, all provisions. H.R. 1530, American Victims of Terrorism Compensation Act, all provisions. H.R. 1701, Strategic Ports Reporting Act, all provisions. H.R. 1890, Turkey Diplomatic Realignment Act, all provisions. H.R. 2505, Block the Use of Transatlantic Technology in Iranian Made Drones Act, all provisions. H.R. 2614, Maximum Support Act, all provisions. H.R. 2633, U.S.-South Africa Bilateral Relations Review Act of 2025, all provisions. H.R. 3068, Missile Technology Control Revision Act, all provisions. H.R. 3613, Streamlining Foreign Military Sales Act of 2025, all provisions. H.R. 4215, International Traffic in Arms Regulations Licensing Reform Act, all provisions. H.R. 4216, FMS-Only List Review Act, all provisions. H.R. 4233, AUKUS Reform for Military Optimization and Review Act, all provisions. H.R. 4335, Abraham Accords Defense Against Terror Act, all provisions. H.R. 4531, BANNED in Latin America Act, all provisions. H.R. 5247, To provide for the International Security Affairs authorities of the Department of State, (issues related to Emerging Threats Bureau). H.R. 5248, To ensure the alignment of economic and foreign policies, to position the Department of State to reflect that economic security is national security, and for other purposes, (issues related to U.S. Cyberspace and Digital Policy and U.S. Economic Security Policy). H.R. 5300, To guide the foreign policy of the United States, and for other purposes, (issues related to Security Architecture in the Middle East; U.S. Arms Sales and Procurement Strategies; U.S. Balkans Strategy; U.S. Counterdrug and Law Enforcement Strategies; U.S. Policy on Irans Human Rights Abuses and Censorship; U.S. Rewards for Justice Program; U.S. Visas and Admissions Policy; U.S.-Cyprus Security Cooperation; U.S.-Hellenic Republic Security Cooperation; U.S.-Israel Security Cooperation; and U.S.-Turkey Security Cooperation). H.R. 5632, Preventing Escalation and Advancing Caucasus Engagement (PEACE) Act, all provisions. H.R. 867, IGO Anti-Boycott Act, all provisions. S. 2424, Tracking Hostile Industry Networks and Kit while Thwarting Weapons Imports from Chinese Entities (THINK TWICE) Act of 2025, all provisions. S. 2722, Taiwan Energy Security and Anti-Embargo Act of 2025, all provisions. S. 2752, U.S.-South Africa Bilateral Relations Review Act, all provisions. S. 2849, Nonprofit Governance Integrity Act, all provisions. S. 558, Antisemitism Awareness Act, all provisions. S. Res. 326, A resolution remembering the 33rd anniversary of the bombing of the Embassy of Israel in Buenos Aries on March 17, 1992, and the 31st anniversary of the bombing of the Argentine-Israeli Mutual Association building in Buenos Aires on July 18, 1994, and recommitting to efforts to uphold justice for victims of the attacks, all provisions. Issues related to Anniversary of Hamass October 7 Attack; Boycotts Against Israel; Chinese, Iranian, and Russian Activities in Latin America; Congressional Oversight of U.S. Arms Sales; Countering Foreign Adversary Influence Campaigns; Disclosure Requirements for United States-Based Foreign Media Outlets; Employment Transparency Requirements; Foreign Adversaries' Malign Activities in Iraq and Syria; Hezbollah Activities in Latin America; Implementation and Oversight of the National Security Act of 2024; Middle East Peace Plan Implementation and Oversight; Normalization in the Middle East; Palestinian Financing, Politics, and Terrorism; Qatars, South Africas, and Turkeys Support of Terrorism; South Africas Relations with U.S. Adversaries; Support for U.S. Ally Israel at International Organizations; Support for U.S. Ally Israel on College Campuses; Syria-Turkey Relations; Taiwans Energy Independence; Turkey-Russia Relations; U.S. Anti-Semitism Policy; U.S. Contributions to and Oversight of International Organizations; U.S. Foreign Aid Policy; U.S. Hostage Policy; U.S. Humanitarian Aid Policy; U.S. Passport Revocation Policy; U.S. Policy on Chinas Human Rights Abuses and Censorship; U.S. Policy on Irans Human Rights Abuses and Censorship; U.S. Policy on Lithium Triangle Countries; U.S. Security Clearances Policy; U.S. Visas and Admissions Policy; U.S. West Bank Policy; U.S.-Brazil Relations; U.S.-Guyana Relations; U.S.-Israel Relations; U.S.-Latin America Strategy; U.S.-Mexico Relations; U.S.-Pacific Islands Strategy; U.S.-Qatar Relations; U.S.-South Africa Relations; U.S.-Syria Relations; and U.S.-Turkey Relations (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151813,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ZACHARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "JUTCOVICH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Sean Duffy (2014-15); Intern, Office of Rep. Todd Rokita (2015)",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 145162,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TOBY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DERSHOWITZ",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "H.R. 881, DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act, all provisions. Issues related to Combating Computer Fraud and Abuse; Foreign Threats to U.S. Homeland; Terror-Affiliated Armed Groups in Syria; TSA Reauthorization; and U.S. Counterdrug and Law Enforcement Strategies (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151813,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ZACHARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "JUTCOVICH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Sean Duffy (2014-15); Intern, Office of Rep. Todd Rokita (2015)",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "EDU",
+      "general_issue_code_display": "Education",
+      "description": "H.R. 1048, Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions (DETERRENT) Act, all provisions. H.R. 3284, Foreign Influence Transparency and Accountability Act, all provisions. S. 1296, Defending Education Transparency and Ending Rogue Regimes Engaging in Nefarious Transactions (DETERRENT) Act, all provisions. S. 1684, Foreign Influence Transparency and Accountability Act, all provisions. Issues related to Foreign Influence in U.S. Higher and Elementary Education and Implementation of the Clery Act (no bill).",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 71983,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TYLER",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STAPLETON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141587,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "MATTHEW REID",
+         "nickname": null,
+         "middle_name": "WITTE",
+         "last_name": "ZWEIG",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145330,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "NICHOLAS",
+         "nickname": "NICK",
+         "middle_name": null,
+         "last_name": "STEWART",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151813,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ZACHARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "JUTCOVICH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Intern, Office of Rep. Sean Duffy (2014-15); Intern, Office of Rep. Todd Rokita (2015)",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 152507,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ALEXANDRIA",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PAOLOZZI MOORE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,2908 @@
+[
+ {
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/d10ba6c1-9421-4df8-8bb9-81a4a0503ad2/",
+    "filing_uuid": "d10ba6c1-9421-4df8-8bb9-81a4a0503ad2",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2019,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/d10ba6c1-9421-4df8-8bb9-81a4a0503ad2/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "240000.00",
+    "expenses_method": "a",
+    "expenses_method_display": "Method A - Reporting amounts using LDA definitions only",
+    "posted_by_name": "Brian Elson",
+    "dt_posted": "2019-10-21T11:18:45.843000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1875 Explorer Street",
+    "registrant_address_2": "SUITE 200",
+    "registrant_different_address": false,
+    "registrant_city": "Reston",
+    "registrant_state": "VA",
+    "registrant_zip": "20190",
+    "registrant": {
+     "id": 33647,
+     "url": "https://lda.gov/api/v1/registrants/33647/",
+     "house_registrant_id": 30725,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "description": null,
+     "address_1": "1900 Reston Metro Plaza",
+     "address_2": "Suite 400",
+     "address_3": null,
+     "address_4": null,
+     "city": "Reston",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20190",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "MARY SPRINGER SFORZA",
+     "contact_telephone": "+1 703-834-1700",
+     "dt_updated": "2026-07-28T14:12:16.063060-04:00"
+    },
+    "client": {
+     "id": 141959,
+     "url": "https://lda.gov/api/v1/clients/141959/",
+     "client_id": 12,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Authorization and Appropriations for the Department of Defense, and NASA for FY2020 / NDAA [HR.2500 / S.1790] (Issues related to shipbuilding, C-130 engine program, DoD sustainment, readiness, CV-22, B-52 re-engining, acquisitions, relevant engine and power systems programs and sustainment, current and upcoming Tactical Vehicle acquisition programs) \n\n(*Wilson did not contact House Appropriations staff or Members prior to September 2019*)",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 63809,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "CRAIG",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCVAY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69912,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "HOPKINS",
+         "suffix": "jr",
+         "suffix_display": "JR"
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71322,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "SAM",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PEREZ",
+         "suffix": "jr",
+         "suffix_display": "JR"
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70958,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ADAM",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RIDDLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 25160,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "EDWARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PEASE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep. Andre Carson: Dep. CoS/Leg. Dir. (2017-19); Leg. Dir (2011-16); Sr. Leg. Asst (2010-11); Leg. Asst/Dep. Comms. Dir. (2009-10); Leg. Corr./Staff Writer (2008-09); Staff Asst. (2008) Rep. Joe Donnelly, Dist. Scheduler (2007-08)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "Federal Aviation Administration and FY 2020 Appropriation [H.R. 3163/S. 2520] (Issues related to FAA certification and environmental policy)\nNASA Aeronautics Authorization and FY 2020 Appropriation [H.R. 3055/S. 2584] (Issues related to NASA Aeronautics Research)",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ECN",
+      "general_issue_code_display": "Economics/Economic Development",
+      "description": "General issues related to Rolls-Royce facilities in the U.S. [no bill number]\n\n(*Wilson did not contact House Appropriations staff or Members prior to September 2019*)",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70958,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ADAM",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RIDDLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep. Andre Carson: Dep. CoS/Leg. Dir. (2017-19); Leg. Dir (2011-16); Sr. Leg. Asst (2010-11); Leg. Asst/Dep. Comms. Dir. (2009-10); Leg. Corr./Staff Writer (2008-09); Staff Asst. (2008) Rep. Joe Donnelly, Dist. Scheduler (2007-08)",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "MAN",
+      "general_issue_code_display": "Manufacturing",
+      "description": "Issues related to workforce development (no bill number)\n\n(*Wilson did not contact House Appropriations staff or Members prior to September 2019*)",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/b263d777-a122-4211-8777-85c792c3b056/",
+    "filing_uuid": "b263d777-a122-4211-8777-85c792c3b056",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2020,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/b263d777-a122-4211-8777-85c792c3b056/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "330000.00",
+    "expenses_method": "a",
+    "expenses_method_display": "Method A - Reporting amounts using LDA definitions only",
+    "posted_by_name": "Brian Elson",
+    "dt_posted": "2020-04-20T10:37:01.500000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1900 Reston Metro Plaza",
+    "registrant_address_2": "SUITE 400",
+    "registrant_different_address": false,
+    "registrant_city": "Reston",
+    "registrant_state": "VA",
+    "registrant_zip": "20190",
+    "registrant": {
+     "id": 33647,
+     "url": "https://lda.gov/api/v1/registrants/33647/",
+     "house_registrant_id": 30725,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "description": null,
+     "address_1": "1900 Reston Metro Plaza",
+     "address_2": "Suite 400",
+     "address_3": null,
+     "address_4": null,
+     "city": "Reston",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20190",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "MARY SPRINGER SFORZA",
+     "contact_telephone": "+1 703-834-1700",
+     "dt_updated": "2026-07-28T14:12:16.063060-04:00"
+    },
+    "client": {
+     "id": 141959,
+     "url": "https://lda.gov/api/v1/clients/141959/",
+     "client_id": 12,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "ECN",
+      "general_issue_code_display": "Economics/Economic Development",
+      "description": "General issues related to Rolls-Royce facilities and site visits [no bill number].\nH.R. 749/S.3548, CARES ACT (entire bill, including provisions related to airlines and aerospace issues).",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70958,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ADAM",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RIDDLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 68128,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DARRYL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBERSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "2003-2007, Staff Member, Office of U.S. Senator John Cornyn; 2007-2009, Confidential Assistant to the Associate Director for National Security Programs at Office of Management and Budget",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       },
+       {
+        "id": 210,
+        "name": "U.S. Marines"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "Federal Aviation Administration certification reform [no Bill number]. \nNASA Aeronautics Authorization and Appropriations/Reauthorization [no Bill number], including issues related to NASA Aeronautics research.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       },
+       {
+        "id": 210,
+        "name": "U.S. Marines"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Authorization and Appropriation for Department of Defense (DoD) / NDAA [no bill number] (Issues related to: ship programs, C-130/engine program, B-52 CERP, CV-22, F-35B, DoD sustainment, future programs and technologies, reprogramming, relevant engine and power systems programs and sustainment, and tactical vehicle programs).",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 63809,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "CRAIG",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCVAY",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69912,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "HOPKINS",
+         "suffix": "jr",
+         "suffix_display": "JR"
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71322,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "SAM",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PEREZ",
+         "suffix": "jr",
+         "suffix_display": "JR"
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 70958,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ADAM",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RIDDLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 68128,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DARRYL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBERSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "2003-2007, Staff Member, Office of U.S. Senator John Cornyn; 2007-2009, Confidential Assistant to the Associate Director for National Security Programs at Office of Management and Budget",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       },
+       {
+        "id": 210,
+        "name": "U.S. Marines"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/934f1d05-d9a7-4f92-9af2-d3e6471f0fb3/",
+    "filing_uuid": "934f1d05-d9a7-4f92-9af2-d3e6471f0fb3",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2023,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/934f1d05-d9a7-4f92-9af2-d3e6471f0fb3/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "230000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Andrew Baker",
+    "dt_posted": "2023-07-19T10:09:20-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1900 Reston Metro Plaza",
+    "registrant_address_2": "SUITE 400",
+    "registrant_different_address": false,
+    "registrant_city": "Reston",
+    "registrant_state": "VA",
+    "registrant_zip": "20190",
+    "registrant": {
+     "id": 33647,
+     "url": "https://lda.gov/api/v1/registrants/33647/",
+     "house_registrant_id": 30725,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "description": null,
+     "address_1": "1900 Reston Metro Plaza",
+     "address_2": "Suite 400",
+     "address_3": null,
+     "address_4": null,
+     "city": "Reston",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20190",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "MARY SPRINGER SFORZA",
+     "contact_telephone": "+1 703-834-1700",
+     "dt_updated": "2026-07-28T14:12:16.063060-04:00"
+    },
+    "client": {
+     "id": 141959,
+     "url": "https://lda.gov/api/v1/clients/141959/",
+     "client_id": 12,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "Issues related to Buy America and US/UK/Australia trade agreement.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff, Legislative Director, Military Legislative Assistant, U.S. Rep. Jim Banks; Staff Assistant, U.S. Senate Armed Services Committee",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY24 NDAA (H.R. 2670), FY24 Defense Appropriations (H.R. 4365), issues related to: ship programs, C-130/engine program, DoD sustainment, and future programs and technologies.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff, Legislative Director, Military Legislative Assistant, U.S. Rep. Jim Banks; Staff Assistant, U.S. Senate Armed Services Committee",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       },
+       {
+        "id": 210,
+        "name": "U.S. Marines"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ECN",
+      "general_issue_code_display": "Economics/Economic Development",
+      "description": "Issues related to Rolls-Royce North America U.S. facilities and footprint (no bill) and implementation of the provisions of the Inflation Reduction Act of 2022 related to potential clean energy opportunities.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff, Legislative Director, Military Legislative Assistant, U.S. Rep. Jim Banks; Staff Assistant, U.S. Senate Armed Services Committee",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AER",
+      "general_issue_code_display": "Aerospace",
+      "description": "Discussions with NASA-Space Technology Directorate regarding NASA power and propulsion.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "FY24 Homeland Security Appropriations (no bill number) related to propulsion for Customs and Border Protection and Coast Guard aircraft.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "FAA Reauthorization Act (S.1939/ H.R. 3935) issues related to low emission aviation technology, manufacturing, and sustainability.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ENG",
+      "general_issue_code_display": "Energy/Nuclear",
+      "description": "H.Res. 124, \"Expressing the sense of the House of Representatives that the United States should support the expansion of domestic nuclear energy and advanced nuclear technology as a viable source of power in order to promote United States nuclear energy leadership and global energy independence,\" (issues related to advanced nuclear power and technology developments.)",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/8ced6844-f1ca-4411-85d8-d933f6526239/",
+    "filing_uuid": "8ced6844-f1ca-4411-85d8-d933f6526239",
+    "filing_type": "2A",
+    "filing_type_display": "2nd Quarter - Amendment",
+    "filing_year": 2023,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/8ced6844-f1ca-4411-85d8-d933f6526239/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "230000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Andrew Baker",
+    "dt_posted": "2025-04-14T19:38:41-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1900 Reston Metro Plaza",
+    "registrant_address_2": "SUITE 400",
+    "registrant_different_address": false,
+    "registrant_city": "Reston",
+    "registrant_state": "VA",
+    "registrant_zip": "20190",
+    "registrant": {
+     "id": 33647,
+     "url": "https://lda.gov/api/v1/registrants/33647/",
+     "house_registrant_id": 30725,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "description": null,
+     "address_1": "1900 Reston Metro Plaza",
+     "address_2": "Suite 400",
+     "address_3": null,
+     "address_4": null,
+     "city": "Reston",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20190",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "MARY SPRINGER SFORZA",
+     "contact_telephone": "+1 703-834-1700",
+     "dt_updated": "2026-07-28T14:12:16.063060-04:00"
+    },
+    "client": {
+     "id": 141959,
+     "url": "https://lda.gov/api/v1/clients/141959/",
+     "client_id": 12,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY24 NDAA (H.R. 2670), FY24 Defense Appropriations (H.R. 4365), issues related to: ship programs, C-130/engine program, DoD sustainment, and future programs and technologies.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff, Legislative Director, Military Legislative Assistant, U.S. Rep. Jim Banks; Staff Assistant, U.S. Senate Armed Services Committee",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 171,
+        "name": "U.S. Coast Guard (USCG)"
+       },
+       {
+        "id": 210,
+        "name": "U.S. Marines"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ECN",
+      "general_issue_code_display": "Economics/Economic Development",
+      "description": "Issues related to Rolls-Royce North America U.S. facilities and footprint (no bill) and implementation of the provisions of the Inflation Reduction Act of 2022 related to potential clean energy opportunities.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff, Legislative Director, Military Legislative Assistant, U.S. Rep. Jim Banks; Staff Assistant, U.S. Senate Armed Services Committee",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AER",
+      "general_issue_code_display": "Aerospace",
+      "description": "Discussions with NASA-Space Technology Directorate regarding NASA power and propulsion.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "FY24 Homeland Security Appropriations (no bill number) related to propulsion for Customs and Border Protection and Coast Guard aircraft.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "FAA Reauthorization Act (S.1939/ H.R. 3935) issues related to low emission aviation technology, manufacturing, and sustainability.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ENG",
+      "general_issue_code_display": "Energy/Nuclear",
+      "description": "H.Res. 124, \"Expressing the sense of the House of Representatives that the United States should support the expansion of domestic nuclear energy and advanced nuclear technology as a viable source of power in order to promote United States nuclear energy leadership and global energy independence,\" (issues related to advanced nuclear power and technology developments.)",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof. Rolls-Royce SMR Ltd. designs and develops Small Modular Reactors (SMR) and could benefit from any regulatory and/or policy changes in the United States.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "Issues related to Buy America and US/UK/Australia trade agreement.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 69914,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff, Legislative Director, Military Legislative Assistant, U.S. Rep. Jim Banks; Staff Assistant, U.S. Senate Armed Services Committee",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [
+     {
+      "name": "ROLLS-ROYCE SMR LTD.",
+      "contribution": "0.00",
+      "ownership_percentage": "0.00",
+      "address": "Moor Lane, DE24 8BJ",
+      "city": "Derby",
+      "state": null,
+      "state_display": null,
+      "country": "GB",
+      "country_display": "United Kingdom",
+      "ppb_city": "Derby",
+      "ppb_state": null,
+      "ppb_state_display": null,
+      "ppb_country": "GB",
+      "ppb_country_display": "United Kingdom"
+     }
+    ],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/3b0e081b-e4f3-4727-a2d2-bab89f32512a/",
+    "filing_uuid": "3b0e081b-e4f3-4727-a2d2-bab89f32512a",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2025,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/3b0e081b-e4f3-4727-a2d2-bab89f32512a/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "370000.00",
+    "expenses_method": "A",
+    "expenses_method_display": "A",
+    "posted_by_name": "Andrew Baker",
+    "dt_posted": "2025-10-20T19:43:14-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1900 Reston Metro Plaza",
+    "registrant_address_2": "SUITE 400",
+    "registrant_different_address": false,
+    "registrant_city": "Reston",
+    "registrant_state": "VA",
+    "registrant_zip": "20190",
+    "registrant": {
+     "id": 33647,
+     "url": "https://lda.gov/api/v1/registrants/33647/",
+     "house_registrant_id": 30725,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "description": null,
+     "address_1": "1900 Reston Metro Plaza",
+     "address_2": "Suite 400",
+     "address_3": null,
+     "address_4": null,
+     "city": "Reston",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "20190",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "MARY SPRINGER SFORZA",
+     "contact_telephone": "+1 703-834-1700",
+     "dt_updated": "2026-07-28T14:12:16.063060-04:00"
+    },
+    "client": {
+     "id": 141959,
+     "url": "https://lda.gov/api/v1/clients/141959/",
+     "client_id": 12,
+     "name": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-08"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "Issues related to aerospace provisions in the WTO Agreement on Trade in Civil Aircraft (no bill).",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Department of Defense Appropriations Act, 2026 (H.R. 4016 / S. 2572), National Defense Authorization Act for Fiscal Year 2026 (H.R. 3838 / S. 2296), and implementation of To provide for reconciliation pursuant to title II of H. Con. Res. 14 (H.R. 1 / no Senate bill number): issues related to ship programs, DoD sustainment, acquisition, intellectual property rights, commerciality, C-130J, E2-D, MQ-25, F-35B, MV-75, V-22, B-52 CERP, future programs and technologies, and nuclear technology.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151972,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPRINGER SFORZA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep. Jo Ann Davis, Legislative Director; Rep. Rob Wittman, Chief of Staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ECN",
+      "general_issue_code_display": "Economics/Economic Development",
+      "description": "Issues related to Rolls-Royce North America U.S. facilities and footprint (no bill).",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151972,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPRINGER SFORZA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep. Jo Ann Davis, Legislative Director; Rep. Rob Wittman, Chief of Staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AER",
+      "general_issue_code_display": "Aerospace",
+      "description": "Issues related to space power and propulsion (no bill); Supersonic Aviation Modernization Act (H.R. 3410 / S. 1759): issues related to supersonic flight.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 58274,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "KELLEY",
+         "last_name": "ELSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72627,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHANIEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BENNETT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "ENG",
+      "general_issue_code_display": "Energy/Nuclear",
+      "description": "Energy and Water Development and Related Agencies Appropriations Act, 2026 (H.R. 4553 / no Senate bill), Small Modular Reactor Commercialization Act of 2025 (H.R. 2813 / no Senate bill): issues related to advanced nuclear reactor development and manufacturing.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof. Rolls-Royce SMR Ltd. designs and develops Small Modular Reactors (SMR) and could benefit from any regulatory and/or policy changes in the United States.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 73104,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MATTHEW",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MACVICAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 110274,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOHN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SHADE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143275,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCGREGOR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 143276,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "LINDSAY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "RATLIFF",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151972,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPRINGER SFORZA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep. Jo Ann Davis, Legislative Director; Rep. Rob Wittman, Chief of Staff",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 69929,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "ANDREW",
+         "nickname": null,
+         "middle_name": "CHRISTOPHER",
+         "last_name": "BAKER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 33,
+        "name": "Energy, Dept of"
+       },
+       {
+        "id": 11,
+        "name": "Executive Office of the President (EOP)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "HOM",
+      "general_issue_code_display": "Homeland Security",
+      "description": "Coast Guard Authorization Act of 2025 (H.R. 4275 / S. 524), Department of Homeland Security Appropriations Act, 2026 (H.R. 4213 / no Senate bill number): issues related to procurement and operations and maintenance funding.",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64818,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "GEORGE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "KAMPSTRA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TAR",
+      "general_issue_code_display": "Tariff (miscellaneous tariff bills)",
+      "description": "Issues related to aerospace provisions in the WTO Agreement on Trade in Civil Aircraft (no bill).",
+      "foreign_entity_issues": "Rolls-Royce PLC is the parent company of Rolls-Royce North America and benefits from the financial success thereof.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 79428,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JANE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CRUMPLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 22,
+        "name": "U.S. Trade Representative (USTR)"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

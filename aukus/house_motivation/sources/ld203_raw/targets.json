@@ -1,0 +1,334 @@
+{
+ "registrants": {
+  "15018": "FLUOR CORPORATION",
+  "15986": "GENERAL DYNAMICS CORP",
+  "328": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC.",
+  "401103834": "THEGROUP DC, LLC",
+  "15907": "BAE SYSTEMS, INC.",
+  "5153": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+  "39267": "RTX CORPORATION AND AFFILIATES",
+  "400752252": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED",
+  "6597": "BOEING COMPANY",
+  "400414963": "FEDERAL BUSINESS GROUP",
+  "33647": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES",
+  "400586788": "FIFESTRATEGIES, LLC",
+  "315717": "GEPHARDT GROUP GOVERNMENT AFFAIRS",
+  "401105458": "FDD ACTION",
+  "23031": "LOCKHEED MARTIN CORPORATION",
+  "401106316": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)"
+ },
+ "lobbyists": {
+  "32400": {
+   "name": "DAVID MARVENTANO",
+   "registrant": "FLUOR CORPORATION"
+  },
+  "37827": {
+   "name": "JOHN GALLAGHER",
+   "registrant": "FLUOR CORPORATION"
+  },
+  "148056": {
+   "name": "RAMON ZERTUCHE",
+   "registrant": "FLUOR CORPORATION"
+  },
+  "46078": {
+   "name": "TERESA GAINES",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "48552": {
+   "name": "JENNIFER NAVARRO",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "56737": {
+   "name": "ADAM PAULSON",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "27701": {
+   "name": "DOUGLAS RITTER",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "58485": {
+   "name": "ROBERT HELM",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "63317": {
+   "name": "ELIZABETH SCHMID",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "66486": {
+   "name": "ERICA STRIEBEL",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "71659": {
+   "name": "DAVID GILLIES",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "89009": {
+   "name": "BRIAN POTTS",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "139262": {
+   "name": "SHANA CHANDLER",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "73019": {
+   "name": "JEFFREY WILSON",
+   "registrant": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC."
+  },
+  "146811": {
+   "name": "NORA KHALIL",
+   "registrant": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC."
+  },
+  "62883": {
+   "name": "DARREL THOMPSON",
+   "registrant": "THEGROUP DC, LLC"
+  },
+  "51893": {
+   "name": "MICHAEL MCBRIDE",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "64255": {
+   "name": "THOMAS BISHOP",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "71004": {
+   "name": "TISHA WRIGHT",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "72974": {
+   "name": "DONALD BERGIN",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "119191": {
+   "name": "KATIE MCINTYRE",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "105078": {
+   "name": "SHELLY STONEMAN",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "141148": {
+   "name": "CHRISTOPHER GASPAR",
+   "registrant": "BAE SYSTEMS, INC."
+  },
+  "59511": {
+   "name": "STEVEN HYJEK",
+   "registrant": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ"
+  },
+  "137989": {
+   "name": "THOMAS SHAW",
+   "registrant": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ"
+  },
+  "74500": {
+   "name": "ROBERT NEAL",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "121816": {
+   "name": "JEFF SHOCKEY",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "139490": {
+   "name": "JENNIFER MILLER",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "139169": {
+   "name": "ART CAMERON",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "139289": {
+   "name": "THOMAS CULLIGAN",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "139794": {
+   "name": "JESSICA CALIO",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "141399": {
+   "name": "ERICA LEFAIVE",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "142504": {
+   "name": "MICHELLE JELNICKY",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "142503": {
+   "name": "AIDAN TRUMMEL",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "143610": {
+   "name": "TIMOTHY PRINCE",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "146245": {
+   "name": "TAYLOR GARCIA",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "147018": {
+   "name": "KATIE CALHOUN",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "111523": {
+   "name": "STEWART HOLMES",
+   "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED"
+  },
+  "60488": {
+   "name": "PETER COURTNEY",
+   "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED"
+  },
+  "54352": {
+   "name": "ROGER WEST",
+   "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED"
+  },
+  "54227": {
+   "name": "CHARLES HICKS",
+   "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED"
+  },
+  "146187": {
+   "name": "ELIZABETH BINA BENEDICT",
+   "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED"
+  },
+  "50641": {
+   "name": "HEATH BUMGARDNER",
+   "registrant": "BOEING COMPANY"
+  },
+  "65261": {
+   "name": "DARIO GOMEZ",
+   "registrant": "BOEING COMPANY"
+  },
+  "67686": {
+   "name": "THEODORE AUSTELL",
+   "registrant": "BOEING COMPANY"
+  },
+  "69412": {
+   "name": "TOM MCLEMORE",
+   "registrant": "BOEING COMPANY"
+  },
+  "73160": {
+   "name": "MEGAN BELL",
+   "registrant": "BOEING COMPANY"
+  },
+  "71844": {
+   "name": "MATTHEW MCCARTHY",
+   "registrant": "BOEING COMPANY"
+  },
+  "121862": {
+   "name": "ZIAD OJAKLI",
+   "registrant": "BOEING COMPANY"
+  },
+  "43700": {
+   "name": "STEVEN BACHMANN",
+   "registrant": "BOEING COMPANY"
+  },
+  "141303": {
+   "name": "CHAD KREIKEMEIER",
+   "registrant": "BOEING COMPANY"
+  },
+  "143525": {
+   "name": "MATTHEW WASHINGTON",
+   "registrant": "BOEING COMPANY"
+  },
+  "139885": {
+   "name": "NICOLE NASON",
+   "registrant": "BOEING COMPANY"
+  },
+  "147011": {
+   "name": "MICHAEL SCHNABEL",
+   "registrant": "BOEING COMPANY"
+  },
+  "147008": {
+   "name": "NICOLE PORRECA",
+   "registrant": "BOEING COMPANY"
+  },
+  "47358": {
+   "name": "JOE SPATA",
+   "registrant": "FEDERAL BUSINESS GROUP"
+  },
+  "138742": {
+   "name": "SALLY SULLIVAN",
+   "registrant": "RTX CORPORATION AND AFFILIATES"
+  },
+  "143256": {
+   "name": "KAYLA RENNER",
+   "registrant": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC."
+  },
+  "56909": {
+   "name": "DAVID MORRISS",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "69914": {
+   "name": "STEVEN WILSON",
+   "registrant": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES"
+  },
+  "143276": {
+   "name": "LINDSAY RATLIFF",
+   "registrant": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES"
+  },
+  "72627": {
+   "name": "NATHANIEL BENNETT",
+   "registrant": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES"
+  },
+  "64818": {
+   "name": "GEORGE KAMPSTRA",
+   "registrant": "ROLLS-ROYCE NORTH AMERICA AND ITS AFFILIATES"
+  },
+  "51394": {
+   "name": "MENDA FIFE",
+   "registrant": "FIFESTRATEGIES, LLC"
+  },
+  "146777": {
+   "name": "PATRICK MCGUIGAN",
+   "registrant": "GENERAL DYNAMICS CORP"
+  },
+  "55170": {
+   "name": "CHRISTINA HAMILTON",
+   "registrant": "GEPHARDT GROUP GOVERNMENT AFFAIRS"
+  },
+  "47572": {
+   "name": "JANICE O'CONNELL",
+   "registrant": "GEPHARDT GROUP GOVERNMENT AFFAIRS"
+  },
+  "58508": {
+   "name": "CAROLYN APOSTOLOU",
+   "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED"
+  },
+  "71983": {
+   "name": "TYLER STAPLETON",
+   "registrant": "FDD ACTION"
+  },
+  "141587": {
+   "name": "MATTHEW REID ZWEIG",
+   "registrant": "FDD ACTION"
+  },
+  "145162": {
+   "name": "TOBY DERSHOWITZ",
+   "registrant": "FDD ACTION"
+  },
+  "145330": {
+   "name": "NICHOLAS STEWART",
+   "registrant": "FDD ACTION"
+  },
+  "51756": {
+   "name": "CARRIE DESMOND",
+   "registrant": "LOCKHEED MARTIN CORPORATION"
+  },
+  "68248": {
+   "name": "RACHEL LIPSEY",
+   "registrant": "BOEING COMPANY"
+  },
+  "53254": {
+   "name": "MICHAEL WACLAWSKI",
+   "registrant": "BOEING COMPANY"
+  },
+  "68896": {
+   "name": "LYNN WILLIAMS",
+   "registrant": "BOEING COMPANY"
+  },
+  "116583": {
+   "name": "NICOLE DI RESTA",
+   "registrant": "EVERFOX LLC (FKA FORCEPOINT FEDERAL LLC)"
+  },
+  "69307": {
+   "name": "TIMOTHY MCCLEES",
+   "registrant": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC."
+  }
+ }
+}

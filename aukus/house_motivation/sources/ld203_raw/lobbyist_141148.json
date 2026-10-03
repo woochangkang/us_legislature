@@ -1,0 +1,1351 @@
+[
+ {
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/aa699f0a-a2e9-4b18-ae7d-b8a383bd9323/",
+    "filing_uuid": "aa699f0a-a2e9-4b18-ae7d-b8a383bd9323",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2022,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/aa699f0a-a2e9-4b18-ae7d-b8a383bd9323/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "880000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Shelly Stoneman",
+    "dt_posted": "2022-10-19T12:16:55-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "2941 FAIRVIEW PARK DRIVE",
+    "registrant_address_2": "SUITE 100",
+    "registrant_different_address": true,
+    "registrant_city": "FALLS CHURCH",
+    "registrant_state": "VA",
+    "registrant_zip": "22042",
+    "registrant": {
+     "id": 15907,
+     "url": "https://lda.gov/api/v1/registrants/15907/",
+     "house_registrant_id": 31489,
+     "name": "BAE SYSTEMS, INC.",
+     "description": null,
+     "address_1": "2941 FAIRVIEW PARK DRIVE",
+     "address_2": "SUITE 100",
+     "address_3": null,
+     "address_4": null,
+     "city": "FALLS CHURCH",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22042",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DANIELLE PARKER",
+     "contact_telephone": "+1 571-461-6091",
+     "dt_updated": "2026-07-30T11:59:37.336427-04:00"
+    },
+    "client": {
+     "id": 121492,
+     "url": "https://lda.gov/api/v1/clients/121492/",
+     "client_id": 12,
+     "name": "BAE SYSTEMS INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-09"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Department of Defense Appropriations Act, 2023 (HR 8236/S 4663); provisions regarding R&D-Army, Navy, Air Force, & Defense Wide; Aircraft Procurement- Air Force, Army, Navy, Marine Corps; Procurement Ammunition Navy & Marine Corps; Missile Procurement; Guided Rocket Procurement- Navy; Weapons & Tracked Combat. Vehicles (WTCV) Procurement; Other issues: F-35 Joint Strike Fighter; B-21; Aircraft Survivability Equipment; Electronic Warfare; Precision Guided Munitions; Munitions; Surveillance and Reconnaissance (ISR) Sensors; Identification Friend or Foe (IFF); Signal Intelligence (SIGINT); Airborne Electronic Attack; Naval Ship Repair; Naval Guns; Industrial Base issues; Weapon Systems Programs; Secure Communications Systems; Combat Mission Systems; Paladin PIM; Bradley Fighting Vehicle; M88 Recovery Vehicle; Mobile Protected Firepower (MPF); USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Armored Multi-Purpose Vehicles (AMPV); Hypervelocity Projectile (HVP); High Power Microwave (HPMW); Projectiles; Advanced Precision Kill Weapon System (APKWS); Microelectronics; USMC Wargaming; Intercontinental Ballistic Missile (ICBM) program; Defense Advanced Research Projects Agency (DARPA) program issues; Overall Defense National Defense Authorization Act for Fiscal Year 2023 (HR 7900/S 4543); provisions regarding R&D-Army, Navy, Air Force, & Defense Wide; Aircraft Procurement- Air Force, Army, Navy, Marine Corps; Procurement Ammunition Navy & Marine Corps; Missile Procurement; Guided Rocket Procurement- Navy; Weapons & Tracked Combat. Vehicles (WTCV) Procurement; Other issues: F-35 Joint Strike Fighter; B-21; Aircraft Survivability Equipment; Electronic Warfare; Precision Guided Munitions; Munitions; Surveillance and Reconnaissance (ISR) Sensors; Identification Friend or Foe (IFF); Signal Intelligence (SIGINT); Airborne Electronic Attack; Vehicle Active Protection Systems; Naval Ship Repair; Naval Guns; Industrial Base issues; Weapon Systems Programs; Secure Communications Systems; Combat Mission Systems; Paladin PIM; Bradley Fighting Vehicle; M88 Recovery Vehicle; Mobile Protected Firepower (MPF); USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Armored Multi-Purpose Vehicles (AMPV); Hypervelocity Projectile (HVP); High Power Microwave (HPMW); Projectiles; Advanced Precision Kill Weapon System (APKWS); Microelectronics; USMC Wargaming; Intercontinental Ballistic Missile (ICBM) program; Defense Advanced Research Projects Agency (DARPA) program issues; Overall Defense United States Innovation and Competition Act of 2021 (HR 4521/S 1260); provisions regarding the CHIPS for America Act and R&D Tax Provisions; Semiconductor Grant Program; Microelectronics Commons Making continuing appropriations for fiscal year 2023, and for other purposes (HR6833/S XXXX); provisions for defense funding",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 51893,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCBRIDE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71004,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TISHA",
+         "nickname": null,
+         "middle_name": "L.",
+         "last_name": "WRIGHT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72974,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DONALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BERGIN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 119191,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATIE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 105078,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "SHELLY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STONEMAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141148,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CHRISTOPHER",
+         "nickname": null,
+         "middle_name": "ANTHONY",
+         "last_name": "GASPAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Assistant for Defense and Foreign Affairs for Senator Dianne Feinstein; Military Legislative Assistant for James Moran; Staff Assistant for House Permanent Select Committee on Intelligence",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Overall Defense Spending, FY23 Defense Budgets, and Industrial Base Programs",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 105078,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "SHELLY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "STONEMAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/96ae87f5-250f-4ab5-866d-bd479041f592/",
+    "filing_uuid": "96ae87f5-250f-4ab5-866d-bd479041f592",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/96ae87f5-250f-4ab5-866d-bd479041f592/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "1240000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Reginald Robinson",
+    "dt_posted": "2024-04-19T13:43:23-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "2941 FAIRVIEW PARK DRIVE",
+    "registrant_address_2": "SUITE 100",
+    "registrant_different_address": false,
+    "registrant_city": "FALLS CHURCH",
+    "registrant_state": "VA",
+    "registrant_zip": "22042",
+    "registrant": {
+     "id": 15907,
+     "url": "https://lda.gov/api/v1/registrants/15907/",
+     "house_registrant_id": 31489,
+     "name": "BAE SYSTEMS, INC.",
+     "description": null,
+     "address_1": "2941 FAIRVIEW PARK DRIVE",
+     "address_2": "SUITE 100",
+     "address_3": null,
+     "address_4": null,
+     "city": "FALLS CHURCH",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22042",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DANIELLE PARKER",
+     "contact_telephone": "+1 571-461-6091",
+     "dt_updated": "2026-07-30T11:59:37.336427-04:00"
+    },
+    "client": {
+     "id": 121492,
+     "url": "https://lda.gov/api/v1/clients/121492/",
+     "client_id": 12,
+     "name": "BAE SYSTEMS INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-09"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Department of Defense Appropriations Act of 2024 (HR 4365/S 2587; PL 118-47) and Further Consolidated Appropriations Act of 2024 (HR 2882); provisions regarding R&D-Army, Navy/USMC, Air Force, & Defense Wide; Aircraft Procurement- Air Force, Navy, Marine Corps; Procurement Ammunition Navy & Marine Corps; Missile Procurement- Army, Air Force, & Navy; Procurement Weapons & Tracked Combat Vehicles (WTCV); Other issues: F-35 Joint Strike Fighter; B-21; Tactical Aircraft; Aircraft Survivability Equipment; Electronic Warfare; Precision Guided Munitions; Munitions; Signal Intelligence (SIGINT); Naval Ship Repair; Naval Guns; Industrial Base issues; Secure Communications Systems; Combat Mission Systems; Paladin PIM; Bradley Fighting Vehicle; M88 Recovery Vehicle; USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Armored Multi-Purpose Vehicles (AMPV); Hypervelocity Projectile (HVP); High Power Microwave (HPMW); Projectiles; Overall Defense; Supplemental Request/Continuing Resolutions National Defense Authorization Act for Fiscal Year 2024 (HR 2670); provisions regarding Title II, Research, Development, Test & Evaluation; Title XVI, Space Activities, Strategic Programs and Intelligence matters related to space activities; Title LXVII, Division G, Intelligence Authorization Act for Fiscal Year 2024; Cyber Security, Classified Annex. National Security and Boarder Act of 2024 (HR 815); provisions regarding Industrial Base Issues Department of Defense Appropriations Act of 2025 (HR XXXX/S XXXX); provisions regarding R&D-Army, Navy/USMC, Air Force, & Defense Wide; Aircraft Procurement- Air Force, Navy, Marine Corps; Procurement Ammunition Navy & Marine Corps; Missile Procurement- Army, Air Force, & Navy; Procurement Weapons & Tracked Combat Vehicles (WTCV); Other issues: F-35 Joint Strike Fighter; B-21; Tactical Aircraft; Navy Information Technology Capabilities; Direct Attack Munitions; High Frequency Radios; Long Range Intelligence, Surveillance and Reconnaissance (ISR); Aircraft Survivability Equipment; Electronic Warfare; Precision Guided Munitions; Munitions; Signal Intelligence (SIGINT); Naval Ship Repair; Naval Guns; Industrial Base issues; Secure Communications Systems; USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Projectiles; Overall Defense National Defense Authorization Act for Fiscal Year 2025 (HR XXXX/S XXXX); provisions regarding R&D-Army, Navy/USMC, Air Force, & Defense Wide; Aircraft Procurement- Air Force, Navy, Marine Corps; Procurement Ammunition Navy & Marine Corps; Missile Procurement- Army, Air Force, & Navy; Procurement Weapons & Tracked Combat Vehicles (WTCV); Other issues: F-35 Joint Strike Fighter; B-21; Tactical Aircraft; FAR Part 12 Reform; Navy Information Technology Capabilities; Direct Attack Munitions; High Frequency Radios; Long Range Intelligence, Surveillance and Reconnaissance (ISR); Aircraft Survivability Equipment; Electronic Warfare; Precision Guided Munitions; Munitions; Signal Intelligence (SIGINT); Naval Ship Repair; Naval Guns; Industrial Base issues; Secure Communications Systems; USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Projectiles; Overall Defense Issues regarding Integration Support Contract; Intercontinental Ballistic Missile (ICBM) Program; Countering Unmanned Aerial System (CUAS) Efforts; Ammunition Plant Funding; Munitions Funding; Overall Defense Budget/Supplemental Budget",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 51893,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MICHAEL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCBRIDE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 71004,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TISHA",
+         "nickname": null,
+         "middle_name": "L.",
+         "last_name": "WRIGHT",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72974,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DONALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BERGIN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 119191,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATIE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141148,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CHRISTOPHER",
+         "nickname": null,
+         "middle_name": "ANTHONY",
+         "last_name": "GASPAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145033,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBINSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146002,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "National Oceanic and Atmospheric Administration Act of 2024 (HR XXXX/S XXXX); provisions regarding Title I, National Oceanic and Atmospheric Administration; provisions regarding National Weather Service Issues regarding Wildfires; Early Detection Programs",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146003,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CARLINER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Staff Director, Senate Commerce, Justice, Science Subcommittee, Committee on Appropriations",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 146002,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 144,
+        "name": "U.S. Geological Survey (USGS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Department of Defense Appropriations Act of 2024 (HR 4365/S 2587) and Further Consolidated Appropriations Act of 2024 (HR 2882); provisions regarding NASA Science Programs, NOAA Weather Programs; Title IV; Research Development, Test and Evaluation related to Cyber Security; US AF and Space Force Programs; Classified Annex.; Overall Defense Spending; Supplemental Request",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146003,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CARLINER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Staff Director, Senate Commerce, Justice, Science Subcommittee, Committee on Appropriations",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 146002,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 145033,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBINSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/473faeb1-aa72-4829-8021-4384cdcc58a8/",
+    "filing_uuid": "473faeb1-aa72-4829-8021-4384cdcc58a8",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2024,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/473faeb1-aa72-4829-8021-4384cdcc58a8/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "1070000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Reginald Robinson",
+    "dt_posted": "2024-10-21T14:13:20-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "2941 FAIRVIEW PARK DRIVE",
+    "registrant_address_2": "SUITE 100",
+    "registrant_different_address": false,
+    "registrant_city": "FALLS CHURCH",
+    "registrant_state": "VA",
+    "registrant_zip": "22042",
+    "registrant": {
+     "id": 15907,
+     "url": "https://lda.gov/api/v1/registrants/15907/",
+     "house_registrant_id": 31489,
+     "name": "BAE SYSTEMS, INC.",
+     "description": null,
+     "address_1": "2941 FAIRVIEW PARK DRIVE",
+     "address_2": "SUITE 100",
+     "address_3": null,
+     "address_4": null,
+     "city": "FALLS CHURCH",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22042",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DANIELLE PARKER",
+     "contact_telephone": "+1 571-461-6091",
+     "dt_updated": "2026-07-30T11:59:37.336427-04:00"
+    },
+    "client": {
+     "id": 121492,
+     "url": "https://lda.gov/api/v1/clients/121492/",
+     "client_id": 12,
+     "name": "BAE SYSTEMS INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-09"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "MAN",
+      "general_issue_code_display": "Manufacturing",
+      "description": "Creating Helpful Incentives to Produce Semiconductors (CHIPS) and Science Act of 2022 (PL 117-167); issues regarding Semiconductor Manufacturing",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "INT",
+      "general_issue_code_display": "Intelligence",
+      "description": "Intelligence Authorization Act for Fiscal Year 2025 (HR 8512/S 4443); provisions regarding Title I Intelligence Activities and Title V Matters related to Defense Intelligence and Overheard Architecture; Classified Annex",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146002,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Department of Defense Appropriations Act of 2025 (HR 8774/S 4921); provisions regarding R&D-Army, Navy/USMC, Air Force; Aircraft Procurement- Air Force, Navy, Marine Corps; Missile Procurement- Air Force, Navy; Other issues: F-35 Joint Strike Fighter; Tactical Aircraft; Electronic Warfare; Navy Information Technology Capabilities; Direct Attack Munitions; High Frequency Radios; Long Range Intelligence, Surveillance and Reconnaissance (ISR); Naval Ship Repair; Industrial Base issues; Combat Mission Systems; Paladin PIM; Bradley Fighting Vehicle; M88 Recovery Vehicle; USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Armored Multi-Purpose Vehicles (AMPV); Hypervelocity Projectile (HVP); High Power Microwave (HPMW); Hypervelocity Gun Weapons System (HGWS); Multi-Domain Cannon Artillery System (MDACS); Overall Defense National Defense Authorization Act for Fiscal Year 2025 (HR 8070/S 4638); provisions regarding R&D-Army, Navy/USMC, Air Force; Aircraft Procurement- Air Force, Navy, Marine Corps; Missile Procurement- Air Force, Navy; Title II RDT&E; Classified Annex; Other issues: F-35 Joint Strike Fighter; F-15EX; Tactical Aircraft; FAR Part 12 Reform; Navy Information Technology Capabilities; Direct Attack Munitions; High Frequency Radios; Long Range Intelligence, Surveillance and Reconnaissance (ISR); Electronic Warfare; Naval Ship Repair; Industrial Base issues; Combat Mission Systems; Paladin PIM; Bradley Fighting Vehicle; M88 Recovery Vehicle; USMC Amphibious Combat Vehicles (ACV); Army Combat Vehicles; Armored Multi-Purpose Vehicles (AMPV); Hypervelocity Projectile (HVP); High Power Microwave (HPMW); Hypervelocity Gun Weapons System (HGWS); Multi-Domain Cannon Artillery System (MDACS); Cyber Security; Overall Defense",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 72974,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DONALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BERGIN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 119191,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATIE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141148,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CHRISTOPHER",
+         "nickname": null,
+         "middle_name": "ANTHONY",
+         "last_name": "GASPAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145033,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBINSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146002,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 148654,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "TIMOTHY",
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Professional Staff, Defense Subcommittee, Senate Committee on Appropriations",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "Issues regarding NOAA weather programs; Wildfires; Early Detection Technologies and Programs",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146003,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CARLINER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 201,
+        "name": "Homeland Security, Dept of (DHS)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Department of Defense Appropriations Act of 2025 (HR 8774/S 4921); provisions related to Title IV, RDT&E- Air Force, Space Force; Classified Annex; Other issues related to Cyber Security; Top-line Spending; Combat Vehicle Programs; Space and Electronic Systems Programs Commerce, Justice, Science, and Related Agencies Appropriations Act for Fiscal Year 2025 (HR 9026/S 4795); provisions regarding NASA Science Programs; NOAA Weather Programs",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146003,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CARLINER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145033,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBINSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 146002,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCINTYRE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/82b97e10-b18b-4a28-a09c-ea49dfff8026/",
+    "filing_uuid": "82b97e10-b18b-4a28-a09c-ea49dfff8026",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2026,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/82b97e10-b18b-4a28-a09c-ea49dfff8026/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "1410000.00",
+    "expenses_method": "C",
+    "expenses_method_display": "C",
+    "posted_by_name": "Reginald Robinson",
+    "dt_posted": "2026-04-20T16:06:10-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "2941 FAIRVIEW PARK DRIVE",
+    "registrant_address_2": "SUITE 100",
+    "registrant_different_address": false,
+    "registrant_city": "FALLS CHURCH",
+    "registrant_state": "VA",
+    "registrant_zip": "22042",
+    "registrant": {
+     "id": 15907,
+     "url": "https://lda.gov/api/v1/registrants/15907/",
+     "house_registrant_id": 31489,
+     "name": "BAE SYSTEMS, INC.",
+     "description": null,
+     "address_1": "2941 FAIRVIEW PARK DRIVE",
+     "address_2": "SUITE 100",
+     "address_3": null,
+     "address_4": null,
+     "city": "FALLS CHURCH",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22042",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DANIELLE PARKER",
+     "contact_telephone": "+1 571-461-6091",
+     "dt_updated": "2026-07-30T11:59:37.336427-04:00"
+    },
+    "client": {
+     "id": 121492,
+     "url": "https://lda.gov/api/v1/clients/121492/",
+     "client_id": 12,
+     "name": "BAE SYSTEMS INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-09"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "National Defense Authorization Act, 2027 (HR XXXX/S XXXX); provisions regarding R&D - Navy, US Marine Corps, Air Force, Space Force; Aircraft Procurement - Navy, US Marine Corps, Air Force; Missile Procurement - Navy, Air Force; Other issues: Long Range Strike; Ballistic Missile Defense; Electronic Warfare; Airbourne Electronic Attack; Advanced Protection Systems for Ground Combat Vehicles; Counter-Unmanned Aircraft (C-UAS) Systems; Low Cost Counter Unmanned Systems Munitions; P-8 Mission Computer Acceleration; Ship Repair; Ship Building; Naval Guns; Submarine Industrial Base; High Powered Microwave; Guided Munitions; Missile Cannisters; Munitions Production; Next-Generation Overhead Persistent Infrared Systems; Golden Dome; National Security Space Programs; Combat Vehicles; Armored Multi-Purpose Vehicle (AMPV); Paladin Integrated Management (PIM); Compass Call Programs; Advanced Precision Kill Weapon System (APKWS); Directed Energy; Defense Contracting/Intellectual Property; Defense Acquisition Reform; Overall Defense",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141148,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CHRISTOPHER",
+         "nickname": null,
+         "middle_name": "ANTHONY",
+         "last_name": "GASPAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145033,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBINSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 148654,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "TIMOTHY",
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151752,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JASON",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPINDLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151753,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DOUGLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "NASH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 153671,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "CHRISTINE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep Luttrell: Chief of Staff; Rep Hartzler: Chief of Staff, Dep Chief of Staff/Legislative Director, Legislative Director, Military Legislative Asst; Rep Goodlatte: Legislative Asst; Sr Legislative Correspondent, Legislative Correspondent, Staff Asst",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Department of Defense Appropriations Act, 2026 (PL 119-75); provisions regarding R&D - Navy, US Marine Corps, Air Force, Space Force; Aircraft Procurement - Navy, US Marine Corps, Air Force; Missile Procurement - Navy, Air Force; Other issues: Long Range Strike; Ballistic Missile Defense; Electronic Warfare; Airbourne Electronic Attack; Airbourne Mine Detection; Navy Communications Capabilities; Armored Multi-Purpose Vehicle (AMPV); M109A7 Paladin; Compass Call Programs; Ship Repair; Ship Building; Naval Guns; Submarine Industrial Base; Counter-Unmanned Aircraft (C-UAS) Systems; High Powered Microwave; Guided Munitions; Missile Cannisters; Next-Generation Overhead Persistent Infrared Systems; Golden Dome; National Security Space Programs; Munitions Production; Advanced Precision Kill Weapon System (APKWS); Directed Energy; Defense Contracting/Intellectual Property; Overall Defense Department of Defense Appropriations Act, 2027 (HR XXXX/S XXXX); provisions regarding R&D - Navy, US Marine Corps, Air Force, Space Force; Aircraft Procurement - Navy, US Marine Corps, Air Force; Missile Procurement - Navy, Air Force; Other issues: Long Range Strike; Ballistic Missile Defense; Electronic Warfare; Soft Kill EW; Airbourne Electronic Attack; Advances Protection Systems for Ground Combat Vehicles; Low Cost Counter Unmanned Systems Munitions; P-8 Mission Computer Acceleration; Combat Vehicles; Armored Multi-Purpose Vehicle (AMPV); Paladin Integrated Management (PIM); Compass Call Programs; Ship Repair; Ship Building; Naval Guns; Submarine Industrial Base; Counter-Unmanned Aircraft (C-UAS) Systems; High Powered Microwave; Guided Munitions; Missile Cannisters; Next-Generation Overhead Persistent Infrared Systems; Golden Dome; National Security Space Programs; Munitions Production; Advanced Precision Kill Weapon System (APKWS); Directed Energy; Defense Contracting/Intellectual Property; Overall Defense Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026 (PL 119-74); issues regarding NOAA Satellite Weather Programs; NASA Science Programs Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2027 (HR XXXX/S XXXX); issues regarding NOAA Satellite Weather Programs; NASA Science Programs",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146003,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CARLINER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 145033,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "REGINALD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "ROBINSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 64255,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BISHOP",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 141148,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "CHRISTOPHER",
+         "nickname": null,
+         "middle_name": "ANTHONY",
+         "last_name": "GASPAR",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 148654,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "TIMOTHY",
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151752,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JASON",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPINDLER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 151753,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "DOUGLAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "NASH",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 153671,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "CHRISTINE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "LEE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Rep Luttrell: Chief of Staff; Rep Hartzler: Chief of Staff, Dep Chief of Staff/Legislative Director, Legislative Director, Military Legislative Asst; Rep Goodlatte: Legislative Asst; Sr Legislative Correspondent, Legislative Correspondent, Staff Asst",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "SCI",
+      "general_issue_code_display": "Science/Technology",
+      "description": "Weather Research and Forecasting Innovation Reauthorization Act, 2026 (HR XXXX/S 3923); issues regarding NOAA Satellite Weather Programs Weather Act Reauthorization Act, 2025 (HR 5089/S XXXX); issues regarding NOAA Satellite Weather Programs",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 146003,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "PAUL",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "CARLINER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

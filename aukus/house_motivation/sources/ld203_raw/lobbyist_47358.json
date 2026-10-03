@@ -1,0 +1,1588 @@
+[
+ {
+  "count": 11,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/22ef3b9f-2715-4261-a9ab-dc050c0bf5bb/",
+    "filing_uuid": "22ef3b9f-2715-4261-a9ab-dc050c0bf5bb",
+    "filing_type": "RA",
+    "filing_type_display": "Registration - Amendment",
+    "filing_year": 2009,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/22ef3b9f-2715-4261-a9ab-dc050c0bf5bb/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2009-07-17T15:18:35-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": "United States of America",
+    "registrant_address_1": "6305 Blackburn Ford Dr",
+    "registrant_address_2": null,
+    "registrant_different_address": null,
+    "registrant_city": "Fairfax Station",
+    "registrant_state": "VA",
+    "registrant_zip": "22039",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190412,
+     "url": "https://lda.gov/api/v1/clients/190412/",
+     "client_id": 176,
+     "name": "CONCURRENT TECHNOLOGIES CORPORATION",
+     "general_description": "Engineering Services",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "PA",
+     "state_display": "Pennsylvania",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "PA",
+     "ppb_state_display": "Pennsylvania",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2009-04-15"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Defense Authorization and Appropriations Bills",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47359,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "MARK",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "HAMILTON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 48404,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": "MATTHEW",
+         "last_name": "KAELIN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former Chief of Staff For House Member",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff Member",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/d12b2a3e-b7c6-4406-893e-119fb1cc6a44/",
+    "filing_uuid": "d12b2a3e-b7c6-4406-893e-119fb1cc6a44",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2009,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/d12b2a3e-b7c6-4406-893e-119fb1cc6a44/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-01-12T10:58:57.677000-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190407,
+     "url": "https://lda.gov/api/v1/clients/190407/",
+     "client_id": 113,
+     "name": "PARAMETRIC TECHNOLOGY CORPORATION",
+     "general_description": "Engineering software development.",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "MA",
+     "ppb_state_display": "Massachusetts",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2011-03-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "ENG",
+      "general_issue_code_display": "Energy/Nuclear",
+      "description": "FY 2010 Energy And Water Appropriations Bill National Nuclear Security Administration for improved capability to share and process data at the national labs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 48404,
+         "prefix": "mr",
+         "prefix_display": "MR.",
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": "MATTHEW",
+         "last_name": "KAELIN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former Chief of Staff, House Member",
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 33,
+        "name": "Energy, Dept of"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Authorization and Appropriations Bills, Navy RDT&E, Air Force RDT&E projects to improve product lifecycle support for Navy and Air Force programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 33,
+        "name": "Energy, Dept of"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/a6ede328-4b5e-4ac5-9ba0-ee0df54202f5/",
+    "filing_uuid": "a6ede328-4b5e-4ac5-9ba0-ee0df54202f5",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2010,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/a6ede328-4b5e-4ac5-9ba0-ee0df54202f5/print/",
+    "filing_document_content_type": "text/html",
+    "income": "20000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-04-16T12:10:25.157000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190407,
+     "url": "https://lda.gov/api/v1/clients/190407/",
+     "client_id": 113,
+     "name": "PARAMETRIC TECHNOLOGY CORPORATION",
+     "general_description": "Engineering software development.",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "MA",
+     "ppb_state_display": "Massachusetts",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2011-03-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Authorization and Appropriations Bills, Air Force RDT&E, Army RDT&E projects to improve product lifecycle support for Air Force and Army programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Committee Staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/b4d96426-c025-44fd-8c8b-33299c36347f/",
+    "filing_uuid": "b4d96426-c025-44fd-8c8b-33299c36347f",
+    "filing_type": "RR",
+    "filing_type_display": "Registration",
+    "filing_year": 2010,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/b4d96426-c025-44fd-8c8b-33299c36347f/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-07-06T14:35:44.580000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": null,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190416,
+     "url": "https://lda.gov/api/v1/clients/190416/",
+     "client_id": 241,
+     "name": "STS INTERNATIONAL, INC.",
+     "general_description": "Systems Engineering and Integration, Advanced RDT&E/Concept Development, C4ISR",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "WV",
+     "state_display": "West Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "WV",
+     "ppb_state_display": "West Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2015-01-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Defense Authorization and Appropriations R&D and Procurement accounts for surveillance and physical security programs",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff Member",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/a13a53b7-e789-4946-a080-cbee4d1bc132/",
+    "filing_uuid": "a13a53b7-e789-4946-a080-cbee4d1bc132",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2010,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/a13a53b7-e789-4946-a080-cbee4d1bc132/print/",
+    "filing_document_content_type": "text/html",
+    "income": "10000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-07-13T12:21:04.267000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190407,
+     "url": "https://lda.gov/api/v1/clients/190407/",
+     "client_id": 113,
+     "name": "PARAMETRIC TECHNOLOGY CORPORATION",
+     "general_description": "Engineering software development.",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "MA",
+     "ppb_state_display": "Massachusetts",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2011-03-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Authorization and Appropriations Bills, Air Force RDT&E, Army RDT&E projects to improve product lifecycle support for Air Force and Army programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Committee Staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/b8330d08-94e2-40a9-8f42-a7314550fdf3/",
+    "filing_uuid": "b8330d08-94e2-40a9-8f42-a7314550fdf3",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2010,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/b8330d08-94e2-40a9-8f42-a7314550fdf3/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-07-15T15:57:13.053000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190416,
+     "url": "https://lda.gov/api/v1/clients/190416/",
+     "client_id": 241,
+     "name": "STS INTERNATIONAL, INC.",
+     "general_description": "Systems Engineering and Integration, Advanced RDT&E/Concept Development, C4ISR",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "WV",
+     "state_display": "West Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "WV",
+     "ppb_state_display": "West Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2015-01-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Appropriations, Defense Wide RDT&E for counter-terrorism surveillance programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/05d76fdf-723c-4f29-bff8-771c9a489c96/",
+    "filing_uuid": "05d76fdf-723c-4f29-bff8-771c9a489c96",
+    "filing_type": "3T",
+    "filing_type_display": "3rd Quarter - Termination",
+    "filing_year": 2010,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/05d76fdf-723c-4f29-bff8-771c9a489c96/print/",
+    "filing_document_content_type": "text/html",
+    "income": "10000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-10-18T20:26:18.090000-04:00",
+    "termination_date": "2010-09-30",
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190407,
+     "url": "https://lda.gov/api/v1/clients/190407/",
+     "client_id": 113,
+     "name": "PARAMETRIC TECHNOLOGY CORPORATION",
+     "general_description": "Engineering software development.",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "MA",
+     "state_display": "Massachusetts",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "MA",
+     "ppb_state_display": "Massachusetts",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2011-03-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Authorization and Appropriations Bills, Air Force RDT&E, Army RDT&E projects to improve product lifecycle support for Air Force and Army programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Committee Staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/aaa01c4f-34e5-4f89-8dd5-e34db3280f04/",
+    "filing_uuid": "aaa01c4f-34e5-4f89-8dd5-e34db3280f04",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2010,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/aaa01c4f-34e5-4f89-8dd5-e34db3280f04/print/",
+    "filing_document_content_type": "text/html",
+    "income": "10000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2010-10-18T20:44:25.340000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190416,
+     "url": "https://lda.gov/api/v1/clients/190416/",
+     "client_id": 241,
+     "name": "STS INTERNATIONAL, INC.",
+     "general_description": "Systems Engineering and Integration, Advanced RDT&E/Concept Development, C4ISR",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "WV",
+     "state_display": "West Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "WV",
+     "ppb_state_display": "West Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2015-01-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Appropriations, Defense Wide RDT&E for counter-terrorism surveillance programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/4b1503b4-67b8-4e84-9fb6-04bd101a8633/",
+    "filing_uuid": "4b1503b4-67b8-4e84-9fb6-04bd101a8633",
+    "filing_type": "Q4",
+    "filing_type_display": "4th Quarter - Report",
+    "filing_year": 2010,
+    "filing_period": "fourth_quarter",
+    "filing_period_display": "4th Quarter (Oct 1 - Dec 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/4b1503b4-67b8-4e84-9fb6-04bd101a8633/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Joe Spata, Principal",
+    "dt_posted": "2011-01-08T17:20:40.693000-05:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190416,
+     "url": "https://lda.gov/api/v1/clients/190416/",
+     "client_id": 241,
+     "name": "STS INTERNATIONAL, INC.",
+     "general_description": "Systems Engineering and Integration, Advanced RDT&E/Concept Development, C4ISR",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "WV",
+     "state_display": "West Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "WV",
+     "ppb_state_display": "West Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2015-01-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2011 Defense Appropriations, Defense Wide RDT&E for counter-terrorism surveillance programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/eb879f0c-8b72-4614-a619-8f003c99cc58/",
+    "filing_uuid": "eb879f0c-8b72-4614-a619-8f003c99cc58",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2011,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/eb879f0c-8b72-4614-a619-8f003c99cc58/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Rich Kaelin, Principal",
+    "dt_posted": "2011-04-08T15:04:03.330000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190416,
+     "url": "https://lda.gov/api/v1/clients/190416/",
+     "client_id": 241,
+     "name": "STS INTERNATIONAL, INC.",
+     "general_description": "Systems Engineering and Integration, Advanced RDT&E/Concept Development, C4ISR",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "WV",
+     "state_display": "West Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "WV",
+     "ppb_state_display": "West Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2015-01-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2012 Defense Appropriations, Defense Wide RDT&E for counter-terrorism surveillance programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff",
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/79833992-d730-413c-b8f1-4bf857cdfeac/",
+    "filing_uuid": "79833992-d730-413c-b8f1-4bf857cdfeac",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2011,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/79833992-d730-413c-b8f1-4bf857cdfeac/print/",
+    "filing_document_content_type": "text/html",
+    "income": "10000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Rich Kaelin, Principal",
+    "dt_posted": "2011-07-15T12:27:57.910000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "200 12th Street South",
+    "registrant_address_2": "Suite 1101",
+    "registrant_different_address": false,
+    "registrant_city": "Arlington",
+    "registrant_state": "VA",
+    "registrant_zip": "22202",
+    "registrant": {
+     "id": 400414963,
+     "url": "https://lda.gov/api/v1/registrants/400414963/",
+     "house_registrant_id": null,
+     "name": "FEDERAL BUSINESS GROUP",
+     "description": "Government relations and business development consulting firm.",
+     "address_1": "424 N Alfred St",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "Alexandria",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22314",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "JOE SPATA",
+     "contact_telephone": "+1 571-344-0313",
+     "dt_updated": "2026-07-14T13:20:47.000199-04:00"
+    },
+    "client": {
+     "id": 190416,
+     "url": "https://lda.gov/api/v1/clients/190416/",
+     "client_id": 241,
+     "name": "STS INTERNATIONAL, INC.",
+     "general_description": "Systems Engineering and Integration, Advanced RDT&E/Concept Development, C4ISR",
+     "client_government_entity": false,
+     "client_self_select": false,
+     "state": "WV",
+     "state_display": "West Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "WV",
+     "ppb_state_display": "West Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2015-01-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "FY 2012 Defense Appropriations, Defense Wide RDT&E for counter-terrorism surveillance programs.",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 48409,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VELTRI",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47358,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOE",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "SPATA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 50799,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JOSEPH",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "BOESSEN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former House Professional Staff",
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 47357,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MORGAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

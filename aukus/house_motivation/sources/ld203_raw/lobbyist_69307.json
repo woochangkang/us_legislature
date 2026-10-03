@@ -1,0 +1,2197 @@
+[
+ {
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/8e6ec6e0-fa3a-4676-af7e-b172a45426b2/",
+    "filing_uuid": "8e6ec6e0-fa3a-4676-af7e-b172a45426b2",
+    "filing_type": "Q3",
+    "filing_type_display": "3rd Quarter - Report",
+    "filing_year": 2018,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/8e6ec6e0-fa3a-4676-af7e-b172a45426b2/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "420000.00",
+    "expenses_method": "c",
+    "expenses_method_display": "Method C - Reporting amounts under section 162(e) of the Internal Revenue Code",
+    "posted_by_name": "Ginette C. Colot",
+    "dt_posted": "2018-10-18T15:46:09.033000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1000 WILSON BOULEVARD, SUITE 1700",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "ARLINGTON",
+    "registrant_state": "VA",
+    "registrant_zip": "22209",
+    "registrant": {
+     "id": 328,
+     "url": "https://lda.gov/api/v1/registrants/328/",
+     "house_registrant_id": 32155,
+     "name": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC.",
+     "description": null,
+     "address_1": "1000 WILSON BOULEVARD, SUITE 1700",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "ARLINGTON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22209",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ALISON LYNN",
+     "contact_telephone": "+1 703-358-1000",
+     "dt_updated": "2026-07-17T10:29:20.157159-04:00"
+    },
+    "client": {
+     "id": 100394,
+     "url": "https://lda.gov/api/v1/clients/100394/",
+     "client_id": 12,
+     "name": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "Nominations to create a working quorum at the ExIm Bank, foreign military sales process reforms, UAV Exports; Russia and Iran sanctions legislation. Conventional arms transfer policy. Tariffs.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Nominations to create a working quorum at the ExIm Bank, foreign military sales process reforms, UAV Exports; Russia and Iran sanctions legislation. Conventional arms transfer policy. Tariffs.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 62431,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATHRYN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VERONA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "House Armed Services Committee staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "House and Senate versions of the FY 2019 defense authorization bills as they pertain to discretionary spending toplines, defense export and foreign investment reviews legislation, and acquisition reform. Contract financing (progress payments).",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: House and Senate versions of the FY 2019 defense authorization bills as they pertain to discretionary spending toplines, defense export and foreign investment reviews legislation, and acquisition reform. Contract financing (progress payments).",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 62431,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATHRYN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VERONA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "House Armed Services Committee staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AER",
+      "general_issue_code_display": "Aerospace",
+      "description": "Aerospace Industry Issues: House and Senate versions of the FY 2019 appropriations and authorization bills as they pertain to NASA and NOAA; spectrum allocation provisions and legislation; legislation to change federal authorities related to space situational awareness.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Aerospace Industry Issues: House and Senate versions of the FY 2019 appropriations and authorization bills as they pertain to NASA and NOAA; spectrum allocation provisions and legislation; legislation to change federal authorities related to space situational awareness.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 62431,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATHRYN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VERONA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "House Armed Services Committee staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "TAX",
+      "general_issue_code_display": "Taxation/Internal Revenue Code",
+      "description": "Tax reform as it pertains to rate reductions and export promotions.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Tax reform as it pertains to rate reductions and export promotions.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 62431,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATHRYN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VERONA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Federal Budget and Appropriations Legislation, including: Defense Appropriations; House version of the FY 2019 budget resolution and companion appropriations bills as they pertain to funding for defense programs and the agency budgets for NASA, NOAA, and FAA; funding for federal scientific research.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Federal Budget and Appropriations Legislation, including: Defense Appropriations; House version of the FY 2019 budget resolution and companion appropriations bills as they pertain to funding for defense programs and the agency budgets for NASA, NOAA, and FAA; funding for federal scientific research.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 62431,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATHRYN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VERONA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "House Armed Services Committee staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "House and Senate versions of the FAA Reauthorization bill as they pertain to aircraft equipment certification procedures, unmanned aircraft systems integration, air traffic control reform, aircraft emissions, supersonic aircraft, hypersonic technology, and funding for National Airspace System modernization programs.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: House and Senate versions of the FAA Reauthorization bill as they pertain to aircraft equipment certification procedures, unmanned aircraft systems integration, air traffic control reform, aircraft emissions, supersonic aircraft, hypersonic technology, and funding for National Airspace System modernization programs.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "House Armed Services Committee staff",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 62431,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATHRYN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "VERONA",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "EDU",
+      "general_issue_code_display": "Education",
+      "description": "Reauthorization of Carl D. Perkins Career and Technical Education Act and education and workforce programs, reauthorization of the Higher Education Act; legislation to encourage women and minorities to enter STEM fields, and programs that encourage youth to enter aerospace careers.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Reauthorization of Carl D. Perkins Career and Technical Education Act and education and workforce programs, reauthorization of the Higher Education Act; legislation to encourage women and minorities to enter STEM fields, and programs that encourage youth to enter aerospace careers.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "House Armed Services Committee staff",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/9b3901b0-6b35-488f-8955-80f32d063a46/",
+    "filing_uuid": "9b3901b0-6b35-488f-8955-80f32d063a46",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2020,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/9b3901b0-6b35-488f-8955-80f32d063a46/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "380000.00",
+    "expenses_method": "c",
+    "expenses_method_display": "Method C - Reporting amounts under section 162(e) of the Internal Revenue Code",
+    "posted_by_name": "Ginette C. Colot",
+    "dt_posted": "2020-04-17T07:55:29.227000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1000 WILSON BOULEVARD, SUITE 1700",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "ARLINGTON",
+    "registrant_state": "VA",
+    "registrant_zip": "22209",
+    "registrant": {
+     "id": 328,
+     "url": "https://lda.gov/api/v1/registrants/328/",
+     "house_registrant_id": 32155,
+     "name": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC.",
+     "description": null,
+     "address_1": "1000 WILSON BOULEVARD, SUITE 1700",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "ARLINGTON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22209",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ALISON LYNN",
+     "contact_telephone": "+1 703-358-1000",
+     "dt_updated": "2026-07-17T10:29:20.157159-04:00"
+    },
+    "client": {
+     "id": 100394,
+     "url": "https://lda.gov/api/v1/clients/100394/",
+     "client_id": 12,
+     "name": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "ExIm Bank Reauthorization, foreign military sales process reforms, Sanctions legislation. Conventional arms transfer policy. Tariffs, including Titanium 232 investigation. United States Mexico Canada Agreement (USMCA).",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: ExIm Bank Reauthorization, foreign military sales process reforms, Sanctions legislation. Conventional arms transfer policy. Tariffs, including Titanium 232 investigation. United States Mexico Canada Agreement (USMCA).",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "House and Senate versions of the FY 2020 defense authorization bills as they pertain to discretionary spending toplines, defense export legislation, Space Force, Intellectual Property, PFAS (Per- and polyfluoroalkyl substances), spectrum allocation, and acquisition reform. Contract financing (progress payments). COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: House and Senate versions of the FY 2020 defense authorization bills as they pertain to discretionary spending toplines, defense export legislation, Space Force, Intellectual Property, PFAS, spectrum allocation, and acquisition reform. Contract financing (progress payments). COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "House and Senate FAA legislation as it pertains to aircraft equipment certification procedures including Organization Designation Authority, unmanned aircraft systems, urban air mobility integration, air traffic control reform, aircraft emissions, spectrum allocation, supersonic aircraft, and COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: House and Senate FAA legislation as it pertains to aircraft equipment certification procedures including Organization Designation Authority, unmanned aircraft systems, urban air mobility integration, air traffic control reform, aircraft emissions, spectrum allocation, supersonic aircraft, and COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AER",
+      "general_issue_code_display": "Aerospace",
+      "description": "Aerospace Industry Issues: House and Senate versions of the FY 2020 authorization bills as they pertain to NASA and NOAA; spectrum allocation, 5G, provisions and legislation. COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Aerospace Industry Issues: House and Senate versions of the FY 2020 authorization bills as they pertain to NASA and NOAA; spectrum allocation, 5G, provisions and legislation. COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Federal Budget and Appropriations Legislation, including: Agency budgets for NASA, NOAA, and DOT; funding for federal scientific research; Bipartisan budget act of 2019; COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Agency budgets for NASA, NOAA, and DOT; funding for federal scientific research; Bipartisan budget act of 2019; COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73019,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JEFFREY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Deputy Chief of Staff for Congressman Michael R Turner",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "EDU",
+      "general_issue_code_display": "Education",
+      "description": "Legislation to encourage women and minorities to enter STEM fields, and programs that encourage youth to enter aerospace careers.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Legislation to encourage women and minorities to enter STEM fields, and programs that encourage youth to enter aerospace careers.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 65127,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TAMI",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "PLOFCHAN",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/bcd7788d-10b4-4f9c-b0f2-b50a0b2d9232/",
+    "filing_uuid": "bcd7788d-10b4-4f9c-b0f2-b50a0b2d9232",
+    "filing_type": "Q1",
+    "filing_type_display": "1st Quarter - Report",
+    "filing_year": 2021,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/bcd7788d-10b4-4f9c-b0f2-b50a0b2d9232/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": "320000.00",
+    "expenses_method": "c",
+    "expenses_method_display": "Method C - Reporting amounts under section 162(e) of the Internal Revenue Code",
+    "posted_by_name": "Ginette C. Colot",
+    "dt_posted": "2021-04-19T15:51:05.670000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "1000 WILSON BOULEVARD, SUITE 1700",
+    "registrant_address_2": null,
+    "registrant_different_address": false,
+    "registrant_city": "ARLINGTON",
+    "registrant_state": "VA",
+    "registrant_zip": "22209",
+    "registrant": {
+     "id": 328,
+     "url": "https://lda.gov/api/v1/registrants/328/",
+     "house_registrant_id": 32155,
+     "name": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA, INC.",
+     "description": null,
+     "address_1": "1000 WILSON BOULEVARD, SUITE 1700",
+     "address_2": null,
+     "address_3": null,
+     "address_4": null,
+     "city": "ARLINGTON",
+     "state": "VA",
+     "state_display": "Virginia",
+     "zip": "22209",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "ALISON LYNN",
+     "contact_telephone": "+1 703-358-1000",
+     "dt_updated": "2026-07-17T10:29:20.157159-04:00"
+    },
+    "client": {
+     "id": 100394,
+     "url": "https://lda.gov/api/v1/clients/100394/",
+     "client_id": 12,
+     "name": "AEROSPACE INDUSTRIES ASSOCIATION OF AMERICA INC",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": true,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "VA",
+     "ppb_state_display": "Virginia",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2007-08-07"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "TRD",
+      "general_issue_code_display": "Trade (domestic/foreign)",
+      "description": "ExIm Bank, foreign military sales process reforms, Sanctions legislation. Conventional arms transfer policy.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: ExIm Bank, foreign military sales process reforms, Sanctions legislation. Conventional arms transfer policy.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73019,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JEFFREY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 198,
+        "name": "Natl Economic Council (NEC)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "BUD",
+      "general_issue_code_display": "Budget/Appropriations",
+      "description": "Federal Budget and Appropriations Legislation, including: Agency budgets for NASA, NOAA, and DOT; COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Federal Budget and Appropriations Legislation, including: Agency budgets for NASA, NOAA, and DOT; COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73019,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JEFFREY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 106997,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATARINA",
+         "nickname": null,
+         "middle_name": "NICOLE",
+         "last_name": "DEFILIPPO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Assistant for Rep. Ron Estes",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 96390,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": "SCOTT",
+         "last_name": "HARRIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Correspondent/Legislative Aid for Rep. Terri Sewell",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 198,
+        "name": "Natl Economic Council (NEC)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AER",
+      "general_issue_code_display": "Aerospace",
+      "description": "Aerospace Industry Issues: House and Senate provisions and legislation as they pertain to NASA and NOAA; spectrum allocation, 5G and COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: Aerospace Industry Issues: House and Senate provisions and legislation as they pertain to NASA and NOAA; spectrum allocation, 5G and COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 73019,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JEFFREY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 96390,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": "SCOTT",
+         "last_name": "HARRIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Correspondent/Legislative Aid for Rep. Terri Sewell",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 106997,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATARINA",
+         "nickname": null,
+         "middle_name": "NICOLE",
+         "last_name": "DEFILIPPO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Assistant for Rep. Ron Estes",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 198,
+        "name": "Natl Economic Council (NEC)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "House and Senate versions of the FY 2022 defense authorization bills as they relate to contracting and acquisition reform, cybersecurity, defense industrial base workforce support, and spectrum allocation. COVID19 response legislation.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: House and Senate versions of the FY 2022 defense authorization bills as they relate to contracting and acquisition reform, cybersecurity, defense industrial base workforce support, and spectrum allocation. COVID19 response legislation.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 73019,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "JEFFREY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "WILSON",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 106997,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATARINA",
+         "nickname": null,
+         "middle_name": "NICOLE",
+         "last_name": "DEFILIPPO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Assistant for Rep. Ron Estes",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 96390,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": "SCOTT",
+         "last_name": "HARRIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Correspondent/Legislative Aid for Rep. Terri Sewell",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 198,
+        "name": "Natl Economic Council (NEC)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     },
+     {
+      "general_issue_code": "AVI",
+      "general_issue_code_display": "Aviation/Airlines/Airports",
+      "description": "House and Senate FAA legislation as it pertains to unmanned aircraft systems, urban air mobility integration, air traffic control reform, aircraft emissions, sustainable aviation, spectrum allocation, supersonic aircraft, and COVID19 response legislation, to include, the American Manufacturing Jobs Protection Act.",
+      "foreign_entity_issues": "BAE Systems has an interest in sound U.S. and global aerospace policies which could include: House and Senate FAA legislation as it pertains to unmanned aircraft systems, urban air mobility integration, air traffic control reform, aircraft emissions, sustainable aviation, spectrum allocation, supersonic aircraft, and COVID19 response legislation, to include, the American Manufacturing Jobs Protection Act.",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 55079,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "RICHARD",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "EFFORD",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 69307,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "MCCLEES",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 106997,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "KATARINA",
+         "nickname": null,
+         "middle_name": "NICOLE",
+         "last_name": "DEFILIPPO",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Assistant for Rep. Ron Estes",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 96390,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "TIMOTHY",
+         "nickname": null,
+         "middle_name": "SCOTT",
+         "last_name": "HARRIS",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Legislative Correspondent/Legislative Aid for Rep. Terri Sewell",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 30,
+        "name": "Army, Dept of (Other)"
+       },
+       {
+        "id": 24,
+        "name": "Commerce, Dept of (DOC)"
+       },
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 51,
+        "name": "Export-Import Bank of the United States (EXIM Bank)"
+       },
+       {
+        "id": 172,
+        "name": "Federal Aviation Administration (FAA)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 68,
+        "name": "Natl Aeronautics & Space Administration (NASA)"
+       },
+       {
+        "id": 198,
+        "name": "Natl Economic Council (NEC)"
+       },
+       {
+        "id": 111,
+        "name": "Natl Oceanic & Atmospheric Administration (NOAA)"
+       },
+       {
+        "id": 31,
+        "name": "Navy, Dept of"
+       },
+       {
+        "id": 26,
+        "name": "Office of the Secretary of Defense"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       },
+       {
+        "id": 39,
+        "name": "State, Dept of (DOS)"
+       },
+       {
+        "id": 40,
+        "name": "Transportation, Dept of (DOT)"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]

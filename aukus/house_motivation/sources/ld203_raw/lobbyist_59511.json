@@ -1,0 +1,1008 @@
+[
+ {
+  "count": 7,
+  "next": null,
+  "previous": null,
+  "results": [
+   {
+    "url": "https://lda.gov/api/v1/filings/80b799b6-177e-48e0-847b-a3ef81169bf0/",
+    "filing_uuid": "80b799b6-177e-48e0-847b-a3ef81169bf0",
+    "filing_type": "1A",
+    "filing_type_display": "1st Quarter - Amendment",
+    "filing_year": 2014,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/80b799b6-177e-48e0-847b-a3ef81169bf0/print/",
+    "filing_document_content_type": "text/html",
+    "income": "80000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Steven M. Hyjek, Senior Advisor",
+    "dt_posted": "2014-07-21T09:24:44.280000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "920 MASSACHUSETTS AVENUE, NW",
+    "registrant_address_2": "SUITE 900",
+    "registrant_different_address": false,
+    "registrant_city": "WASHINGTON",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 105715,
+     "url": "https://lda.gov/api/v1/clients/105715/",
+     "client_id": 1005813,
+     "name": "EMPIRE STATE DEVELOPMENT CORPORATION",
+     "general_description": "Economic development agency for the State of New York",
+     "client_government_entity": true,
+     "client_self_select": false,
+     "state": "NY",
+     "state_display": "New York",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": null,
+     "ppb_state_display": null,
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-10-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "National Defense Authorization Act for FY2015\nDepartment of Defense Appropriations Act, 2015",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 60049,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "P",
+         "last_name": "SCHAFFNER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Kathy Hochul",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/683b2494-9764-4826-9cdd-bb37c184a92e/",
+    "filing_uuid": "683b2494-9764-4826-9cdd-bb37c184a92e",
+    "filing_type": "1A",
+    "filing_type_display": "1st Quarter - Amendment",
+    "filing_year": 2014,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/683b2494-9764-4826-9cdd-bb37c184a92e/print/",
+    "filing_document_content_type": "text/html",
+    "income": "40000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Steven M. Hyjek, Senior Advisor",
+    "dt_posted": "2014-07-21T10:04:47.060000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "920 MASSACHUSETTS AVENUE, NW",
+    "registrant_address_2": "SUITE 900",
+    "registrant_different_address": false,
+    "registrant_city": "WASHINGTON",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 105718,
+     "url": "https://lda.gov/api/v1/clients/105718/",
+     "client_id": 1005837,
+     "name": "CITY OF GLENDALE",
+     "general_description": "Representative of Municipality regarding Luke Air Force Base F35 mission",
+     "client_government_entity": true,
+     "client_self_select": false,
+     "state": "AZ",
+     "state_display": "Arizona",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": null,
+     "ppb_state_display": null,
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2013-08-13"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "F-35 joint strike fighter\nNational Defense Authorization Act for Fiscal Year 2015",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 60049,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "P",
+         "last_name": "SCHAFFNER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Kathy Hochul",
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 29,
+        "name": "Air Force, Dept of"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/27dc642d-ee3c-4ca6-9f08-a9cd9fbe5941/",
+    "filing_uuid": "27dc642d-ee3c-4ca6-9f08-a9cd9fbe5941",
+    "filing_type": "1A",
+    "filing_type_display": "1st Quarter - Amendment",
+    "filing_year": 2014,
+    "filing_period": "first_quarter",
+    "filing_period_display": "1st Quarter (Jan 1 - Mar 31)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/27dc642d-ee3c-4ca6-9f08-a9cd9fbe5941/print/",
+    "filing_document_content_type": "text/html",
+    "income": "60000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Steven M. Hyjek, Senior Advisor",
+    "dt_posted": "2014-07-21T10:28:53.797000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "920 MASSACHUSETTS AVENUE, NW",
+    "registrant_address_2": "SUITE 900",
+    "registrant_different_address": false,
+    "registrant_city": "WASHINGTON",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 105716,
+     "url": "https://lda.gov/api/v1/clients/105716/",
+     "client_id": 1005840,
+     "name": "MARTIN BAKER AIRCRAFT CO., LTD.",
+     "general_description": null,
+     "client_government_entity": false,
+     "client_self_select": null,
+     "state": null,
+     "state_display": null,
+     "country": "GB",
+     "country_display": "United Kingdom",
+     "ppb_state": null,
+     "ppb_state_display": null,
+     "ppb_country": "GB",
+     "ppb_country_display": "United Kingdom",
+     "effective_date": "2013-07-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "US Department of Defense Air Crew Safety & Aircraft Escape Systems & Mine Safety\nNational Defense Authorization Act for Fiscal Year 2015",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 60049,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "BRIAN",
+         "nickname": null,
+         "middle_name": "P",
+         "last_name": "SCHAFFNER",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Kathy Hochul",
+        "new": true
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 25,
+        "name": "Defense, Dept of (DOD)"
+       },
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/ba20ed87-1e64-42d6-a8ad-e9c35d35ab7d/",
+    "filing_uuid": "ba20ed87-1e64-42d6-a8ad-e9c35d35ab7d",
+    "filing_type": "RR",
+    "filing_type_display": "Registration",
+    "filing_year": 2019,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/ba20ed87-1e64-42d6-a8ad-e9c35d35ab7d/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Nicole Carelli",
+    "dt_posted": "2020-06-19T18:00:16.337000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "901 K Street NW",
+    "registrant_address_2": "Suite 900",
+    "registrant_different_address": null,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 205858,
+     "url": "https://lda.gov/api/v1/clients/205858/",
+     "client_id": 1006551,
+     "name": "HOMESAFE ALLIANCE LLC",
+     "general_description": "Shipping companies experienced in movement of household goods & other materiel for US Govt",
+     "client_government_entity": false,
+     "client_self_select": null,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "TX",
+     "ppb_state_display": "Texas",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2020-06-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Issues related to movement of household goods belonging to military personnel and families",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 63188,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 63731,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former United States Senator",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": [
+     {
+      "name": "SUN CAPITAL PARTNERS, INC.",
+      "url": null,
+      "address_1": "100 Park Avenue, 29th Floor",
+      "address_2": null,
+      "address_3": null,
+      "address_4": null,
+      "city": "New York",
+      "state": "NY",
+      "state_display": "New York",
+      "zip": "10017",
+      "country": "US",
+      "country_display": "United States of America",
+      "ppb_city": null,
+      "ppb_state": "NY",
+      "ppb_state_display": "New York",
+      "ppb_country": "US",
+      "ppb_country_display": "United States of America"
+     },
+     {
+      "name": "KBR, INC.",
+      "url": null,
+      "address_1": "601 Jefferson Street",
+      "address_2": null,
+      "address_3": null,
+      "address_4": null,
+      "city": "Houston",
+      "state": "TX",
+      "state_display": "Texas",
+      "zip": "77002",
+      "country": "US",
+      "country_display": "United States of America",
+      "ppb_city": null,
+      "ppb_state": "TX",
+      "ppb_state_display": "Texas",
+      "ppb_country": "US",
+      "ppb_country_display": "United States of America"
+     },
+     {
+      "name": "TIER ONE RELOCATION",
+      "url": null,
+      "address_1": "490 Park Drive, Suite 102",
+      "address_2": null,
+      "address_3": null,
+      "address_4": null,
+      "city": "Weirton",
+      "state": "WV",
+      "state_display": "West Virginia",
+      "zip": "26062",
+      "country": "US",
+      "country_display": "United States of America",
+      "ppb_city": null,
+      "ppb_state": "WV",
+      "ppb_state_display": "West Virginia",
+      "ppb_country": "US",
+      "ppb_country_display": "United States of America"
+     }
+    ]
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/bc024061-d68a-4fc3-b5bd-a988cd04d15d/",
+    "filing_uuid": "bc024061-d68a-4fc3-b5bd-a988cd04d15d",
+    "filing_type": "RA",
+    "filing_type_display": "Registration - Amendment",
+    "filing_year": 2020,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/bc024061-d68a-4fc3-b5bd-a988cd04d15d/print/",
+    "filing_document_content_type": "text/html",
+    "income": null,
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Nicole Carelli",
+    "dt_posted": "2020-07-10T12:00:47.550000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "901 K Street NW",
+    "registrant_address_2": "Suite 900",
+    "registrant_different_address": null,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 205858,
+     "url": "https://lda.gov/api/v1/clients/205858/",
+     "client_id": 1006551,
+     "name": "HOMESAFE ALLIANCE LLC",
+     "general_description": "Shipping companies experienced in movement of household goods & other materiel for US Govt",
+     "client_government_entity": false,
+     "client_self_select": null,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "TX",
+     "ppb_state_display": "Texas",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2020-06-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Issues related to movement of household goods belonging to military personnel and families",
+      "foreign_entity_issues": null,
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 63188,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": true
+       },
+       {
+        "lobbyist": {
+         "id": 63731,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former United States Senator",
+        "new": true
+       }
+      ],
+      "government_entities": []
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": [
+     {
+      "name": "SUN CAPITAL PARTNERS, INC.",
+      "url": null,
+      "address_1": "100 Park Avenue, 29th Floor",
+      "address_2": null,
+      "address_3": null,
+      "address_4": null,
+      "city": "New York",
+      "state": "NY",
+      "state_display": "New York",
+      "zip": "10017",
+      "country": "US",
+      "country_display": "United States of America",
+      "ppb_city": null,
+      "ppb_state": "NY",
+      "ppb_state_display": "New York",
+      "ppb_country": "US",
+      "ppb_country_display": "United States of America"
+     },
+     {
+      "name": "TIER ONE RELOCATION",
+      "url": null,
+      "address_1": "490 Park Drive, Suite 102",
+      "address_2": null,
+      "address_3": null,
+      "address_4": null,
+      "city": "Weirton",
+      "state": "WV",
+      "state_display": "West Virginia",
+      "zip": "26062",
+      "country": "US",
+      "country_display": "United States of America",
+      "ppb_city": null,
+      "ppb_state": "WV",
+      "ppb_state_display": "West Virginia",
+      "ppb_country": "US",
+      "ppb_country_display": "United States of America"
+     },
+     {
+      "name": "KBR, INC.",
+      "url": null,
+      "address_1": "601 Jefferson Street",
+      "address_2": null,
+      "address_3": null,
+      "address_4": null,
+      "city": "Houston",
+      "state": "TX",
+      "state_display": "Texas",
+      "zip": "77002",
+      "country": "US",
+      "country_display": "United States of America",
+      "ppb_city": null,
+      "ppb_state": "TX",
+      "ppb_state_display": "Texas",
+      "ppb_country": "US",
+      "ppb_country_display": "United States of America"
+     }
+    ]
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/9d6f6206-728c-4360-9f5a-c6ac17375dad/",
+    "filing_uuid": "9d6f6206-728c-4360-9f5a-c6ac17375dad",
+    "filing_type": "Q2",
+    "filing_type_display": "2nd Quarter - Report",
+    "filing_year": 2020,
+    "filing_period": "second_quarter",
+    "filing_period_display": "2nd Quarter (Apr 1 - June 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/9d6f6206-728c-4360-9f5a-c6ac17375dad/print/",
+    "filing_document_content_type": "text/html",
+    "income": "20000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Nicole Carellli",
+    "dt_posted": "2020-07-17T17:50:24.277000-04:00",
+    "termination_date": null,
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "901 K Street NW",
+    "registrant_address_2": "Suite 900",
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 205858,
+     "url": "https://lda.gov/api/v1/clients/205858/",
+     "client_id": 1006551,
+     "name": "HOMESAFE ALLIANCE LLC",
+     "general_description": "Shipping companies experienced in movement of household goods & other materiel for US Govt",
+     "client_government_entity": false,
+     "client_self_select": null,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "TX",
+     "ppb_state_display": "Texas",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2020-06-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Issues related to movement of household goods belonging to military personnel and families",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 63731,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former United States Senator",
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 63188,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   },
+   {
+    "url": "https://lda.gov/api/v1/filings/63bd7398-0bfe-406a-844e-450621000d7d/",
+    "filing_uuid": "63bd7398-0bfe-406a-844e-450621000d7d",
+    "filing_type": "3T",
+    "filing_type_display": "3rd Quarter - Termination",
+    "filing_year": 2020,
+    "filing_period": "third_quarter",
+    "filing_period_display": "3rd Quarter (July 1 - Sep 30)",
+    "filing_document_url": "https://lda.gov/filings/public/filing/63bd7398-0bfe-406a-844e-450621000d7d/print/",
+    "filing_document_content_type": "text/html",
+    "income": "40000.00",
+    "expenses": null,
+    "expenses_method": null,
+    "expenses_method_display": null,
+    "posted_by_name": "Nicole Carellli",
+    "dt_posted": "2020-10-20T17:25:20.500000-04:00",
+    "termination_date": "2020-08-20",
+    "registrant_country": "United States of America",
+    "registrant_ppb_country": null,
+    "registrant_address_1": "901 K Street NW",
+    "registrant_address_2": "Suite 900",
+    "registrant_different_address": false,
+    "registrant_city": "Washington",
+    "registrant_state": "DC",
+    "registrant_zip": "20001",
+    "registrant": {
+     "id": 5153,
+     "url": "https://lda.gov/api/v1/registrants/5153/",
+     "house_registrant_id": 30873,
+     "name": "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ",
+     "description": "Law firm",
+     "address_1": "901 K Street NW",
+     "address_2": "Suite 900",
+     "address_3": null,
+     "address_4": null,
+     "city": "Washington",
+     "state": "DC",
+     "state_display": "District of Columbia",
+     "zip": "20001",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "contact_name": "DUANE HANECKOW",
+     "contact_telephone": "+1 202-508-3400",
+     "dt_updated": "2026-07-17T16:11:23.326015-04:00"
+    },
+    "client": {
+     "id": 205858,
+     "url": "https://lda.gov/api/v1/clients/205858/",
+     "client_id": 1006551,
+     "name": "HOMESAFE ALLIANCE LLC",
+     "general_description": "Shipping companies experienced in movement of household goods & other materiel for US Govt",
+     "client_government_entity": false,
+     "client_self_select": null,
+     "state": "VA",
+     "state_display": "Virginia",
+     "country": "US",
+     "country_display": "United States of America",
+     "ppb_state": "TX",
+     "ppb_state_display": "Texas",
+     "ppb_country": "US",
+     "ppb_country_display": "United States of America",
+     "effective_date": "2020-06-01"
+    },
+    "lobbying_activities": [
+     {
+      "general_issue_code": "DEF",
+      "general_issue_code_display": "Defense",
+      "description": "Issues related to movement of household goods belonging to military personnel and families",
+      "foreign_entity_issues": "",
+      "lobbyists": [
+       {
+        "lobbyist": {
+         "id": 63731,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "THOMAS",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": "Former United States Senator",
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 63188,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "NATHAN",
+         "nickname": null,
+         "middle_name": null,
+         "last_name": "DASCHLE",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       },
+       {
+        "lobbyist": {
+         "id": 59511,
+         "prefix": null,
+         "prefix_display": null,
+         "first_name": "STEVEN",
+         "nickname": null,
+         "middle_name": "M",
+         "last_name": "HYJEK",
+         "suffix": null,
+         "suffix_display": null
+        },
+        "covered_position": null,
+        "new": false
+       }
+      ],
+      "government_entities": [
+       {
+        "id": 2,
+        "name": "HOUSE OF REPRESENTATIVES"
+       },
+       {
+        "id": 1,
+        "name": "SENATE"
+       }
+      ]
+     }
+    ],
+    "conviction_disclosures": [],
+    "foreign_entities": [],
+    "affiliated_organizations": []
+   }
+  ]
+ }
+]
