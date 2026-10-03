@@ -47,7 +47,10 @@ def rel_badge(rel):
 
 
 def basis_badge(b):
-    cls = {"사실": "b-fact", "정황": "b-circ", "추정": "b-inf"}.get((b or "").strip(), "b-inf")
+    b = (b or "").strip()
+    if not b:
+        return ""
+    cls = {"사실": "b-fact", "정황": "b-circ", "추정": "b-inf"}.get(b, "b-mix" if "사실" in b else "b-inf")
     return f'<span class="basis {cls}">{e(b)}</span>'
 
 
@@ -67,6 +70,22 @@ def src_link(url, label="원문"):
 
 
 ID_RE = re.compile(r"\b([PMHSAL]\d{2,3})\b")
+
+
+def url_links(raw):
+    """URLs in a ';'-separated field -> short domain links; local paths are dropped."""
+    out = []
+    for tok in re.split(r"\s*;\s*", raw or ""):
+        tok = tok.strip().split(" ")[0]
+        if tok.startswith("http"):
+            dom = re.sub(r"^www\.", "", tok.split("/")[2])
+            out.append(f'<a href="{e(tok)}" rel="noopener">{e(dom)}</a>')
+    return " ".join(out)
+
+
+def evid_links(raw):
+    ids = [t.strip() for t in re.split(r"\s*;\s*", raw or "") if ID_RE.fullmatch(t.strip())]
+    return " ".join(f'<a href="#{i}">{i}</a>' for i in ids) + (" " + url_links(raw) if url_links(raw) else "")
 
 
 def link_ids(text):
@@ -122,6 +141,8 @@ def build():
     stmts = rows("statements.csv")
     lobby = rows("fara.csv")
     sources = rows("sources.csv")
+    votes = rows("votes.csv")
+    msum = rows("member_summary.csv")
 
     # ---------- 1. overview ----------
     facts = "".join(f'<div><b>{e(f["value"])}</b><span>{e(f["label"])}</span></div>' for f in nar["facts"])
@@ -223,11 +244,45 @@ def build():
 
     # ---------- 4. actors ----------
     groups = list(OrderedDict.fromkeys(a["group"] for a in actors))
+    profiles = rows("actor_profiles.csv")
+    motives = {(m["actor_name"], m["issue"]): m for m in rows("motivations.csv")}
+    org_notes = {o["actor_name"]: o for o in rows("org_notes.csv")}
+    msum_by_bio = {m["bioguide_id"]: m for m in msum}
+
+    def profs_for(name):
+        return [pf for pf in profiles if pf["actor_name"] == name or pf["person"] == name or pf["actor_name"].startswith(name + " (")]
+
+    def seat(pf):
+        if not pf.get("party"):
+            return ""
+        loc = pf["state"] + (f'-{pf["district"]}' if pf.get("district") else "")
+        return f'<span class="party p-{e(pf["party"][:1])}">{e(pf["party"])}-{e(loc)}</span>'
+
+    def prof_block(pf, full=True):
+        who = f'<b>{e(pf["person"])}</b> ' if pf.get("person") else ""
+        line = f'{who}{seat(pf)} {e(pf.get("terms_ko"))}'.strip()
+        out = f'<div class="prof">{line}' if line else '<div class="prof">'
+        out += f'<small><span class="lbl">소속</span> {e(pf.get("affiliation_ko"))}</small><small><span class="lbl">지위</span> {e(pf.get("position_ko"))}</small>'
+        if full and pf.get("committees_ko"):
+            out += f'<small><span class="lbl">위원회</span> {e(pf["committees_ko"])}</small>'
+        if full and pf.get("caucus_ko"):
+            out += f'<small><span class="lbl">코커스</span> {e(pf["caucus_ko"])}</small>'
+        extra = []
+        if pf.get("bioguide_id") in msum_by_bio:
+            extra.append(f'<a href="#mv-{e(pf["bioguide_id"])}">표결 기록</a>')
+        if full:
+            extra.append(url_links(pf.get("source_urls")))
+            extra.append(basis_badge(pf.get("basis", "").split("(")[0].strip()))
+        out += f'<small>{" ".join(x for x in extra if x)}</small></div>'
+        return out
 
     def acard(a):
-        return (f'<article class="actor" id="ac-{actors.index(a) + 1}" data-sr="행위자 · {e(a["group"])}" data-title="{e(a["name"])}"><h3>{e(a["name"])}</h3><p class="small">{e(a.get("role_at_time"))}'
-                + (f' · {e(a["party_state"])}' if a.get("party_state") and a["party_state"] != "—" else "")
-                + f'</p><p>{md(a.get("what_they_did"))}</p><p class="small">근거 {ids_links(a.get("source_ids"))}</p></article>')
+        pfs = profs_for(a["name"])
+        org = org_notes.get(a["name"])
+        return (f'<article class="actor" id="ac-{actors.index(a) + 1}" data-sr="행위자 · {e(a["group"])}" data-title="{e(a["name"])}"><h3>{e(a["name"])}</h3>'
+                + "".join(prof_block(pf) for pf in pfs)
+                + (f'<p class="small">{e(org["org_note_ko"])}</p>' if org else "")
+                + f'<p>{md(a.get("what_they_did"))}</p><p class="small">근거 {ids_links(a.get("source_ids"))}</p></article>')
 
     actor_html = "".join(
         f'<h3 class="actor-group">{e(g)} <span class="count">{sum(1 for a in actors if a["group"] == g)}</span></h3>'
@@ -263,16 +318,37 @@ def build():
             return "st-indirect"
         return "st-pro"
 
-    issues = list(OrderedDict.fromkeys(s["issue"] for s in stances))
+    sgroups = rows("stance_groups.csv")
+    st_index = {(x["actor"], x["issue"]): (n, x) for n, x in enumerate(stances, 1)}
+    issues = list(OrderedDict.fromkeys(g["issue"] for g in sgroups))
+
+    def member_row(name, issue):
+        n, s_ = st_index[(name, issue)]
+        mv = motives.get((name, issue), {})
+        pfs = profs_for(name)
+        who = "".join(prof_block(pf, full=False) for pf in pfs)
+        factors = "".join(f'<span class="chip">{e(f)}</span>' for f in (mv.get("factors") or "").split(";") if f)
+        return (f'<tr id="st-{n}" data-sr="쟁점별 입장" data-title="{e(name)} · {e(issue)} · {e(s_["stance"])}">'
+                f'<th scope="row">{e(name)}<small>{e(s_["group"])}</small>{who}</th>'
+                f'<td><span class="stance {stance_cls(s_["stance"])}">{e(s_["stance"])}</span><small>판단 근거 {basis_badge(s_["basis"])}</small></td>'
+                f'<td>{md(s_["reason"])}' + (f'<small>조건·우려: {md(s_["conditions_concerns"])}</small>' if s_.get("conditions_concerns") not in (None, "", "—") else "")
+                + f'<small>근거 {ids_links(s_["evidence"])}</small></td>'
+                f'<td>{md(mv.get("why_ko"))}<span class="chips">{factors}</span><small>이유 판단 {basis_badge(mv.get("basis"))} {evid_links(mv.get("evidence"))}</small></td></tr>')
+
     st_html = ""
     for iss in issues:
-        trs = "".join(
-            f'<tr id="st-{n}" data-sr="쟁점별 입장" data-title="{e(s["actor"])} · {e(s["issue"])} · {e(s["stance"])}"><th scope="row">{e(s["actor"])}<small>{e(s["group"])}</small></th><td><span class="stance {stance_cls(s["stance"])}">{e(s["stance"])}</span>'
-            f'<small>{basis_badge(s["basis"])}</small></td><td>{md(s["reason"])}</td><td>{md(s["conditions_concerns"])}</td><td>{ids_links(s["evidence"])}</td></tr>'
-            for n, s in enumerate(stances, 1) if s["issue"] == iss
-        )
-        st_html += (f'<h3>{e(iss)}</h3><div class="table-scroll"><table class="stances"><thead><tr><th>행위자</th><th>입장</th>'
-                    f'<th>이유</th><th>조건·우려</th><th>근거</th></tr></thead><tbody>{trs}</tbody></table></div>')
+        gs = [g for g in sgroups if g["issue"] == iss]
+        cards = ""
+        for g in gs:
+            names = [m for m in g["members"].split(";") if m]
+            chips = "".join(f'<span class="stance {stance_cls(st_index[(m, iss)][1]["stance"])}">{e(m)}</span>' for m in names)
+            trs = "".join(member_row(m, iss) for m in names)
+            cards += (f'<article class="sgroup" id="sg-{e(g["group_id"])}" data-sr="입장 그룹" data-title="{e(iss)} · {e(g["label"])}">'
+                      f'<header><span class="eid">{e(g["group_id"])}</span><h4>{e(g["label"])}</h4><span class="count">{len(names)}</span></header>'
+                      f'<div class="sg-members">{chips}</div>'
+                      f'<div class="two"><div><h5>입장</h5><p>{md(g["position_ko"])}</p></div><div><h5>왜 이런 입장인가 {basis_badge(g["basis"])}</h5><p>{md(g["why_ko"])}</p></div></div>'
+                      f'<details class="sg-detail"><summary>행위자별 근거와 이유 보기</summary><div class="table-scroll"><table class="stances"><thead><tr><th>행위자</th><th>입장</th><th>입장 판단의 근거</th><th>왜 이런 입장인가</th></tr></thead><tbody>{trs}</tbody></table></div></details></article>')
+        st_html += f'<h3 class="issue-head">{e(iss)} <span class="count">{len(gs)}개 그룹 · {sum(len(g["members"].split(";")) for g in gs)}행</span></h3>{cards}'
     prow = "".join(
         f'<tr id="ph-{n}" data-sr="단계별 입장" data-title="{e(p["period"])} · {e(p["actor"])}"><th scope="row">{e(p["period"])}</th><td>{e(p["actor"])}<small>{e(p["body"])}</small></td>'
         f'<td>{md(p["position"])}</td><td>{ids_links(p["evidence"])}<small>{e(p["certainty"])}</small></td></tr>'
@@ -281,11 +357,68 @@ def build():
     pos_html = f"""<h3>단계별 입장 이동</h3>
 <div class="table-scroll"><table class="positions"><thead><tr><th>시기</th><th>행위자</th><th>입장·행동</th><th>근거</th></tr></thead><tbody>{prow}</tbody></table></div>"""
     tab_pos = f"""<section class="panel" id="positions" aria-labelledby="t-positions">
-<p class="kicker">05 · POSITIONS</p><h2 id="t-positions">쟁점별 입장</h2>
+<p class="kicker">05 · POSITIONS</p><h2 id="t-positions">쟁점별 입장: 비슷한 입장끼리 묶어 보기</h2>
 <p class="section-intro">{md(nar['positions_intro'])}</p>
 {nar.get('positions_summary', '')}
-{pos_html}
+<div class="legend"><span class="basis b-fact">사실</span> 원문으로 확인 <span class="basis b-circ">정황</span> 언론·2차 자료로만 확인 <span class="basis b-mix">사실·추정 혼합</span> <span class="basis b-inf">추정</span> 연구자 추론([추정] 표시 문장)</div>
 {st_html}
+{pos_html}
+</section>"""
+
+    # ---------- 5b. votes ----------
+    REL_ORDER = ["직접", "직접(북한)", "거부권", "포괄"]
+    REL_LABEL = {"직접": "한국 직접 관련 표결", "직접(북한)": "북한 관련 표결", "거부권": "FY2021 NDAA 거부권 재의결 (거부 사유에 한국 철군 제한 명시)",
+                 "포괄": "NDAA 본회의 최종 표결 (포괄 법안 — 한국 조항 입장으로 해석 불가)"}
+
+    def vrow(v):
+        nv = f' · 불참 {e(v["not_voting"])}' if v.get("not_voting") else ""
+        return (f'<tr id="{e(v["vote_id"])}" data-sr="표결" data-title="{e(v["bill"])} · {e(v["description_ko"])}"><th scope="row">{e(v["vote_id"])}<small>{e(v["chamber"])} roll {e(v["rollnumber"])}<br>{e(v["date"])}</small></th>'
+                f'<td><b>{e(v["bill"])}</b><small>{e(v["description_ko"])}</small></td>'
+                f'<td class="tally"><b>{e(v["yea"])}–{e(v["nay"])}</b><small>{e(v["result"])}{nv}</small></td>'
+                f'<td>{md(v["korea_content"])}<small>{e(v["interpretation_note"])}</small></td>'
+                f'<td>{src_link(v["source_url"])}<small>{e(v["tally_verified"][:1] and "집계 대조 " + v["tally_verified"][:1])}</small></td></tr>')
+
+    vote_tables = ""
+    for rel in REL_ORDER:
+        vs = [v for v in votes if v["korea_relevance"] == rel]
+        if vs:
+            vote_tables += (f'<h4 class="vote-group">{e(REL_LABEL[rel])} <span class="count">{len(vs)}</span></h4><div class="table-scroll"><table class="votes">'
+                            f'<thead><tr><th>ID</th><th>법안·안건</th><th>결과</th><th>한국 관련 내용 · 해석 주의</th><th>출처</th></tr></thead><tbody>{"".join(vrow(v) for v in vs)}</tbody></table></div>')
+
+    def pat_cls(pt):
+        return "st-pro" if pt.startswith("찬성") or pt.startswith("전부 찬성") else ("st-caution" if "반대" in pt else "st-cond")
+
+    person_by_bio = {pf["bioguide_id"]: pf["person"] for pf in rows("actor_profiles.csv") if pf.get("bioguide_id")}
+    msum_cards = "".join(
+        f'<article class="actor" id="mv-{e(m["bioguide_id"])}" data-sr="의원 표결 요약" data-title="{e(person_by_bio.get(m["bioguide_id"], m["name"]))}"><h3>{e(person_by_bio.get(m["bioguide_id"], m["name"]))}</h3>'
+        + (f'<p class="small">행위자 항목: {e(m["actor_name"])}</p>' if person_by_bio.get(m["bioguide_id"]) != m["actor_name"] else "")
+        + f'<p class="small">{e(m["state_district"])} · 기록 {e(m["n_votes_cast"])}건 <span class="stance {pat_cls(m["pattern"])}">{e(m["pattern"])}</span></p>'
+        f'<p>{link_ids(e(m["summary_ko"]))}</p><p class="small"><button type="button" class="linkish" data-mv="{e(m["bioguide_id"])}">전체 표에서 보기</button></p></article>'
+        for m in msum
+    )
+    vote_meta = json.dumps([{"id": v["vote_id"], "ch": v["chamber"], "rel": v["korea_relevance"], "date": v["date"], "bill": v["bill"],
+                             "d": v["description_ko"], "t": f'{v["yea"]}-{v["nay"]}'} for v in votes], ensure_ascii=False)
+    vote_meta_safe = vote_meta.replace("</", "<\\/")
+    rel_opts = "".join(f'<option value="{e(r)}">{e(REL_LABEL[r].split(" (")[0])}</option>' for r in REL_ORDER)
+    tab_votes = f"""<section class="panel" id="votes" aria-labelledby="t-votes">
+<p class="kicker">06 · ROLL-CALL VOTES</p><h2 id="t-votes">표결 기록: 의원들은 한국 관련 법안에 어떻게 투표했나</h2>
+<p class="section-intro">{md(nar['votes_intro'])}</p>
+<div class="note"><b>먼저 읽을 점</b><p>{md(nar['votes_caution'])}</p></div>
+<h3>대상 표결 <span class="count">{len(votes)}</span></h3>
+{vote_tables}
+<h3 id="member-votes">행위자 의원의 표결 요약 <span class="count">{len(msum)}</span></h3>
+<p class="section-intro">{md(nar['member_summary_intro'])}</p>
+<div class="finding-grid">{msum_cards}</div>
+<h3 id="vote-matrix">전체 의원 × 표결</h3>
+<p class="section-intro">{md(nar['matrix_intro'])}</p>
+<div class="filters" role="search"><input type="search" id="vm-q" placeholder="의원 이름·주(예: Golden, CA)" aria-label="의원 검색">
+<select id="vm-ch" aria-label="원"><option value="">양원</option><option>하원</option><option>상원</option></select>
+<select id="vm-p" aria-label="정당"><option value="">모든 정당</option><option value="R">공화(R)</option><option value="D">민주(D)</option><option value="I">무소속(I)</option></select>
+<select id="vm-rel" aria-label="표결 유형"><option value="">모든 표결</option>{rel_opts}</select>
+<span id="vm-n" class="small" aria-live="polite"></span></div>
+<div class="legend"><span class="v-Y">찬성</span><span class="v-N">반대</span><span class="v-A">불참</span><span class="v-P">출석만</span><span class="v-x">재임 아님·해당 원 아님</span></div>
+<div class="table-scroll vm-wrap"><table class="vmatrix" id="vm-table"><thead></thead><tbody><tr><td class="small">표결 자료를 불러오는 중…</td></tr></tbody></table></div>
+<script type="application/json" id="vote-meta">{vote_meta_safe}</script>
 </section>"""
 
     # ---------- 6. evolution ----------
@@ -336,7 +469,7 @@ def build():
     fy_opts = "".join(f'<option value="{fy}">FY{fy} ({fy_count[fy]})</option>' for fy in sorted(fy_count))
     hist_cat_opts = "".join(f'<option value="{k}">{e(v)}</option>' for k, v in CATS.items())
     tab_evo = f"""<section class="panel" id="evolution" aria-labelledby="t-evolution">
-<p class="kicker">06 · EVOLUTION FY2017–FY2027</p><h2 id="t-evolution">한국 관련 내용은 어떻게 진화했나</h2>
+<p class="kicker">07 · EVOLUTION FY2017–FY2027</p><h2 id="t-evolution">한국 관련 내용은 어떻게 진화했나</h2>
 <p class="section-intro">{md(nar['evolution_intro'])}</p>
 {nar['evolution_summary']}
 <h3>쟁점 × 회계연도</h3>
@@ -382,7 +515,7 @@ def build():
 </section>"""
 
     tabs = [("overview", "1 개요"), ("provisions", "2 현행 조항"), ("compare", "3 하원·상원"),
-            ("actors", "4 행위자"), ("positions", "5 입장"), ("evolution", "6 진화"), ("archive", "근거 자료실")]
+            ("actors", "4 행위자"), ("positions", "5 입장"), ("votes", "6 표결"), ("evolution", "7 진화"), ("archive", "근거 자료실")]
     nav = "".join(f'<a href="#{i}" data-tab="{i}">{e(label)}</a>' for i, label in tabs)
     html = f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -398,7 +531,7 @@ def build():
 <nav aria-label="사례 탭">{nav}</nav></header>
 <main id="main">
 <div class="title"><p class="kicker">NDAA × KOREA · FY2017–FY2027</p><h1>{e(nar['title'])}</h1><p>{e(nar['subtitle'])}</p></div>
-{tab_overview}{tab_prov}{tab_compare}{tab_actors}{tab_pos}{tab_evo}{tab_arch}
+{tab_overview}{tab_prov}{tab_compare}{tab_actors}{tab_pos}{tab_votes}{tab_evo}{tab_arch}
 </main>
 <footer><b>NDAA 속의 한국</b><span>공개 원문 기반 · 사실 / 정황 / 추정 구분 · 갱신 {e(nar['updated'])}</span><a href="../aukus/">AUKUS 사례</a><a href="../ira/">IRA 사례</a></footer>
 <script src="ndaa_korea.js"></script>

@@ -95,4 +95,6 @@ python3 tools/build_highlights.py
 - 모든 인용은 원문 XML/HTM과 공백 정규화 문자열 대조. 근거 성격은 사실 / 정황 / 추정으로 구분
 - 데이터: `ndaa_korea/data/*.csv`, 본문 문안 `ndaa_korea/data/narrative.json`
 - 재생성: `python3 tools/build_ndaa_korea.py` (표준 라이브러리만 사용, HTML을 직접 편집하지 말 것)
+- 2026-10-04 추가: 행위자 프로필 51건(소속·지위, 의원은 정당·지역구·선수·위원회·코커스 — congress-legislators·Congress.gov 기준), 입장 이유 38건(사실/정황/추정 구분), 입장 그룹 15개(사안별로 비슷한 입장 묶음, 연구자 판단)
+- 표결 탭: 한국 관련 기명표결 35건(직접 6 · 북한 8 · FY2021 거부권 재의결 2 · NDAA 포괄 표결 19; 하원은 Clerk XML, 상원은 Congress.gov·의사록과 집계 대조), 행위자 의원 31명 표결 요약, 의원 894명 × 35건 표(`ndaa_korea/data/member_votes.json`, Voteview 기반)
 - 원 조사 폴더: Dropbox `_NIS/_US_Congress/ndaa_korea/` (`site_research/` 조사 산출물·notes, `site_research/prep_site_data.py`로 이 저장소에 복사). 원문 파일은 저장소에 올리지 않고 공식 URL과 SHA-256만 기록

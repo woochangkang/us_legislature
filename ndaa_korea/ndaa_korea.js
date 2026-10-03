@@ -139,6 +139,52 @@
     sq.addEventListener("input", search);
   }
 
+  // member x vote matrix (votes tab): rendered from data/member_votes.json
+  var vmTable = document.getElementById("vm-table");
+  if (vmTable) {
+    var meta = JSON.parse(document.getElementById("vote-meta").textContent);
+    var CAST = { Y: "찬성", N: "반대", A: "불참", P: "출석만", "-": "재임 아님·해당 원 아님" };
+    var vq = document.getElementById("vm-q"), vch = document.getElementById("vm-ch"), vp = document.getElementById("vm-p"),
+      vrel = document.getElementById("vm-rel"), vn = document.getElementById("vm-n"), members = null;
+    function h(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+    function drawVotes() {
+      if (!members) return;
+      var cols = meta.map(function (m, i) { return i; }).filter(function (i) {
+        return (!vrel.value || meta[i].rel === vrel.value) && (!vch.value || meta[i].ch === vch.value);
+      });
+      var q = vq.value.trim().toLowerCase();
+      var head = '<tr><th>의원</th><th>정당·주</th>' + cols.map(function (i) {
+        var m = meta[i];
+        return '<th class="vcol" title="' + h(m.d + " · " + m.date + " · " + m.t) + '"><a href="#' + m.id + '">' + m.id + "</a><small>" + h(m.ch) + " " + m.date.slice(0, 4) + "</small></th>";
+      }).join("") + "</tr>";
+      var rowsHtml = [], n = 0;
+      members.forEach(function (mb) {
+        if (vp.value && mb.p !== vp.value) return;
+        if (vch.value && mb.ch.indexOf(vch.value) < 0) return;
+        if (q && (mb.n + " " + mb.s + " " + mb.b).toLowerCase().indexOf(q) < 0) return;
+        if (!cols.some(function (i) { return mb.v[i] !== "-"; })) return;
+        n++;
+        rowsHtml.push('<tr><th scope="row">' + h(mb.n) + "</th><td>" + h(mb.p + "-" + mb.s + (mb.d && mb.d !== "0" ? "-" + mb.d : "")) + "</td>" +
+          cols.map(function (i) { var c = mb.v[i]; return '<td class="v-' + (c === "-" ? "x" : c) + '" title="' + h(meta[i].id + " " + CAST[c]) + '">' + (c === "-" ? "" : CAST[c].slice(0, 1)) + "</td>"; }).join("") + "</tr>");
+      });
+      vmTable.tHead.innerHTML = head;
+      vmTable.tBodies[0].innerHTML = rowsHtml.join("") || '<tr><td colspan="3" class="small">해당하는 의원이 없습니다.</td></tr>';
+      vn.textContent = "의원 " + n + "명 · 표결 " + cols.length + "건";
+    }
+    [vq, vch, vp, vrel].forEach(function (el) { el.addEventListener("input", drawVotes); });
+    fetch("data/member_votes.json").then(function (r) { return r.json(); }).then(function (d) {
+      members = d.members;
+      drawVotes();
+    }).catch(function () { vmTable.tBodies[0].innerHTML = '<tr><td class="small">표결 자료를 불러오지 못했습니다. data/member_votes.json을 직접 내려받아 보세요.</td></tr>'; });
+    Array.prototype.slice.call(document.querySelectorAll("button[data-mv]")).forEach(function (b) {
+      b.addEventListener("click", function () {
+        vq.value = b.dataset.mv; vch.value = ""; vp.value = ""; vrel.value = "";
+        drawVotes();
+        document.getElementById("vote-matrix").scrollIntoView({ block: "start" });
+      });
+    });
+  }
+
   // theme toggle (per-viewer preference only)
   var btn = document.createElement("button");
   btn.className = "theme-toggle";

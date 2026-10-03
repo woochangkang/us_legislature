@@ -263,3 +263,42 @@ footer a{color:#a9c4f0}footer a:first-of-type{margin-left:auto}
 .sr-sec{display:inline-block;font-size:12px;font-weight:650;padding:1px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent-ink);margin-right:4px}
 .sr-snip{display:block;margin-top:4px;font-size:13px;color:var(--muted);line-height:1.5}
 .site-results mark{background:var(--brass-soft);color:inherit;padding:0 1px;border-radius:2px}
+/* votes tab */
+.vote-group{margin:24px 0 8px;font-size:15px;color:var(--ink);letter-spacing:0}
+.votes td,.votes th{vertical-align:top}
+.votes .tally b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.linkish{font:inherit;font-size:13px;background:none;border:0;padding:0;color:var(--accent-ink);text-decoration:underline;cursor:pointer}
+.vm-wrap{max-height:640px;overflow:auto}
+.vmatrix{font-size:12.5px}
+.vmatrix th,.vmatrix td{padding:5px 7px}
+.vmatrix thead th{position:sticky;top:0;z-index:1}
+.vmatrix tbody th{position:sticky;left:0;background:var(--paper);min-width:170px;font-size:12.5px;z-index:0}
+.vmatrix .vcol{text-align:center;min-width:46px}
+.vmatrix .vcol a{display:block}
+.vmatrix td[class^="v-"]{text-align:center;font-weight:650;min-width:36px}
+.v-Y{background:#dbe8f7;color:#1f4580}.v-N{background:#f6d6d2;color:#93302a}.v-A{background:#eceae3;color:#6b7580}.v-P{background:#f3e2bd;color:#5c3b06}.v-x{background:transparent}
+.legend .v-x{color:var(--muted)}
+/* profiles & stance groups */
+.prof{margin:8px 0;padding:8px 10px;border-left:3px solid var(--line);background:var(--soft);border-radius:0 8px 8px 0;font-size:14px}
+.prof small{display:block;margin-top:2px}
+.prof .lbl{display:inline-block;min-width:3.2em;font-weight:650;color:var(--ink)}
+.stances .prof{font-weight:400;font-size:12.5px;margin-top:6px}
+.party{display:inline-block;font-size:12px;font-weight:700;padding:0 7px;border-radius:6px;color:#fff;background:#6b7580}
+.p-R{background:#b23a33}.p-D{background:#2f5fa8}.p-I{background:#6b7580}
+.b-mix{background:linear-gradient(90deg,var(--accent-soft) 50%,var(--rose-soft) 50%);color:var(--ink)}
+.issue-head{margin-top:42px;padding-top:14px;border-top:2px solid var(--ink)}
+.issue-head .count{font-size:13px;color:var(--muted);font-weight:500}
+.sgroup{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 14px;box-shadow:var(--shadow)}
+.sgroup header{display:flex;align-items:center;gap:10px}
+.sgroup h4{margin:0;font-size:17px;color:var(--ink);letter-spacing:-.01em}
+.sgroup h5{margin:10px 0 4px;font-size:12.5px;color:var(--muted);letter-spacing:.04em}
+.sg-members{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 2px}
+.sg-detail>summary{cursor:pointer;font-weight:650;font-size:14px;color:var(--accent-ink);margin-top:8px}
+.sg-detail .table-scroll{margin-top:10px}
+.stances td small{display:block;margin-top:6px}
+.stances td:nth-child(3),.stances td:nth-child(4){min-width:260px}
+.vmatrix td:nth-child(2){white-space:nowrap}
+.sgroup header{position:static;z-index:auto;background:none;color:inherit;padding:0;border:0}
+.stances td:nth-child(2){min-width:96px}
+.stances td:nth-child(2) small{white-space:nowrap}
+.stances tbody th[scope=row]{min-width:210px}
