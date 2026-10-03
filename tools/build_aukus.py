@@ -251,7 +251,7 @@ def build():
 {link_ids(nar['house_cannot'])}
 <h4>남은 확인 사항</h4>
 {link_ids(nar['house_open'])}
-<details class="house-sources"><summary>근거표 H01–L63 <span class="count">{len(house_sources)}</span></summary>
+<details class="house-sources"><summary>근거표 H01–L64 <span class="count">{len(house_sources)}</span></summary>
 <div class="table-scroll"><table><thead><tr><th>ID</th><th>대상</th><th>내용·인용</th><th>출처</th></tr></thead><tbody>{hs_rows}</tbody></table></div>
 </details>
 <details class="house-sources"><summary>보관 원자료 <span class="count">{len(hfiles)}</span></summary>
