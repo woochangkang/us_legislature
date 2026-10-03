@@ -57,7 +57,7 @@
     if (!q) return null;
     var sels = attrs.map(function (a) { return [a, document.getElementById(prefix + "-" + a)]; });
     var count = document.getElementById(prefix + "-n");
-    var items = Array.prototype.slice.call(document.querySelectorAll("#" + listId + " > details"));
+    var items = Array.prototype.slice.call(document.querySelectorAll("#" + listId + " > details, #" + listId + " > tbody > tr"));
     function run() {
       var text = (q.value || "").trim().toLowerCase();
       var n = 0;
@@ -79,6 +79,7 @@
   }
   var runPv = makeFilter("pv", "pv-list", ["rel", "cat", "bill"]);
   makeFilter("hs", "hs-list", ["fy", "cat", "rel"]);
+  makeFilter("fa", "fa-list", ["rel", "topic"]);
 
   // category buttons drive the provision filter
   var catSel = document.getElementById("pv-cat");

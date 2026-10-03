@@ -139,7 +139,6 @@ def build():
     stances = rows("stances.csv")
     positions = rows("positions.csv")
     stmts = rows("statements.csv")
-    lobby = rows("fara.csv")
     sources = rows("sources.csv")
     votes = rows("votes.csv")
     msum = rows("member_summary.csv")
@@ -289,22 +288,11 @@ def build():
         f'<div class="finding-grid">{"".join(acard(a) for a in actors if a["group"] == g)}</div>'
         for g in groups
     )
-    lobby_html = ""
-    if lobby:
-        lr = "".join(
-            f'<tr id="fara-{n}" data-sr="FARA 등록" data-title="{e(l["foreign_principal"])} · {e(l["registrant"])}"><th scope="row">{e(l["foreign_principal"])}</th><td>{e(l["registrant"])}<small>등록번호 {e(l["registration_number"])}</small></td>'
-            f'<td>{e(l["fp_registration_date"])}</td><td>{e(l["ndaa_link"])}</td></tr>'
-            for n, l in enumerate(lobby, 1)
-        )
-        lobby_html = f"""<h3 id="fara">외국대리인 등록(FARA): 한국 측 의뢰인 <span class="count">{len(lobby)}</span></h3>
-<p class="section-intro">{md(nar['lobbying_intro'])}</p>
-<div class="table-scroll"><table class="lobby"><thead><tr><th>외국 주체</th><th>등록 대리인</th><th>등록일</th><th>NDAA 관련성</th></tr></thead><tbody>{lr}</tbody></table></div>
-<p class="small">출처: {src_link("https://efile.fara.gov/bulk/zip/FARA_All_ForeignPrincipals.csv.zip", "FARA 외국주체 일괄자료")} (2026-10-03 접속)</p>"""
     tab_actors = f"""<section class="panel" id="actors" aria-labelledby="t-actors">
 <p class="kicker">04 · ACTORS</p><h2 id="t-actors">주요 행위자</h2>
 <p class="section-intro">{md(nar['actors_intro'])}</p>
 {actor_html}
-{lobby_html}
+<p class="note small">한국 정부·기업의 로비 기록(LDA·FARA)은 <a href="#lobby">7 로비</a> 탭에 따로 정리했습니다.</p>
 </section>"""
 
     # ---------- 5. positions ----------
@@ -421,6 +409,96 @@ def build():
 <script type="application/json" id="vote-meta">{vote_meta_safe}</script>
 </section>"""
 
+    # ---------- 5c. lobbying ----------
+    PERIOD = {"first_quarter": "1분기", "second_quarter": "2분기", "third_quarter": "3분기", "fourth_quarter": "4분기",
+              "mid_year": "상반기", "year_end": "하반기"}
+    lda = rows("lda_activities.csv")
+    lda_sum = json.loads((DATA / "lda_summary.json").read_text(encoding="utf-8")) if (DATA / "lda_summary.json").exists() else {}
+    collapsed = OrderedDict()  # one row per (filing, activity text), issue codes merged
+    for r in lda:
+        k = (r["filing_uuid"], r["activity"])
+        if k in collapsed:
+            collapsed[k]["issue_code"] += ", " + r["issue_code"]
+        else:
+            collapsed[k] = dict(r)
+    lda_rows = sorted(collapsed.values(), key=lambda r: (r["client"], r["year"], list(PERIOD).index(r["period"]) if r["period"] in PERIOD else 9, r["dt_posted"]))
+
+    def money(r):
+        if r.get("income"):
+            return f'수임료 ${float(r["income"]):,.0f}'
+        if r.get("expenses"):
+            return f'자체 지출 ${float(r["expenses"]):,.0f}'
+        return "금액 미기재"
+
+    clients = list(OrderedDict.fromkeys(r["client"] for r in lda_rows))
+    lda_cards = ""
+    for c in clients:
+        rs = [r for r in lda_rows if r["client"] == c]
+        regs = sorted({r["registrant"] for r in rs})
+        porder = list(PERIOD)
+        pers = list(OrderedDict.fromkeys(f'{r["year"]} {PERIOD.get(r["period"], r["period"])}'
+                                         for r in sorted(rs, key=lambda r: (r["year"], porder.index(r["period"]) if r["period"] in porder else 9))))
+        named = any(r["names_fy27_ndaa"] for r in rs)
+        ents = sorted({g for r in rs for g in r["government_entities"].split("; ") if g})
+        texts = list(OrderedDict.fromkeys(r["activity"] for r in rs if r["names_fy27_ndaa"])) or list(OrderedDict.fromkeys(r["activity"] for r in rs))
+        lda_cards += (f'<article class="actor" id="lda-{clients.index(c) + 1}" data-sr="로비 · LDA" data-title="{e(c)}"><h3>{e(c)}</h3>'
+                      f'<p class="small">신고자 {e(", ".join(regs))}</p><p class="small">기간 {e(" · ".join(pers))}</p>'
+                      + (f'<p><span class="rel r-direct">FY2027 NDAA 명시</span></p>' if named else '<p><span class="rel r-indirect">조선·국방 일반</span></p>')
+                      + "".join(f'<blockquote lang="en">{e(t)}</blockquote>' for t in texts[:2])
+                      + f'<p class="small">접촉 기관 {e(", ".join(ents) or "미기재")}</p></article>')
+    lda_trs = "".join(
+        f'<tr id="lda-r{n}" data-sr="로비 · LDA 활동" data-title="{e(r["client"])} · {e(r["year"])} {e(PERIOD.get(r["period"], r["period"]))}">'
+        f'<th scope="row">{e(r["year"])} {e(PERIOD.get(r["period"], r["period"]))}<small>게시 {e(r["dt_posted"])} · {e(r["filing_type"])}</small></th>'
+        f'<td>{e(r["client"])}<small>신고자 {e(r["registrant"])}</small></td><td>{e(r["issue_code"])}</td>'
+        f'<td lang="en">{e(r["activity"])}' + ('<small><span class="rel r-direct">FY27 NDAA 명시</span></small>' if r["names_fy27_ndaa"] else "") + '</td>'
+        f'<td>{e(r["government_entities"] or "미기재")}</td><td>{e(money(r))}<small>{src_link(r["url"], "신고서")}</small></td></tr>'
+        for n, r in enumerate(lda_rows, 1)
+    )
+    fsum = rows("fara_summary.csv")
+    fact = rows("fara_activities.csv")
+    fs_trs = "".join(
+        f'<tr id="fara-{e(f["reg_no"])}-{n}" data-sr="로비 · FARA 등록" data-title="{e(f["registrant"])} · {e(f["foreign_principal"])}">'
+        f'<th scope="row">{e(f["foreign_principal"])}<small>등록 {e(f["registration_date"])}</small></th><td>{e(f["registrant"])}<small>등록번호 {e(f["reg_no"])}</small></td>'
+        f'<td>{e(f["scope_ko"])}</td><td>{e(f["ndaa_link_ko"])}<small>문서 {e(f["docs_read"])}건 열람 · 관련 활동 {e(f["activities_found"])}건 {basis_badge(f["basis"])}</small></td></tr>'
+        for n, f in enumerate(fsum, 1)
+    )
+    REL_CLS = {"직접": "r-direct", "간접": "r-indirect", "무관": "r-dprk"}
+    fa_trs = "".join(
+        f'<tr id="{e(a["id"])}" data-sr="로비 · FARA 활동" data-title="{e(a["registrant"])} · {e(a["activity_ko"])}" data-rel="{e(a["ndaa_relevance"])}" data-topic="{e(a["topic"])}">'
+        f'<th scope="row">{e(a["id"])}<small>{e(a["activity_date"])}</small></th><td>{e(a["registrant"])}<small>{e(a["foreign_principal"])}</small></td>'
+        f'<td>{e(a["contact_person"])}</td><td>{e(a["activity_ko"])}<blockquote lang="en">{e(a["quote"])}</blockquote>'
+        + (f'<small>{e(a["note"])}</small>' if a.get("note") else "")
+        + f'</td><td><span class="rel {REL_CLS.get(a["ndaa_relevance"], "r-indirect")}">{e(a["ndaa_relevance"])}</span><small>{e(a["topic"])} {basis_badge(a["basis"])}</small></td>'
+        f'<td>{src_link(a["doc_url"], "보고서")}<small>{e(a["page"])}</small></td></tr>'
+        for a in fact
+    )
+    fa_rel = Counter(a["ndaa_relevance"] for a in fact)
+    fa_topic = Counter(a["topic"] for a in fact)
+    tab_lobby = f"""<section class="panel" id="lobby" aria-labelledby="t-lobby">
+<p class="kicker">07 · LOBBYING</p><h2 id="t-lobby">로비: 한국 정부·기업은 NDAA를 두고 누구를 만났나</h2>
+<p class="section-intro">{md(nar['lobby_intro'])}</p>
+<div class="note"><b>먼저 읽을 점</b><p>{md(nar['lobby_caution'])}</p></div>
+<div class="mini-path"><div><b>{len(lda_rows)}</b><span>LDA 한국 조선·방산 의뢰인 활동 (신고서 {len({r["filing_uuid"] for r in lda_rows})}건)</span></div>
+<div><b>{sum(1 for r in lda_rows if r["names_fy27_ndaa"])}</b><span>그중 FY2027 NDAA를 명시한 활동</span></div>
+<div><b>{len(fsum)}</b><span>FARA 한국 측 활성 등록</span></div><div><b>{len(fact)}</b><span>FARA 활동 (직접 {fa_rel.get("직접", 0)} · 간접 {fa_rel.get("간접", 0)} · 무관 {fa_rel.get("무관", 0)})</span></div></div>
+<h3 id="lda">LDA 로비공시: 한국 조선·방산 기업 <span class="count">{len(clients)}개 의뢰인</span></h3>
+<p class="section-intro">{md(nar['lda_intro'])}</p>
+<div class="finding-grid">{lda_cards}</div>
+<details class="house-sources"><summary>신고 활동 전체 <span class="count">{len(lda_rows)}</span></summary>
+<div class="table-scroll"><table class="lobby"><thead><tr><th>분기</th><th>의뢰인·신고자</th><th>이슈 코드</th><th>신고된 활동(원문)</th><th>접촉 기관</th><th>금액·출처</th></tr></thead><tbody>{lda_trs}</tbody></table></div></details>
+<h3 id="fara">FARA 외국대리인 등록: 한국 정부·기관 <span class="count">{len(fsum)}</span></h3>
+<p class="section-intro">{md(nar['fara_intro'])}</p>
+<div class="table-scroll"><table class="lobby"><thead><tr><th>외국 주체</th><th>등록 대리인</th><th>계약 범위</th><th>NDAA 관련성(활동보고서 확인 결과)</th></tr></thead><tbody>{fs_trs}</tbody></table></div>
+<h3 id="fara-acts">FARA 활동보고서에 기록된 접촉 <span class="count">{len(fact)}</span></h3>
+<p class="section-intro">{md(nar['fara_acts_intro'])}</p>
+<div class="filters" role="search"><input type="search" id="fa-q" placeholder="의원실·위원회·주제 검색(예: Armed Services, Wilson, shipbuilding)" aria-label="FARA 활동 검색">
+<select id="fa-rel" aria-label="NDAA 관련성"><option value="">관련성 전체</option>{''.join(f'<option value="{e(k)}">{e(k)} ({v})</option>' for k, v in fa_rel.items())}</select>
+<select id="fa-topic" aria-label="주제"><option value="">주제 전체</option>{''.join(f'<option value="{e(k)}">{e(k)} ({v})</option>' for k, v in fa_topic.most_common())}</select>
+<span id="fa-n" class="small" aria-live="polite"></span></div>
+<div class="table-scroll"><table class="lobby" id="fa-list"><thead><tr><th>ID·날짜</th><th>등록자·외국 주체</th><th>접촉 대상</th><th>활동·원문</th><th>NDAA 관련성</th><th>출처</th></tr></thead><tbody>{fa_trs}</tbody></table></div>
+<p class="small">LDA 수집: {e(lda_sum.get("fetched_at", ""))} · 질의 {len(lda_sum.get("queries", []))}종 · 2025–2026 신고서 {e(str(lda_sum.get("filings", "")))}건 중 한국 조선·방산 의뢰인 분. FARA: efile.fara.gov 일괄 색인(2026-10-03)과 보고서 PDF.</p>
+</section>"""
+
     # ---------- 6. evolution ----------
     tnames = list(OrderedDict.fromkeys(t["thread"] for t in threads))
     cell = {}
@@ -469,7 +547,7 @@ def build():
     fy_opts = "".join(f'<option value="{fy}">FY{fy} ({fy_count[fy]})</option>' for fy in sorted(fy_count))
     hist_cat_opts = "".join(f'<option value="{k}">{e(v)}</option>' for k, v in CATS.items())
     tab_evo = f"""<section class="panel" id="evolution" aria-labelledby="t-evolution">
-<p class="kicker">07 · EVOLUTION FY2017–FY2027</p><h2 id="t-evolution">한국 관련 내용은 어떻게 진화했나</h2>
+<p class="kicker">08 · EVOLUTION FY2017–FY2027</p><h2 id="t-evolution">한국 관련 내용은 어떻게 진화했나</h2>
 <p class="section-intro">{md(nar['evolution_intro'])}</p>
 {nar['evolution_summary']}
 <h3>쟁점 × 회계연도</h3>
@@ -515,7 +593,7 @@ def build():
 </section>"""
 
     tabs = [("overview", "1 개요"), ("provisions", "2 현행 조항"), ("compare", "3 하원·상원"),
-            ("actors", "4 행위자"), ("positions", "5 입장"), ("votes", "6 표결"), ("evolution", "7 진화"), ("archive", "근거 자료실")]
+            ("actors", "4 행위자"), ("positions", "5 입장"), ("votes", "6 표결"), ("lobby", "7 로비"), ("evolution", "8 진화"), ("archive", "근거 자료실")]
     nav = "".join(f'<a href="#{i}" data-tab="{i}">{e(label)}</a>' for i, label in tabs)
     html = f"""<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -531,7 +609,7 @@ def build():
 <nav aria-label="사례 탭">{nav}</nav></header>
 <main id="main">
 <div class="title"><p class="kicker">NDAA × KOREA · FY2017–FY2027</p><h1>{e(nar['title'])}</h1><p>{e(nar['subtitle'])}</p></div>
-{tab_overview}{tab_prov}{tab_compare}{tab_actors}{tab_pos}{tab_votes}{tab_evo}{tab_arch}
+{tab_overview}{tab_prov}{tab_compare}{tab_actors}{tab_pos}{tab_votes}{tab_lobby}{tab_evo}{tab_arch}
 </main>
 <footer><b>NDAA 속의 한국</b><span>공개 원문 기반 · 사실 / 정황 / 추정 구분 · 갱신 {e(nar['updated'])}</span><a href="../aukus/">AUKUS 사례</a><a href="../ira/">IRA 사례</a></footer>
 <script src="ndaa_korea.js"></script>
@@ -540,7 +618,7 @@ def build():
     (ROOT / "index.html").write_text(html, encoding="utf-8")
     print(f"wrote {ROOT / 'index.html'}: provisions {len(prov)}, amendments {len(amds)}, compare {len(comp)}, "
           f"status {len(status)}, history {len(hist)}, threads {len(threads)}, actors {len(actors)}, "
-          f"stances {len(stances)}, statements {len(stmts)}, lobbying {len(lobby)}, sources {len(sources)}")
+          f"stances {len(stances)}, statements {len(stmts)}, lda {len(lda_rows)}, fara {len(fact)}, sources {len(sources)}")
 
 
 if __name__ == "__main__":
