@@ -1,0 +1,40 @@
+group,name,role_at_time,party_state,what_they_did,source_ids
+행정부,Office of Management and Budget (White House),Executive Office of the President,—,"2026-07-21 H.R.8800 SAP: §1247 등 해외 태세 조항 '강력 반대', §1025 해외조선소 금지 '강력 반대', 해외 건조 4척 허용 입법제안 요구",S01;S02;S03
+행정부,Donald J. Trump,President,—,[배경] 2020-12 FY2021 NDAA 거부권 메시지에서 한국 철수 제한을 위헌 주장(1기). 2025-11-13 이재명 대통령과 공동 팩트시트로 한국 핵추진잠수함 지원 표명(S.Rept.가 인용),S04;S27
+행정부,Elbridge A. Colby,Under Secretary of Defense for Policy (2025 nominee),—,"[배경] 2025-03 인준청문회: 동맹 '조정', 한국 역할 강화·전작권 전환 지지 시사, 확장억제 협력 확대 찬성, 한미일 지속성 회의",S60;S61;S62;S63
+행정부,John Noh,Performing duties of ASD(Indo-Pacific Security Affairs),—,[배경] 2025-04 HASC 청문회: 한미 방산협력·MRO 확대 확인,S53
+행정부,Zimmerman (first name 미확인),"Nominee, ASD(ISA)",—,[배경] 2025-05 SASC 서면답변: 한국 동맹 역량 평가,S64
+행정부,Xavier T. Brunson (Gen.),"Commander, UNC/CFC/USFK",—,"[배경] 2025-04 HASC·SASC 태세 청문회: 한반도-미국 국익 직결, 동맹 상호호혜, 주한미군 유지 필요 증언. 2026-04-21 SASC FY2027 태세 청문회에도 출석(속기록 미확보)",S47;S48;S49
+행정부,Samuel J. Paparo (Adm.),"Commander, USINDOPACOM",—,[배경] 2025-04 HASC 청문회: 한국을 '모범 동맹'으로 평가,S52
+행정부,Downey (RADM) / Seidle (Dr.),Navy shipbuilding officials,—,"[배경] 2025-03 SASC 해양력 소위: 한화 필리조선소 산업기반 편입, 한·일 조선방식 벤치마킹",S65;S66
+위원회,House Armed Services Committee,H.R.8800 보고 위원회,—,"2026-06-04~05 마크업, 44-12 보고(H.Rept.119-698). 한국 관련 기록표결 없음. §1241·§1247·§1025·§2511·한국 내 중국영향력 브리핑 포함",S06;S07;S14;S15
+하원,Mike Rogers,HASC Chairman (H.R.8800 sponsor),R-AL-3,위원장 마크 §1243(Log 84999→§1247)로 재원 제한 범위 확대 문안 제시. 본회의 en bloc 제출(No.4에 Nunn #223 포함). 2025 청문회 북한 위협 강조,S05;S16;S44
+하원,Adam Smith,HASC Ranking Member (H.R.8800 sole cosponsor),D-WA-9,H.R.8800 유일 공동발의(2026-05-13). [배경] 2025 청문회에서 '한국 무임승차'론 반박,S45;S46
+하원,Joe Wilson,HASC member,R-SC-2,"Log 5794(EB3, 음성) §1241: 28,500·확장억제·한국 조선협력 의회의사 신설. KITA 축하 발언. 2025 청문회 '철통' 공약",S08;S09;S10;S55
+하원,Jared Golden,HASC member,D-ME-2,"Log 6636(공동 Courtney, EB5, 음성) §1025 해외 조선소 전투함 조달 금지 주도",S11;S12
+하원,Joe Courtney,HASC member,D-CT-2,Golden Log 6636 공동발의(마크업 로그상),S12
+하원,Jackson (Ronny Jackson R-TX-13 [추정]),HASC member,R-TX-13 [추정],"Log 6923(EB6, 음성): 한국 내 중국공산당 영향력 브리핑 요구",S13;S14
+하원,Zachary Nunn,House member,R-IA-3,본회의 수정안 #223: 대만 유사시 한국 등 동맹 대응 평가(En Bloc No.4 채택),S16
+하원,Dale Strong,House member (HASC),R-AL-5,본회의 수정안 #10(TRUST Act): 북한 등 국적자 입대 금지. staging 화자 'STRONG'은 오귀속,S19
+하원,Austin Scott / Ashley Hinson,House members,R-GA-8 / R-IA-2,본회의 토론에서 북한 일반 언급(부수적),S17;S18
+하원,Brian Mast / Ami Bera,HFAC Chairman / E. Asia Subcmte RM,R-FL-21 / D-CA-6,NDAA 밖 H.R.3429(한미일 의회 대화) 지지 발언. Mast의 7-22 한국 유조선 언급은 부수적,S20;S21;S22
+하원,Pat Fallon / Seth Moulton,HASC members,R-TX-4 / D-MA-6,"[배경] 2025 청문회: Fallon 주한미군 확대 희망, Moulton 패트리엇 전환 비판·동맹국 조선소 수리 허용 요구",S54;S56;S57
+위원회,Senate Armed Services Committee,S.4784 보고 위원회,—,2026-06-10 18-9 보고(S.Rept.119-127). 30건 기록표결 중 한국 관련 없음. §1235(60일 인증)·§1019(해외건조 조건부 허용)·§1232(PDI에 USFK)·한국 SSN 보고·한미 신기술 브리핑,S23;S25;S27;S28;S29;S30;S31
+상원,Roger Wicker,SASC Chairman (S.4784 sponsor),R-MS,S.4784 발의·보고. §1235·§1019 문안 책임자(위원회 원안),S24;S26
+상원,Jack Reed,SASC Ranking Member,D-RI,"18-9 보고에 찬성(roll call 30). [배경] 2025 핵우산 신뢰 우려, 주한미군 감축 소문 제기(보도), 2021 PDI 옹호",S31;S50;S51;S67
+상원,Dan Sullivan,SASC member,R-AK,"[배경] 2025 Colby 서면질의에서 28,500 강조, 동맹국 조선소 수리 확대 재추진 시사",S58;S59
+상원,Tim Kaine,SASC member,D-VA,"SA 5957 북한인권법 재승인, SA 5956 한국 보유 무기 우크라이나 이전. SASC 보고 반대(추가의견, 전쟁권한 사유 — 한국 무관)",S32;S33;S31
+상원,Tom Cotton (with Mark Warner),SSCI Chairman,R-AR,SA 6373/6574: 한미일 3자 정보공유 촉진,S34
+상원,David McCormick (with John Fetterman),Senator,R-PA,SA 5901: 무인체계 공동생산 우선 대상에 한국,S35
+상원,Pete Ricketts (with Chris Coons),Senator,R-NE,SA 6365: 한국 등 보유 무기의 대만 제3국 이전 신속화 평가,S36
+상원,Michael Bennet (with Mitch McConnell),Senator,D-CO,SA 5961: 우크라 교훈 한국 등에 전달. Steel 주한대사 인준 반대 의사,S37;S43
+상원,James Risch (with Jeanne Shaheen),SFRC Chairman,R-ID,SA 6559/6652: 북한 포함 적대국 연대 점검. 한국 FMS 통보 게재,S38;S39
+상원,Deb Fischer / John Thune / John Cornyn,Senators,R-NE / R-SD / R-TX,"한국 관련 부수 언급(대한항공 SAOC, 북한 랜섬웨어, 삼성 반도체)",S40;S41;S42
+한국 정부,ROK Ministry of National Defense,대한민국 국방부(익명 당국자),—,"2026-04-30 '주한미군 감축 논의 전혀 없음', 안정적 주둔 협의 지속(연합 보도 — 정황)",S68;S69
+한국 정부,Lee Jae Myung (President of ROK),대한민국 대통령,—,2025-11-13 트럼프와 공동 팩트시트(한국 핵추진잠수함·연료 공급 지원) — SASC 보고서가 근거로 인용. 대통령 본인 발언 원문은 미확보,S27
+한국 정부,ROK Embassy / ministries (FARA principals),주미대사관·산업부·해수부 등,—,"FARA상 2026년 신규 등록: Akin Gump(대사관 2026-03-03), Tricuro(대사관 2026-08-21), Arnold & Porter(해양수산부 등 2026-07-07). NDAA 관련 활동 여부 미확인",FARA
+한국 기업·산업,Hanwha (Philly Shipyard / Hanwha Ocean / Hanwha Defense USA),한국 조선·방산,—,필리조선소가 해군 산업기반에 편입(2025 해군 증언). LDA 공시는 접근 차단으로 원문 미확인 — 검색 스니펫상 2025-09 Hanwha Aerospace 등록 언급(미확인),S65
+한국 기업·산업,Korea International Trade Association (KITA),한국무역협회,—,80주년 Wilson 의원 축하 발언(2026-07-21),S10
+한국 기업·산업,Korean Air,대한항공,—,SAOC(국가비상지휘기) 기체 공급원으로 Fischer 발언에 등장(부수),S40
+로비·싱크탱크,Center for Maritime Strategy (Daniel Choi),싱크탱크(Navy League 계열 [추정]),—,Golden 수정안이 동맹 조선소 활용 전략·MASGA와 충돌한다고 비판(2026-06-17),S70
+로비·싱크탱크,Korea Nuclear Association for International Cooperation (KONAC) 등 FARA 등록 주체,FARA 외국주체,—,BGR(2026-06-30)·Brownstein(2026-06-26) 신규 등록. NDAA 관련성 미확인,FARA

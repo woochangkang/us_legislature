@@ -284,20 +284,24 @@ def build():
 
     # ---------- 6. evolution ----------
     tnames = list(OrderedDict.fromkeys(t["thread"] for t in threads))
-    cell = {(t["thread"], t["fy"]): t for t in threads}
+    cell = {}
+    for t in threads:
+        cell.setdefault((t["thread"], t["fy"]), []).append(t)
     head = "".join(f"<th>FY{fy[2:]}</th>" for fy in FYS)
+    rank = ["s-strong", "s-veto", "s-new", "s-change", "s-keep", "s-pending", "s-soft", "s-none"]
 
     def mcell(tn, fy):
-        t = cell.get((tn, fy))
-        if not t:
+        ts = cell.get((tn, fy))
+        if not ts:
             return '<td class="s-blank"><span class="sr">자료 없음</span></td>'
-        ref = t.get("source_ref", "")
-        first = ID_RE.search(ref)
-        tip = f'{t["status"]} · {t["section"]} · {t["key_terms"]}'
-        inner = f'<span class="st">{e(t["status"])}</span><span class="sec">{e(t["section"]) if t["section"] not in ("—", "") else ""}</span>'
-        if first:
-            inner = f'<a href="#{first.group(1)}">{inner}</a>'
-        return f'<td class="{thread_cls(t["status"])}" title="{e(tip)}">{inner}</td>'
+        parts = []
+        for t in ts:
+            first = ID_RE.search(t.get("source_ref", ""))
+            inner = f'<span class="st">{e(t["status"])}</span><span class="sec">{e(t["section"]) if t["section"] not in ("—", "") else ""}</span>'
+            parts.append(f'<a href="#{first.group(1)}">{inner}</a>' if first else inner)
+        cls = min((thread_cls(t["status"]) for t in ts), key=rank.index)
+        tip = " / ".join(f'{t["status"]} · {t["section"]} · {t["key_terms"]}' for t in ts)
+        return f'<td class="{cls}" title="{e(tip)}">' + '<hr class="cell-sep">'.join(parts) + "</td>"
 
     matrix = "".join(f'<tr><th scope="row">{e(tlabel(tn))}</th>' + "".join(mcell(tn, fy) for fy in FYS) + "</tr>" for tn in tnames)
 

@@ -83,3 +83,16 @@ python3 tools/build_highlights.py
 - 데이터: `aukus/data/*.csv`, 본문 문안 `aukus/data/narrative.json`
 - 재생성: `python3 tools/build_aukus.py` (표준 라이브러리만 사용, HTML을 직접 편집하지 말 것)
 - 원 조사 폴더: Dropbox `_NIS/_US_Congress/aukus/` (`research_dossier.md`, 미확인·접근 실패 목록)
+
+
+## NDAA 속의 한국 (FY2017–FY2027) · 2026-10-03
+
+`ndaa_korea/`는 미국 국방수권법(NDAA) 속 한국 관련 내용의 조항·행위자·변화를 정리한 자료입니다.
+
+- FY2027(H.R. 8800·S. 4784, 2026-10-03 현재 미제정) 한국 관련 항목 56건(직접 31 · 직접(북한) 12 · 간접 13; 법조문 40 · 위원회 보고서 16), 한국 언급 수정안 45건, 양원 조문 비교 22행, 입법 경과 30건
+- 행위자 39명, 쟁점별 입장 38행, 발언·문서 근거 70건(68건 원문 대조), FARA 한국 측 등록 24건 (LDA 로비 공시는 API 차단으로 미수집)
+- FY2017–FY2026 제정법 10건의 한국 관련 조문 171행(거부권 메시지 포함), 8개 쟁점 계보 105행, 주한미군 병력 하한 하원·상원·성립본 비교 18행
+- 모든 인용은 원문 XML/HTM과 공백 정규화 문자열 대조. 근거 성격은 사실 / 정황 / 추정으로 구분
+- 데이터: `ndaa_korea/data/*.csv`, 본문 문안 `ndaa_korea/data/narrative.json`
+- 재생성: `python3 tools/build_ndaa_korea.py` (표준 라이브러리만 사용, HTML을 직접 편집하지 말 것)
+- 원 조사 폴더: Dropbox `_NIS/_US_Congress/ndaa_korea/` (`site_research/` 조사 산출물·notes, `site_research/prep_site_data.py`로 이 저장소에 복사). 원문 파일은 저장소에 올리지 않고 공식 URL과 SHA-256만 기록
