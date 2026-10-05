@@ -1,0 +1,52 @@
+[
+  {
+    "file": "documents/cantwell_20260203.pdf",
+    "bytes": 184902,
+    "sha256": "8bd3d323e1c3b781dfb0a13ae34f9fefd35a57d2637a742095ba3c6f3ec5960e"
+  },
+  {
+    "file": "documents/HHRG-119-WM04-Wstate-BrennanA-20260113.pdf",
+    "bytes": 253379,
+    "sha256": "d221947f79356f912ca686a107c24b677bdc4ba0dbda6a5b3a7194aed7ff75ce"
+  },
+  {
+    "file": "documents/HHRG-119-WM04-Wstate-MauerD-20260113.pdf",
+    "bytes": 199783,
+    "sha256": "9c40d80f83e2339dbd7f86334ba467d9fc0fcf2a60ee5205d382a36a81c9286a"
+  },
+  {
+    "file": "documents/vote_20260916.pdf",
+    "bytes": 82458,
+    "sha256": "c858af7f3d2ec536b520d55eb5654e36e041221074e64d4a24bada9170bd12d0"
+  },
+  {
+    "file": "documents/hr9834_substitute.pdf",
+    "bytes": 41176,
+    "sha256": "3b1087e8e9e1017f4bc7ada50f028a9669ee77567d77be440d9b6d423d56ab4d"
+  },
+  {
+    "file": "documents/BILLS-119HR9834ih-U6.pdf",
+    "bytes": 244714,
+    "sha256": "81b1872d35d4214c29378b8b8f83bc43533b9c2237fee1246bfa0c1fb105d133"
+  },
+  {
+    "file": "documents/judiciary_20260701.pdf",
+    "bytes": 1534978,
+    "sha256": "2a243e715e53931d7ad47ae225bb676f29e39667bc932755a38c756d000ad0ba"
+  },
+  {
+    "file": "documents/jordan_fitzgerald_20260205.pdf",
+    "bytes": 213276,
+    "sha256": "a3198e9d2171f11846f387b6f422cffc5f3c820803b3ae8f00b85e4c6805a8d5"
+  },
+  {
+    "file": "documents/HHRG-119-WM04-Wstate-CoryN-20260113.pdf",
+    "bytes": 226819,
+    "sha256": "3b425264de2b42d8b99eec2d514fd40709843bc5d7838351f072a5b820bc9ded"
+  },
+  {
+    "file": "documents/HHRG-119-WM04-Wstate-IancuA-20260113.pdf",
+    "bytes": 377605,
+    "sha256": "90131221314af244412741737420c53f8811831d2544e85d07ce61d7425a6df6"
+  }
+]

@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PLAIN = ROOT / ".plain"
 CONF = ROOT / ".pagelock.json"
 MARK = "staticrypt"  # string present in every encrypted page
-SECTIONS = {"ira": "ira", "aukus": "aukus", "ndaa_korea": "ndaa_korea"}
+SECTIONS = {"ira": "ira", "aukus": "aukus", "ndaa_korea": "ndaa_korea", "coupang": "coupang"}
 TEMPLATE = ["--template-title", "비공개 자료", "--template-instructions", "이 자료는 비밀번호가 있어야 볼 수 있습니다.",
             "--template-button", "열기", "--template-placeholder", "비밀번호", "--template-error", "비밀번호가 맞지 않습니다.",
             "--template-remember", "이 기기에서 30일간 기억", "--template-color-primary", "#2f5fa8"]
@@ -50,7 +50,7 @@ def lock():
         shutil.copy2(p, dst)
         todo.setdefault((key, p.parent), []).append(p)
     for (key, parent), files in todo.items():
-        env = dict(os.environ, STATICRYPT_PASSWORD=pw[key])
+        env = dict(os.environ, STATICRYPT_PASSWORD=pw["root"] if key == "coupang" and key not in pw else pw[key])
         cmd = ["npx", "--yes", "staticrypt@3", *[str(f) for f in files], "--short", "--remember", "30",
                "-d", str(parent), "--config", ".staticrypt.json", *TEMPLATE]
         subprocess.run(cmd, check=True, env=env, cwd=ROOT, stdout=subprocess.DEVNULL)

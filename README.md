@@ -110,3 +110,15 @@ python3 tools/build_highlights.py
 - 빌드 후 암호화: `python3 tools/pages_lock.py lock` (비밀번호는 로컬 `.pagelock.json`, gitignore — 커밋 금지)
 - `.git/hooks/pre-commit`이 평문 HTML 커밋을 막습니다(`pages_lock.py check`). 다른 기기에서는 훅을 다시 설치해야 합니다.
 - 한계: StatiCrypt는 HTML만 암호화합니다. CSV·JSON·PDF 등 다른 파일과 이전 커밋의 평문 페이지는 공개 저장소에서 계속 열람 가능합니다.
+
+
+## 쿠팡 로비와 미국 의회 · 2026-10-05
+
+`coupang/`는 LD-1/2 80건·LD-203 32건을 바탕으로 로비비·로비 주체·기관·의제를 분석하고, 주요 의원 15명과 청문회·조사·법안의 관계를 대조합니다. 2026년 1월·2월·5월·9월 절차, 공식 표결 44명(찬성 15·반대 8·공란 21), RSC 서명 54명을 수록했습니다.
+
+- `coupang/data/`: 원문 URL을 보존한 공시·의원 관계·기부·표결 CSV
+- `coupang/documents/`: 공식 의회 자료 PDF 10개
+- 5월 20일 상원 공식 속기록 43–44쪽에서 Hagerty–Steel 쿠팡 문답 확인
+- H.R.9834 GovInfo 최신 상태: 9월 16일 위원회 보고 의결
+- HTML은 Atlas 루트와 같은 비밀번호. `pages_lock.py`의 쿠팡 영역은 별도 설정이 없으면 root 비밀번호를 사용합니다. 다른 영역 설정은 유지합니다.
+- 원문 기부와 의원 행동은 사실, 영향·동기에 관한 해석은 분석으로 구분합니다.
