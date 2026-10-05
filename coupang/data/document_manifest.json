@@ -15,6 +15,11 @@
     "sha256": "9c40d80f83e2339dbd7f86334ba467d9fc0fcf2a60ee5205d382a36a81c9286a"
   },
   {
+    "file": "documents/moolenaar_rubio_20260928.pdf",
+    "bytes": 290213,
+    "sha256": "17dbdd7c106684838c32ad0aa783abff60531b6fe4a5ce4e8d98145885d6167e"
+  },
+  {
     "file": "documents/vote_20260916.pdf",
     "bytes": 82458,
     "sha256": "c858af7f3d2ec536b520d55eb5654e36e041221074e64d4a24bada9170bd12d0"
