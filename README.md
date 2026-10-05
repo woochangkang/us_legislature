@@ -100,3 +100,13 @@ python3 tools/build_highlights.py
 - 로비 탭(2026-10-04): LDA 한국 조선·방산 의뢰인 활동 29행(2025–2026, GitHub Actions `lda-fetch.yml`로 수집 — lda.gov가 한국 네트워크를 차단), FARA 한국 측 등록 24건·활동보고서 접촉 78행
 - 로비 탭 확장(2026-10-04): LDA 2017–2026 한국 기업·기관 의뢰 신고 1,796건(수정신고 정리 후)의 그룹×연도 금액표·연도별 상위 주체·방산·조선 기업 6곳 상세(분기별 금액·목적 원문·로비스트 전직)·LD-203 정치후원금 중 행위자 의원 수령분; FARA 등록 55건(2017–2026) 보고서 620건의 연도별 수령액(대행사 보수 / 한국 기관 미국 사무소 운영자금 구분)과 대리인 전직. 수집: `lda-fetch.yml`, `lda-lobbyists.yml`
 - 원 조사 폴더: Dropbox `_NIS/_US_Congress/ndaa_korea/` (`site_research/` 조사 산출물·notes, `site_research/prep_site_data.py`로 이 저장소에 복사). 원문 파일은 저장소에 올리지 않고 공식 URL과 SHA-256만 기록
+
+
+## 비밀번호 관문 (2026-10-05)
+
+모든 HTML 페이지(랜딩·IRA·AUKUS·NDAA 각 영역)는 StatiCrypt로 암호화되어 있고 영역마다 비밀번호가 다릅니다.
+
+- 빌드 전 평문 복원: `python3 tools/pages_lock.py unlock` (평문 사본은 `.plain/`, gitignore)
+- 빌드 후 암호화: `python3 tools/pages_lock.py lock` (비밀번호는 로컬 `.pagelock.json`, gitignore — 커밋 금지)
+- `.git/hooks/pre-commit`이 평문 HTML 커밋을 막습니다(`pages_lock.py check`). 다른 기기에서는 훅을 다시 설치해야 합니다.
+- 한계: StatiCrypt는 HTML만 암호화합니다. CSV·JSON·PDF 등 다른 파일과 이전 커밋의 평문 페이지는 공개 저장소에서 계속 열람 가능합니다.
