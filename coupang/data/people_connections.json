@@ -1,0 +1,5229 @@
+[
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "139541",
+    "type": "former_staff",
+    "detail": "Carol Miller 하원의원 선임 정책보좌관(2020-02~2022-01).",
+    "source": "https://lda.gov/filings/public/filing/6b8c6061-7930-449e-b199-a5c120f4c217/print/"
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "148686",
+    "type": "former_staff",
+    "detail": "Jim Jordan 의원 정책·전략 수석 법률직, Darrell Issa 의원 부비서실장·입법책임자, Jason Chaffetz 의원실 경력.",
+    "source": "https://lda.gov/filings/public/filing/2469e4d4-70a9-4ec2-bf59-899b701396c0/print/"
+  },
+  {
+    "member_id": "I000056",
+    "lobbyist_id": "148686",
+    "type": "former_staff",
+    "detail": "Jim Jordan 의원 정책·전략 수석 법률직, Darrell Issa 의원 부비서실장·입법책임자, Jason Chaffetz 의원실 경력.",
+    "source": "https://lda.gov/filings/public/filing/2469e4d4-70a9-4ec2-bf59-899b701396c0/print/"
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "149567",
+    "type": "former_staff",
+    "detail": "Ashley Hinson 입법보좌관(2021-01~2023-02), Elise Stefanik 입법책임자 등 경력.",
+    "source": "https://lda.gov/filings/public/filing/5fad11e6-0c8c-4430-8105-fce1c3677eea/print/"
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "151187",
+    "type": "former_staff",
+    "detail": "Suzan DelBene 하원의원 입법책임자·법률고문 경력. 조세정책과 소비자 개인정보 법안을 담당.",
+    "source": "https://www.akingump.com/en/lawyers-advisors/lauren-rubin"
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "51406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/d083b8a5-f880-44a9-ad98-8d3a7af87acb/print/",
+    "transactions": [
+      {
+        "date": "2019-12-09",
+        "amount": "500.00",
+        "donor": "MURRY, ROGER",
+        "payee": "HALEY STEVENS FOR CONGRESS",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/65de5fd1-f19f-4ee8-a798-00d12e09f7aa/print/"
+      },
+      {
+        "date": "2022-09-21",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR CONGRESS",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/a3f4fe24-25e1-4d27-abc6-ab104a1f4a22/print/"
+      },
+      {
+        "date": "2025-06-24",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/d083b8a5-f880-44a9-ad98-8d3a7af87acb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001211",
+    "lobbyist_id": "51406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/457be358-846e-420e-99c1-546752627bed/print/",
+    "transactions": [
+      {
+        "date": "2022-09-21",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "STANTON FOR CONGRESS",
+        "honoree": "Greg Stanton",
+        "source": "https://lda.gov/filings/public/contribution/a3f4fe24-25e1-4d27-abc6-ab104a1f4a22/print/"
+      },
+      {
+        "date": "2024-02-09",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "STANTON FOR CONGRESS",
+        "honoree": "Greg Stanton",
+        "source": "https://lda.gov/filings/public/contribution/457be358-846e-420e-99c1-546752627bed/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "51406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/d083b8a5-f880-44a9-ad98-8d3a7af87acb/print/",
+    "transactions": [
+      {
+        "date": "2025-05-07",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/d083b8a5-f880-44a9-ad98-8d3a7af87acb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "52134",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/",
+    "transactions": [
+      {
+        "date": "2011-02-06",
+        "amount": "1000.00",
+        "donor": "POMPER, BRIAN ARTHUR",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/3a19afc7-16ad-428a-a2f1-77902508db21/print/"
+      },
+      {
+        "date": "2011-07-27",
+        "amount": "1000.00",
+        "donor": "POMPER, BRIAN ARTHUR",
+        "payee": "FRIENDS OF MARIA CANTWELL",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/2b5ef7c6-0679-4485-95b7-d842abb2fe2c/print/"
+      },
+      {
+        "date": "2018-03-20",
+        "amount": "1000.00",
+        "donor": "POMPER, BRIAN ARTHUR",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/9dad8e03-8cce-44e4-aef5-f7ae94de57a7/print/"
+      },
+      {
+        "date": "2023-04-12",
+        "amount": "1250.00",
+        "donor": "SELF",
+        "payee": "CANTWELL VICTORY 2024",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/4449d504-1cc0-492c-a3c7-1eab47d3951c/print/"
+      },
+      {
+        "date": "2023-05-31",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/4449d504-1cc0-492c-a3c7-1eab47d3951c/print/"
+      },
+      {
+        "date": "2023-09-30",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CANTWELL VICTORY 2024",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/"
+      },
+      {
+        "date": "2023-11-14",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "52134",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f4b8b304-d4b4-4ca1-8ecf-12fa4e11aca3/print/",
+    "transactions": [
+      {
+        "date": "2013-03-25",
+        "amount": "250.00",
+        "donor": "POMPER, BRIAN ARTHUR",
+        "payee": "SUZAN DELBENE FOR CONGRESS",
+        "honoree": "Representative Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/69680a0a-8eb4-4381-abd8-966eb67d2117/print/"
+      },
+      {
+        "date": "2016-03-18",
+        "amount": "500.00",
+        "donor": "POMPER, BRIAN ARTHUR",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/037942c0-69e5-4bf4-a8b2-befd4bfb411a/print/"
+      },
+      {
+        "date": "2016-09-29",
+        "amount": "500.00",
+        "donor": "POMPER, BRIAN ARTHUR",
+        "payee": "SUZAN DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/4eef0470-1716-40b9-8fb7-9f731638f266/print/"
+      },
+      {
+        "date": "2023-12-03",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "SUZAN DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/"
+      },
+      {
+        "date": "2026-06-01",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Representative Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/f4b8b304-d4b4-4ca1-8ecf-12fa4e11aca3/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "52134",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f4b8b304-d4b4-4ca1-8ecf-12fa4e11aca3/print/",
+    "transactions": [
+      {
+        "date": "2022-04-27",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR CONGRESS",
+        "honoree": "Rep. Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/9ad53233-d3c8-445d-854a-6d96ddfabeb1/print/"
+      },
+      {
+        "date": "2025-06-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Representative Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/5b581061-583f-4ee1-98f5-aec8aa74ba1b/print/"
+      },
+      {
+        "date": "2025-09-30",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Rep. Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/0fff7d6f-40e6-4c4a-9e45-b7d5a7a75c1e/print/"
+      },
+      {
+        "date": "2026-03-28",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVES FOR SENATE",
+        "honoree": "Representative Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/f4b8b304-d4b4-4ca1-8ecf-12fa4e11aca3/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "K000391",
+    "lobbyist_id": "52134",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/",
+    "transactions": [
+      {
+        "date": "2023-09-13",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF RAJA FOR CONGRESS",
+        "honoree": "Rep. Raja Krishnamoorthi",
+        "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001211",
+    "lobbyist_id": "52134",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/8e3c36ea-c047-49a8-88d4-b1c518e0fdf9/print/",
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "GREG STANTON FOR CONGRESS",
+        "honoree": "Rep. Greg Stanton",
+        "source": "https://lda.gov/filings/public/contribution/fa151a51-d26d-4c4a-a3a2-86dd92a82e49/print/"
+      },
+      {
+        "date": "2024-09-22",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "STANTON FOR CONGRESS",
+        "honoree": "Rep. Greg Stanton",
+        "source": "https://lda.gov/filings/public/contribution/8e3c36ea-c047-49a8-88d4-b1c518e0fdf9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "R000606",
+    "lobbyist_id": "52134",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5b581061-583f-4ee1-98f5-aec8aa74ba1b/print/",
+    "transactions": [
+      {
+        "date": "2025-02-24",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "JAMIE RASKIN FOR CONGRESS",
+        "honoree": "Representative Jamie Raskin",
+        "source": "https://lda.gov/filings/public/contribution/5b581061-583f-4ee1-98f5-aec8aa74ba1b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "57048",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/71cdb4ca-5e9d-49b5-85da-b9f5392157de/print/",
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/71cdb4ca-5e9d-49b5-85da-b9f5392157de/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/",
+    "transactions": [
+      {
+        "date": "2021-02-17",
+        "amount": "2500.00",
+        "donor": "OLSWANGER, SAM",
+        "payee": "TEAM LAHOOD",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/fd1be5c2-3592-4a4c-a241-ae0e6673f74b/print/"
+      },
+      {
+        "date": "2022-02-22",
+        "amount": "2900.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/0e4fc472-99b8-4896-9f49-752c89f9582f/print/"
+      },
+      {
+        "date": "2023-03-04",
+        "amount": "2900.00",
+        "donor": "SELF",
+        "payee": "TEAM LAHOOD",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/ed90dd99-e5c8-41c8-822c-46bf3f97851a/print/"
+      },
+      {
+        "date": "2023-12-19",
+        "amount": "400.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/86d51d13-bd7c-41d3-81be-40177fbff1a0/print/"
+      },
+      {
+        "date": "2024-03-25",
+        "amount": "3300.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/01e6f870-deac-4fa0-9607-f919c1dcef19/print/"
+      },
+      {
+        "date": "2025-03-20",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/"
+      },
+      {
+        "date": "2026-03-18",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/",
+    "transactions": [
+      {
+        "date": "2021-04-15",
+        "amount": "1000.00",
+        "donor": "OLSWANGER, SAM",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/fd1be5c2-3592-4a4c-a241-ae0e6673f74b/print/"
+      },
+      {
+        "date": "2022-05-16",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/0e4fc472-99b8-4896-9f49-752c89f9582f/print/"
+      },
+      {
+        "date": "2023-04-25",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/ed90dd99-e5c8-41c8-822c-46bf3f97851a/print/"
+      },
+      {
+        "date": "2024-03-28",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/01e6f870-deac-4fa0-9607-f919c1dcef19/print/"
+      },
+      {
+        "date": "2025-03-09",
+        "amount": "4300.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/"
+      },
+      {
+        "date": "2026-03-20",
+        "amount": "5000.00",
+        "donor": "SELF",
+        "payee": "SENATE EAGLE PAC",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001313",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/fc83ed9d-b345-4242-a1ea-4be7edecf336/print/",
+    "transactions": [
+      {
+        "date": "2021-07-24",
+        "amount": "250.00",
+        "donor": "OLSWANGER, SAM",
+        "payee": "SHONTEL BROWN FOR CONGRESS",
+        "honoree": "Rep. Shontel Brown",
+        "source": "https://lda.gov/filings/public/contribution/fc83ed9d-b345-4242-a1ea-4be7edecf336/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/",
+    "transactions": [
+      {
+        "date": "2022-03-22",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/0e4fc472-99b8-4896-9f49-752c89f9582f/print/"
+      },
+      {
+        "date": "2022-09-23",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/7e2992ae-06e0-447e-9088-25f7291ac92b/print/"
+      },
+      {
+        "date": "2023-09-11",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/86d51d13-bd7c-41d3-81be-40177fbff1a0/print/"
+      },
+      {
+        "date": "2023-11-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/86d51d13-bd7c-41d3-81be-40177fbff1a0/print/"
+      },
+      {
+        "date": "2024-09-27",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/f504c987-8630-43a5-b354-6d0221d201e7/print/"
+      },
+      {
+        "date": "2025-03-10",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/"
+      },
+      {
+        "date": "2026-03-10",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON VICTORY COMMITTEE",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ad688833-5f4c-4dc4-971e-b30d5d066de9/print/",
+    "transactions": [
+      {
+        "date": "2022-03-26",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/0e4fc472-99b8-4896-9f49-752c89f9582f/print/"
+      },
+      {
+        "date": "2025-12-12",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/ad688833-5f4c-4dc4-971e-b30d5d066de9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000628",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/01e6f870-deac-4fa0-9607-f919c1dcef19/print/",
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF NEAL DUNN",
+        "honoree": "Rep. Neal Dunn",
+        "source": "https://lda.gov/filings/public/contribution/01e6f870-deac-4fa0-9607-f919c1dcef19/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/",
+    "transactions": [
+      {
+        "date": "2024-04-24",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/01e6f870-deac-4fa0-9607-f919c1dcef19/print/"
+      },
+      {
+        "date": "2026-03-10",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/d6ccadb4-4102-4862-86f0-efacbfa629de/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000193",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f504c987-8630-43a5-b354-6d0221d201e7/print/",
+    "transactions": [
+      {
+        "date": "2024-12-10",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "Rep. Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/f504c987-8630-43a5-b354-6d0221d201e7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001257",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/",
+    "transactions": [
+      {
+        "date": "2025-03-20",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "BILIRAKIS FOR CONGRESS",
+        "honoree": "Rep. Gus Bilirakis",
+        "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001224",
+    "lobbyist_id": "59406",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/",
+    "transactions": [
+      {
+        "date": "2025-06-16",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "NATHANIEL MORAN FOR CONGRESS",
+        "honoree": "Rep. Nathaniel Moran",
+        "source": "https://lda.gov/filings/public/contribution/e9d830eb-7988-4f03-ab98-d890ece75650/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/da4730c9-2efe-4ddc-a06f-16e17d212e34/print/",
+    "transactions": [
+      {
+        "date": "2019-03-27",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/da4730c9-2efe-4ddc-a06f-16e17d212e34/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "R000606",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/",
+    "transactions": [
+      {
+        "date": "2019-01-03",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "JAMIE RASKIN FOR CONGRESS",
+        "honoree": "Jamie Raskin",
+        "source": "https://lda.gov/filings/public/contribution/da4730c9-2efe-4ddc-a06f-16e17d212e34/print/"
+      },
+      {
+        "date": "2023-03-31",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "JAMIE RASKIN FOR CONGRESS",
+        "honoree": "Jamie Raskin",
+        "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001194",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/",
+    "transactions": [
+      {
+        "date": "2019-05-14",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "MOOLENAAR FOR CONGRESS",
+        "honoree": "JOHN MOOLENAAR",
+        "source": "https://lda.gov/filings/public/contribution/da4730c9-2efe-4ddc-a06f-16e17d212e34/print/"
+      },
+      {
+        "date": "2023-05-18",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "MOOLENAAR FOR CONGRESS",
+        "honoree": "John Moolenaar",
+        "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/",
+    "transactions": [
+      {
+        "date": "2020-10-29",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "JIM JORDAN FOR CONGRESS",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/3f9a1f3f-f628-48c1-b33d-0e34542b4f98/print/"
+      },
+      {
+        "date": "2024-04-03",
+        "amount": "3000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "JIM JORDAN FOR CONGRESS",
+        "honoree": "Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/"
+      },
+      {
+        "date": "2024-04-24",
+        "amount": "2000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "JIM JORDAN FOR CONGRESS",
+        "honoree": "Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/",
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "amount": "500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/7fabb633-f795-4a93-bb8a-09b4ad7a902c/print/"
+      },
+      {
+        "date": "2022-02-18",
+        "amount": "500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      },
+      {
+        "date": "2022-02-23",
+        "amount": "500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/7fabb633-f795-4a93-bb8a-09b4ad7a902c/print/"
+      },
+      {
+        "date": "2022-02-23",
+        "amount": "500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      },
+      {
+        "date": "2025-03-05",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin Lahood",
+        "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "W000804",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/",
+    "transactions": [
+      {
+        "date": "2022-02-18",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rep. Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/7fabb633-f795-4a93-bb8a-09b4ad7a902c/print/"
+      },
+      {
+        "date": "2022-02-18",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      },
+      {
+        "date": "2022-08-19",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/",
+    "transactions": [
+      {
+        "date": "2022-02-22",
+        "amount": "1500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Rep. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/7fabb633-f795-4a93-bb8a-09b4ad7a902c/print/"
+      },
+      {
+        "date": "2022-02-22",
+        "amount": "1500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      },
+      {
+        "date": "2023-04-24",
+        "amount": "1500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/",
+    "transactions": [
+      {
+        "date": "2021-04-09",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/2cffb049-a645-4494-bbc1-4f97f2d42ecc/print/"
+      },
+      {
+        "date": "2021-11-12",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Rep. August Lee Pfluger II",
+        "source": "https://lda.gov/filings/public/contribution/a70e9cd9-e21c-4735-905c-5ed91e6132c9/print/"
+      },
+      {
+        "date": "2022-07-14",
+        "amount": "2000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      },
+      {
+        "date": "2023-03-27",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "I000056",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/",
+    "transactions": [
+      {
+        "date": "2021-06-24",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Rep. Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/2cffb049-a645-4494-bbc1-4f97f2d42ecc/print/"
+      },
+      {
+        "date": "2021-10-25",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Rep. Darrell Edward Issa",
+        "source": "https://lda.gov/filings/public/contribution/a70e9cd9-e21c-4735-905c-5ed91e6132c9/print/"
+      },
+      {
+        "date": "2022-09-07",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      },
+      {
+        "date": "2023-09-29",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Rep. Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/6e64d38e-e90b-4d6b-a335-44a957791d95/print/"
+      },
+      {
+        "date": "2024-01-26",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/"
+      },
+      {
+        "date": "2024-04-03",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/"
+      },
+      {
+        "date": "2024-04-24",
+        "amount": "2000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/",
+    "transactions": [
+      {
+        "date": "2022-07-11",
+        "amount": "1500.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "FRIENDS OF MIKE LEE INC.",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/2b4291f4-bd05-42c8-9e25-95f19cea8178/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "R000606",
+    "lobbyist_id": "70608",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2fbfdc90-65fc-4f6e-907d-bd09fcbc21b7/print/",
+    "transactions": [
+      {
+        "date": "2023-01-26",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "JAMIE RASKIN FOR CONGRESS",
+        "honoree": "Jamie Raskin",
+        "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/"
+      },
+      {
+        "date": "2026-02-03",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "JAMIE RASKIN FOR CONGRESS",
+        "honoree": "Jamie Raskin",
+        "source": "https://lda.gov/filings/public/contribution/2fbfdc90-65fc-4f6e-907d-bd09fcbc21b7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "I000056",
+    "lobbyist_id": "70608",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/",
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/0daab805-9c79-4a3c-ad4d-02efdba6efb4/print/"
+      },
+      {
+        "date": "2024-03-19",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/9604bbf3-fa98-47c4-9b8a-0f18e043fba8/print/"
+      },
+      {
+        "date": "2025-01-22",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/"
+      },
+      {
+        "date": "2025-02-10",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/"
+      },
+      {
+        "date": "2025-12-09",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000002",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2cffb049-a645-4494-bbc1-4f97f2d42ecc/print/",
+    "transactions": [
+      {
+        "date": "2021-02-05",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "NADLER FOR CONGRESS",
+        "honoree": "Rep. Jerrold Nadler",
+        "source": "https://lda.gov/filings/public/contribution/2cffb049-a645-4494-bbc1-4f97f2d42ecc/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "70608",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2cffb049-a645-4494-bbc1-4f97f2d42ecc/print/",
+    "transactions": [
+      {
+        "date": "2021-04-06",
+        "amount": "1000.00",
+        "donor": "TEXANS FOR LAMAR SMITH",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/2cffb049-a645-4494-bbc1-4f97f2d42ecc/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "70608",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/",
+    "transactions": [
+      {
+        "date": "2025-02-15",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "JIM JORDAN FOR CONGRESS",
+        "honoree": "Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "70608",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/",
+    "transactions": [
+      {
+        "date": "2025-03-28",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/1462cc70-bffc-486d-a4df-6ed31d580f48/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001194",
+    "lobbyist_id": "70608",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/",
+    "transactions": [
+      {
+        "date": "2025-07-09",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "MOOLENAAR FOR CONGRESS",
+        "honoree": "John Moolenaar",
+        "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/"
+      },
+      {
+        "date": "2025-09-17",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "MOOLENAAR FOR CONGRESS",
+        "honoree": "John Moolenaar",
+        "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "70608",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/",
+    "transactions": [
+      {
+        "date": "2025-09-17",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/a0bd94d2-26a2-41d9-b6b2-b3c25fdee956/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "72819",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/518e2997-b748-4c4c-b08b-699dd7b25ce0/print/",
+    "transactions": [
+      {
+        "date": "2022-06-28",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM AND OPPORTUNITY PAC",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/69b95508-5503-4e41-84a6-760eb44995ee/print/"
+      },
+      {
+        "date": "2024-09-30",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM & OPPORTUNITY PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/518e2997-b748-4c4c-b08b-699dd7b25ce0/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "72819",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/dae36628-a33f-4ce9-a378-99e3dd6d55fe/print/",
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/9ea9e267-4ce8-4702-9f4e-dad5a996c36c/print/"
+      },
+      {
+        "date": "2023-06-23",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/dae36628-a33f-4ce9-a378-99e3dd6d55fe/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "72819",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9e5730c8-99b7-4acc-abd8-78f3d7659cf7/print/",
+    "transactions": [
+      {
+        "date": "2024-05-15",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/9e5730c8-99b7-4acc-abd8-78f3d7659cf7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "T000486",
+    "lobbyist_id": "93554",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ec08d629-9487-4494-859d-f454fcfdef95/print/",
+    "transactions": [
+      {
+        "date": "2021-06-15",
+        "amount": "250.00",
+        "donor": "BORJON, JOSE",
+        "payee": "TORRES FOR CONGRESS",
+        "honoree": "Congressman Ritchie Torres",
+        "source": "https://lda.gov/filings/public/contribution/d17c7024-5bd0-4466-adb6-f13895cf7ef2/print/"
+      },
+      {
+        "date": "2021-06-30",
+        "amount": "250.00",
+        "donor": "BORJON, JOSE",
+        "payee": "TORRES FOR CONGRESS",
+        "honoree": "Congressman Ritchie Torres",
+        "source": "https://lda.gov/filings/public/contribution/d17c7024-5bd0-4466-adb6-f13895cf7ef2/print/"
+      },
+      {
+        "date": "2023-03-10",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "RITCHIE TORRES FOR CONGRESS",
+        "honoree": "Congressman Ritchie Torres",
+        "source": "https://lda.gov/filings/public/contribution/ec08d629-9487-4494-859d-f454fcfdef95/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "93554",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/b8af6095-d363-4314-b7ca-dfda56aef2fa/print/",
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "MARIA CANTWELL FOR U.S. SENATE",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/b8af6095-d363-4314-b7ca-dfda56aef2fa/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "139541",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/32dddaed-d61c-43b5-bb7b-a013f8f8e6f6/print/",
+    "transactions": [
+      {
+        "date": "2022-08-06",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "REP. CAROL MILLER FOR CONGRESS",
+        "honoree": "Rep. Carol Miller (R-WV-1)",
+        "source": "https://lda.gov/filings/public/contribution/f7362ce4-3589-440c-a33c-088ca8dffe0c/print/"
+      },
+      {
+        "date": "2023-04-28",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Rep. Carol D. Miller",
+        "source": "https://lda.gov/filings/public/contribution/8106c8e7-cc12-4b41-a346-bac58fd017ac/print/"
+      },
+      {
+        "date": "2024-04-23",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Rep. Carol D. Miller",
+        "source": "https://lda.gov/filings/public/contribution/48b1b99c-6258-47a1-a9e6-709715e42068/print/"
+      },
+      {
+        "date": "2025-09-25",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Rep. Carol D. Miller",
+        "source": "https://lda.gov/filings/public/contribution/32dddaed-d61c-43b5-bb7b-a013f8f8e6f6/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "139541",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ae3d6d4b-8cdc-4fe7-969d-b44804b10853/print/",
+    "transactions": [
+      {
+        "date": "2025-05-14",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "DARIN LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/ae3d6d4b-8cdc-4fe7-969d-b44804b10853/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "F000471",
+    "lobbyist_id": "143814",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/95c8aaad-1c9f-4893-8afb-c01b58aed719/print/",
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "amount": "500.00",
+        "donor": "HIGGINS, CASEY",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Rep. Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/1c8a9027-cfea-4117-b21e-140a0bd75993/print/"
+      },
+      {
+        "date": "2022-09-19",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR WISCONSIN",
+        "honoree": "Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/dce13b7a-4ebe-42b6-a3ff-63e166e4aa21/print/"
+      },
+      {
+        "date": "2023-06-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/d007d5d8-74a1-4312-bfd5-d854202c6708/print/"
+      },
+      {
+        "date": "2024-08-01",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/7b7076cc-f3c9-4cbd-9eae-9a2465d35593/print/"
+      },
+      {
+        "date": "2024-12-02",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/7b7076cc-f3c9-4cbd-9eae-9a2465d35593/print/"
+      },
+      {
+        "date": "2025-06-30",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/95c8aaad-1c9f-4893-8afb-c01b58aed719/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "143814",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/",
+    "transactions": [
+      {
+        "date": "2022-02-02",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/"
+      },
+      {
+        "date": "2022-03-07",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "143814",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/",
+    "transactions": [
+      {
+        "date": "2022-03-18",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "143814",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/",
+    "transactions": [
+      {
+        "date": "2022-06-08",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/6d36e5fe-0527-440c-940c-6556a875b20b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "I000056",
+    "lobbyist_id": "143814",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/dce13b7a-4ebe-42b6-a3ff-63e166e4aa21/print/",
+    "transactions": [
+      {
+        "date": "2022-10-03",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DARRELL ISSA FOR CONGRESS",
+        "honoree": "Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/dce13b7a-4ebe-42b6-a3ff-63e166e4aa21/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001257",
+    "lobbyist_id": "143814",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/6cf86d77-5451-4df0-9971-aff8b8aacf98/print/",
+    "transactions": [
+      {
+        "date": "2023-06-26",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "BILIRAKIS FOR CONGRESS",
+        "honoree": "Gus Bilirakis",
+        "source": "https://lda.gov/filings/public/contribution/d007d5d8-74a1-4312-bfd5-d854202c6708/print/"
+      },
+      {
+        "date": "2023-09-16",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "BILIRAKIS FOR CONGRESS",
+        "honoree": "Gus Bilirakis",
+        "source": "https://lda.gov/filings/public/contribution/6cf86d77-5451-4df0-9971-aff8b8aacf98/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "148811",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/57925dc1-24be-4db0-aacf-c744ea73da96/print/",
+    "transactions": [
+      {
+        "date": "2025-02-10",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/57925dc1-24be-4db0-aacf-c744ea73da96/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "148811",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/6c312a10-ea37-4315-9a89-aca6a8d9b285/print/",
+    "transactions": [
+      {
+        "date": "2026-02-12",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR SENATE",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/6c312a10-ea37-4315-9a89-aca6a8d9b285/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "149567",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/b51bbc65-8ca6-4ab8-bb12-1869bbb5ca4a/print/",
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Representative Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/92e33fa7-0db3-4d35-a485-0ed9b0615537/print/"
+      },
+      {
+        "date": "2025-09-03",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY FOR IOWA",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/225d88aa-11c0-4ec1-89de-5814584f0df6/print/"
+      },
+      {
+        "date": "2026-02-10",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY FOR IOWA",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/b51bbc65-8ca6-4ab8-bb12-1869bbb5ca4a/print/"
+      },
+      {
+        "date": "2026-05-26",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY FOR IOWA",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/b51bbc65-8ca6-4ab8-bb12-1869bbb5ca4a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "150263",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/10fa4914-0ce1-4eab-9364-044603180c0d/print/",
+    "transactions": [
+      {
+        "date": "2026-06-02",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/10fa4914-0ce1-4eab-9364-044603180c0d/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "151187",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5a3a2519-97e3-4866-9242-cabbf9d45b75/print/",
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "SUZAN DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/b5d02577-aaae-4d25-a55a-23b7c0deaabf/print/"
+      },
+      {
+        "date": "2026-06-03",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "SUZAN DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/5a3a2519-97e3-4866-9242-cabbf9d45b75/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001201",
+    "lobbyist_id": "151187",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5a3a2519-97e3-4866-9242-cabbf9d45b75/print/",
+    "transactions": [
+      {
+        "date": "2025-07-16",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "SUOZZI FOR CONGRESS",
+        "honoree": "Tom Suozzi",
+        "source": "https://lda.gov/filings/public/contribution/2e97c5ed-660c-45a4-a782-2e3b087d202f/print/"
+      },
+      {
+        "date": "2026-05-19",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "TOM SUOZZI FOR CONGRESS",
+        "honoree": "Tom Suozzi",
+        "source": "https://lda.gov/filings/public/contribution/5a3a2519-97e3-4866-9242-cabbf9d45b75/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/8f4d41cd-5302-46dc-82a5-8dcb13e23539/print/",
+    "transactions": [
+      {
+        "date": "2010-09-17",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "CAFO PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/90daf310-9a72-40d7-9a58-3160750e2c15/print/"
+      },
+      {
+        "date": "2011-12-22",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "CAFO PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/43c4b17b-c5e3-40dd-8f77-e4a49f7cfd4c/print/"
+      },
+      {
+        "date": "2013-05-09",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/0b541f4e-23f1-4ebf-869e-237aca39834a/print/"
+      },
+      {
+        "date": "2017-03-29",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/3957b51f-c032-47a8-9fb4-f10ed1e63a1c/print/"
+      },
+      {
+        "date": "2018-06-25",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/84cef269-5ab9-485b-968c-a0d9c829f7dc/print/"
+      },
+      {
+        "date": "2019-06-14",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/340bb42e-4cb3-47fa-928f-35c7605ab60f/print/"
+      },
+      {
+        "date": "2020-10-05",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/86da994c-acc4-4b57-a3f3-2b9c3302308a/print/"
+      },
+      {
+        "date": "2021-09-30",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/ac5a6422-a99f-4a7e-b0d4-e32fb4b32d59/print/"
+      },
+      {
+        "date": "2022-03-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/7f88f5d2-e1b0-4797-b86d-8976cb86d554/print/"
+      },
+      {
+        "date": "2023-05-16",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM & OPPORTUNITY PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/16f90cb4-d897-4e11-b494-d6fae265d7b4/print/"
+      },
+      {
+        "date": "2024-03-06",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM & OPPORTUNITY PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/8f4d41cd-5302-46dc-82a5-8dcb13e23539/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2b6dfa5c-d27f-4313-930e-ae0620d1a39f/print/",
+    "transactions": [
+      {
+        "date": "2014-03-06",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ANDY BARR FOR CONGRESS",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/5d91109a-c5a6-4ff6-b8a5-15b547087f56/print/"
+      },
+      {
+        "date": "2015-11-23",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ANDY BARR FOR CONGRESS",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/bfa3b32c-f668-4bfc-8e22-35fedab1de2b/print/"
+      },
+      {
+        "date": "2019-03-29",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ANDY BARR FOR CONGRESS",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/340bb42e-4cb3-47fa-928f-35c7605ab60f/print/"
+      },
+      {
+        "date": "2026-04-23",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF ANDY BARR",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/2b6dfa5c-d27f-4313-930e-ae0620d1a39f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/fff076f6-c3d1-4c45-8169-8d5f62e2c63c/print/",
+    "transactions": [
+      {
+        "date": "2015-03-16",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "FRIENDS OF MIKE LEE INC.",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/fff076f6-c3d1-4c45-8169-8d5f62e2c63c/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000189",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/7f88f5d2-e1b0-4797-b86d-8976cb86d554/print/",
+    "transactions": [
+      {
+        "date": "2016-06-01",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/487e1582-c20e-438a-9f0c-8207257b4e3d/print/"
+      },
+      {
+        "date": "2022-06-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/7f88f5d2-e1b0-4797-b86d-8976cb86d554/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000628",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f78751c4-0efb-4b7c-8df6-f7608bf361ea/print/",
+    "transactions": [
+      {
+        "date": "2016-11-01",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "FRIENDS OF NEAL DUNN",
+        "honoree": "Neal Patrick Dunn, MD, FACS",
+        "source": "https://lda.gov/filings/public/contribution/f332a4ed-f927-44da-826d-feacece5a8d4/print/"
+      },
+      {
+        "date": "2017-09-25",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "FRIENDS OF NEAL DUNN",
+        "honoree": "Neal Dunn",
+        "source": "https://lda.gov/filings/public/contribution/dddab1eb-a06a-481a-8583-a0b82b213de6/print/"
+      },
+      {
+        "date": "2022-10-07",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF NEAL DUNN",
+        "honoree": "Neal Dunn",
+        "source": "https://lda.gov/filings/public/contribution/2993dc30-7626-4931-94c4-a7d8df37982f/print/"
+      },
+      {
+        "date": "2023-12-14",
+        "amount": "1250.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF NEAL DUNN",
+        "honoree": "Neal Dunn",
+        "source": "https://lda.gov/filings/public/contribution/f78751c4-0efb-4b7c-8df6-f7608bf361ea/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001257",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/dddab1eb-a06a-481a-8583-a0b82b213de6/print/",
+    "transactions": [
+      {
+        "date": "2017-12-18",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "BILIRAKIS FOR CONGRESS",
+        "honoree": "Gus Bilirakis",
+        "source": "https://lda.gov/filings/public/contribution/dddab1eb-a06a-481a-8583-a0b82b213de6/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0b78c0e3-61ad-419d-8fc7-218417916267/print/",
+    "transactions": [
+      {
+        "date": "2018-09-28",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/f45074dd-4704-4d77-9f3c-ae6585741a53/print/"
+      },
+      {
+        "date": "2023-03-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/16f90cb4-d897-4e11-b494-d6fae265d7b4/print/"
+      },
+      {
+        "date": "2025-11-03",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/0b78c0e3-61ad-419d-8fc7-218417916267/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "K000397",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/16f90cb4-d897-4e11-b494-d6fae265d7b4/print/",
+    "transactions": [
+      {
+        "date": "2018-09-21",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "YOUNG KIM FOR CONGRESS",
+        "honoree": "Young Kim",
+        "source": "https://lda.gov/filings/public/contribution/f45074dd-4704-4d77-9f3c-ae6585741a53/print/"
+      },
+      {
+        "date": "2019-06-13",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "YOUNG KIM FOR CONGRESS",
+        "honoree": "Young Kim",
+        "source": "https://lda.gov/filings/public/contribution/340bb42e-4cb3-47fa-928f-35c7605ab60f/print/"
+      },
+      {
+        "date": "2023-05-31",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "GOP WINNING WOMEN 2024",
+        "honoree": "Lori Chavez-DeRemer, Wendy Davis, Monica De La Cruz, Ashley Hinson, Jen Kiggans, Young Kim, Nancy Mace, Mariannette Miller-Meeks, Maria El Vira Salazar, Michelle Steel",
+        "source": "https://lda.gov/filings/public/contribution/16f90cb4-d897-4e11-b494-d6fae265d7b4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2993dc30-7626-4931-94c4-a7d8df37982f/print/",
+    "transactions": [
+      {
+        "date": "2019-12-31",
+        "amount": "1000.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/37248ba1-d69d-4f5a-8530-b2f5b3006f51/print/"
+      },
+      {
+        "date": "2022-07-12",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ABRAHAM LINCOLN PAC",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/2993dc30-7626-4931-94c4-a7d8df37982f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0b78c0e3-61ad-419d-8fc7-218417916267/print/",
+    "transactions": [
+      {
+        "date": "2019-09-26",
+        "amount": "500.00",
+        "donor": "HIRSCHMANN, SUSAN",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/37248ba1-d69d-4f5a-8530-b2f5b3006f51/print/"
+      },
+      {
+        "date": "2022-03-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/7f88f5d2-e1b0-4797-b86d-8976cb86d554/print/"
+      },
+      {
+        "date": "2023-05-31",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "GOP WINNING WOMEN 2024",
+        "honoree": "Lori Chavez-DeRemer, Wendy Davis, Monica De La Cruz, Ashley Hinson, Jen Kiggans, Young Kim, Nancy Mace, Mariannette Miller-Meeks, Maria El Vira Salazar, Michelle Steel",
+        "source": "https://lda.gov/filings/public/contribution/16f90cb4-d897-4e11-b494-d6fae265d7b4/print/"
+      },
+      {
+        "date": "2023-11-28",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/f78751c4-0efb-4b7c-8df6-f7608bf361ea/print/"
+      },
+      {
+        "date": "2024-12-18",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/9a1dfcfd-d990-4c0f-9e8b-8a25400b5829/print/"
+      },
+      {
+        "date": "2025-12-11",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY FOR IOWA",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/0b78c0e3-61ad-419d-8fc7-218417916267/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "G000593",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2993dc30-7626-4931-94c4-a7d8df37982f/print/",
+    "transactions": [
+      {
+        "date": "2022-07-26",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CARLOS GIMENEZ FOR CONGRESS",
+        "honoree": "Carlos Gimenez",
+        "source": "https://lda.gov/filings/public/contribution/2993dc30-7626-4931-94c4-a7d8df37982f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/",
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/16f90cb4-d897-4e11-b494-d6fae265d7b4/print/"
+      },
+      {
+        "date": "2025-02-11",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "SENATE EAGLE PAC",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/",
+    "transactions": [
+      {
+        "date": "2023-12-01",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/f78751c4-0efb-4b7c-8df6-f7608bf361ea/print/"
+      },
+      {
+        "date": "2025-01-31",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/"
+      },
+      {
+        "date": "2025-03-31",
+        "amount": "5000.00",
+        "donor": "SELF",
+        "payee": "HOUSE CONSERVATIVES FUND",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001194",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/",
+    "transactions": [
+      {
+        "date": "2025-05-15",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "MOOLENAAR FOR CONGRESS",
+        "honoree": "John Moolenaar",
+        "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001224",
+    "lobbyist_id": "14682",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/",
+    "transactions": [
+      {
+        "date": "2025-06-30",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "NATHANIEL MORAN FOR CONGRESS",
+        "honoree": "Nathaniel Moran",
+        "source": "https://lda.gov/filings/public/contribution/40ddeab6-393f-4ee9-b1bf-39280141d9bb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "43332",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/fcbef39c-9bd1-44d0-8f10-715529aa1ec4/print/",
+    "transactions": [
+      {
+        "date": "2009-12-01",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "FRIENDS OF MARIA CANTWELL",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/fcbef39c-9bd1-44d0-8f10-715529aa1ec4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "43332",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1689bb6b-eed1-40aa-909e-95c9ac9fd9e2/print/",
+    "transactions": [
+      {
+        "date": "2011-10-25",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "CAFO PAC",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/73cd0419-e9f3-4df1-abca-fdde8118a25c/print/"
+      },
+      {
+        "date": "2013-04-08",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/d6cb94d3-e9c9-4966-b9bf-b54c70d8ff46/print/"
+      },
+      {
+        "date": "2015-06-23",
+        "amount": "1000.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/1fe4335a-64d1-47f9-b64b-a0d3e091f7b0/print/"
+      },
+      {
+        "date": "2017-03-31",
+        "amount": "1000.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/c0492baf-1c5d-45cc-b5f5-55a1e676911f/print/"
+      },
+      {
+        "date": "2020-08-26",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/067ad7e3-c30e-4909-9037-75af7300f1d4/print/"
+      },
+      {
+        "date": "2021-12-13",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/a15c5f14-c9b4-4875-b3dc-92689b4e841a/print/"
+      },
+      {
+        "date": "2024-03-28",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM & OPPORTUNITY PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/1689bb6b-eed1-40aa-909e-95c9ac9fd9e2/print/"
+      },
+      {
+        "date": "2024-06-24",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM & OPPORTUNITY PAC",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/1689bb6b-eed1-40aa-909e-95c9ac9fd9e2/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "43332",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/eb7a2d2b-7582-4bcc-a3b0-4e58e7d08c8b/print/",
+    "transactions": [
+      {
+        "date": "2016-06-27",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "FRIENDS OF MIKE LEE, INC.",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/eb7a2d2b-7582-4bcc-a3b0-4e58e7d08c8b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "43332",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f36fb041-0462-4a1c-b051-c5fc14192f9a/print/",
+    "transactions": [
+      {
+        "date": "2019-12-19",
+        "amount": "500.00",
+        "donor": "HATCHER, CHRISTOPHER W",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/f36fb041-0462-4a1c-b051-c5fc14192f9a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "43332",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/28690970-11fa-4bbf-9011-62856fa22bdd/print/",
+    "transactions": [
+      {
+        "date": "2025-11-04",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/28690970-11fa-4bbf-9011-62856fa22bdd/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "141323",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ec929ca0-0985-48b5-9cc0-7f2f4eadc880/print/",
+    "transactions": [
+      {
+        "date": "2025-10-28",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/ec929ca0-0985-48b5-9cc0-7f2f4eadc880/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "141323",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/",
+    "transactions": [
+      {
+        "date": "2026-02-09",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HOUSE CONSERVATIVES FUND",
+        "honoree": "August Pfluger Leadership PAC",
+        "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/"
+      },
+      {
+        "date": "2026-05-12",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HOUSE CONSERVATIVES FUND",
+        "honoree": "August Pfluger Leadership PAC",
+        "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/"
+      },
+      {
+        "date": "2026-06-29",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HOUSE CONSERVATIVES FUND",
+        "honoree": "August Pfluger Leadership PAC",
+        "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000193",
+    "lobbyist_id": "141323",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/",
+    "transactions": [
+      {
+        "date": "2026-03-16",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/"
+      },
+      {
+        "date": "2026-06-26",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "141323",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/",
+    "transactions": [
+      {
+        "date": "2026-04-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF ANDY BARR",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/faa80d61-ad89-4840-aee3-31d7395c6d85/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "148718",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/c2bcb9ef-b1c7-4649-b2f1-d0c2d2ba32ba/print/",
+    "transactions": [
+      {
+        "date": "2025-06-12",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/c2bcb9ef-b1c7-4649-b2f1-d0c2d2ba32ba/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "18680",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5c4c9701-0af9-47ce-afc8-32024edc34b9/print/",
+    "transactions": [
+      {
+        "date": "2011-09-22",
+        "amount": "1000.00",
+        "donor": "PUTALA, CHRISTOPHER",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/45b8dc43-f3f7-4e99-a9ad-278a3fda6df8/print/"
+      },
+      {
+        "date": "2011-12-14",
+        "amount": "500.00",
+        "donor": "PUTALA, CHRISTOPHER",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/45b8dc43-f3f7-4e99-a9ad-278a3fda6df8/print/"
+      },
+      {
+        "date": "2016-02-23",
+        "amount": "1000.00",
+        "donor": "PUTALA, CHRISTOPHER",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/bce31d6a-ca6d-44c0-a98f-434fa9e1ead6/print/"
+      },
+      {
+        "date": "2022-12-14",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CANTWELL VICTORY FUND",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/e007c2c2-43d3-43c0-bd24-94aadda86e16/print/"
+      },
+      {
+        "date": "2023-03-15",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/9cdc93d7-1ef8-4552-b493-387d7b661f2a/print/"
+      },
+      {
+        "date": "2023-05-17",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/9cdc93d7-1ef8-4552-b493-387d7b661f2a/print/"
+      },
+      {
+        "date": "2023-12-04",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CANTWELL VICTORY2024",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/09e2f2d5-d443-4b17-902a-87f0a9ad94c8/print/"
+      },
+      {
+        "date": "2024-09-19",
+        "amount": "1600.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/8010ad79-3d01-41ae-aadb-27d9f5eb700c/print/"
+      },
+      {
+        "date": "2025-03-10",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/84810651-1a59-4563-95b1-337d64136419/print/"
+      },
+      {
+        "date": "2026-02-27",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/5c4c9701-0af9-47ce-afc8-32024edc34b9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "45392",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/467a46df-93f2-4c8d-aeb5-d1ebbd7aa183/print/",
+    "transactions": [
+      {
+        "date": "2012-08-31",
+        "amount": "1000.00",
+        "donor": "THOMAS, RICH",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/467a46df-93f2-4c8d-aeb5-d1ebbd7aa183/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "45392",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1ac3a690-b1d2-4fed-9744-e17d016337b6/print/",
+    "transactions": [
+      {
+        "date": "2013-06-13",
+        "amount": "500.00",
+        "donor": "THOMAS, RICH",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Representative Suzan Delbene",
+        "source": "https://lda.gov/filings/public/contribution/9858b555-a433-4e5a-9d0d-28c14ee8f066/print/"
+      },
+      {
+        "date": "2017-06-26",
+        "amount": "500.00",
+        "donor": "THOMAS, RICH",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene (D-WA)",
+        "source": "https://lda.gov/filings/public/contribution/1ac3a690-b1d2-4fed-9744-e17d016337b6/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "45392",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f6f7edd4-ee3e-4038-95c4-3f23746f0afb/print/",
+    "transactions": [
+      {
+        "date": "2025-12-17",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Rep. Haley Stevens (D-MI)",
+        "source": "https://lda.gov/filings/public/contribution/f6f7edd4-ee3e-4038-95c4-3f23746f0afb/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "51869",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/990b8832-3808-456a-9f38-f8c77c2627a8/print/",
+    "transactions": [
+      {
+        "date": "2008-07-17",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/18200792-8e2f-4643-a637-c29b5b513cb5/print/"
+      },
+      {
+        "date": "2010-03-24",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/c7d59dc8-917b-4bae-9b18-6e9085a95ce4/print/"
+      },
+      {
+        "date": "2011-02-21",
+        "amount": "2000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/65e70a50-bf93-43a1-9f97-4c238c51e4ad/print/"
+      },
+      {
+        "date": "2012-10-12",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "CANTWELL VICTORY 2012",
+        "honoree": "Sen Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/f561c7f2-296e-43b8-93e3-76c72f7e77dc/print/"
+      },
+      {
+        "date": "2017-10-02",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "MARIA CANTWELL",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/5a488c02-cdce-4670-a2a2-d3b05ea3bad5/print/"
+      },
+      {
+        "date": "2017-11-02",
+        "amount": "250.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "CANTWELL WARREN",
+        "honoree": "Sen. Maria Cantwell\nSen. Elizabeth Warren",
+        "source": "https://lda.gov/filings/public/contribution/5a488c02-cdce-4670-a2a2-d3b05ea3bad5/print/"
+      },
+      {
+        "date": "2017-12-13",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/5a488c02-cdce-4670-a2a2-d3b05ea3bad5/print/"
+      },
+      {
+        "date": "2018-03-01",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "SEN. MARIA CANTWELL",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/a0d2d32e-3188-405e-8443-353125ed6f4a/print/"
+      },
+      {
+        "date": "2020-10-02",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "CANTWELL FOR WOMEN IN THE SENATE",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/46519faa-35ab-48b3-9894-211356a317a1/print/"
+      },
+      {
+        "date": "2023-03-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "MARIA CANTWELL FOR SENATE",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/990b8832-3808-456a-9f38-f8c77c2627a8/print/"
+      },
+      {
+        "date": "2023-03-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "MARIA CANTWELL FOR SENATE",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/990b8832-3808-456a-9f38-f8c77c2627a8/print/"
+      },
+      {
+        "date": "2023-03-31",
+        "amount": "4600.00",
+        "donor": "SELF",
+        "payee": "MARIA CANTWELL FOR SENATE",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/990b8832-3808-456a-9f38-f8c77c2627a8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "51869",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f87becef-505c-47e1-8ff6-ee4ea7f03d66/print/",
+    "transactions": [
+      {
+        "date": "2012-09-29",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/f561c7f2-296e-43b8-93e3-76c72f7e77dc/print/"
+      },
+      {
+        "date": "2013-03-29",
+        "amount": "2000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/030f88b9-b9e2-4c45-b0ba-7eb7a41873ab/print/"
+      },
+      {
+        "date": "2018-06-01",
+        "amount": "500.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "REP. SUZAN DELBENE",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/a0d2d32e-3188-405e-8443-353125ed6f4a/print/"
+      },
+      {
+        "date": "2019-03-25",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "REP. SUZAN DELBENE",
+        "honoree": "Rep. Suzan Delbene",
+        "source": "https://lda.gov/filings/public/contribution/02e3d6dc-6bf2-45ed-879f-286f74896b67/print/"
+      },
+      {
+        "date": "2020-09-02",
+        "amount": "1000.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "EVERGREEN PAC",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/46519faa-35ab-48b3-9894-211356a317a1/print/"
+      },
+      {
+        "date": "2021-12-13",
+        "amount": "2900.00",
+        "donor": "PUNKE, TIMOTHY",
+        "payee": "REP. SUZAN DELBENE",
+        "honoree": "Suzan DelBene for Congress",
+        "source": "https://lda.gov/filings/public/contribution/ab89f2a6-8937-4900-9490-6b74c224d646/print/"
+      },
+      {
+        "date": "2024-01-25",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/f87becef-505c-47e1-8ff6-ee4ea7f03d66/print/"
+      },
+      {
+        "date": "2024-03-28",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/f87becef-505c-47e1-8ff6-ee4ea7f03d66/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001322",
+    "lobbyist_id": "51869",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/000253f8-1fae-41a9-a7c1-20d1f00e3b92/print/",
+    "transactions": [
+      {
+        "date": "2025-11-25",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "VOTE BAUMGARTNER FOR CONGRESS",
+        "honoree": "Michael Baumgartner (in kind)",
+        "source": "https://lda.gov/filings/public/contribution/000253f8-1fae-41a9-a7c1-20d1f00e3b92/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "56188",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ad3da867-06bc-4434-bf09-fb5c32cd5b7a/print/",
+    "transactions": [
+      {
+        "date": "2017-03-31",
+        "amount": "500.00",
+        "donor": "ELLIS, KIMBERLY",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/b2b50d74-06e4-4009-be1a-e85b795c27c6/print/"
+      },
+      {
+        "date": "2019-10-23",
+        "amount": "500.00",
+        "donor": "ELLIS, KIMBERLY",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/ad3da867-06bc-4434-bf09-fb5c32cd5b7a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "56188",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3bb2a9e3-4d8a-4a21-a085-d26c51e9de3d/print/",
+    "transactions": [
+      {
+        "date": "2022-09-30",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/3bb2a9e3-4d8a-4a21-a085-d26c51e9de3d/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "56188",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/65156d43-d0ac-437e-a004-33673c4bb647/print/",
+    "transactions": [
+      {
+        "date": "2023-06-21",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/65156d43-d0ac-437e-a004-33673c4bb647/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "56188",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/dc0e3c1e-9048-4272-a5db-0f4b3311732f/print/",
+    "transactions": [
+      {
+        "date": "2025-03-31",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/06a6c391-45c5-4e0a-9a08-cd8c7462b206/print/"
+      },
+      {
+        "date": "2026-01-08",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/dc0e3c1e-9048-4272-a5db-0f4b3311732f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000617",
+    "lobbyist_id": "63572",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5d4f532d-fea4-4ac6-b518-9a9790a8d579/print/",
+    "transactions": [
+      {
+        "date": "2015-11-13",
+        "amount": "500.00",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/7ecda655-af81-4ed3-b4b1-139f2b696bc2/print/"
+      },
+      {
+        "date": "2015-12-10",
+        "amount": "35.72",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/7ecda655-af81-4ed3-b4b1-139f2b696bc2/print/"
+      },
+      {
+        "date": "2015-12-15",
+        "amount": "35.72",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/7ecda655-af81-4ed3-b4b1-139f2b696bc2/print/"
+      },
+      {
+        "date": "2016-06-05",
+        "amount": "250.00",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Rep. Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/618219ab-568b-48f5-b86f-bd71676a21d0/print/"
+      },
+      {
+        "date": "2016-10-28",
+        "amount": "250.00",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Suzan Delbene",
+        "source": "https://lda.gov/filings/public/contribution/e61774b2-e85c-4e0a-b210-b5d92bd98b29/print/"
+      },
+      {
+        "date": "2017-10-31",
+        "amount": "250.00",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "DELBENE FOR CONGRESS",
+        "honoree": "Suzan DelBene",
+        "source": "https://lda.gov/filings/public/contribution/5d4f532d-fea4-4ac6-b518-9a9790a8d579/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "R000606",
+    "lobbyist_id": "63572",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5d4f532d-fea4-4ac6-b518-9a9790a8d579/print/",
+    "transactions": [
+      {
+        "date": "2017-10-06",
+        "amount": "250.00",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "JAMIE RASKIN FOR CONGRESS",
+        "honoree": "Jamie Raskin",
+        "source": "https://lda.gov/filings/public/contribution/5d4f532d-fea4-4ac6-b518-9a9790a8d579/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "63572",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/45ac9807-62dd-4f30-ab9d-25631f7e09c7/print/",
+    "transactions": [
+      {
+        "date": "2019-12-31",
+        "amount": "120.00",
+        "donor": "MILLS, KATHRYN CHRISTENSEN",
+        "payee": "HALEY STEVENS FOR CONGRESS",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/d50d66f6-e93e-45c4-9a68-7d299ed228e7/print/"
+      },
+      {
+        "date": "2022-01-26",
+        "amount": "156.25",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR CONGRESS",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/4d7b3ef1-70ce-44a2-aecb-9e11c189c61c/print/"
+      },
+      {
+        "date": "2025-12-08",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/45ac9807-62dd-4f30-ab9d-25631f7e09c7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "93671",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9ad870fa-01cc-4351-97a1-b469e774416b/print/",
+    "transactions": [
+      {
+        "date": "2023-03-20",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "MARIA CANTWELL FOR SENATE",
+        "honoree": "Sen. Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/9ad870fa-01cc-4351-97a1-b469e774416b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "93671",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/fdc4db1f-c83b-40ec-8742-c2b76a679079/print/",
+    "transactions": [
+      {
+        "date": "2025-12-31",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR U.S. SENATE",
+        "honoree": "Rep. Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/fdc4db1f-c83b-40ec-8742-c2b76a679079/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "W000804",
+    "lobbyist_id": "50836",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ace3ae72-2e2b-442a-b48f-fc7a99a56bb8/print/",
+    "transactions": [
+      {
+        "date": "2010-06-30",
+        "amount": "1000.00",
+        "donor": "SAFARI CLUB INTERNATIONAL",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/ace3ae72-2e2b-442a-b48f-fc7a99a56bb8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "50836",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2a214f16-bdc2-4636-aa8a-3475d4cb66f1/print/",
+    "transactions": [
+      {
+        "date": "2010-08-02",
+        "amount": "1000.00",
+        "donor": "SAFARI CLUB INTERNATIONAL",
+        "payee": "FRIENDS OF MIKE LEE INC",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/2a214f16-bdc2-4636-aa8a-3475d4cb66f1/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "50836",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/bc004235-318f-4161-9a2d-642c432f1c7c/print/",
+    "transactions": [
+      {
+        "date": "2021-06-22",
+        "amount": "1000.00",
+        "donor": "GREEN, JOHN",
+        "payee": "TEAM HAGERTY",
+        "honoree": "BILL HAGERTY",
+        "source": "https://lda.gov/filings/public/contribution/0a83f02d-d72d-4005-b7f1-0bcdad9b6c3d/print/"
+      },
+      {
+        "date": "2023-02-24",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "BILL HAGERTY",
+        "source": "https://lda.gov/filings/public/contribution/bc004235-318f-4161-9a2d-642c432f1c7c/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000189",
+    "lobbyist_id": "50836",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/dde4a82c-200f-487e-a36c-80e7b596a7fa/print/",
+    "transactions": [
+      {
+        "date": "2022-07-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "DAN NEWHOUSE",
+        "source": "https://lda.gov/filings/public/contribution/dde4a82c-200f-487e-a36c-80e7b596a7fa/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "50936",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0055193d-8fc2-497a-b79c-b67b02a8fea7/print/",
+    "transactions": [
+      {
+        "date": "2015-03-09",
+        "amount": "500.00",
+        "donor": "MOORHEAD, HUNTER",
+        "payee": "FRIENDS OF MIKE LEE INC",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/8ef59d8f-da5a-49f2-86be-bbd11081dea6/print/"
+      },
+      {
+        "date": "2021-03-31",
+        "amount": "1000.00",
+        "donor": "MOORHEAD, HUNTER",
+        "payee": "FRIENDS OF MIKE LEE INC",
+        "honoree": "MIKE LEE",
+        "source": "https://lda.gov/filings/public/contribution/0055193d-8fc2-497a-b79c-b67b02a8fea7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1a2e83fb-1f4a-494f-ad1d-6688b53e486f/print/",
+    "transactions": [
+      {
+        "date": "2018-03-08",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/1a2e83fb-1f4a-494f-ad1d-6688b53e486f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000301",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/bce26416-baa7-4f4c-b841-3f9cdf6ff55b/print/",
+    "transactions": [
+      {
+        "date": "2018-09-18",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "FRIENDS OF DUSTY JOHNSON",
+        "honoree": "Dusty Johnson",
+        "source": "https://lda.gov/filings/public/contribution/b9069f4f-2dab-40d6-a5e0-ab2641957585/print/"
+      },
+      {
+        "date": "2019-06-04",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "FRIENDS OF DUSTY JOHNSON",
+        "honoree": "Dusty Johnson",
+        "source": "https://lda.gov/filings/public/contribution/ac0f09de-1d18-4b09-8cae-4b3def623263/print/"
+      },
+      {
+        "date": "2023-07-19",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "DUSTY JOHNSON FOR CONGRESS",
+        "honoree": "Dusty Johnson",
+        "source": "https://lda.gov/filings/public/contribution/bce26416-baa7-4f4c-b841-3f9cdf6ff55b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/415535c2-b9b4-469c-a78a-7c4b74190857/print/",
+    "transactions": [
+      {
+        "date": "2019-12-22",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/a4d0dcfa-6b39-4c2f-9f57-4e15d7cc731e/print/"
+      },
+      {
+        "date": "2021-10-02",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/906e8fdd-a47f-438d-a936-1dba80677a1f/print/"
+      },
+      {
+        "date": "2025-02-11",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/415535c2-b9b4-469c-a78a-7c4b74190857/print/"
+      },
+      {
+        "date": "2025-06-24",
+        "amount": "2500.00",
+        "donor": "NASCOE PAC",
+        "payee": "SENATE EAGLE PAC",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/415535c2-b9b4-469c-a78a-7c4b74190857/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "50936",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a59db21e-343d-4660-a3bd-607ce205edc9/print/",
+    "transactions": [
+      {
+        "date": "2020-10-27",
+        "amount": "500.00",
+        "donor": "MOORHEAD, HUNTER",
+        "payee": "ANDY BARR FOR CONGRESS, INC.",
+        "honoree": "ANDY BARR",
+        "source": "https://lda.gov/filings/public/contribution/3d855ac3-28d8-4b92-964b-247b697a01c9/print/"
+      },
+      {
+        "date": "2023-01-24",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ANDY BARR FOR CONGRESS",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/9de22358-d805-4353-9710-d425b216a530/print/"
+      },
+      {
+        "date": "2025-07-07",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ANDY BARR FOR SENATE",
+        "honoree": "Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/a59db21e-343d-4660-a3bd-607ce205edc9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0055193d-8fc2-497a-b79c-b67b02a8fea7/print/",
+    "transactions": [
+      {
+        "date": "2021-02-25",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/0055193d-8fc2-497a-b79c-b67b02a8fea7/print/"
+      },
+      {
+        "date": "2021-03-31",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/0055193d-8fc2-497a-b79c-b67b02a8fea7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000189",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a59db21e-343d-4660-a3bd-607ce205edc9/print/",
+    "transactions": [
+      {
+        "date": "2021-03-31",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/0055193d-8fc2-497a-b79c-b67b02a8fea7/print/"
+      },
+      {
+        "date": "2025-10-29",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "DAN NEWHOUSE",
+        "source": "https://lda.gov/filings/public/contribution/a59db21e-343d-4660-a3bd-607ce205edc9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/452b1ced-ae95-4dcb-80df-bc6d973a1bf6/print/",
+    "transactions": [
+      {
+        "date": "2022-09-29",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "ANDY BARR FOR CONGRESS, INC.",
+        "honoree": "ANDY BARR",
+        "source": "https://lda.gov/filings/public/contribution/452b1ced-ae95-4dcb-80df-bc6d973a1bf6/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "W000804",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9de22358-d805-4353-9710-d425b216a530/print/",
+    "transactions": [
+      {
+        "date": "2023-02-27",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/9de22358-d805-4353-9710-d425b216a530/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000193",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9f39bd50-4fb1-4488-b5c0-ec1cb57caeb8/print/",
+    "transactions": [
+      {
+        "date": "2023-05-23",
+        "amount": "1500.00",
+        "donor": "NASCOE PAC",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/9de22358-d805-4353-9710-d425b216a530/print/"
+      },
+      {
+        "date": "2026-03-26",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/9f39bd50-4fb1-4488-b5c0-ec1cb57caeb8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/bce26416-baa7-4f4c-b841-3f9cdf6ff55b/print/",
+    "transactions": [
+      {
+        "date": "2023-09-17",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "CANTWELL VICTORY 2024",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/bce26416-baa7-4f4c-b841-3f9cdf6ff55b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001313",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/bce26416-baa7-4f4c-b841-3f9cdf6ff55b/print/",
+    "transactions": [
+      {
+        "date": "2023-10-16",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "SHONTEL BROWN FOR CONGRESS",
+        "honoree": "Shontel Brown",
+        "source": "https://lda.gov/filings/public/contribution/bce26416-baa7-4f4c-b841-3f9cdf6ff55b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001242",
+    "lobbyist_id": "50936",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/cb43687f-efd1-44e7-9fd9-571c4cefd51f/print/",
+    "transactions": [
+      {
+        "date": "2024-08-06",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM MORENO",
+        "honoree": "Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/cb43687f-efd1-44e7-9fd9-571c4cefd51f/print/"
+      },
+      {
+        "date": "2024-09-30",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "BERNIE MORENO FOR SENATE",
+        "honoree": "Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/cb43687f-efd1-44e7-9fd9-571c4cefd51f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/cb43687f-efd1-44e7-9fd9-571c4cefd51f/print/",
+    "transactions": [
+      {
+        "date": "2024-09-11",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/cb43687f-efd1-44e7-9fd9-571c4cefd51f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/415535c2-b9b4-469c-a78a-7c4b74190857/print/",
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "amount": "2000.00",
+        "donor": "NASCOE PAC",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/415535c2-b9b4-469c-a78a-7c4b74190857/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "50936",
+    "type": "other_donor_report",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9f39bd50-4fb1-4488-b5c0-ec1cb57caeb8/print/",
+    "transactions": [
+      {
+        "date": "2026-04-15",
+        "amount": "1000.00",
+        "donor": "NASCOE PAC",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/9f39bd50-4fb1-4488-b5c0-ec1cb57caeb8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/4675f737-67d8-4646-a4f3-5426465c4652/print/",
+    "transactions": [
+      {
+        "date": "2017-10-17",
+        "amount": "250.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/0e5b520e-c7da-486d-9251-88014abce326/print/"
+      },
+      {
+        "date": "2023-03-27",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ADRIAN SMITH FOR CONGRESS",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/4675f737-67d8-4646-a4f3-5426465c4652/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0e5b520e-c7da-486d-9251-88014abce326/print/",
+    "transactions": [
+      {
+        "date": "2017-12-07",
+        "amount": "1000.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin Lahood",
+        "source": "https://lda.gov/filings/public/contribution/0e5b520e-c7da-486d-9251-88014abce326/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/b0027a50-d98b-4560-992d-f0425b410251/print/",
+    "transactions": [
+      {
+        "date": "2018-02-21",
+        "amount": "500.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "ANDY BARR FOR CONGRESS, INC.",
+        "honoree": "Rep. Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/75e4e0f2-4e0c-4870-a110-c57f4d5765ee/print/"
+      },
+      {
+        "date": "2019-03-10",
+        "amount": "500.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "ANDY BARR FOR CONGRESS INC",
+        "honoree": "Rep. Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/256e13ad-5483-417b-860c-0e8b192df3a6/print/"
+      },
+      {
+        "date": "2020-10-26",
+        "amount": "250.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "ANDY BARR FOR CONGRESS, INC.",
+        "honoree": "ANDY BARR",
+        "source": "https://lda.gov/filings/public/contribution/2f2996fe-2c6e-43e8-a1dc-a75c5e23805b/print/"
+      },
+      {
+        "date": "2022-12-31",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "BUILDING AMERICA'S REPUBLICAN REPRESENTATIONPAC",
+        "honoree": "Rep. Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/00cbf232-674d-48cc-82f5-4ed9ffaa7ebb/print/"
+      },
+      {
+        "date": "2025-03-31",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "ANDY BARR FOR SENATE",
+        "honoree": "Rep. Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/b0027a50-d98b-4560-992d-f0425b410251/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/94ea6032-c829-443f-9443-7bcde13e4912/print/",
+    "transactions": [
+      {
+        "date": "2019-11-13",
+        "amount": "2800.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Amb. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/493b2a40-71be-4b42-8f00-d109587065ff/print/"
+      },
+      {
+        "date": "2021-03-31",
+        "amount": "1000.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/a35def81-792e-4c9d-9713-568e29f9dd79/print/"
+      },
+      {
+        "date": "2022-03-07",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/f0195e5d-5d38-4cf0-a3df-d6929277a812/print/"
+      },
+      {
+        "date": "2023-03-31",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/4675f737-67d8-4646-a4f3-5426465c4652/print/"
+      },
+      {
+        "date": "2024-03-04",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "SENATE EAGLE PAC",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/514765dd-489e-468d-abea-62973b1b3a05/print/"
+      },
+      {
+        "date": "2026-03-26",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/94ea6032-c829-443f-9443-7bcde13e4912/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/49ddc361-a0dd-45bf-bddb-b50e2fc1855b/print/",
+    "transactions": [
+      {
+        "date": "2020-12-31",
+        "amount": "1000.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "MIKE LEE",
+        "source": "https://lda.gov/filings/public/contribution/2f2996fe-2c6e-43e8-a1dc-a75c5e23805b/print/"
+      },
+      {
+        "date": "2021-11-04",
+        "amount": "500.00",
+        "donor": "LAPINSKI, MATHEW",
+        "payee": "FRIENDS OF MIKE LEE INC",
+        "honoree": "Sen. Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/49ddc361-a0dd-45bf-bddb-b50e2fc1855b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/94ea6032-c829-443f-9443-7bcde13e4912/print/",
+    "transactions": [
+      {
+        "date": "2024-03-29",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/514765dd-489e-468d-abea-62973b1b3a05/print/"
+      },
+      {
+        "date": "2025-03-24",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON VICTORY COMMITTEE",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/b0027a50-d98b-4560-992d-f0425b410251/print/"
+      },
+      {
+        "date": "2026-03-30",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON COMMITTEE",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/94ea6032-c829-443f-9443-7bcde13e4912/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001242",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/814b8bf6-2e93-4c89-85e8-a46796691edf/print/",
+    "transactions": [
+      {
+        "date": "2024-08-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM MORENO",
+        "honoree": "Sen. Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/814b8bf6-2e93-4c89-85e8-a46796691edf/print/"
+      },
+      {
+        "date": "2024-09-25",
+        "amount": "2300.00",
+        "donor": "SELF",
+        "payee": "TEAM MORENO",
+        "honoree": "Sen. Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/814b8bf6-2e93-4c89-85e8-a46796691edf/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "58561",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/76cc85ef-f585-4333-a6de-2b0ff5734428/print/",
+    "transactions": [
+      {
+        "date": "2025-09-05",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/76cc85ef-f585-4333-a6de-2b0ff5734428/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000189",
+    "lobbyist_id": "65205",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a2120878-f693-4d7b-add5-8f43844f593d/print/",
+    "transactions": [
+      {
+        "date": "2022-06-20",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Congressman Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/a2120878-f693-4d7b-add5-8f43844f593d/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "W000804",
+    "lobbyist_id": "65205",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/67c6ebf0-7669-4244-a0fa-ad391a0c39a8/print/",
+    "transactions": [
+      {
+        "date": "2023-09-18",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/67c6ebf0-7669-4244-a0fa-ad391a0c39a8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "65205",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ef6eee8a-1769-4c2d-b0ff-acfaff4f1aec/print/",
+    "transactions": [
+      {
+        "date": "2025-03-04",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Congresswoman Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/ef6eee8a-1769-4c2d-b0ff-acfaff4f1aec/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "66496",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f5452968-f7cf-4a32-afbe-2b34cb6d2b0c/print/",
+    "transactions": [
+      {
+        "date": "2018-03-16",
+        "amount": "1000.00",
+        "donor": "VAN PELT, JASON BENJAMIN",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/994ef99d-18e1-4658-8170-7df56b9967fe/print/"
+      },
+      {
+        "date": "2019-09-27",
+        "amount": "1000.00",
+        "donor": "VAN PELT, JASON BENJAMIN",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/f5452968-f7cf-4a32-afbe-2b34cb6d2b0c/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001257",
+    "lobbyist_id": "66496",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f5452968-f7cf-4a32-afbe-2b34cb6d2b0c/print/",
+    "transactions": [
+      {
+        "date": "2019-09-12",
+        "amount": "500.00",
+        "donor": "VAN PELT, JASON BENJAMIN",
+        "payee": "BILIRAKIS FOR CONGRESS",
+        "honoree": "Gus Bilirakis",
+        "source": "https://lda.gov/filings/public/contribution/f5452968-f7cf-4a32-afbe-2b34cb6d2b0c/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000301",
+    "lobbyist_id": "66496",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/7b584c7a-1d19-4cb0-9f4f-57efdcb38206/print/",
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF DUSTY JOHNSON",
+        "honoree": "Dusty Johnson",
+        "source": "https://lda.gov/filings/public/contribution/7b584c7a-1d19-4cb0-9f4f-57efdcb38206/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "66496",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/62d42e9e-ea73-40b7-83d5-2bbfb4a56411/print/",
+    "transactions": [
+      {
+        "date": "2025-03-18",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/c1199d76-0b58-4454-b70e-f72e2a41971f/print/"
+      },
+      {
+        "date": "2026-04-09",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "CAROL MILLER FOR CONGRESS",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/62d42e9e-ea73-40b7-83d5-2bbfb4a56411/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000189",
+    "lobbyist_id": "66499",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/c9c79763-27ff-4656-94fb-ff2d745e9672/print/",
+    "transactions": [
+      {
+        "date": "2019-05-08",
+        "amount": "1000.00",
+        "donor": "MILLER, CHRIS J",
+        "payee": "NEWHOUSE VICTORY FUND",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/874d3eca-095e-4882-ac6a-089c42e829a6/print/"
+      },
+      {
+        "date": "2021-02-03",
+        "amount": "2900.00",
+        "donor": "MILLER, CHRIS J",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/b902e66a-a841-407d-8300-814bbc9d37d4/print/"
+      },
+      {
+        "date": "2023-08-29",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/bc5fe76b-999d-4624-bd4d-10d94a8610b4/print/"
+      },
+      {
+        "date": "2024-06-30",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/bc73bbb6-8273-4bc8-bf2f-a3499de07e94/print/"
+      },
+      {
+        "date": "2024-09-17",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/34f932f2-0c42-4e1d-af2f-f879977d18f6/print/"
+      },
+      {
+        "date": "2025-03-20",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "NEW ENERGY IN WASHINGTON HOUSE PAC",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/a8b03553-bf7f-466c-af50-cc256b300655/print/"
+      },
+      {
+        "date": "2025-09-29",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Rep. Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/c9c79763-27ff-4656-94fb-ff2d745e9672/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001322",
+    "lobbyist_id": "66499",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0f84282e-22d7-4e6b-b0b9-a2bd116a9c4a/print/",
+    "transactions": [
+      {
+        "date": "2024-09-16",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "VOTE BAUMGARTNER FOR CONGRESS",
+        "honoree": "Rep. Michael Baumgartner",
+        "source": "https://lda.gov/filings/public/contribution/34f932f2-0c42-4e1d-af2f-f879977d18f6/print/"
+      },
+      {
+        "date": "2025-12-15",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "VOTE BAUMGARTNER FOR CONGRESS",
+        "honoree": "Rep. Michael Baumgartner",
+        "source": "https://lda.gov/filings/public/contribution/c9c79763-27ff-4656-94fb-ff2d745e9672/print/"
+      },
+      {
+        "date": "2026-05-04",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "VOTE BAUMGARTNER FOR CONGRESS",
+        "honoree": "Rep. Michael Baumgartner",
+        "source": "https://lda.gov/filings/public/contribution/0f84282e-22d7-4e6b-b0b9-a2bd116a9c4a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "66499",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0f84282e-22d7-4e6b-b0b9-a2bd116a9c4a/print/",
+    "transactions": [
+      {
+        "date": "2026-03-31",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/0f84282e-22d7-4e6b-b0b9-a2bd116a9c4a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "67957",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0906b4c2-6485-4d4c-a5bd-6c70c79b1563/print/",
+    "transactions": [
+      {
+        "date": "2023-01-31",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/432da432-ab55-4668-98a0-50b93dc00cc9/print/"
+      },
+      {
+        "date": "2024-03-25",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/5742d175-1c47-43c8-97b3-33ff22ea2f3d/print/"
+      },
+      {
+        "date": "2025-03-28",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/0906b4c2-6485-4d4c-a5bd-6c70c79b1563/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000585",
+    "lobbyist_id": "67957",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/432da432-ab55-4668-98a0-50b93dc00cc9/print/",
+    "transactions": [
+      {
+        "date": "2023-05-17",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "LAHOOD FOR CONGRESS",
+        "honoree": "Rep. Darin LaHood",
+        "source": "https://lda.gov/filings/public/contribution/432da432-ab55-4668-98a0-50b93dc00cc9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "67957",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/432da432-ab55-4668-98a0-50b93dc00cc9/print/",
+    "transactions": [
+      {
+        "date": "2023-03-16",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/432da432-ab55-4668-98a0-50b93dc00cc9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001194",
+    "lobbyist_id": "67957",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/5742d175-1c47-43c8-97b3-33ff22ea2f3d/print/",
+    "transactions": [
+      {
+        "date": "2024-06-28",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "MOOLENAAR FOR CONGRESS",
+        "honoree": "Rep. John Moolenaar",
+        "source": "https://lda.gov/filings/public/contribution/5742d175-1c47-43c8-97b3-33ff22ea2f3d/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001242",
+    "lobbyist_id": "67957",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/4760561f-6e72-46cb-aa72-7514c46ceeb8/print/",
+    "transactions": [
+      {
+        "date": "2026-03-30",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "BEST AT BRINGING ENTREPRENEURIAL RESULTS NEVER IMAGINED OR ENVISIONED PAC",
+        "honoree": "Sen. Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/4760561f-6e72-46cb-aa72-7514c46ceeb8/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "71310",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/04b0cc91-5b5e-4f52-a402-7652c001056d/print/",
+    "transactions": [
+      {
+        "date": "2020-10-01",
+        "amount": "250.00",
+        "donor": "MCMAKIN, BEN LEE",
+        "payee": "CANTWELL FOR WOMEN IN THE SENATE 2020",
+        "honoree": "MARIA CANTWELL",
+        "source": "https://lda.gov/filings/public/contribution/04c2a287-21a0-474b-895d-494d308eefc5/print/"
+      },
+      {
+        "date": "2024-03-19",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/04b0cc91-5b5e-4f52-a402-7652c001056d/print/"
+      },
+      {
+        "date": "2024-03-20",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/04b0cc91-5b5e-4f52-a402-7652c001056d/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000189",
+    "lobbyist_id": "71310",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f1c9a67f-cd79-4b7b-aa88-e2b8c38c4e51/print/",
+    "transactions": [
+      {
+        "date": "2021-02-02",
+        "amount": "500.00",
+        "donor": "MCMAKIN, BEN LEE",
+        "payee": "DAN NEWHOUSE FOR CONGRESS",
+        "honoree": "Dan Newhouse",
+        "source": "https://lda.gov/filings/public/contribution/f1c9a67f-cd79-4b7b-aa88-e2b8c38c4e51/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "71310",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/383fce89-c254-4bfd-8283-076d09b813b7/print/",
+    "transactions": [
+      {
+        "date": "2025-09-09",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "HALEY STEVENS",
+        "source": "https://lda.gov/filings/public/contribution/383fce89-c254-4bfd-8283-076d09b813b7/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "73822",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3c4f08a7-af19-46f5-82fb-bef825400140/print/",
+    "transactions": [
+      {
+        "date": "2022-12-12",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CANTWELL VICTORY 2024",
+        "honoree": "MARIA CANTWELL",
+        "source": "https://lda.gov/filings/public/contribution/40fb3f82-ab20-49ce-aa50-2b798e97db63/print/"
+      },
+      {
+        "date": "2023-03-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "MARIA CANTWELL",
+        "source": "https://lda.gov/filings/public/contribution/987bff55-eae0-492e-a97e-b908f711da65/print/"
+      },
+      {
+        "date": "2023-09-29",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MARIA",
+        "honoree": "Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/3c4f08a7-af19-46f5-82fb-bef825400140/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "73822",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/77c58f02-185d-49ec-a4a7-173f13c5c99b/print/",
+    "transactions": [
+      {
+        "date": "2025-09-09",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "HALEY STEVENS",
+        "source": "https://lda.gov/filings/public/contribution/77c58f02-185d-49ec-a4a7-173f13c5c99b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "73823",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/dc20bc92-b83e-46a6-8dd6-497dc5cf09a0/print/",
+    "transactions": [
+      {
+        "date": "2023-02-22",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "AUGUST PFLUGER",
+        "source": "https://lda.gov/filings/public/contribution/dc20bc92-b83e-46a6-8dd6-497dc5cf09a0/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "73823",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/94f52488-66b4-4e36-9f6e-bb668a3ebcd5/print/",
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "BILL HAGERTY",
+        "source": "https://lda.gov/filings/public/contribution/5c376c5d-8223-48d9-aa65-edc3b7871a2b/print/"
+      },
+      {
+        "date": "2025-02-11",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "BILL HAGERTY",
+        "source": "https://lda.gov/filings/public/contribution/94f52488-66b4-4e36-9f6e-bb668a3ebcd5/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "107303",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/ea647c78-4cee-428a-9e5c-54b5e966a830/print/",
+    "transactions": [
+      {
+        "date": "2025-09-09",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/ea647c78-4cee-428a-9e5c-54b5e966a830/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "T000486",
+    "lobbyist_id": "143856",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/cb2ca737-43aa-4f8e-8837-a883e906f86a/print/",
+    "transactions": [
+      {
+        "date": "2023-07-25",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "TORRES FOR CONGRESS",
+        "honoree": "Ritchie Torres",
+        "source": "https://lda.gov/filings/public/contribution/cb2ca737-43aa-4f8e-8837-a883e906f86a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001215",
+    "lobbyist_id": "146110",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/de0fd11a-39a9-48d9-86fb-3041d6fe3f9b/print/",
+    "transactions": [
+      {
+        "date": "2025-08-28",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "HALEY STEVENS FOR SENATE",
+        "honoree": "Rep. Haley Stevens",
+        "source": "https://lda.gov/filings/public/contribution/de0fd11a-39a9-48d9-86fb-3041d6fe3f9b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "151117",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/060b121e-0557-4f9a-84bb-98c278f2d9f0/print/",
+    "transactions": [
+      {
+        "date": "2026-04-24",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Congresswoman Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/060b121e-0557-4f9a-84bb-98c278f2d9f0/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "153070",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/21459bc5-bd15-4f1b-8087-c5c23deea15f/print/",
+    "transactions": [
+      {
+        "date": "2026-06-10",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/21459bc5-bd15-4f1b-8087-c5c23deea15f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "G000593",
+    "lobbyist_id": "65360",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1799c7a5-3664-438c-b1c3-500c7bf80835/print/",
+    "transactions": [
+      {
+        "date": "2020-06-29",
+        "amount": "2800.00",
+        "donor": "BALLARD, BRIAN",
+        "payee": "CARLOS GIMENEZ FOR CONGRESS",
+        "honoree": "Carlos Gimenez",
+        "source": "https://lda.gov/filings/public/contribution/d9db2fbd-ceb6-44c9-b806-30795f043aec/print/"
+      },
+      {
+        "date": "2021-12-06",
+        "amount": "2900.00",
+        "donor": "BALLARD, BRIAN",
+        "payee": "CARLOS GIMENEZ FOR CONGRESS",
+        "honoree": "Congressman Carlos Gimenez",
+        "source": "https://lda.gov/filings/public/contribution/1799c7a5-3664-438c-b1c3-500c7bf80835/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001257",
+    "lobbyist_id": "65360",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9d8fdd34-2edf-43a6-b417-af14b7948826/print/",
+    "transactions": [
+      {
+        "date": "2021-05-13",
+        "amount": "6000.00",
+        "donor": "BALLARD, BRIAN",
+        "payee": "GUS BILIRAKIS VICTORY FUND",
+        "honoree": "Congressman Gus Bilirakis",
+        "source": "https://lda.gov/filings/public/contribution/9d8fdd34-2edf-43a6-b417-af14b7948826/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "D000628",
+    "lobbyist_id": "65360",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1799c7a5-3664-438c-b1c3-500c7bf80835/print/",
+    "transactions": [
+      {
+        "date": "2021-12-06",
+        "amount": "2900.00",
+        "donor": "BALLARD, BRIAN",
+        "payee": "FRIENDS OF NEAL DUNN",
+        "honoree": "Congressman Neal Dunn",
+        "source": "https://lda.gov/filings/public/contribution/1799c7a5-3664-438c-b1c3-500c7bf80835/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "C000127",
+    "lobbyist_id": "65360",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/f448fe12-28ed-444a-9907-e9e63623ea6a/print/",
+    "transactions": [
+      {
+        "date": "2023-11-07",
+        "amount": "10000.00",
+        "donor": "SELF",
+        "payee": "CANTWELL VICTORY FUND 2024",
+        "honoree": "Senator Maria Cantwell",
+        "source": "https://lda.gov/filings/public/contribution/f448fe12-28ed-444a-9907-e9e63623ea6a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/",
+    "transactions": [
+      {
+        "date": "2019-11-05",
+        "amount": "2500.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "JIM JORDAN FOR CONGRESS",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/5e7fde25-d652-4eaf-bf7c-51d31432788a/print/"
+      },
+      {
+        "date": "2021-11-02",
+        "amount": "5000.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "BUCKEYE VICTORY FUND",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/6906fc15-21d2-42d8-85c7-e0b04ebd9bfd/print/"
+      },
+      {
+        "date": "2024-03-06",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "RJC PAC - JIM JORDAN FOR CONGRESS",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/3b4801b6-9fcd-425c-a8b4-badcc5eaed05/print/"
+      },
+      {
+        "date": "2025-09-16",
+        "amount": "10000.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Chairman Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/1c1d884a-65f3-41ad-be53-f4082a94bf6c/print/"
+      },
+      {
+        "date": "2026-04-29",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/",
+    "transactions": [
+      {
+        "date": "2020-05-27",
+        "amount": "1000.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Candidate Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/5ecffa51-d4f7-4b9e-a5d9-fdd7afa31f53/print/"
+      },
+      {
+        "date": "2022-06-06",
+        "amount": "2900.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/e49dfacf-dbb7-46e9-8c5a-a1624a3c3fd3/print/"
+      },
+      {
+        "date": "2023-09-28",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      },
+      {
+        "date": "2026-01-20",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY FOR IOWA",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/",
+    "transactions": [
+      {
+        "date": "2020-07-30",
+        "amount": "2800.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Candidate August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/10151605-f845-4511-b971-8bf206f84d83/print/"
+      },
+      {
+        "date": "2021-06-23",
+        "amount": "2900.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/7f968ecb-13db-4de2-b845-8ee9307455f4/print/"
+      },
+      {
+        "date": "2021-06-23",
+        "amount": "2900.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "AUGUST PFLUGER FOR CONGRESS",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/7f968ecb-13db-4de2-b845-8ee9307455f4/print/"
+      },
+      {
+        "date": "2023-09-28",
+        "amount": "6600.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "G000593",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/10151605-f845-4511-b971-8bf206f84d83/print/",
+    "transactions": [
+      {
+        "date": "2020-10-12",
+        "amount": "2800.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "CARLOS GIMENEZ FOR CONGRESS",
+        "honoree": "Candidate Carlos Gimenez",
+        "source": "https://lda.gov/filings/public/contribution/10151605-f845-4511-b971-8bf206f84d83/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "K000397",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3b4801b6-9fcd-425c-a8b4-badcc5eaed05/print/",
+    "transactions": [
+      {
+        "date": "2021-12-09",
+        "amount": "1000.00",
+        "donor": "MILLER, JEFFREY",
+        "payee": "YOUNG KIM FOR CONGRESS",
+        "honoree": "Rep. Young Kim",
+        "source": "https://lda.gov/filings/public/contribution/6906fc15-21d2-42d8-85c7-e0b04ebd9bfd/print/"
+      },
+      {
+        "date": "2022-03-10",
+        "amount": "5800.00",
+        "donor": "SELF",
+        "payee": "VAN DUYNE KIM VICTORY FUND",
+        "honoree": "$3,850 to Rep. Young Kim; $1,950 to Rep. Beth Van Duyne",
+        "source": "https://lda.gov/filings/public/contribution/e49dfacf-dbb7-46e9-8c5a-a1624a3c3fd3/print/"
+      },
+      {
+        "date": "2023-02-15",
+        "amount": "3300.00",
+        "donor": "SELF",
+        "payee": "YOUNG KIM FOR CONGRESS",
+        "honoree": "Rep. Young Kim",
+        "source": "https://lda.gov/filings/public/contribution/513d6e40-bbb7-4a4a-afbd-accf320034ed/print/"
+      },
+      {
+        "date": "2024-02-02",
+        "amount": "3300.00",
+        "donor": "SELF",
+        "payee": "RJC PAC - YOUNG KIM FOR CONGRESS",
+        "honoree": "Rep. Young Kim",
+        "source": "https://lda.gov/filings/public/contribution/3b4801b6-9fcd-425c-a8b4-badcc5eaed05/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "N000193",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/",
+    "transactions": [
+      {
+        "date": "2023-06-29",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "US Rep Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/513d6e40-bbb7-4a4a-afbd-accf320034ed/print/"
+      },
+      {
+        "date": "2026-03-20",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "IOWANS FOR ZACH NUNN",
+        "honoree": "Rep. Zach Nunn",
+        "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "W000804",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/",
+    "transactions": [
+      {
+        "date": "2023-05-12",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "US Rep Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/513d6e40-bbb7-4a4a-afbd-accf320034ed/print/"
+      },
+      {
+        "date": "2023-10-23",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "ROB WITTMAN FOR CONGRESS",
+        "honoree": "Rep. Rob Wittman",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "T000486",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/",
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "ACTBLUE RITCHIE TORRES",
+        "honoree": "Rep. Ritchie Torres",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/32308cbc-7bd9-45e0-aef2-2b6bfb2fbef9/print/",
+    "transactions": [
+      {
+        "date": "2023-11-14",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "LEE PAC",
+        "honoree": "Senator Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      },
+      {
+        "date": "2025-06-20",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "LEE PAC",
+        "honoree": "Sen. Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/32308cbc-7bd9-45e0-aef2-2b6bfb2fbef9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001242",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3b4801b6-9fcd-425c-a8b4-badcc5eaed05/print/",
+    "transactions": [
+      {
+        "date": "2023-10-23",
+        "amount": "3300.00",
+        "donor": "SELF",
+        "payee": "BERNIE MORENO FOR SENATE",
+        "honoree": "US Senate Candidate Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      },
+      {
+        "date": "2024-01-22",
+        "amount": "3300.00",
+        "donor": "SELF",
+        "payee": "BERNIE MORENO FOR SENATE",
+        "honoree": "Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/3b4801b6-9fcd-425c-a8b4-badcc5eaed05/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/32308cbc-7bd9-45e0-aef2-2b6bfb2fbef9/print/",
+    "transactions": [
+      {
+        "date": "2023-12-21",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Senator Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/13a847e8-2ae5-4a95-9bbf-fe619cc5b411/print/"
+      },
+      {
+        "date": "2024-09-24",
+        "amount": "3300.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY VICTORY",
+        "honoree": "US Senator Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/cbdcadc2-c143-4d8d-99bd-86b0455fa24d/print/"
+      },
+      {
+        "date": "2025-03-31",
+        "amount": "10000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY VICTORY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/32308cbc-7bd9-45e0-aef2-2b6bfb2fbef9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "F000471",
+    "lobbyist_id": "65463",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/",
+    "transactions": [
+      {
+        "date": "2026-06-26",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Rep. Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/e99c01a5-aec7-4bba-9989-74cacc8b4764/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "K000397",
+    "lobbyist_id": "69623",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/2a6221b6-0853-4d57-8e29-19430431315f/print/",
+    "transactions": [
+      {
+        "date": "2021-09-21",
+        "amount": "1000.00",
+        "donor": "GUNN, ASHLEY",
+        "payee": "AMERICAN DREAM VICTORY FUND",
+        "honoree": "$500 to Rep. Young Kim, $500 to Rep. Michelle Steel",
+        "source": "https://lda.gov/filings/public/contribution/2a6221b6-0853-4d57-8e29-19430431315f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "69623",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9184f285-3420-40f2-b31f-88ffaf6e8818/print/",
+    "transactions": [
+      {
+        "date": "2021-07-09",
+        "amount": "1000.00",
+        "donor": "GUNN, ASHLEY",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "Senator Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/2a6221b6-0853-4d57-8e29-19430431315f/print/"
+      },
+      {
+        "date": "2021-12-31",
+        "amount": "1000.00",
+        "donor": "GUNN, ASHLEY",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "Sen. Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/2a6221b6-0853-4d57-8e29-19430431315f/print/"
+      },
+      {
+        "date": "2022-05-10",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "Sen. Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/3f20f522-aedd-4e69-9878-5abe3d9935b0/print/"
+      },
+      {
+        "date": "2023-12-08",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "LEE PAC",
+        "honoree": "Senator Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/5c01b364-c89b-4d0f-bc5d-3bbcce7ca541/print/"
+      },
+      {
+        "date": "2024-01-08",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "LEE PAC",
+        "honoree": "Sen. Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/9184f285-3420-40f2-b31f-88ffaf6e8818/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "69623",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e3cb2cff-bb71-4773-9e86-da94d449597f/print/",
+    "transactions": [
+      {
+        "date": "2021-11-03",
+        "amount": "1000.00",
+        "donor": "GUNN, ASHLEY",
+        "payee": "BUCKEYE VICTORY FUND",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/2a6221b6-0853-4d57-8e29-19430431315f/print/"
+      },
+      {
+        "date": "2025-02-25",
+        "amount": "1500.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/425d3d4c-639e-4c87-b787-c9e4d3639763/print/"
+      },
+      {
+        "date": "2026-04-22",
+        "amount": "5000.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/e3cb2cff-bb71-4773-9e86-da94d449597f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "69623",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/9184f285-3420-40f2-b31f-88ffaf6e8818/print/",
+    "transactions": [
+      {
+        "date": "2024-04-20",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/9184f285-3420-40f2-b31f-88ffaf6e8818/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "71740",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1053394e-7860-4984-a302-e93abae91d53/print/",
+    "transactions": [
+      {
+        "date": "2021-11-01",
+        "amount": "500.00",
+        "donor": "HILER, JONATHAN",
+        "payee": "BUCKEYE VICTORY",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/1a37ffec-9c53-41b8-b251-7ba0cd5d30b1/print/"
+      },
+      {
+        "date": "2026-04-28",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/1053394e-7860-4984-a302-e93abae91d53/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "L000577",
+    "lobbyist_id": "71740",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/0055b05d-696f-45e9-87be-d88c933c9268/print/",
+    "transactions": [
+      {
+        "date": "2022-05-11",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "FRIENDS OF MIKE LEE",
+        "honoree": "Sen. Mike Lee",
+        "source": "https://lda.gov/filings/public/contribution/0055b05d-696f-45e9-87be-d88c933c9268/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001242",
+    "lobbyist_id": "71740",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/590313a0-2169-47e9-ab27-3a5eff5d4bb9/print/",
+    "transactions": [
+      {
+        "date": "2023-10-19",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "BERNIE MORENO FOR SENATE",
+        "honoree": "US Senate Candidate Bernie Moreno",
+        "source": "https://lda.gov/filings/public/contribution/590313a0-2169-47e9-ab27-3a5eff5d4bb9/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "71740",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/cd83ce8b-5f8f-4311-ad1f-166cbc736134/print/",
+    "transactions": [
+      {
+        "date": "2025-08-01",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/cd83ce8b-5f8f-4311-ad1f-166cbc736134/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "148686",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3f5c0dca-ea4f-47cf-b4b6-ecef877d5d2a/print/",
+    "transactions": [
+      {
+        "date": "2025-06-27",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Rep. Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/3f5c0dca-ea4f-47cf-b4b6-ecef877d5d2a/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "148686",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/57412210-fed0-4f4a-a0c9-24279754e6ed/print/",
+    "transactions": [
+      {
+        "date": "2025-07-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/57412210-fed0-4f4a-a0c9-24279754e6ed/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "F000471",
+    "lobbyist_id": "148686",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/450557b1-f34a-4e66-8aa2-35484c46ec9c/print/",
+    "transactions": [
+      {
+        "date": "2026-03-17",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "SCOTT FITZGERALD FOR CONGRESS",
+        "honoree": "Rep. Scott Fitzgerald",
+        "source": "https://lda.gov/filings/public/contribution/450557b1-f34a-4e66-8aa2-35484c46ec9c/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "148686",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/450557b1-f34a-4e66-8aa2-35484c46ec9c/print/",
+    "transactions": [
+      {
+        "date": "2026-04-28",
+        "amount": "5000.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/450557b1-f34a-4e66-8aa2-35484c46ec9c/print/"
+      },
+      {
+        "date": "2026-05-29",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/450557b1-f34a-4e66-8aa2-35484c46ec9c/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H001091",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/a29983e8-4c95-4d4b-a558-940554334be0/print/",
+    "transactions": [
+      {
+        "date": "2025-04-30",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ASHLEY HINSON FOR CONGRESS",
+        "honoree": "Ashley Hinson",
+        "source": "https://lda.gov/filings/public/contribution/a29983e8-4c95-4d4b-a558-940554334be0/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "H000601",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/aa2ea760-1404-46e1-8143-d5e2dee051c5/print/",
+    "transactions": [
+      {
+        "date": "2025-05-13",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/a29983e8-4c95-4d4b-a558-940554334be0/print/"
+      },
+      {
+        "date": "2025-07-25",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "TEAM HAGERTY",
+        "honoree": "Sen. Bill Hagerty",
+        "source": "https://lda.gov/filings/public/contribution/aa2ea760-1404-46e1-8143-d5e2dee051c5/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/",
+    "transactions": [
+      {
+        "date": "2025-07-02",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/aa2ea760-1404-46e1-8143-d5e2dee051c5/print/"
+      },
+      {
+        "date": "2026-06-16",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "PFLUGER VICTORY COMMITTEE",
+        "honoree": "Rep. August Pfluger",
+        "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "I000056",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/aa2ea760-1404-46e1-8143-d5e2dee051c5/print/",
+    "transactions": [
+      {
+        "date": "2025-07-14",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "ISSA FOR CONGRESS",
+        "honoree": "Rep. Darrell Issa",
+        "source": "https://lda.gov/filings/public/contribution/aa2ea760-1404-46e1-8143-d5e2dee051c5/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "J000289",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/",
+    "transactions": [
+      {
+        "date": "2026-04-07",
+        "amount": "5000.00",
+        "donor": "SELF",
+        "payee": "TEAM JORDAN",
+        "honoree": "Rep. Jim Jordan",
+        "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/",
+    "transactions": [
+      {
+        "date": "2026-04-27",
+        "amount": "2000.00",
+        "donor": "SELF",
+        "payee": "ANDY BARR FOR SENATE",
+        "honoree": "Rep. Andy Barr",
+        "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "149246",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/",
+    "transactions": [
+      {
+        "date": "2026-01-21",
+        "amount": "1000.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Rep. Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/3993cb7c-481e-488e-9fac-a06500c63b47/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "145063",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/201156cf-c238-45ad-ac01-6184a89d0f6f/print/",
+    "transactions": [
+      {
+        "date": "2024-05-06",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "CAROL FOR CONGRESS",
+        "honoree": "Representative Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/201156cf-c238-45ad-ac01-6184a89d0f6f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "S001172",
+    "lobbyist_id": "147684",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/95a99b2c-c8a6-42ca-832f-4b63efb312f4/print/",
+    "transactions": [
+      {
+        "date": "2025-03-20",
+        "amount": "2500.00",
+        "donor": "SELF",
+        "payee": "CONCERNED AMERICANS FOR FREEDOM & OPPORTUNITY PAC",
+        "honoree": "Rep. Adrian Smith",
+        "source": "https://lda.gov/filings/public/contribution/95a99b2c-c8a6-42ca-832f-4b63efb312f4/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "M001205",
+    "lobbyist_id": "147684",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/e2b102cf-74c5-4893-8c1e-90cc074cbd8f/print/",
+    "transactions": [
+      {
+        "date": "2025-09-17",
+        "amount": "500.00",
+        "donor": "SELF",
+        "payee": "ARI ZIMMERMAN",
+        "honoree": "Carol Miller",
+        "source": "https://lda.gov/filings/public/contribution/e2b102cf-74c5-4893-8c1e-90cc074cbd8f/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "K000397",
+    "lobbyist_id": "150796",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/71c35b35-c6c3-4216-b37f-236b06d25d0b/print/",
+    "transactions": [
+      {
+        "date": "2026-05-22",
+        "amount": "250.00",
+        "donor": "SELF",
+        "payee": "YOUNG KIM FOR CONGRESS",
+        "honoree": "Young Kim",
+        "source": "https://lda.gov/filings/public/contribution/71c35b35-c6c3-4216-b37f-236b06d25d0b/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "G000593",
+    "lobbyist_id": "114736",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/1e47b761-ba59-4472-9a59-820988a7e0fc/print/",
+    "transactions": [
+      {
+        "date": "2025-06-28",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "CARLOS GIMENEZ FOR CONGRESS",
+        "honoree": "CARLOS GIMENEZ",
+        "source": "https://lda.gov/filings/public/contribution/1e47b761-ba59-4472-9a59-820988a7e0fc/print/"
+      },
+      {
+        "date": "2025-06-28",
+        "amount": "3500.00",
+        "donor": "SELF",
+        "payee": "CARLOS GIMENEZ FOR CONGRESS",
+        "honoree": "CARLOS GIMENEZ",
+        "source": "https://lda.gov/filings/public/contribution/1e47b761-ba59-4472-9a59-820988a7e0fc/print/"
+      },
+      {
+        "date": "2025-06-28",
+        "amount": "10000.00",
+        "donor": "SELF",
+        "payee": "GIMENEZ VICTORY COMMITTEE",
+        "honoree": "CARLOS GIMENEZ",
+        "source": "https://lda.gov/filings/public/contribution/1e47b761-ba59-4472-9a59-820988a7e0fc/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001282",
+    "lobbyist_id": "148995",
+    "type": "personal_contribution",
+    "detail": "기부 관계: 실제 접촉이나 쿠팡의 비용 부담을 뜻하지 않음. 복수 수혜자·다른 PAC 지급은 의원 순수입으로 합산하지 않음.",
+    "source": "https://lda.gov/filings/public/contribution/8e27d0b0-fa24-46ed-a03e-bdcfdc561a02/print/",
+    "transactions": [
+      {
+        "date": "2025-11-25",
+        "amount": "7000.00",
+        "donor": "SELF",
+        "payee": "ANDY BARR",
+        "honoree": "N/A",
+        "source": "https://lda.gov/filings/public/contribution/8e27d0b0-fa24-46ed-a03e-bdcfdc561a02/print/"
+      }
+    ]
+  },
+  {
+    "member_id": "B001322",
+    "lobbyist_id": "141323",
+    "type": "organization_path",
+    "detail": "RSC라는 단체를 통한 간접 경로. Ziegler는 전 RSC 사무총장이며 이 의원의 개인 보좌관·직접 접촉자로 확인된 것은 아님.",
+    "source": "https://lda.gov/filings/public/filing/ab749e29-7d74-4037-b395-bbd42e5a7fe2/print/"
+  },
+  {
+    "member_id": "P000048",
+    "lobbyist_id": "141323",
+    "type": "organization_path",
+    "detail": "RSC라는 단체를 통한 간접 경로. Ziegler는 전 RSC 사무총장이며 이 의원의 개인 보좌관·직접 접촉자로 확인된 것은 아님.",
+    "source": "https://lda.gov/filings/public/filing/ab749e29-7d74-4037-b395-bbd42e5a7fe2/print/"
+  }
+]

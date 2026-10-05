@@ -1,0 +1,2945 @@
+[
+  {
+    "id": "M001194",
+    "name": "John Moolenaar",
+    "korean": "존 물레나르",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "MI02",
+    "term_count": 6,
+    "first_year": "2015",
+    "terms": [
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "세출위원회",
+        "english": "Committee on Appropriations",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "role": "위원"
+          },
+          {
+            "name": "National Security, Department of State, and Related Programs",
+            "role": "위원"
+          },
+          {
+            "name": "Labor, Health and Human Services, Education, and Related Agencies",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원장",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/M001194",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/M001194",
+    "action": "2026-09-28 Rubio 국무장관에게 쿠팡을 실명 언급한 서한; 09-30 공개. 10-31까지 국무부 브리핑 요청",
+    "action_link": "index.html#actors",
+    "in_china_committee": true
+  },
+  {
+    "id": "W000804",
+    "name": "Rob Wittman",
+    "korean": "롭 위트먼",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "VA01",
+    "term_count": 10,
+    "first_year": "2007",
+    "terms": [
+      {
+        "start": "2007-12-13",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "군사위원회",
+        "english": "Committee on Armed Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Tactical Air and Land Forces",
+            "role": "위원장"
+          },
+          {
+            "name": "Seapower and Projection Forces",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "천연자원위원회",
+        "english": "Committee on Natural Resources",
+        "role": "부위원장",
+        "subcommittees": [
+          {
+            "name": "Energy and Mineral Resources",
+            "role": "위원"
+          },
+          {
+            "name": "Water, Wildlife and Fisheries",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/W000804",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/W000804",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "B001282",
+    "name": "Andy Barr",
+    "korean": "앤디 바",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "KY06",
+    "term_count": 7,
+    "first_year": "2013",
+    "terms": [
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "금융서비스위원회",
+        "english": "Committee on Financial Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "National Security, Illicit Finance, and  International Financial Institutions",
+            "role": "위원"
+          },
+          {
+            "name": "Financial Institutions",
+            "role": "위원장"
+          }
+        ]
+      },
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "East Asia and Pacific",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/B001282",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/B001282",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "N000189",
+    "name": "Dan Newhouse",
+    "korean": "댄 뉴하우스",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "WA04",
+    "term_count": 6,
+    "first_year": "2015",
+    "terms": [
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "농업위원회",
+        "english": "Committee on Agriculture",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Conservation, Research, and Biotechnology",
+            "role": "위원"
+          },
+          {
+            "name": "Forestry and Horticulture",
+            "role": "위원장"
+          }
+        ]
+      },
+      {
+        "name": "세출위원회",
+        "english": "Committee on Appropriations",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "role": "위원"
+          },
+          {
+            "name": "Energy and Water Development and Related Agencies",
+            "role": "위원"
+          },
+          {
+            "name": "Homeland Security",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/N000189",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/N000189",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "L000585",
+    "name": "Darin LaHood",
+    "korean": "대린 라후드",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "IL16",
+    "term_count": 6,
+    "first_year": "2015",
+    "terms": [
+      {
+        "start": "2015-09-17",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "정보특별위원회",
+        "english": "Permanent Select Committee on Intelligence",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Central Intelligence Agency",
+            "role": "부위원장"
+          },
+          {
+            "name": "National Security Agency and Cyber",
+            "role": "위원장"
+          },
+          {
+            "name": "National Intelligence Enterprise",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "세입위원회",
+        "english": "Committee on Ways and Means",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Work and Welfare",
+            "role": "위원장"
+          },
+          {
+            "name": "Trade",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/L000585",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/L000585",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "D000628",
+    "name": "Neal Dunn",
+    "korean": "닐 던",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "FL02",
+    "term_count": 5,
+    "first_year": "2017",
+    "terms": [
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "에너지·상무위원회",
+        "english": "Committee on Energy and Commerce",
+        "role": "부위원장",
+        "subcommittees": [
+          {
+            "name": "Health",
+            "role": "위원"
+          },
+          {
+            "name": "Communications and Technology",
+            "role": "위원"
+          },
+          {
+            "name": "Commerce, Manufacturing, and Trade",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/D000628",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/D000628",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "J000301",
+    "name": "Dusty Johnson",
+    "korean": "더스티 존슨",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "SD00",
+    "term_count": 4,
+    "first_year": "2019",
+    "terms": [
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "농업위원회",
+        "english": "Committee on Agriculture",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "General Farm Commodities, Risk Management, and Credit",
+            "role": "위원"
+          },
+          {
+            "name": "Commodity Markets, Digital Assets, and Rural Development",
+            "role": "위원장"
+          }
+        ]
+      },
+      {
+        "name": "교통·인프라위원회",
+        "english": "Committee on Transportation and Infrastructure",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Aviation",
+            "role": "위원"
+          },
+          {
+            "name": "Highways and Transit",
+            "role": "위원"
+          },
+          {
+            "name": "Railroads, Pipelines, and Hazardous Materials",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/J000301",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/J000301",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "H001091",
+    "name": "Ashley Hinson",
+    "korean": "애슐리 힌슨",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "IA02",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "세출위원회",
+        "english": "Committee on Appropriations",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "role": "위원"
+          },
+          {
+            "name": "Homeland Security",
+            "role": "위원"
+          },
+          {
+            "name": "Financial Services and General Government",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "윤리위원회",
+        "english": "Committee on Ethics",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/H001091",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/H001091",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "G000593",
+    "name": "Carlos Gimenez",
+    "korean": "카를로스 히메네스",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "FL28",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "군사위원회",
+        "english": "Committee on Armed Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Readiness",
+            "role": "위원"
+          },
+          {
+            "name": "Tactical Air and Land Forces",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "국토안보위원회",
+        "english": "Committee on Homeland Security",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Transportation and Maritime Security",
+            "role": "위원장"
+          },
+          {
+            "name": "Cybersecurity and Infrastructure Protection",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/G000593",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/G000593",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "B001257",
+    "name": "Gus Bilirakis",
+    "korean": "거스 빌리라키스",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "FL12",
+    "term_count": 10,
+    "first_year": "2007",
+    "terms": [
+      {
+        "start": "2007-01-04",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "에너지·상무위원회",
+        "english": "Committee on Energy and Commerce",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Health",
+            "role": "위원"
+          },
+          {
+            "name": "Communications and Technology",
+            "role": "위원"
+          },
+          {
+            "name": "Commerce, Manufacturing, and Trade",
+            "role": "위원장"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/B001257",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/B001257",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "K000397",
+    "name": "Young Kim",
+    "korean": "영 김",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "CA40",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "금융서비스위원회",
+        "english": "Committee on Financial Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "National Security, Illicit Finance, and  International Financial Institutions",
+            "role": "위원"
+          },
+          {
+            "name": "Financial Institutions",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "East Asia and Pacific",
+            "role": "위원장"
+          },
+          {
+            "name": "Europe",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/K000397",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/K000397",
+    "action": "2026-04 공동서한; 08-02 발표된 초당적 방문단의 쿠팡 방문",
+    "action_link": "index.html#actors",
+    "in_china_committee": true
+  },
+  {
+    "id": "M001224",
+    "name": "Nathaniel Moran",
+    "korean": "너새니얼 모런",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "TX01",
+    "term_count": 2,
+    "first_year": "2023",
+    "terms": [
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "윤리위원회",
+        "english": "Committee on Ethics",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "세입위원회",
+        "english": "Committee on Ways and Means",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Social Security",
+            "role": "위원"
+          },
+          {
+            "name": "Work and Welfare",
+            "role": "위원"
+          },
+          {
+            "name": "Oversight",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/M001224",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/M001224",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "N000193",
+    "name": "Zach Nunn",
+    "korean": "잭 넌(Zach Nunn)",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "IA03",
+    "term_count": 2,
+    "first_year": "2023",
+    "terms": [
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "농업위원회",
+        "english": "Committee on Agriculture",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "General Farm Commodities, Risk Management, and Credit",
+            "role": "위원"
+          },
+          {
+            "name": "Commodity Markets, Digital Assets, and Rural Development",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "금융서비스위원회",
+        "english": "Committee on Financial Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "National Security, Illicit Finance, and  International Financial Institutions",
+            "role": "부위원장"
+          },
+          {
+            "name": "Capital Markets",
+            "role": "위원"
+          },
+          {
+            "name": "Digital Assets, Financial Technology, and Artificial Intelligence",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/N000193",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/N000193",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "K000389",
+    "name": "Ro Khanna",
+    "korean": "로 칸나",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "CA17",
+    "term_count": 5,
+    "first_year": "2017",
+    "terms": [
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "군사위원회",
+        "english": "Committee on Armed Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Seapower and Projection Forces",
+            "role": "위원"
+          },
+          {
+            "name": "Cyber, Information Technologies, and  Innovation",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "감독·정부개혁위원회",
+        "english": "Committee on Oversight and Government Reform",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Economic Growth, Energy Policy, and Regulatory Affairs",
+            "role": "위원"
+          },
+          {
+            "name": "Cybersecurity, Information Technology, and Government Innovation",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "야당 간사",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/K000389",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/K000389",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "K000391",
+    "name": "Raja Krishnamoorthi",
+    "korean": "라자 크리슈나무르티",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "IL08",
+    "term_count": 5,
+    "first_year": "2017",
+    "terms": [
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "감독·정부개혁위원회",
+        "english": "Committee on Oversight and Government Reform",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Health Care and Financial Services",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "정보특별위원회",
+        "english": "Permanent Select Committee on Intelligence",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Central Intelligence Agency",
+            "role": "위원"
+          },
+          {
+            "name": "National Intelligence Enterprise",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/K000391",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/K000391",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "C001066",
+    "name": "Kathy Castor",
+    "korean": "캐시 캐스터",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "FL14",
+    "term_count": 10,
+    "first_year": "2007",
+    "terms": [
+      {
+        "start": "2007-01-04",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "에너지·상무위원회",
+        "english": "Committee on Energy and Commerce",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Energy",
+            "role": "야당 간사"
+          },
+          {
+            "name": "Communications and Technology",
+            "role": "위원"
+          },
+          {
+            "name": "Commerce, Manufacturing, and Trade",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/C001066",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/C001066",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "C001072",
+    "name": "Andre Carson",
+    "korean": "앙드레 카슨",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "IN07",
+    "term_count": 10,
+    "first_year": "2008",
+    "terms": [
+      {
+        "start": "2008-03-13",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "정보특별위원회",
+        "english": "Permanent Select Committee on Intelligence",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "교통·인프라위원회",
+        "english": "Committee on Transportation and Infrastructure",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Aviation",
+            "role": "야당 간사"
+          },
+          {
+            "name": "Railroads, Pipelines, and Hazardous Materials",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/C001072",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/C001072",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "M001196",
+    "name": "Seth Moulton",
+    "korean": "세스 몰턴",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "MA06",
+    "term_count": 6,
+    "first_year": "2015",
+    "terms": [
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "군사위원회",
+        "english": "Committee on Armed Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Strategic Forces",
+            "role": "야당 간사"
+          },
+          {
+            "name": "Cyber, Information Technologies, and  Innovation",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "교통·인프라위원회",
+        "english": "Committee on Transportation and Infrastructure",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Highways and Transit",
+            "role": "위원"
+          },
+          {
+            "name": "Railroads, Pipelines, and Hazardous Materials",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/M001196",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/M001196",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "S001215",
+    "name": "Haley Stevens",
+    "korean": "헤일리 스티븐스",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "MI11",
+    "term_count": 4,
+    "first_year": "2019",
+    "terms": [
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "교육·노동위원회",
+        "english": "Committee on Education and Workforce",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Workforce Protections",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "과학·우주·기술위원회",
+        "english": "Committee on Science, Space, and Technology",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Research and Technology",
+            "role": "야당 간사"
+          },
+          {
+            "name": "Space and Aeronautics",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/S001215",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/S001215",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "T000486",
+    "name": "Ritchie Torres",
+    "korean": "리치 토레스",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "NY15",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "금융서비스위원회",
+        "english": "Committee on Financial Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Housing and Insurance",
+            "role": "위원"
+          },
+          {
+            "name": "National Security, Illicit Finance, and  International Financial Institutions",
+            "role": "위원"
+          },
+          {
+            "name": "Digital Assets, Financial Technology, and Artificial Intelligence",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/T000486",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/T000486",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "B001313",
+    "name": "Shontel Brown",
+    "korean": "숀텔 브라운",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "OH11",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-11-04",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "농업위원회",
+        "english": "Committee on Agriculture",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Nutrition and Foreign Agriculture",
+            "role": "위원"
+          },
+          {
+            "name": "General Farm Commodities, Risk Management, and Credit",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "감독·정부개혁위원회",
+        "english": "Committee on Oversight and Government Reform",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Cybersecurity, Information Technology, and Government Innovation",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/B001313",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/B001313",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "S001211",
+    "name": "Greg Stanton",
+    "korean": "그레그 스탠턴",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "AZ04",
+    "term_count": 4,
+    "first_year": "2019",
+    "terms": [
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Western Hemisphere",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "교통·인프라위원회",
+        "english": "Committee on Transportation and Infrastructure",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Aviation",
+            "role": "위원"
+          },
+          {
+            "name": "Highways and Transit",
+            "role": "위원"
+          },
+          {
+            "name": "Economic Development, Public Buildings, and Emergency Management",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/S001211",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/S001211",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "T000487",
+    "name": "Jill Tokuda",
+    "korean": "질 도쿠다",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "HI02",
+    "term_count": 2,
+    "first_year": "2023",
+    "terms": [
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "농업위원회",
+        "english": "Committee on Agriculture",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Nutrition and Foreign Agriculture",
+            "role": "위원"
+          },
+          {
+            "name": "Conservation, Research, and Biotechnology",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "군사위원회",
+        "english": "Committee on Armed Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Military Personnel",
+            "role": "위원"
+          },
+          {
+            "name": "Readiness",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/T000487",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/T000487",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "S001201",
+    "name": "Tom Suozzi",
+    "korean": "톰 수오지",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "NY03",
+    "term_count": 5,
+    "first_year": "2017",
+    "terms": [
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2024-02-13",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "세입위원회",
+        "english": "Committee on Ways and Means",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Tax",
+            "role": "위원"
+          },
+          {
+            "name": "Oversight",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "중국특별위원회",
+        "english": "Select Committee on the  Strategic Competition Between the United States and the Chinese Communist Party",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/S001201",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/S001201",
+    "action": "중국특위 조사 대상 의원. 개별 쿠팡 행동은 종합 분석에서 확인.",
+    "action_link": "index.html#china-committee",
+    "in_china_committee": true
+  },
+  {
+    "id": "J000289",
+    "name": "Jim Jordan",
+    "korean": "짐 조던",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "OH04",
+    "term_count": 10,
+    "first_year": "2007",
+    "terms": [
+      {
+        "start": "2007-01-04",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "감독·정부개혁위원회",
+        "english": "Committee on Oversight and Government Reform",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "위원장",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/J000289",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/J000289",
+    "action": "2026-02-05 소환장·서한; 07-01 중간 보고서; 09-16 H.R.9834 찬성",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "F000471",
+    "name": "Scott Fitzgerald",
+    "korean": "스콧 피츠제럴드",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "WI05",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "금융서비스위원회",
+        "english": "Committee on Financial Services",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Housing and Insurance",
+            "role": "위원"
+          },
+          {
+            "name": "Financial Institutions",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "role": "위원"
+          },
+          {
+            "name": "The Administrative State, Regulatory Reform, and Antitrust",
+            "role": "위원장"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/F000471",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/F000471",
+    "action": "2026-02-05 공동서한; 07-01 공동 명의 보고서; 09-16 찬성",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "I000056",
+    "name": "Darrell Issa",
+    "korean": "대럴 아이사",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "CA48",
+    "term_count": 12,
+    "first_year": "2001",
+    "terms": [
+      {
+        "start": "2001-01-03",
+        "end": "2003-01-03"
+      },
+      {
+        "start": "2003-01-07",
+        "end": "2005-01-03"
+      },
+      {
+        "start": "2005-01-04",
+        "end": "2007-01-03"
+      },
+      {
+        "start": "2007-01-04",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Middle East and North Africa",
+            "role": "위원"
+          },
+          {
+            "name": "Oversight and Intelligence",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "role": "위원장"
+          },
+          {
+            "name": "The Administrative State, Regulatory Reform, and Antitrust",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "과학·우주·기술위원회",
+        "english": "Committee on Science, Space, and Technology",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Research and Technology",
+            "role": "위원"
+          },
+          {
+            "name": "Investigations and Oversight",
+            "role": "위원"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/I000056",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/I000056",
+    "action": "2026-01 우려 표명; 09-16 찬성",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "S001172",
+    "name": "Adrian Smith",
+    "korean": "에이드리언 스미스",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "NE03",
+    "term_count": 10,
+    "first_year": "2007",
+    "terms": [
+      {
+        "start": "2007-01-04",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "양원 합동조세위원회",
+        "english": "Joint Committee on Taxation",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "세입위원회",
+        "english": "Committee on Ways and Means",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Health",
+            "role": "위원"
+          },
+          {
+            "name": "Trade",
+            "role": "위원장"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/S001172",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/S001172",
+    "action": "2026-01-13 쿠팡을 차별적 집행의 사례로 지목",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "M001205",
+    "name": "Carol Miller",
+    "korean": "캐럴 밀러",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "WV01",
+    "term_count": 4,
+    "first_year": "2019",
+    "terms": [
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "세입위원회",
+        "english": "Committee on Ways and Means",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Health",
+            "role": "위원"
+          },
+          {
+            "name": "Trade",
+            "role": "위원"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/M001205",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/M001205",
+    "action": "2026-01-13 미국인 경영진 대응을 정치적 마녀사냥으로 비판; 04-21 공동서한",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "D000617",
+    "name": "Suzan DelBene",
+    "korean": "수잔 델베네",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "WA01",
+    "term_count": 8,
+    "first_year": "2012",
+    "terms": [
+      {
+        "start": "2012-11-13",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "세입위원회",
+        "english": "Committee on Ways and Means",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Trade",
+            "role": "위원"
+          },
+          {
+            "name": "Tax",
+            "role": "위원"
+          },
+          {
+            "name": "Oversight",
+            "role": "위원"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/D000617",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/D000617",
+    "action": "2026-01-13 쿠팡이 한국의 약속 위반을 호소한다고 발언한 것으로 보도",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "H000601",
+    "name": "Bill Hagerty",
+    "korean": "빌 해거티",
+    "kind": "member",
+    "party": "R",
+    "chamber": "상원",
+    "district": "TN 주 전체",
+    "term_count": 1,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "세출위원회",
+        "english": "Committee on Appropriations",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Financial Services and General Government (소위원장)",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "은행·주택·도시위원회",
+        "english": "Committee on Banking, Housing, and Urban Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "National Security and International Trade and Finance (소위원장)",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Digital Assets",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Financial Institutions and Consumer Protection",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Relations",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "State Department and USAID Management, International Operations, and Bilateral International Development (소위원장)",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human Rights, and Global Women’s Issues",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "규칙·행정위원회",
+        "english": "Committee on Rules and Administration",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "양원 인쇄위원회",
+        "english": "Joint Committee on Printing",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "주요 소위원회 발췌",
+    "official_source": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/H000601",
+    "action": "2026-05-20 Steel 지명 청문회에서 쿠팡을 실명 언급하고 동등 대우를 요구",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "L000577",
+    "name": "Mike Lee",
+    "korean": "마이크 리",
+    "kind": "member",
+    "party": "R",
+    "chamber": "상원",
+    "district": "UT 주 전체",
+    "term_count": 3,
+    "first_year": "2011",
+    "terms": [
+      {
+        "start": "2011-01-05",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2029-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "에너지·천연자원위원회",
+        "english": "Committee on Energy and Natural Resources",
+        "role": "위원장",
+        "subcommittees": [
+          {
+            "name": "Energy",
+            "role": "원문 표기"
+          },
+          {
+            "name": "National Parks",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Public Lands, Forests, and Mining",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Water and Power",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Relations",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Multilateral International Development, Multilateral Institutions, and International Economic, Energy, and Environmental Policy (소위원장)",
+            "role": "원문 표기"
+          },
+          {
+            "name": "East Asia, the Pacific, and International Cybersecurity Policy",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "예산위원회",
+        "english": "Committee on the Budget",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Antitrust, Competition Policy, and Consumer Rights (소위원장)",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Federal Courts, Oversight, Agency Action, and Federal Rights",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Intellectual Property",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Constitution",
+            "role": "원문 표기"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "주요 소위원회 발췌",
+    "official_source": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/L000577",
+    "action": "2026-01-22 쿠팡과 미국인 경영진 박해라고 비판한 것으로 보도",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "C000127",
+    "name": "Maria Cantwell",
+    "korean": "마리아 캔트웰",
+    "kind": "member",
+    "party": "D",
+    "chamber": "상원",
+    "district": "WA 주 전체",
+    "term_count": 5,
+    "first_year": "2001",
+    "terms": [
+      {
+        "start": "2001-01-03",
+        "end": "2007-01-03"
+      },
+      {
+        "start": "2007-01-04",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2031-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "상무·과학·교통위원회",
+        "english": "Committee on Commerce, Science, and Transportation",
+        "role": "야당 간사",
+        "subcommittees": [
+          {
+            "name": "Aviation, Space, and Innovation",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Consumer Protection, Technology, and Data Privacy",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Telecommunications and Media",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "에너지·천연자원위원회",
+        "english": "Committee on Energy and Natural Resources",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "재무위원회",
+        "english": "Committee on Finance",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Energy, Natural Resources, and Infrastructure (야당 소위 간사)",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "인디언위원회",
+        "english": "Committee on Indian Affairs",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "중소기업·기업가정신위원회",
+        "english": "Committee on Small Business and Entrepreneurship",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "양원 합동조세위원회",
+        "english": "Joint Committee on Taxation",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "주요 소위원회 발췌",
+    "official_source": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/C000127",
+    "action": "2026-02-03 강경화 대사에게 조사·제재의 비례성과 경쟁상 영향 우려 서한",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "B001322",
+    "name": "Michael Baumgartner",
+    "korean": "마이클 바움가트너",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "WA05",
+    "term_count": 1,
+    "first_year": "2025",
+    "terms": [
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "교육·노동위원회",
+        "english": "Committee on Education and Workforce",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Health, Employment, Labor, and Pensions",
+            "role": "위원"
+          },
+          {
+            "name": "Higher Education and Workforce Development",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "외교위원회",
+        "english": "Committee on Foreign Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Middle East and North Africa",
+            "role": "위원"
+          },
+          {
+            "name": "South and Central Asia",
+            "role": "위원"
+          }
+        ]
+      },
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "role": "위원"
+          },
+          {
+            "name": "The Administrative State, Regulatory Reform, and Antitrust",
+            "role": "위원"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/B001322",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/B001322",
+    "action": "2026-04-21 54명 서한 주도; 07-22 H.R.9834 발의; 09-16 찬성",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "P000048",
+    "name": "August Pfluger",
+    "korean": "오거스트 플루거",
+    "kind": "member",
+    "party": "R",
+    "chamber": "하원",
+    "district": "TX11",
+    "term_count": 3,
+    "first_year": "2021",
+    "terms": [
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "국토안보위원회",
+        "english": "Committee on Homeland Security",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Counterterrorism and Intelligence",
+            "role": "위원장"
+          }
+        ]
+      },
+      {
+        "name": "에너지·상무위원회",
+        "english": "Committee on Energy and Commerce",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Energy",
+            "role": "위원"
+          },
+          {
+            "name": "Communications and Technology",
+            "role": "위원"
+          },
+          {
+            "name": "Environment",
+            "role": "위원"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/P000048",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/P000048",
+    "action": "2026-04-21 공동서한 발표에서 한국의 통상 약속 이행 촉구",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "M001242",
+    "name": "Bernie Moreno",
+    "korean": "버니 모레노",
+    "kind": "member",
+    "party": "R",
+    "chamber": "상원",
+    "district": "OH 주 전체",
+    "term_count": 1,
+    "first_year": "2025",
+    "terms": [
+      {
+        "start": "2025-01-03",
+        "end": "2031-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "은행·주택·도시위원회",
+        "english": "Committee on Banking, Housing, and Urban Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Digital Assets",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Housing, Transportation, and Community Development",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Securities, Insurance, and Investment",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "상무·과학·교통위원회",
+        "english": "Committee on Commerce, Science, and Transportation",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Coast Guard, Maritime, and Fisheries",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Science, Manufacturing, and Competitiveness",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Surface Transportation, Freight, Pipelines, and Safety",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Telecommunications and Media",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "국토안보·정부업무위원회",
+        "english": "Committee on Homeland Security and Governmental Affairs",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Permanent Subcommittee on Investigations",
+            "role": "원문 표기"
+          },
+          {
+            "name": "Border Management, Federal Workforce, and Regulatory Affairs",
+            "role": "원문 표기"
+          }
+        ]
+      },
+      {
+        "name": "예산위원회",
+        "english": "Committee on the Budget",
+        "role": "위원",
+        "subcommittees": []
+      },
+      {
+        "name": "국제마약통제 코커스",
+        "english": "United States Senate Caucus on International Narcotics Control",
+        "role": "위원",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "주요 소위원회 발췌",
+    "official_source": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/M001242",
+    "action": "2026-08-27 USTR에 조사 및 필요시 301조 대응 요구",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "R000606",
+    "name": "Jamie Raskin",
+    "korean": "제이미 래스킨",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "MD08",
+    "term_count": 5,
+    "first_year": "2017",
+    "terms": [
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "야당 간사",
+        "subcommittees": []
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/R000606",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/R000606",
+    "action": "2026-09-16 반대표; 쿠팡 유출 과징금 보도를 심의 기록에 제출",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  },
+  {
+    "id": "N000002",
+    "name": "Jerrold Nadler",
+    "korean": "제럴드 내들러",
+    "kind": "member",
+    "party": "D",
+    "chamber": "하원",
+    "district": "NY12",
+    "term_count": 18,
+    "first_year": "1992",
+    "terms": [
+      {
+        "start": "1992-11-03",
+        "end": "1993-01-03"
+      },
+      {
+        "start": "1993-01-05",
+        "end": "1995-01-03"
+      },
+      {
+        "start": "1995-01-04",
+        "end": "1997-01-03"
+      },
+      {
+        "start": "1997-01-07",
+        "end": "1999-01-03"
+      },
+      {
+        "start": "1999-01-06",
+        "end": "2001-01-03"
+      },
+      {
+        "start": "2001-01-03",
+        "end": "2003-01-03"
+      },
+      {
+        "start": "2003-01-07",
+        "end": "2005-01-03"
+      },
+      {
+        "start": "2005-01-04",
+        "end": "2007-01-03"
+      },
+      {
+        "start": "2007-01-04",
+        "end": "2009-01-03"
+      },
+      {
+        "start": "2009-01-06",
+        "end": "2011-01-03"
+      },
+      {
+        "start": "2011-01-05",
+        "end": "2013-01-03"
+      },
+      {
+        "start": "2013-01-03",
+        "end": "2015-01-03"
+      },
+      {
+        "start": "2015-01-06",
+        "end": "2017-01-03"
+      },
+      {
+        "start": "2017-01-03",
+        "end": "2019-01-03"
+      },
+      {
+        "start": "2019-01-03",
+        "end": "2021-01-03"
+      },
+      {
+        "start": "2021-01-03",
+        "end": "2023-01-03"
+      },
+      {
+        "start": "2023-01-03",
+        "end": "2025-01-03"
+      },
+      {
+        "start": "2025-01-03",
+        "end": "2027-01-03"
+      }
+    ],
+    "assignments": [
+      {
+        "name": "법사위원회",
+        "english": "Committee on the Judiciary",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Immigration Integrity, Security, and Enforcement",
+            "role": "위원"
+          },
+          {
+            "name": "The Administrative State, Regulatory Reform, and Antitrust",
+            "role": "야당 간사"
+          }
+        ]
+      },
+      {
+        "name": "교통·인프라위원회",
+        "english": "Committee on Transportation and Infrastructure",
+        "role": "위원",
+        "subcommittees": [
+          {
+            "name": "Highways and Transit",
+            "role": "위원"
+          },
+          {
+            "name": "Railroads, Pipelines, and Hazardous Materials",
+            "role": "위원"
+          }
+        ]
+      }
+    ],
+    "assignments_scope": "전체 신고 소위원회",
+    "official_source": "https://clerk.house.gov/Members/N000002",
+    "term_source": "https://github.com/unitedstates/congress-legislators/blob/main/legislators-current.yaml",
+    "bioguide_url": "https://bioguide.congress.gov/search/bio/N000002",
+    "action": "2026-09-16 비판 발언 보도. 공식 표결표에는 본인 표기 없음.",
+    "action_link": "index.html#actors",
+    "in_china_committee": false
+  }
+]
