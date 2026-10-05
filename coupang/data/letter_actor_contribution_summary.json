@@ -1,0 +1,42 @@
+{
+  "Jordan": {
+    "items": 17,
+    "people": 6,
+    "reported_sum": "54000.00",
+    "since_2025": "36500.00",
+    "same_disclosed_quarter_sum": "31500.00",
+    "first_date": "2019-11-05",
+    "last_date": "2026-05-29"
+  },
+  "Rubio": {
+    "items": 28,
+    "people": 9,
+    "reported_sum": "78100.00",
+    "since_2025": "0",
+    "same_disclosed_quarter_sum": "500.00",
+    "first_date": "2010-03-23",
+    "last_date": "2024-07-09"
+  },
+  "Thornberry": {
+    "items": 2,
+    "people": 1,
+    "reported_sum": "4000.00",
+    "since_2025": "0",
+    "same_disclosed_quarter_sum": "0",
+    "first_date": "2019-03-04",
+    "last_date": "2019-03-04"
+  },
+  "scope": {
+    "queries_pages": 139,
+    "reports": 498,
+    "raw_matches": 246,
+    "curated_items": 47,
+    "excluded_named_match": "Susan Rubio, not Marco Rubio; Jose Borjon $500",
+    "no_matches": [
+      "Hegseth",
+      "Lutnick",
+      "Greer"
+    ],
+    "limits": "Nine Coupang registrants, all years, honoree/payee surname searches. Latest full reports checked for Coupang-named individual filers. Does not cover every past employer or all FEC transactions."
+  }
+}

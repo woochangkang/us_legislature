@@ -1,0 +1,72 @@
+[
+  {
+    "name": "John Moolenaar",
+    "category": "current_member",
+    "role": "signature; self-citation",
+    "pdf_pages": [
+      2,
+      5
+    ]
+  },
+  {
+    "name": "Jim Jordan",
+    "category": "current_member",
+    "role": "footnote 11 report author",
+    "pdf_pages": [
+      3
+    ]
+  },
+  {
+    "name": "Marco Rubio",
+    "category": "former_senator_current_official",
+    "role": "recipient and quoted testimony",
+    "pdf_pages": [
+      1
+    ]
+  },
+  {
+    "name": "Pete Hegseth",
+    "category": "executive_official",
+    "role": "cc",
+    "pdf_pages": [
+      5
+    ]
+  },
+  {
+    "name": "Howard Lutnick",
+    "category": "executive_official",
+    "role": "cc",
+    "pdf_pages": [
+      5
+    ]
+  },
+  {
+    "name": "Jamieson Greer",
+    "category": "executive_official",
+    "role": "cc",
+    "pdf_pages": [
+      5
+    ]
+  },
+  {
+    "name": "Mac Thornberry",
+    "category": "former_member_statute_eponym",
+    "role": "footnote 9 statutory title only",
+    "pdf_pages": [
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Scott Fitzgerald",
+    "category": "indirect_reference",
+    "role": "co-author of cited Judiciary report; name absent from letter",
+    "pdf_pages": []
+  },
+  {
+    "name": "Darrell Issa",
+    "category": "indirect_reference",
+    "role": "questioner at cited June hearing per news; name absent from letter",
+    "pdf_pages": []
+  }
+]
