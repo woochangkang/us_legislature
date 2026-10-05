@@ -1,0 +1,12 @@
+{
+  "current_financial_reports": 7,
+  "all_itemized_receipts": 1799,
+  "api_receipt_rows_crosschecked": 472,
+  "itemized_disbursements": 67,
+  "recipient_committees": 41,
+  "receipts_lifetime": "542475.58",
+  "disbursements_lifetime": "331554.19",
+  "ending_cash": "210921.39",
+  "coverage_end": "2026-06-30",
+  "method": "Latest non-superseded F3X electronic reports; itemized individual totals reconcile to all seven covers; 472 API receipt rows cross-checked by file and transaction IDs. Negative disbursements retained. No donor addresses published."
+}
