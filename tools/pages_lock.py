@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PLAIN = ROOT / ".plain"
 CONF = ROOT / ".pagelock.json"
 MARK = "staticrypt"  # string present in every encrypted page
-SECTIONS = {"ira": "ira", "aukus": "aukus", "ndaa_korea": "ndaa_korea", "coupang": "coupang"}
+SECTIONS = {"ira": "ira", "aukus": "aukus", "ndaa_korea": "ndaa_korea"}
 TEMPLATE = ["--template-title", "비공개 자료", "--template-instructions", "이 자료는 비밀번호가 있어야 볼 수 있습니다.",
             "--template-button", "열기", "--template-placeholder", "비밀번호", "--template-error", "비밀번호가 맞지 않습니다.",
             "--template-remember", "이 기기에서 30일간 기억", "--template-color-primary", "#2f5fa8"]
