@@ -21,7 +21,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Probe lda.gov from the runner
         run: |
-          curl -s -o /dev/null -w "lda.gov -> HTTP %{http_code}\n" https://lda.gov/ || true
+          curl -s -o /dev/null -w "lda.gov -> HTTP %{http_code}\n" --max-time 30 https://lda.gov/ || true
+          curl -s -o /dev/null -w "print page -> HTTP %{http_code} %{time_total}s\n" --max-time 30 -A "Mozilla/5.0 Chrome/130" https://lda.gov/filings/public/filing/2469e4d4-70a9-4ec2-bf59-899b701396c0/print/ || true
+          curl -s -o /dev/null -w "api -> HTTP %{http_code} %{time_total}s\n" --max-time 30 https://lda.gov/api/v1/filings/2469e4d4-70a9-4ec2-bf59-899b701396c0/ || true
           curl -s https://ipinfo.io/json | grep -E '"(city|country|org)"' || true
       - uses: actions/setup-python@v5
         with:

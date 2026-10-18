@@ -4,16 +4,18 @@ lda.gov's Akamai edge blocks some non-U.S. networks, so readers there cannot ope
 Usage: lda_print_copies.py --ids "filing:<uuid> contribution:<uuid> ..." --out DIR"""
 import argparse, hashlib, json, os, time, urllib.request, urllib.error, datetime
 p = argparse.ArgumentParser(); p.add_argument('--ids', required=True); p.add_argument('--out', required=True); a = p.parse_args()
-UA = {'User-Agent': 'Mozilla/5.0 (research archive; lda print copies)'}
+UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36', 'Accept': 'text/html,application/json'}
 API = {'filing': 'filings', 'contribution': 'contributions'}
-def get(url, tries=6):
+def get(url, tries=4):
     for i in range(tries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r: return r.status, r.read()
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=25) as r: return r.status, r.read()
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 502, 503, 504): time.sleep(20 * (i + 1)); continue
+            print('  ', e.code, url, flush=True)
+            if e.code in (429, 500, 502, 503, 504): time.sleep(15 * (i + 1)); continue
             return e.code, e.read()
-        except Exception: time.sleep(10 * (i + 1))
+        except Exception as e:
+            print('  ', type(e).__name__, e, url, flush=True); time.sleep(5 * (i + 1))
     return 0, b''
 man = []
 for tok in a.ids.split():
