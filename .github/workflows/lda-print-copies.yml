@@ -1,0 +1,38 @@
+name: LDA print copies (given filing IDs)
+
+# Manual only. lda.gov blocks some non-U.S. networks at its Akamai edge, so readers there cannot open
+# the original filings. This fetches the print pages (and API JSON) for the given IDs on a U.S. runner.
+# Results are uploaded as a short-lived artifact and are NOT committed to this repository.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Space-separated kind:uuid tokens (kind = filing | contribution)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe lda.gov from the runner
+        run: |
+          curl -s -o /dev/null -w "lda.gov -> HTTP %{http_code}\n" https://lda.gov/ || true
+          curl -s https://ipinfo.io/json | grep -E '"(city|country|org)"' || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch print pages
+        env:
+          IDS: ${{ inputs.ids }}
+        run: python3 tools/lda_print_copies.py --ids "$IDS" --out lda_print
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lda-print-${{ github.run_id }}
+          path: lda_print/
+          retention-days: 3
